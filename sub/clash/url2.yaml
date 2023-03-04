@@ -5,59 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 广东省潮州市 电信, server: 2162e620-3315-61b3-d55d-9bf95b93ae40.cnnic.rip, port: 20004, type: vmess, uuid: 9589b882-569a-43c5-924e-a9e852d4ff9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 美国 V2CROSS.COM, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: af2251e1-8fe3-416b-f670-af781dedb2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: kr01.cctvvip.ml}}, udp: true}
+  - {name: 美国 CloudFlare节点, server: us04.cctvvip.ml, port: 443, type: vmess, uuid: 1c23edae-1aa1-4cac-ad3e-7f2ea5f53eed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us04.cctvvip.ml}}, udp: true}
   - {name: 美国 Amazon EC2服务器, server: ca-ls03.nb1.fr, port: 64443, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca-ls03.nb1.fr}}, udp: true}
-  - {name: 江西省南昌市 电信, server: 106.225.132.4, port: 19221, type: trojan, password: 0b86d368-f585-3c89-b8b5-30630f54cf15, skip-cert-verify: true, udp: true}
-  - {name: 江苏省南京市 小鸟云联通, server: 103.45.78.251, port: 10004, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚 悉尼, server: 203.24.108.8, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg1.trump2023.us}}, udp: true}
-  - {name: 北美地区 V2CROSS.COM, server: 169.197.142.48, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 河南省洛阳市 移动, server: hnm.xiaohouzi.club, port: 17107, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, skip-cert-verify: true, udp: true}
-  - {name: 江西省南昌市 电信 2, server: 106.225.132.4, port: 19229, type: trojan, password: 0b86d368-f585-3c89-b8b5-30630f54cf15, skip-cert-verify: true, udp: true}
-  - {name: 美国 CloudFlare节点, server: 172.66.41.99, port: 443, type: vmess, uuid: 80e6f8a9-6620-4b63-a254-994381d99ca3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 1.239000.xyz, network: ws, ws-opts: {path: /, headers: {Host: 1.239000.xyz}}, udp: true}
-  - {name: 日本 V2CROSS.COM, server: awshk3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5d922216-6f50-44c6-af2c-e9ca65b3664a, sni: data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点 2, server: germany1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: germany1.yj2022.ga, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: germany1.yj2022.ga}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,15 +60,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -95,44 +75,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国 Amazon EC2服务器
-      - 江西省南昌市 电信
-      - 江苏省南京市 小鸟云联通
-      - 澳大利亚 悉尼
-      - 北美地区 V2CROSS.COM
-      - 河南省洛阳市 移动
-      - 江西省南昌市 电信 2
+      - 广东省潮州市 电信
+      - 美国 V2CROSS.COM
       - 美国 CloudFlare节点
-      - 日本 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 美国 CloudFlare节点 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
