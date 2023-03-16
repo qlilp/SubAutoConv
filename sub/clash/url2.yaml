@@ -5,47 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾省台北市 中华电信, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 V2CROSS.COM, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: b74f21bf-ed98-43ee-b017-19988860c5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hax-us1.imnibaba.tk}}, udp: true}
-  - {name: 美国 CloudFlare节点, server: 190.93.245.1, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: clash1.ssr-free2.xyz}}, udp: true}
-  - {name: 美国 CloudFlare公司CDN节点(shopify), server: shopify.com, port: 443, type: vmess, uuid: 34f50a52-2e3f-4895-8751-5402e40d9593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-usovz3.misakano.ml}}, udp: true}
-  - {name: 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
-  - {name: 美国 CloudFlare节点 2, server: 77.v2ray1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 77.v2ray1.xyz, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
+  - {name: 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
+  - {name: 美国弗吉尼亚州阿什本 CloudFlare节点 2, server: 173.245.49.8, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}, udp: true}
+  - {name: 美国 CloudFlare节点, server: 172.67.137.72, port: 443, type: vmess, uuid: db39ef95-4245-418a-84c0-14c202f29bc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: khvwycch.cymlr.xyz}}, udp: true}
+  - {name: 美国 CloudFlare节点 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: 69899069-e222-4b02-9fbe-570338bd7e36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo.cloudflare.quest}}, udp: true}
+  - {name: 澳大利亚 Lyndhurst Secondary College, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾省台北市 中华电信
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾省台北市 中华电信
-      - 美国 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 美国 CloudFlare公司CDN节点(shopify)
       - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国弗吉尼亚州阿什本 CloudFlare节点 2
+      - 美国 CloudFlare节点
       - 美国 CloudFlare节点 2
+      - 澳大利亚 Lyndhurst Secondary College
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
