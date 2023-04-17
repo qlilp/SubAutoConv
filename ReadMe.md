@@ -35,4 +35,4 @@ CDN加速链接：
 
 ## V2ray
 
-`none`
+`https://cdn.jsdelivr.ren/gh/qlilp/SubAutoConv@main/sub/v2/url1.txt`
