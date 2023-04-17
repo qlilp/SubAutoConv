@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
   # 定时触发
   schedule:
-    # 每三天获取一次
-    - cron: '26 2 */3 * *'
+    # 每一天获取一次
+    - cron: 26 2 */1 * *
       
 # 解决方案
 permissions:
