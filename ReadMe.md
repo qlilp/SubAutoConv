@@ -24,13 +24,13 @@
 
 不加速链接
 
-`https://raw.githubusercontent.com/vveg26/SubAutoConv/main/sub/clash/selfnode.yaml`
+`https://raw.githubusercontent.com/qlilp/SubAutoConv/main/sub/clash/selfnode.yaml`
 
 CDN加速链接：
 
-`https://cdn.jsdelivr.net/gh/vveg26/SubAutoConv@main/sub/clash/selfnode.yaml`
+`https://cdn.jsdelivr.net/gh/qlilp/SubAutoConv@main/sub/clash/selfnode.yaml`
 
-`https://cdn.jsdelivr.net/gh/vveg26/SubAutoConv@main/sub/clash/url1.yaml`
+`https://cdn.jsdelivr.net/gh/qlilp/SubAutoConv@main/sub/clash/url1.yaml`
 
 
 ## V2ray
