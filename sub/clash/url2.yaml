@@ -5,69 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.197.185.174, port: 80, type: vmess, uuid: df3e0b9c-05fc-4969-aa2f-4f085df45994, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇷🇴 伊朗 V2CROSS.COM, server: f-us1.wvvvv.eu.org, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 170.187.134.190, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, sni: 170-187-134-190.ipv4.rush.ml}
-  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: 45.86.11.176, port: 59102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}}
-  - {name: 🇫🇷 法国 V2CROSS.COM, server: 194.146.49.64, port: 443, type: vmess, uuid: 9c91143c-7cea-4135-89d8-da851515de55, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM 3, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM 4, server: mm.learnpropy.click, port: 2053, type: vmess, uuid: 8cab8fb7-4977-4ec2-8bba-2914dd43bfbd, alterId: 0, cipher: auto, tls: true, servername: abs.learnpropy.click, network: ws, ws-opts: {path: /gsdg43575, headers: {Host: abs.learnpropy.click}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: chmikhori.servernett.shop, port: 8080, type: vmess, uuid: 466cd53b-475a-4a92-f159-103c47777237, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chmikhori.servernett.shop}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 5, server: 170-187-134-190.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3}
-  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.250, port: 49920, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 OVH, server: asia.artunnel57.host, port: 80, type: vmess, uuid: 65e44501-defd-4609-a4e3-7028dc417b50, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess-ntls, headers: {Host: asia.artunnel57.host}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: chmikhori.servernett.shop, port: 8080, type: vmess, uuid: 466cd53b-475a-4a92-f159-103c47777237, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chmikhori.servernett.shop}}}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.114.21, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 台湾省新北市 中华电信, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.224.15.73, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 弗吉尼亚州阿什本Amazon数据中心, server: aws.blowm1k.club, port: 20532, type: trojan, password: SbCfIK4dKM, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 加你福尼亚洛杉矶Coperation Coloction数据中心, server: 198.16.45.166, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM 6, server: v2test.mark20web.pw, port: 443, type: vmess, uuid: f9285a7d-34fb-4723-9ab0-9a70f735b146, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2test.mark20web.pw}}}
+  - {name: 🇺🇲 美国 DXC Technology, server: microsoft-us.syjd.xyz, port: 7777, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 162.159.255.200, port: 80, type: vmess, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.eu.org}}}
+  - {name: 🇸🇬 新加坡 OVH, server: asia.artunnel57.host, port: 80, type: vmess, uuid: 65e44501-defd-4609-a4e3-7028dc417b50, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess-ntls, headers: {Host: asia.artunnel57.host}}}
+  - {name: 🇯🇵 日本 东京都品川区Linode数据中心, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vjp2.0bad.com}}}
+  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.6.224.13, port: 59130, type: vmess, uuid: cb33912f-155f-4c91-d509-75e760999ea5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心, server: v2test1.mark20web.pw, port: 2096, type: vmess, uuid: f9285a7d-34fb-4723-9ab0-9a70f735b146, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2test1.mark20web.pw}}}
+  - {name: 🇷🇴 伊朗 V2CROSS.COM, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇷🇴 伊朗 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 3
-      - 🇷🇴 美国 V2CROSS.COM 4
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM 5
-      - 🇷🇴 南非 V2CROSS.COM
-      - 🇸🇬 新加坡 OVH
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇸🇬 台湾省新北市 中华电信
       - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇲 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇲 美国 加你福尼亚洛杉矶Coperation Coloction数据中心
-      - 🇷🇴 美国 V2CROSS.COM 6
+      - 🇺🇲 美国 DXC Technology
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇸🇬 新加坡 OVH
+      - 🇯🇵 日本 东京都品川区Linode数据中心
+      - 🇺🇲 美国 华盛顿Cogent通信公司
+      - 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心
+      - 🇷🇴 伊朗 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇷🇴 伊朗 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 3
-      - 🇷🇴 美国 V2CROSS.COM 4
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM 5
-      - 🇷🇴 南非 V2CROSS.COM
-      - 🇸🇬 新加坡 OVH
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇸🇬 台湾省新北市 中华电信
       - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇲 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇲 美国 加你福尼亚洛杉矶Coperation Coloction数据中心
-      - 🇷🇴 美国 V2CROSS.COM 6
+      - 🇺🇲 美国 DXC Technology
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇸🇬 新加坡 OVH
+      - 🇯🇵 日本 东京都品川区Linode数据中心
+      - 🇺🇲 美国 华盛顿Cogent通信公司
+      - 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心
+      - 🇷🇴 伊朗 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,23 +64,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇷🇴 伊朗 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇫🇷 法国 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 3
-      - 🇷🇴 美国 V2CROSS.COM 4
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM 5
-      - 🇷🇴 南非 V2CROSS.COM
-      - 🇸🇬 新加坡 OVH
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇸🇬 台湾省新北市 中华电信
       - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇲 美国 弗吉尼亚州阿什本Amazon数据中心
-      - 🇺🇲 美国 加你福尼亚洛杉矶Coperation Coloction数据中心
-      - 🇷🇴 美国 V2CROSS.COM 6
+      - 🇺🇲 美国 DXC Technology
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇸🇬 新加坡 OVH
+      - 🇯🇵 日本 东京都品川区Linode数据中心
+      - 🇺🇲 美国 华盛顿Cogent通信公司
+      - 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心
+      - 🇷🇴 伊朗 V2CROSS.COM
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
