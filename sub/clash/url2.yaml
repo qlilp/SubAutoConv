@@ -5,48 +5,39 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.114.21, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 台湾省新北市 中华电信, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.224.15.73, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 DXC Technology, server: microsoft-us.syjd.xyz, port: 7777, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 162.159.255.200, port: 80, type: vmess, uuid: 52466dc2-3550-4310-910c-74b7bf8a020e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.eu.org}}}
-  - {name: 🇸🇬 新加坡 OVH, server: asia.artunnel57.host, port: 80, type: vmess, uuid: 65e44501-defd-4609-a4e3-7028dc417b50, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess-ntls, headers: {Host: asia.artunnel57.host}}}
-  - {name: 🇯🇵 日本 东京都品川区Linode数据中心, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vjp2.0bad.com}}}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.6.224.13, port: 59130, type: vmess, uuid: cb33912f-155f-4c91-d509-75e760999ea5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心, server: v2test1.mark20web.pw, port: 2096, type: vmess, uuid: f9285a7d-34fb-4723-9ab0-9a70f735b146, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2test1.mark20web.pw}}}
-  - {name: 🇷🇴 伊朗 V2CROSS.COM, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 172.99.188.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国 惠普HP, server: hk4.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.af49c4e4c2ef.sanfen001.pics}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.17.3.81, port: 80, type: vmess, uuid: e40b2de3-b829-4591-a7b6-99d1913f3246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: w.evouch77.live}}}
+  - {name: 🇭🇰 香港 Amazon数据中心, server: hk04.ggcloud.cc, port: 10030, type: trojan, password: 8a371621-e98b-3961-ab5d-a80faab88593}
+  - {name: 🇷🇴 瑞典 V2CROSS.COM, server: 167.88.63.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 广东省揭阳市 移动, server: 120.240.163.62, port: 59629, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: ch.learnpropy.click, port: 2053, type: vmess, uuid: 8cab8fb7-4977-4ec2-8bba-2914dd43bfbd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /gsdg43575, headers: {Host: abs.learnpropy.click}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇸🇬 台湾省新北市 中华电信
-      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇲 美国 DXC Technology
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 惠普HP
       - 🇺🇲 美国 CloudFlare节点
-      - 🇸🇬 新加坡 OVH
-      - 🇯🇵 日本 东京都品川区Linode数据中心
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心
-      - 🇷🇴 伊朗 V2CROSS.COM
+      - 🇭🇰 香港 Amazon数据中心
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 广东省揭阳市 移动
+      - 🇷🇴 美国 V2CROSS.COM 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇸🇬 台湾省新北市 中华电信
-      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇲 美国 DXC Technology
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 惠普HP
       - 🇺🇲 美国 CloudFlare节点
-      - 🇸🇬 新加坡 OVH
-      - 🇯🇵 日本 东京都品川区Linode数据中心
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心
-      - 🇷🇴 伊朗 V2CROSS.COM
+      - 🇭🇰 香港 Amazon数据中心
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 广东省揭阳市 移动
+      - 🇷🇴 美国 V2CROSS.COM 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -64,16 +55,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇸🇬 台湾省新北市 中华电信
-      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇺🇲 美国 DXC Technology
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 惠普HP
       - 🇺🇲 美国 CloudFlare节点
-      - 🇸🇬 新加坡 OVH
-      - 🇯🇵 日本 东京都品川区Linode数据中心
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇮🇳 印度 卡纳塔克邦班加罗尔DigitalOcean数据中心
-      - 🇷🇴 伊朗 V2CROSS.COM
+      - 🇭🇰 香港 Amazon数据中心
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 广东省揭阳市 移动
+      - 🇷🇴 美国 V2CROSS.COM 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
