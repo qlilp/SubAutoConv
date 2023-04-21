@@ -5,66 +5,66 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: japan 02, server: zf-shdx.syjd.xyz, port: 34500, type: ss, cipher: aes-128-gcm, password: 87bd6efd-2fb5-4920-852d-921d7c29f916}
-  - {name: 🇭🇰 香港 01, server: microsoft-hk01.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: microsoft-hk01.syjd.xyz, skip-cert-verify: true}
-  - {name: japan 01, server: zf-shdx.syjd.xyz, port: 34500, type: ss, cipher: aes-128-gcm, password: 87bd6efd-2fb5-4920-852d-921d7c29f916}
-  - {name: 🇨🇳 台湾 流媒体, server: cdn.twnct.6641634715834932.me, port: 7047, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: cdn.twnct.6641634715834932.me, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 原生ip, server: microsoft-us.syjd.xyz, port: 7777, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 03, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 02, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 04, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 05, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 01, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: true}
-  - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
   - {name: 14亿人一起都草不死, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e}
+  - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531}
-  - {name: 欧洲1-邀, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
-  - {name: 亚洲2-临, server: f-as2.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国1-注, server: f-us1.wvvvv.eu.org, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国1, server: 163.123.192.36, port: 443, type: trojan, password: 3ed05c55-38ad-4b86-827a-ca263c457eda, sni: 16-163-218-240.nhost.00cdn.com}
+  - {name: 🇺🇲 美国2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3ed05c55-38ad-4b86-827a-ca263c457eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/yfjc/us4?ed=2048", headers: {Host: us4.yfjc.sbs}}}
+  - {name: 🇺🇲 美国3, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3ed05c55-38ad-4b86-827a-ca263c457eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/yfjc/us3?ed=2048", headers: {Host: us3.yfjc.sbs}}}
+  - {name: 🇺🇲 美国4, server: 163.123.192.34, port: 443, type: trojan, password: 3ed05c55-38ad-4b86-827a-ca263c457eda, sni: 16-163-218-240.nhost.00cdn.com}
+  - {name: 🇺🇲 美国5, server: 163.123.192.35, port: 443, type: trojan, password: 3ed05c55-38ad-4b86-827a-ca263c457eda, sni: 16-163-218-240.nhost.00cdn.com}
+  - {name: 🇺🇲 美国6, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3ed05c55-38ad-4b86-827a-ca263c457eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/yfjc/nl3?ed=2048", headers: {Host: nl3.yfjc.sbs}}}
+  - {name: 🇺🇲 美国7, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3ed05c55-38ad-4b86-827a-ca263c457eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/yfjc/nl?ed=2048", headers: {Host: nl.yfjc.sbs}}}
+  - {name: 🇺🇲 美国8, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3ed05c55-38ad-4b86-827a-ca263c457eda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/yfjc/us2?ed=2048", headers: {Host: us2.yfjc.sbs}}}
+  - {name: 亚洲2-临, server: 3.35.17.206, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国1-注, server: 49.12.98.44, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
+  - {name: 欧洲1-邀, server: 49.12.98.44, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚洲1-节, server: 103.179.172.5, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK-1, server: ah.xn--4gq028cdltl30a.cn, port: 47122, type: vmess, uuid: 2049b4b3-30f8-3d8e-b73d-f40fc58a0cda, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - japan 02
-      - 🇭🇰 香港 01
-      - japan 01
-      - 🇨🇳 台湾 流媒体
-      - 🇺🇲 美国 原生ip
-      - 🇺🇲 美国 03
-      - 🇺🇲 美国 02
-      - 🇺🇲 美国 04
-      - 🇺🇲 美国 05
-      - 🇺🇲 美国 01
-      - 万人草都不死
       - 14亿人一起都草不死
+      - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 欧洲1-邀
+      - 🇺🇲 美国1
+      - 🇺🇲 美国2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国4
+      - 🇺🇲 美国5
+      - 🇺🇲 美国6
+      - 🇺🇲 美国7
+      - 🇺🇲 美国8
       - 亚洲2-临
       - 🇺🇲 美国1-注
+      - 欧洲1-邀
+      - 亚洲1-节
+      - 🇭🇰 HK-1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - japan 02
-      - 🇭🇰 香港 01
-      - japan 01
-      - 🇨🇳 台湾 流媒体
-      - 🇺🇲 美国 原生ip
-      - 🇺🇲 美国 03
-      - 🇺🇲 美国 02
-      - 🇺🇲 美国 04
-      - 🇺🇲 美国 05
-      - 🇺🇲 美国 01
-      - 万人草都不死
       - 14亿人一起都草不死
+      - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 欧洲1-邀
+      - 🇺🇲 美国1
+      - 🇺🇲 美国2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国4
+      - 🇺🇲 美国5
+      - 🇺🇲 美国6
+      - 🇺🇲 美国7
+      - 🇺🇲 美国8
       - 亚洲2-临
       - 🇺🇲 美国1-注
+      - 欧洲1-邀
+      - 亚洲1-节
+      - 🇭🇰 HK-1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,22 +82,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - japan 02
-      - 🇭🇰 香港 01
-      - japan 01
-      - 🇨🇳 台湾 流媒体
-      - 🇺🇲 美国 原生ip
-      - 🇺🇲 美国 03
-      - 🇺🇲 美国 02
-      - 🇺🇲 美国 04
-      - 🇺🇲 美国 05
-      - 🇺🇲 美国 01
-      - 万人草都不死
       - 14亿人一起都草不死
+      - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 欧洲1-邀
+      - 🇺🇲 美国1
+      - 🇺🇲 美国2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国4
+      - 🇺🇲 美国5
+      - 🇺🇲 美国6
+      - 🇺🇲 美国7
+      - 🇺🇲 美国8
       - 亚洲2-临
       - 🇺🇲 美国1-注
+      - 欧洲1-邀
+      - 亚洲1-节
+      - 🇭🇰 HK-1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1801,9 +1801,8 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
  - DOMAIN,wmsjsteam.com,🎯 全球直连
  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
@@ -2671,6 +2670,7 @@ rules:
  - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
  - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -2825,6 +2825,7 @@ rules:
  - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
  - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
  - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
  - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
