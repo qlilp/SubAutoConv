@@ -5,39 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇴 瑞典 V2CROSS.COM, server: 167.88.63.79, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.217.222, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus5.0bad.com}}}
-  - {name: 🇷🇴 瑞典 V2CROSS.COM 2, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
-  - {name: 🇷🇴 瑞典 V2CROSS.COM 3, server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.17.3.81, port: 80, type: vmess, uuid: e40b2de3-b829-4591-a7b6-99d1913f3246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: w.evouch77.live}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 172.67.217.222, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.224.191.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/220128071100}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 172.67.140.193, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 瑞典 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 瑞典 V2CROSS.COM 2
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇷🇴 瑞典 V2CROSS.COM 3
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 瑞典 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 瑞典 V2CROSS.COM 2
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇷🇴 瑞典 V2CROSS.COM 3
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -55,13 +49,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 瑞典 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 瑞典 V2CROSS.COM 2
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇷🇴 瑞典 V2CROSS.COM 3
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
