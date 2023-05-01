@@ -5,36 +5,36 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.114.28, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: hk6.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: 29387883-aace-4e03-bad7-940bc5e6ba67, alterId: 0, cipher: auto, tls: true, servername: www.microsoft.com, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.243.51, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心, server: 165.227.133.55, port: 80, type: vmess, uuid: df68f678-62c3-4799-91a8-4d301e8cf565, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /PGV2vtMvxwNFt2}}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH 2, server: 142.4.112.10, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 东京BGP.NET数据中心, server: 27.124.20.240, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
+  - {name: 浙江省 联通, server: p1.bxy-fun1.com, port: 11407, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 170.187.200.114, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat}}
+  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA), server: sg.stablize.top, port: 443, type: trojan, password: 2bfe8e4f-c00c-496b-ba8c-e67d2becd03b}
+  - {name: 浙江省 联通 2, server: p1.bxy-fun1.com, port: 30470, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: hk6.af49c4e4c2ef.sanfen004.me, port: 443, type: vmess, uuid: 29387883-aace-4e03-bad7-940bc5e6ba67, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇷🇴 美国 V2CROSS.COM
+      - 浙江省 联通
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA)
+      - 浙江省 联通 2
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇯🇵 日本 东京BGP.NET数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇷🇴 美国 V2CROSS.COM
+      - 浙江省 联通
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA)
+      - 浙江省 联通 2
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇯🇵 日本 东京BGP.NET数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -52,12 +52,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇷🇴 美国 V2CROSS.COM
+      - 浙江省 联通
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA)
+      - 浙江省 联通 2
       - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇩🇪 德国 黑森州法兰克福DigitalOcean数据中心
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇯🇵 日本 东京BGP.NET数据中心
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
