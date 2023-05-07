@@ -5,39 +5,54 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.38, port: 41825, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: v2-ca1.silverdragon.cn, port: 443, type: vmess, uuid: e790e3bf-c553-40ed-b2b6-436afd3f5f5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ca/v2wss, headers: {Host: v2-ca1.silverdragon.cn}}}
-  - {name: 🇬🇧 英国 社会保险安全部, server: 51.195.35.150, port: 30812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.114.25, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯 莫斯科justhost.ru, server: 45.129.3.99, port: 22233, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 170.187.200.114, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat}}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 199.212.90.14, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇺🇲 美国 Datability, server: 140.99.149.45, port: 53082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 171.22.134.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683346065217, headers: {Host: www.28848492.xyz}}}
+  - {name: 🇨🇳 广东省深圳市 电信, server: 14.116.151.100, port: 63094, type: vmess, uuid: 55329786-3769-3d15-a552-ba42e4d8bae6, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.40, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer07, headers: {Host: uyaa.vtcss.top}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 108.162.193.69, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer07, headers: {Host: uyaa.vtcss.top}}}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: fr2.stealthtunnel.net, port: 60606, type: trojan, password: 72A2478A-FE5F-6CFC-74F0-2781E6E5DDCF, skip-cert-verify: true}
+  - {name: 浙江省 移动数据上网公共出口, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 2051, type: ss, cipher: aes-128-gcm, password: Kad0X9}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: mci.bamarambash.monster, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /db698b16-d216-11ed-8e14-5ad705867cff, headers: {Host: db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 101b4758-ec27-11ed-8445-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
+  - {name: 🇺🇲 美国 Microsoft数据中心, server: ap.stablize.top, port: 443, type: trojan, password: 9478e27c-6bdd-4f0e-ba46-90d9739e1e34}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.173, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 Datability
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇨🇳 广东省深圳市 电信
+      - 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇷🇺 俄罗斯 莫斯科justhost.ru
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 浙江省 移动数据上网公共出口
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 Microsoft数据中心
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 Datability
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇨🇳 广东省深圳市 电信
+      - 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇷🇺 俄罗斯 莫斯科justhost.ru
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 浙江省 移动数据上网公共出口
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 Microsoft数据中心
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -55,13 +70,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 Datability
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇨🇳 广东省深圳市 电信
+      - 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点
-      - 🇬🇧 英国 社会保险安全部
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇷🇺 俄罗斯 莫斯科justhost.ru
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 浙江省 移动数据上网公共出口
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 Microsoft数据中心
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
