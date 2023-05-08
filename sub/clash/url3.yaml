@@ -5,114 +5,96 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "🇸🇬 A.P. Singapore Central #2 [STATIC]", server: target.292228.xyz, port: 80, type: vmess, uuid: b151a4da-0056-4b26-8598-ca3862963ca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-sg-central-2.292228.xyz}}}
-  - {name: "🇯🇵 A.P. Japan West #1 [STATIC]", server: ap-jp-west-1.292228.xyz, port: 80, type: vmess, uuid: b151a4da-0056-4b26-8598-ca3862963ca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-jp-west-1.292228.xyz}}}
-  - {name: 🇸🇬 专线|新加坡1, server: sg1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇸🇬 专线|新加坡4, server: sg4.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇮🇳 专线|印度1, server: in1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇺🇲 专线|美国2, server: us2.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇨🇳 BGP|台湾1, server: bgptw1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇨🇳 BGP|台湾2, server: bgptw2.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇮🇹 专线|意大利1, server: it1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇨🇳 BGP|台湾3, server: bgptw3.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇷🇺 BGP|俄罗斯1, server: bgptru1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 专线|阿联酋1, server: ae1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: 🇨🇳 BGP|台湾4, server: bgptw4.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: 🇭🇰 HK Beta-UCLOUD政企专线, server: udpn.10086.network, port: 1024, type: ss, cipher: chacha20-ietf-poly1305, password: 44dcf059-d913-4f7b-b6e1-eec803df02dd}
-  - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: h295826.waihuizhibiaowang.com:11343, server: h295826.waihuizhibiaowang.com, port: 11343, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: 🇰🇷 专线|韩国1, server: kr1.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70, sni: tlsdata.cnamazon.sbs}
-  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
   - {name: 🇺🇲 美国USA, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: 🇭🇰 HK Beta-UCLOUD政企专线, server: udpn.10086.network, port: 1024, type: ss, cipher: chacha20-ietf-poly1305, password: 44dcf059-d913-4f7b-b6e1-eec803df02dd}
+  - {name: 🇨🇳 台湾动态1000G, server: 1.170.221.19, port: 7885, type: vmess, uuid: 12a17fa9-b2b4-4c69-aef5-79886ba859bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /yn09Nrg8a, headers: {Host: "%7B%22Host%22:%22fghyhhonline.uk%22%7D"}}}
+  - {name: 搬瓦工1000G, server: 144.34.210.227, port: 7423, type: vmess, uuid: 3307dc53-6fb2-4c34-ba6a-86e74b3951af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fjpYs1uY9H, headers: {Host: "%7B%22Host%22:%22zhijiagelala.top%22%7D"}}}
+  - {name: "🇸🇬 A.P. Singapore Central #2 [STATIC]", server: target.292228.xyz, port: 80, type: vmess, uuid: b151a4da-0056-4b26-8598-ca3862963ca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-sg-central-2.292228.xyz}}}
+  - {name: "🇸🇬 A.P. Singapore Central #2 [STATIC] 2", server: target.292228.xyz, port: 80, type: vmess, uuid: b151a4da-0056-4b26-8598-ca3862963ca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-sg-central-2.292228.xyz}}}
+  - {name: "🇯🇵 A.P. Japan West #1 [STATIC]", server: ap-jp-west-1.292228.xyz, port: 80, type: vmess, uuid: b151a4da-0056-4b26-8598-ca3862963ca2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-jp-west-1.292228.xyz}}}
+  - {name: BuyVM2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
+  - {name: BuyVM1, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
+  - {name: DP1, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
+  - {name: DP3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
+  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: h295826.waihuizhibiaowang.com:11343, server: h295826.waihuizhibiaowang.com, port: 11343, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
   - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
   - {name: h295826.waihuizhibiaowang.com:11243, server: h295826.waihuizhibiaowang.com, port: 11243, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
   - {name: assets.flareai.store:11243, server: assets.flareai.store, port: 11243, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: DP3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
-  - {name: assets.flareai.store:11743, server: assets.flareai.store, port: 11743, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
   - {name: assets.flareai.store:11143, server: assets.flareai.store, port: 11143, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
-  - {name: BuyVM1, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
-  - {name: BuyVM2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
+  - {name: assets.flareai.store:11743, server: assets.flareai.store, port: 11743, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true}
+  - {name: 🇸🇬 Singapore 02, server: rukou2.rookiebase.cn, port: 7005, type: ss, cipher: aes-128-gcm, password: efb4d761-9e40-4859-824d-a43d713022ac}
+  - {name: 🇮🇳 India 01, server: rukou1.rookiebase.cn, port: 7060, type: ss, cipher: aes-128-gcm, password: efb4d761-9e40-4859-824d-a43d713022ac}
+  - {name: 🇨🇳 Taiwan 01, server: rukou1.rookiebase.cn, port: 7026, type: ss, cipher: aes-128-gcm, password: efb4d761-9e40-4859-824d-a43d713022ac}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "🇸🇬 A.P. Singapore Central #2 [STATIC]"
-      - "🇯🇵 A.P. Japan West #1 [STATIC]"
-      - 🇸🇬 专线|新加坡1
-      - 🇸🇬 专线|新加坡4
-      - 🇮🇳 专线|印度1
-      - 🇺🇲 专线|美国2
-      - 🇨🇳 BGP|台湾1
-      - 🇨🇳 BGP|台湾2
-      - 🇮🇹 专线|意大利1
-      - 🇨🇳 BGP|台湾3
-      - 🇷🇺 BGP|俄罗斯1
-      - 专线|阿联酋1
-      - 🇨🇳 BGP|台湾4
-      - assets.flareai.site:11543
-      - 🇭🇰 HK Beta-UCLOUD政企专线
-      - assets.flareai.site:11343
-      - h295826.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11343
-      - 🇰🇷 专线|韩国1
-      - catlog.flareai.science:11543
-      - assets.flareai.site:11443
-      - h295826.waihuizhibiaowang.com:11443
       - 🇺🇲 美国USA
+      - 🇭🇰 HK Beta-UCLOUD政企专线
+      - 🇨🇳 台湾动态1000G
+      - 搬瓦工1000G
+      - "🇸🇬 A.P. Singapore Central #2 [STATIC]"
+      - "🇸🇬 A.P. Singapore Central #2 [STATIC] 2"
+      - "🇯🇵 A.P. Japan West #1 [STATIC]"
+      - BuyVM2
+      - BuyVM1
+      - DP1
+      - DP3
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11543
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11443
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11443
       - catlog.flareai.science:11443
       - h295826.waihuizhibiaowang.com:11243
       - assets.flareai.store:11243
-      - assets.flareai.site:11243
-      - DP3
-      - assets.flareai.store:11743
       - assets.flareai.store:11143
-      - BuyVM1
-      - BuyVM2
+      - assets.flareai.store:11743
+      - 🇸🇬 Singapore 02
+      - 🇮🇳 India 01
+      - 🇨🇳 Taiwan 01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇸🇬 A.P. Singapore Central #2 [STATIC]"
-      - "🇯🇵 A.P. Japan West #1 [STATIC]"
-      - 🇸🇬 专线|新加坡1
-      - 🇸🇬 专线|新加坡4
-      - 🇮🇳 专线|印度1
-      - 🇺🇲 专线|美国2
-      - 🇨🇳 BGP|台湾1
-      - 🇨🇳 BGP|台湾2
-      - 🇮🇹 专线|意大利1
-      - 🇨🇳 BGP|台湾3
-      - 🇷🇺 BGP|俄罗斯1
-      - 专线|阿联酋1
-      - 🇨🇳 BGP|台湾4
-      - assets.flareai.site:11543
-      - 🇭🇰 HK Beta-UCLOUD政企专线
-      - assets.flareai.site:11343
-      - h295826.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11343
-      - 🇰🇷 专线|韩国1
-      - catlog.flareai.science:11543
-      - assets.flareai.site:11443
-      - h295826.waihuizhibiaowang.com:11443
       - 🇺🇲 美国USA
+      - 🇭🇰 HK Beta-UCLOUD政企专线
+      - 🇨🇳 台湾动态1000G
+      - 搬瓦工1000G
+      - "🇸🇬 A.P. Singapore Central #2 [STATIC]"
+      - "🇸🇬 A.P. Singapore Central #2 [STATIC] 2"
+      - "🇯🇵 A.P. Japan West #1 [STATIC]"
+      - BuyVM2
+      - BuyVM1
+      - DP1
+      - DP3
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11543
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11443
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11443
       - catlog.flareai.science:11443
       - h295826.waihuizhibiaowang.com:11243
       - assets.flareai.store:11243
-      - assets.flareai.site:11243
-      - DP3
-      - assets.flareai.store:11743
       - assets.flareai.store:11143
-      - BuyVM1
-      - BuyVM2
+      - assets.flareai.store:11743
+      - 🇸🇬 Singapore 02
+      - 🇮🇳 India 01
+      - 🇨🇳 Taiwan 01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,38 +112,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "🇸🇬 A.P. Singapore Central #2 [STATIC]"
-      - "🇯🇵 A.P. Japan West #1 [STATIC]"
-      - 🇸🇬 专线|新加坡1
-      - 🇸🇬 专线|新加坡4
-      - 🇮🇳 专线|印度1
-      - 🇺🇲 专线|美国2
-      - 🇨🇳 BGP|台湾1
-      - 🇨🇳 BGP|台湾2
-      - 🇮🇹 专线|意大利1
-      - 🇨🇳 BGP|台湾3
-      - 🇷🇺 BGP|俄罗斯1
-      - 专线|阿联酋1
-      - 🇨🇳 BGP|台湾4
-      - assets.flareai.site:11543
-      - 🇭🇰 HK Beta-UCLOUD政企专线
-      - assets.flareai.site:11343
-      - h295826.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11343
-      - 🇰🇷 专线|韩国1
-      - catlog.flareai.science:11543
-      - assets.flareai.site:11443
-      - h295826.waihuizhibiaowang.com:11443
       - 🇺🇲 美国USA
+      - 🇭🇰 HK Beta-UCLOUD政企专线
+      - 🇨🇳 台湾动态1000G
+      - 搬瓦工1000G
+      - "🇸🇬 A.P. Singapore Central #2 [STATIC]"
+      - "🇸🇬 A.P. Singapore Central #2 [STATIC] 2"
+      - "🇯🇵 A.P. Japan West #1 [STATIC]"
+      - BuyVM2
+      - BuyVM1
+      - DP1
+      - DP3
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11543
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11443
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11443
       - catlog.flareai.science:11443
       - h295826.waihuizhibiaowang.com:11243
       - assets.flareai.store:11243
-      - assets.flareai.site:11243
-      - DP3
-      - assets.flareai.store:11743
       - assets.flareai.store:11143
-      - BuyVM1
-      - BuyVM2
+      - assets.flareai.store:11743
+      - 🇸🇬 Singapore 02
+      - 🇮🇳 India 01
+      - 🇨🇳 Taiwan 01
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2123,6 +2099,12 @@ rules:
  - DOMAIN-SUFFIX,olevod.io,🚀 节点选择
  - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
  - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
+ - DOMAIN-KEYWORD,openai,🚀 节点选择
+ - DOMAIN-SUFFIX,ai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
+ - DOMAIN-SUFFIX,stripe.com,🚀 节点选择
  - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
  - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
  - DOMAIN-SUFFIX,phncdn.com,🚀 节点选择
@@ -2945,42 +2927,127 @@ rules:
  - DOMAIN-KEYWORD,announce,🎯 全球直连
  - DOMAIN-KEYWORD,torrent,🎯 全球直连
  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,52pt.site,🎯 全球直连
+ - DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
+ - DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+ - DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
+ - DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
+ - DOMAIN-SUFFIX,audiences.me,🎯 全球直连
+ - DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
+ - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+ - DOMAIN-SUFFIX,concertos.live,🎯 全球直连
+ - DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
+ - DOMAIN-SUFFIX,discfan.net,🎯 全球直连
+ - DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+ - DOMAIN-SUFFIX,et8.org,🎯 全球直连
+ - DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
+ - DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
+ - DOMAIN-SUFFIX,filelist.io,🎯 全球直连
+ - DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+ - DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
+ - DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
+ - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+ - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
+ - DOMAIN-SUFFIX,j99.info,🎯 全球直连
+ - DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+ - DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+ - DOMAIN-SUFFIX,landof.tv,🎯 全球直连
  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
+ - DOMAIN-SUFFIX,lztr.me,🎯 全球直连
  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+ - DOMAIN-SUFFIX,moecat.best,🎯 全球直连
+ - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+ - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
+ - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
+ - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+ - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
+ - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+ - DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+ - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
+ - DOMAIN-SUFFIX,pttime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+ - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
+ - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
+ - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
- - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
  - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
+ - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve

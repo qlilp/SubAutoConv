@@ -5,54 +5,36 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 Datability, server: 140.99.149.45, port: 53082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: 171.22.134.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683346065217, headers: {Host: www.28848492.xyz}}}
-  - {name: 🇨🇳 广东省深圳市 电信, server: 14.116.151.100, port: 63094, type: vmess, uuid: 55329786-3769-3d15-a552-ba42e4d8bae6, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.40, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer07, headers: {Host: uyaa.vtcss.top}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 108.162.193.69, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer07, headers: {Host: uyaa.vtcss.top}}}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: fr2.stealthtunnel.net, port: 60606, type: trojan, password: 72A2478A-FE5F-6CFC-74F0-2781E6E5DDCF, skip-cert-verify: true}
-  - {name: 浙江省 移动数据上网公共出口, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 2051, type: ss, cipher: aes-128-gcm, password: Kad0X9}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: mci.bamarambash.monster, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /db698b16-d216-11ed-8e14-5ad705867cff, headers: {Host: db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: aaaa.wxx.gay, port: 443, type: vmess, uuid: 101b4758-ec27-11ed-8445-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}}
-  - {name: 🇺🇲 美国 Microsoft数据中心, server: ap.stablize.top, port: 443, type: trojan, password: 9478e27c-6bdd-4f0e-ba46-90d9739e1e34}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.173, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
+  - {name: 🇺🇲 美国 惠普HP, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: 30ba67cf-776c-48be-8bb5-578878830228, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 170.114.45.122, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /db698b16-d216-11ed-8e14-5ad705867cff, headers: {Host: db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com}}}
+  - {name: 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心, server: us2.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70}
+  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.244.208.115, port: 80, type: vmess, uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 Datability
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 广东省深圳市 电信
-      - 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 浙江省 移动数据上网公共出口
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 惠普HP
       - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇺🇲 美国 Microsoft数据中心
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 Datability
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 广东省深圳市 电信
-      - 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 浙江省 移动数据上网公共出口
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 惠普HP
       - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇺🇲 美国 Microsoft数据中心
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -70,18 +52,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 Datability
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 广东省深圳市 电信
-      - 🇺🇲 美国弗吉尼亚州阿什本 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
-      - 浙江省 移动数据上网公共出口
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 惠普HP
       - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇺🇲 美国 Microsoft数据中心
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心
+      - 🇷🇴 罗马尼亚 V2CROSS.COM
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2043,6 +2019,12 @@ rules:
  - DOMAIN-SUFFIX,olevod.io,🚀 节点选择
  - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
  - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
+ - DOMAIN-KEYWORD,openai,🚀 节点选择
+ - DOMAIN-SUFFIX,ai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,openai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
+ - DOMAIN-SUFFIX,stripe.com,🚀 节点选择
  - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
  - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
  - DOMAIN-SUFFIX,phncdn.com,🚀 节点选择
@@ -2865,42 +2847,127 @@ rules:
  - DOMAIN-KEYWORD,announce,🎯 全球直连
  - DOMAIN-KEYWORD,torrent,🎯 全球直连
  - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,52pt.site,🎯 全球直连
+ - DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
+ - DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+ - DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
+ - DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
+ - DOMAIN-SUFFIX,audiences.me,🎯 全球直连
+ - DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
+ - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+ - DOMAIN-SUFFIX,concertos.live,🎯 全球直连
+ - DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
+ - DOMAIN-SUFFIX,discfan.net,🎯 全球直连
+ - DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+ - DOMAIN-SUFFIX,et8.org,🎯 全球直连
+ - DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
+ - DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
+ - DOMAIN-SUFFIX,filelist.io,🎯 全球直连
+ - DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+ - DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
+ - DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
+ - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
+ - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+ - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
+ - DOMAIN-SUFFIX,j99.info,🎯 全球直连
+ - DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+ - DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+ - DOMAIN-SUFFIX,landof.tv,🎯 全球直连
  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
+ - DOMAIN-SUFFIX,lztr.me,🎯 全球直连
  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+ - DOMAIN-SUFFIX,moecat.best,🎯 全球直连
+ - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+ - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
+ - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
+ - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+ - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
+ - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+ - DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+ - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
+ - DOMAIN-SUFFIX,pttime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+ - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
+ - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
+ - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
- - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
  - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
+ - DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
+ - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
+ - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
