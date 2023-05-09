@@ -5,36 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 CloudFlare节点, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
-  - {name: 🇺🇲 美国 惠普HP, server: hk2.c2bfe79372be.sanfen004.me, port: 443, type: vmess, uuid: 30ba67cf-776c-48be-8bb5-578878830228, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.microsoft.com}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 170.114.45.122, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /db698b16-d216-11ed-8e14-5ad705867cff, headers: {Host: db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com}}}
-  - {name: 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心, server: us2.cnamazon.sbs, port: 443, type: trojan, password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70}
-  - {name: 🇷🇴 罗马尼亚 V2CROSS.COM, server: 185.244.208.115, port: 80, type: vmess, uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.208.185, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.201.128, port: 2086, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ag01-cdn.myn1des.com}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 172.67.156.138, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 CloudFlare节点
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 惠普HP
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 CloudFlare节点
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 惠普HP
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -52,12 +49,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 CloudFlare节点
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 惠普HP
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇺🇲 美国 加利福尼亚州旧金山Amazon数据中心
-      - 🇷🇴 罗马尼亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
