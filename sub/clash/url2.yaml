@@ -5,60 +5,66 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 重庆市 移动, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 东京Amazon数据中心, server: jp05-vm0.entry.srthdw.art, port: 30591, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省台北市 scloud.sg, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: 45.12.112.102, port: 40002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 东京Amazon数据中心 2, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: dd8314cc-3754-416d-9456-0991f2e74753, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}}
-  - {name: 🇺🇲 美国 麻省理工学院, server: 18.102.68.105, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.118.150, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525}}
   - {name: 🇺🇲 美国加利福尼亚州圣何塞 Cloudflare节点, server: 103.21.244.37, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 104.25.5.175, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: 🇺🇲 美国 Linode数据中心, server: SG1.FP3KEMYH-CM4S-2HAK-2GB9-W3534UMY2SQ5.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 12008, type: trojan, password: cd886da4-d68e-44b8-b7ef-fb5bc0c6c09c}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 172.67.247.250, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.63.0.83, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525}}
+  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: 45.12.144.79, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, servername: Kansas.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.249.152, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 美国 V2CROSS.COM 3, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 欧盟 V2CROSS.COM 2, server: 45.12.112.114, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心 2, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 东京Linode数据中心, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: dallas.starsea.vip, port: 443, type: vmess, uuid: 10735fe6-6c8f-498b-b22e-8e98a57e033d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: dallas.starsea.vip}}}
+  - {name: 🇨🇳 上海市 电信, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f}
+  - {name: 🇷🇴 欧盟 V2CROSS.COM 3, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, servername: Kansas.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心, server: jp1.d4995a2eb9b2.sanfen004.me, port: 443, type: vmess, uuid: 7262cf44-a587-401a-9cd3-a87e2ce8f04e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 重庆市 移动
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇳 台湾省台北市 scloud.sg
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇯🇵 日本 东京Amazon数据中心 2
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 麻省理工学院
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
       - 🇺🇲 美国加利福尼亚州圣何塞 Cloudflare节点
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 欧盟 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇷🇴 美国 V2CROSS.COM 3
+      - 🇷🇴 欧盟 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇲 美国 Linode数据中心
+      - 🇯🇵 日本 东京Linode数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇨🇳 上海市 电信
+      - 🇷🇴 欧盟 V2CROSS.COM 3
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇺🇲 美国 华盛顿Cogent通信公司
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 重庆市 移动
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇳 台湾省台北市 scloud.sg
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇯🇵 日本 东京Amazon数据中心 2
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 麻省理工学院
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
       - 🇺🇲 美国加利福尼亚州圣何塞 Cloudflare节点
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 欧盟 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇷🇴 美国 V2CROSS.COM 3
+      - 🇷🇴 欧盟 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇲 美国 Linode数据中心
+      - 🇯🇵 日本 东京Linode数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇨🇳 上海市 电信
+      - 🇷🇴 欧盟 V2CROSS.COM 3
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇺🇲 美国 华盛顿Cogent通信公司
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -76,20 +82,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 重庆市 移动
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇨🇳 台湾省台北市 scloud.sg
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇯🇵 日本 东京Amazon数据中心 2
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 麻省理工学院
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
       - 🇺🇲 美国加利福尼亚州圣何塞 Cloudflare节点
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 欧盟 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇷🇴 美国 V2CROSS.COM 3
+      - 🇷🇴 欧盟 V2CROSS.COM 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心 2
       - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇲 美国 Linode数据中心
+      - 🇯🇵 日本 东京Linode数据中心
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇨🇳 上海市 电信
+      - 🇷🇴 欧盟 V2CROSS.COM 3
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇺🇲 美国 华盛顿Cogent通信公司
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
