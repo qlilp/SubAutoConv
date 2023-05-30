@@ -5,63 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 加利福尼亚州费利蒙Linode数据中心, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus4.0bad.com}}}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: kr1.microsoft-orgwly.vip, port: 443, type: trojan, password: 43679727-548c-41b4-b13d-a8aaace7bf13, sni: tls.microsoft-orgwly.vip}
-  - {name: 🇷🇴 乌克兰 V2CROSS.COM, server: 193.108.118.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇩🇪 德国 黑森州法兰克福Linode数据中心, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
-  - {name: 🇷🇴 乌克兰 V2CROSS.COM 2, server: 193.108.118.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: cdn.noice.id, port: 80, type: vmess, uuid: 8bb07c55-0ef5-4d69-b131-fd9bab420ae8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 8fhq6a.aiossh.my.id}}}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.118.150, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525}}
-  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: stw8-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e}
-  - {name: 🇺🇲 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/c3lZ7dp02p?ed=2048", headers: {Host: d2.pgypgykmoljklj.xyz}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
+  - {name: 🇺🇲 美国 加利福尼亚州森尼韦尔市PEG TECH公司, server: 142.0.133.53, port: 50044, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.224.110.184, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080712342310}}
+  - {name: 🇺🇲 美国 Datability, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇷🇴 美国 V2CROSS.COM, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 4427eafb-3b3a-4265-9a32-fe0ea9cfd736, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: bp.nidaye.eu.org, port: 443, type: vmess, uuid: c77d02e9-5738-46ac-9512-7b67746cad85, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ndy58850, headers: {Host: bp.nidaye.eu.org}}}
-  - {name: 🇷🇴 亚太地区 V2CROSS.COM, server: vn2.microsoft-orgwly.vip, port: 443, type: trojan, password: fcf74125-99de-4df3-af94-552a0b1ee021, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.179, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
-  - {name: 瑞典 Oracle Corporation, server: opc.jp.quick-connect.buzz, port: 80, type: vmess, uuid: 580dd3ed-d79a-46a7-a623-a5be28f7a2da, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dm.toutiao.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 162.159.7.152, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv02, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: 108.162.195.225, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv02, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇰🇷 韩国 首尔Choopa数据中心, server: 141.164.43.153, port: 80, type: vmess, uuid: 8afbd60f-aa52-49e6-8f37-9aca0b90f2c8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zingfast.vn, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: 🇭🇰 香港 BGP.NET CN2数据中心, server: 202.79.171.155, port: 443, type: vmess, uuid: 7f37da61-c734-41b4-a8c2-eccfd6ca48f0, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080712342310}}
+  - {name: 重庆市 移动, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国 V2CROSS.COM, server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 Amazon EC2服务器, server: kr4.jisuyun.co, port: 443, type: vmess, uuid: 778762c1-251c-4125-ba11-fceb0785db58, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr4.jisuyun.co}}}
+  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.12.27, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 加利福尼亚州费利蒙Linode数据中心
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇷🇴 乌克兰 V2CROSS.COM
-      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
-      - 🇷🇴 乌克兰 V2CROSS.COM 2
       - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
-      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州森尼韦尔市PEG TECH公司
+      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 Datability
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 瑞典 Oracle Corporation
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇰🇷 韩国 首尔Choopa数据中心
+      - 🇭🇰 香港 BGP.NET CN2数据中心
+      - 重庆市 移动
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇲 美国 Amazon EC2服务器
+      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 加利福尼亚州费利蒙Linode数据中心
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇷🇴 乌克兰 V2CROSS.COM
-      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
-      - 🇷🇴 乌克兰 V2CROSS.COM 2
       - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
-      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州森尼韦尔市PEG TECH公司
+      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 Datability
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 瑞典 Oracle Corporation
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇰🇷 韩国 首尔Choopa数据中心
+      - 🇭🇰 香港 BGP.NET CN2数据中心
+      - 重庆市 移动
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇲 美国 Amazon EC2服务器
+      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,21 +76,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 加利福尼亚州费利蒙Linode数据中心
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇷🇴 乌克兰 V2CROSS.COM
-      - 🇩🇪 德国 黑森州法兰克福Linode数据中心
-      - 🇷🇴 乌克兰 V2CROSS.COM 2
       - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇨🇦 加拿大 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
-      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州森尼韦尔市PEG TECH公司
+      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 Datability
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 瑞典 Oracle Corporation
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇰🇷 韩国 首尔Choopa数据中心
+      - 🇭🇰 香港 BGP.NET CN2数据中心
+      - 重庆市 移动
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇺🇲 美国 Amazon EC2服务器
+      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
