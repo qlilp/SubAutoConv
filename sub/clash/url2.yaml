@@ -5,69 +5,54 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 CloudFlare节点, server: beta.noaries.de, port: 2082, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-jp-win.iiio.wiki}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: usg.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video, headers: {Host: usg.fljsm.com}}}
-  - {name: 🇷🇴 亚太地区 V2CROSS.COM, server: 163.123.192.154, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: beta.noaries.de, port: 2086, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.iiio.wiki}}}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.104.195, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}}
-  - {name: 🇷🇴 以色列 V2CROSS.COM, server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: vm.au.goserver.pw, port: 80, type: vmess, uuid: a2a16067-7ac5-46dd-96f2-a94560ac438c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray-vmess/ntls, headers: {Host: au.goserver.pw}}}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA), server: usajs.stablize.top, port: 443, type: trojan, password: b88edfd4-23eb-4544-9bbc-a68914952905}
-  - {name: 🇨🇳 广东省深圳市 移动, server: iepl2.airtcp.vip, port: 51002, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: 112.118.195.16, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.freeiq.cf}}}
-  - {name: 🇷🇴 以色列 V2CROSS.COM 2, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇨🇳 广东省深圳市 移动 2, server: ieplhk.lanyunshi.top, port: 51004, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国 V2CROSS.COM, server: ask.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}}
-  - {name: 🇨🇳 江苏省苏州市 联通, server: p1.bxy-fun1.com, port: 11407, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
-  - {name: 🇺🇲 美国 DXC Technology, server: sg.stablize.top, port: 443, type: trojan, password: 159ab107-bfed-49b0-981d-5facd7e5e1c2}
-  - {name: 🇷🇴 以色列 V2CROSS.COM 3, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇺🇲 美国 Microsoft数据中心, server: ap.stablize.top, port: 443, type: trojan, password: 27509bd6-5096-4790-9eba-2c793cca7a8d}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: v2ray3.webgfw.top, port: 2083, type: vmess, uuid: ea9de06d-2436-42e9-8187-9e6d5fc40407, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v2ray3.webgfw.top}}}
+  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA), server: usa.stablize.top, port: 443, type: trojan, password: 3290abf1-8530-4716-9dae-908471dd8a8f}
+  - {name: 辽宁省鞍山市 电信, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2}
+  - {name: 🇷🇴 以色列 V2CROSS.COM, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: v2ray3.webgfw.top, port: 2083, type: vmess, uuid: 4cc72565-0d05-41e6-bc34-72aba9da544f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /X9piqfat/, headers: {Host: v2ray3.webgfw.top}}}
+  - {name: 广东省佛山市 移动, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 2, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 3, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇺🇲 美国 Microsoft数据中心 2, server: sg.stablize.top, port: 443, type: trojan, password: 159ab107-bfed-49b0-981d-5facd7e5e1c2}
+  - {name: 🇨🇦 加拿大 V2CROSS.COM, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇦🇺 澳大利亚 Kingswood College, server: freenodecdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇲 美国 Microsoft数据中心
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 以色列 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 2
       - 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇨🇳 广东省深圳市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 辽宁省鞍山市 电信
+      - 🇷🇴 以色列 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 广东省佛山市 移动
       - 🇷🇴 以色列 V2CROSS.COM 2
-      - 🇨🇳 广东省深圳市 移动 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 江苏省苏州市 联通
-      - 🇺🇲 美国 DXC Technology
       - 🇷🇴 以色列 V2CROSS.COM 3
+      - 🇺🇲 美国 Microsoft数据中心 2
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇦🇺 澳大利亚 Kingswood College
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇺🇲 美国 Microsoft数据中心
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 以色列 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 2
       - 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇨🇳 广东省深圳市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 辽宁省鞍山市 电信
+      - 🇷🇴 以色列 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 广东省佛山市 移动
       - 🇷🇴 以色列 V2CROSS.COM 2
-      - 🇨🇳 广东省深圳市 移动 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 江苏省苏州市 联通
-      - 🇺🇲 美国 DXC Technology
       - 🇷🇴 以色列 V2CROSS.COM 3
+      - 🇺🇲 美国 Microsoft数据中心 2
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇦🇺 澳大利亚 Kingswood College
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,23 +70,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇲 美国 Microsoft数据中心
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 以色列 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM 2
       - 🇺🇲 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇨🇳 广东省深圳市 移动
-      - 🇭🇰 香港 电讯盈科有限公司
+      - 辽宁省鞍山市 电信
+      - 🇷🇴 以色列 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 广东省佛山市 移动
       - 🇷🇴 以色列 V2CROSS.COM 2
-      - 🇨🇳 广东省深圳市 移动 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇨🇳 江苏省苏州市 联通
-      - 🇺🇲 美国 DXC Technology
       - 🇷🇴 以色列 V2CROSS.COM 3
+      - 🇺🇲 美国 Microsoft数据中心 2
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇦🇺 澳大利亚 Kingswood College
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1857,6 +1837,7 @@ rules:
  - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
  - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,seattlespheres.com,🚀 节点选择
  - DOMAIN,gspe1-ssl.ls.apple.com,🚀 节点选择
  - DOMAIN,np-edge.itunes.apple.com,🚀 节点选择
  - DOMAIN,play-edge.itunes.apple.com,🚀 节点选择
@@ -2065,9 +2046,17 @@ rules:
  - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
  - DOMAIN-KEYWORD,openai,🚀 节点选择
  - DOMAIN-SUFFIX,ai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
+ - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
+ - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
+ - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
+ - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+ - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
+ - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
  - DOMAIN-SUFFIX,stripe.com,🚀 节点选择
  - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
  - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
@@ -2490,7 +2479,6 @@ rules:
  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
  - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
- - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择

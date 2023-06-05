@@ -1861,6 +1861,7 @@ rules:
  - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
  - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,seattlespheres.com,🚀 节点选择
  - DOMAIN,gspe1-ssl.ls.apple.com,🚀 节点选择
  - DOMAIN,np-edge.itunes.apple.com,🚀 节点选择
  - DOMAIN,play-edge.itunes.apple.com,🚀 节点选择
@@ -2069,9 +2070,17 @@ rules:
  - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
  - DOMAIN-KEYWORD,openai,🚀 节点选择
  - DOMAIN-SUFFIX,ai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+ - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
+ - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
+ - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
+ - DOMAIN-SUFFIX,identrust.com,🚀 节点选择
+ - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+ - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点选择
+ - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
  - DOMAIN-SUFFIX,stripe.com,🚀 节点选择
  - DOMAIN-SUFFIX,pbs.org,🚀 节点选择
  - DOMAIN-SUFFIX,pandora.com,🚀 节点选择
@@ -2494,7 +2503,6 @@ rules:
  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
  - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
- - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
  - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
