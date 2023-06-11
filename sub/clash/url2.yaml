@@ -5,33 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇫🇷 法国 OVH SAS, server: pl2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: a60d4d2f-6a61-4c16-9d63-94a97e65d1f3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: pl2-vmess.greenssh.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}}
-  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: 185.249.227.220, port: 42653, type: vmess, uuid: a2d2f285-3650-47fa-9d83-9a259d52abd9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}}
+  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress, server: 107.148.194.237, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.115.246, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.243.57, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 Microsoft数据中心, server: jp.stablize.top, port: 443, type: trojan, password: 40297165-0545-4f8f-abc4-3ee25e6cfb87}
+  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.111, port: 32933, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.196.10, port: 42689, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 伊朗 V2CROSS.COM, server: turkey.abraak.site, port: 2087, type: vmess, uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇴 美国 V2CROSS.COM, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}}
+  - {name: 湖北省十堰市 电信, server: u-s02.niuniucloud.xyz, port: 53020, type: ss, cipher: aes-128-gcm, password: dedb1d2a-7bc3-430a-bb59-0656ca46211f}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 198.200.32.20, port: 49988, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 法国 OVH SAS
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇭🇰 香港 Microsoft数据中心
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
+      - 🇷🇴 伊朗 V2CROSS.COM
       - 🇷🇴 美国 V2CROSS.COM
+      - 湖北省十堰市 电信
+      - 🇷🇴 美国 V2CROSS.COM 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 法国 OVH SAS
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇭🇰 香港 Microsoft数据中心
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
+      - 🇷🇴 伊朗 V2CROSS.COM
       - 🇷🇴 美国 V2CROSS.COM
+      - 湖北省十堰市 电信
+      - 🇷🇴 美国 V2CROSS.COM 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -49,11 +64,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 法国 OVH SAS
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
+      - 🇭🇰 香港 Microsoft数据中心
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
+      - 🇷🇴 伊朗 V2CROSS.COM
       - 🇷🇴 美国 V2CROSS.COM
+      - 湖北省十堰市 电信
+      - 🇷🇴 美国 V2CROSS.COM 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
