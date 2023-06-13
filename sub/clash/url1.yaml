@@ -5,17 +5,15 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 1, server: 190.93.245.10, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 2, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
-  - {name: 🇩🇰 github.com/freefq - 丹麦  3, server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 7ed7e770-140d-37d0-8bbd-11cafb8186e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: ovhsdz.76898102.xyz}}}
-  - {name: github.com/freefq - 广东省佛山市移动 4, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 5, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 1, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 2, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇩🇪 github.com/freefq - 德国  3, server: ovhsdza.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ovhsdz.76898102.xyz}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 4, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
+  - {name: 🇬🇧 github.com/freefq - 英国社会保险安全部 5, server: fr1.09vpn.com, port: 80, type: vmess, uuid: bed8b92b-2408-4ffc-a86a-d3d0d59632cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: fr1.09vpn.com}}}
   - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}}
-  - {name: 🇺🇲 github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 7, server: sg.stablize.top, port: 443, type: trojan, password: ee8f2339-6935-4719-97b8-7f8fa521418d}
-  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 9, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
-  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 10, server: 104.19.110.22, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
-  - {name: github.com/freefq - 伊朗  11, server: turkey.abraak.site, port: 2087, type: vmess, uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 7, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}}
+  - {name: github.com/freefq - 广东省佛山市移动 8, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -24,15 +22,13 @@ proxy-groups:
       - DIRECT
       - 🇺🇲 github.com/freefq - 美国CloudFlare节点 1
       - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 2
-      - 🇩🇰 github.com/freefq - 丹麦  3
-      - github.com/freefq - 广东省佛山市移动 4
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 5
+      - 🇩🇪 github.com/freefq - 德国  3
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 4
+      - 🇬🇧 github.com/freefq - 英国社会保险安全部 5
       - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇲 github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 7
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8
-      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 9
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - github.com/freefq - 伊朗  11
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 7
+      - github.com/freefq - 广东省佛山市移动 8
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -41,15 +37,13 @@ proxy-groups:
     proxies:
       - 🇺🇲 github.com/freefq - 美国CloudFlare节点 1
       - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 2
-      - 🇩🇰 github.com/freefq - 丹麦  3
-      - github.com/freefq - 广东省佛山市移动 4
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 5
+      - 🇩🇪 github.com/freefq - 德国  3
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 4
+      - 🇬🇧 github.com/freefq - 英国社会保险安全部 5
       - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇲 github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 7
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8
-      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 9
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - github.com/freefq - 伊朗  11
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 7
+      - github.com/freefq - 广东省佛山市移动 8
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -69,15 +63,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇲 github.com/freefq - 美国CloudFlare节点 1
       - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 2
-      - 🇩🇰 github.com/freefq - 丹麦  3
-      - github.com/freefq - 广东省佛山市移动 4
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 5
+      - 🇩🇪 github.com/freefq - 德国  3
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 4
+      - 🇬🇧 github.com/freefq - 英国社会保险安全部 5
       - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇲 github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 7
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8
-      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 9
-      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - github.com/freefq - 伊朗  11
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 7
+      - github.com/freefq - 广东省佛山市移动 8
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 9
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
