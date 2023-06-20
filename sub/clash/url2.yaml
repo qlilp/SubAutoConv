@@ -5,42 +5,75 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 RF Engineering, server: 141.193.68.93, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇷🇴 以色列 V2CROSS.COM, server: 149.50.69.131, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress, server: 107.148.195.2, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.110.25, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 以色列 V2CROSS.COM 2, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇷🇴 以色列 V2CROSS.COM 3, server: de2.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI}
+  - {name: 广东省 移动, server: zf.heigouyunzf.xyz, port: 38805, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}}
+  - {name: 🇺🇲 美国 RF Engineering, server: 141.193.68.93, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇷🇴 以色列 V2CROSS.COM, server: 149.50.75.89, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 2, server: 149.50.77.129, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇰🇷 韩国 首尔Amazon数据中心, server: ko1.lianpi.xyz, port: 51256, type: trojan, password: ab204b2d-dac8-4cf4-8239-d46d49d9cad5}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.17.3.81, port: 443, type: vmess, uuid: 2198f853-c33a-463a-bc27-6199520f810d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray2.udpgw.com}}}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 3, server: 149.50.71.164, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 4, server: 149.50.75.76, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 5, server: 149.50.75.100, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 广东省 移动 2, server: zf.heigouyunzf.xyz, port: 38803, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.112.150, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 以色列 V2CROSS.COM 6, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 746b6774-e899-4205-a097-3da55c26f5b3, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: dl6.v001sssv.pw, port: 80, type: vmess, uuid: 8eece2e1-cfc1-4f84-803e-1a66650982ea, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl6.v001sssv.pw}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 162.159.243.235, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 广东省 移动
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 RF Engineering
       - 🇷🇴 以色列 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
       - 🇷🇴 以色列 V2CROSS.COM 2
+      - 🇰🇷 韩国 首尔Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 以色列 V2CROSS.COM 3
+      - 🇷🇴 欧盟 V2CROSS.COM
+      - 🇷🇴 以色列 V2CROSS.COM 4
+      - 🇷🇴 以色列 V2CROSS.COM 5
+      - 广东省 移动 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇷🇴 以色列 V2CROSS.COM 6
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 广东省 移动
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 RF Engineering
       - 🇷🇴 以色列 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
       - 🇷🇴 以色列 V2CROSS.COM 2
+      - 🇰🇷 韩国 首尔Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 以色列 V2CROSS.COM 3
+      - 🇷🇴 欧盟 V2CROSS.COM
+      - 🇷🇴 以色列 V2CROSS.COM 4
+      - 🇷🇴 以色列 V2CROSS.COM 5
+      - 广东省 移动 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇷🇴 以色列 V2CROSS.COM 6
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -58,14 +91,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 广东省 移动
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 RF Engineering
       - 🇷🇴 以色列 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州洛杉矶PetaExpress
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
       - 🇷🇴 以色列 V2CROSS.COM 2
+      - 🇰🇷 韩国 首尔Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 以色列 V2CROSS.COM 3
+      - 🇷🇴 欧盟 V2CROSS.COM
+      - 🇷🇴 以色列 V2CROSS.COM 4
+      - 🇷🇴 以色列 V2CROSS.COM 5
+      - 广东省 移动 2
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇷🇴 以色列 V2CROSS.COM 6
+      - 🇯🇵 日本 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
