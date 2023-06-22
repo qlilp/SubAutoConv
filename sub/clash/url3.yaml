@@ -5,78 +5,105 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 AWS香港22, server: hk1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇯🇵 AWS日本33, server: jp2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇯🇵 亚马逊日本3, server: awsjp2.gsjc.cfd, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇭🇰 亚马逊香港1, server: awshk1.gsjc.cfd, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇭🇰 亚马逊香港3, server: awshk2.gsjc.cfd, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇯🇵 亚马逊日本4, server: awsjp2.gsjc.cfd, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇭🇰 亚马逊香港2, server: awshk1.gsjc.cfd, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇭🇰 亚马逊香港4, server: awshk2.gsjc.cfd, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇺🇲 美国凤凰城1号, server: 163.123.192.146, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇺🇲 美国凤凰城2号, server: 163.123.192.145, port: 443, type: trojan, password: 4211a65d-7862-4d08-ac62-221a048c1a1f, sni: 4-193-105-141.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS新加坡2, server: sg1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港1, server: hk1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港2, server: hk1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS新加坡1, server: sg1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港4, server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇺🇲 美国4, server: 163.123.192.157, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港3, server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP | IPLC专线3号, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇨🇳 台湾2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
   - {name: 🇭🇰 AWS香港11, server: hk1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇯🇵 AWS日本44, server: jp2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇸🇬 AWS新加坡33, server: sg2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
   - {name: 🇸🇬 AWS新加坡22, server: sg1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇭🇰 AWS香港44, server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇸🇬 AWS新加坡45, server: sg2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇭🇰 AWS香港35, server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
   - {name: 🇸🇬 AWS新加坡18, server: sg1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港22, server: hk1.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇩🇪 德国-2, server: 163.123.192.60, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港35, server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇭🇰 AWS香港44, server: hk2.gsjc.cfd, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
+  - {name: 🇩🇪 德国-1, server: 141.193.68.19, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
   - {name: 🇺🇲 美国444, server: 163.123.192.157, port: 443, type: trojan, password: f5075d6e-c65b-4133-b4fa-301ce5ba1fa9, sni: 20-212-60-88.nhost.00cdn.com}
-  - {name: 🇺🇲 美国凤凰城3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}}
-  - {name: 🇺🇲 美国凤凰城4号-0.01x, server: 163.123.192.60, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇺🇲 美国凤凰城2号-0.01x, server: 141.193.68.93, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇺🇲 美国凤凰城5号-0.01x, server: 148.59.74.52, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇺🇲 美国凤凰城1号-0.01x, server: 163.123.192.57, port: 443, type: trojan, password: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇺🇲 美国凤凰城1号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/pq/usfh1?ed=2048", headers: {Host: usfh1.pqjc.buzz}}}
-  - {name: 🇭🇰 香港-解锁-4, server: hk4.yihaobao.xyz, port: 10022, type: trojan, password: 5faa256e-cfb5-4333-9691-4ebe6ae802b9, sni: tls.yihaobao.xyz}
-  - {name: 🇭🇰 香港-解锁-2, server: hk2.yihaobao.xyz, port: 10022, type: trojan, password: 5faa256e-cfb5-4333-9691-4ebe6ae802b9, sni: tls.yihaobao.xyz}
-  - {name: 🇭🇰 香港-解锁-6, server: hk6.yihaobao.xyz, port: 10022, type: trojan, password: 5faa256e-cfb5-4333-9691-4ebe6ae802b9, sni: tls.yihaobao.xyz}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 AWS香港22
-      - 🇯🇵 AWS日本33
+      - 🇯🇵 亚马逊日本3
+      - 🇭🇰 亚马逊香港1
+      - 🇭🇰 亚马逊香港3
+      - 🇯🇵 亚马逊日本4
+      - 🇭🇰 亚马逊香港2
+      - 🇭🇰 亚马逊香港4
+      - 🇺🇲 美国凤凰城1号
+      - 🇺🇲 美国凤凰城2号
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡1
+      - 🇭🇰 AWS香港4
+      - 🇺🇲 美国4
+      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇨🇳 台湾2
       - 🇭🇰 AWS香港11
-      - 🇯🇵 AWS日本44
-      - 🇸🇬 AWS新加坡33
       - 🇸🇬 AWS新加坡22
-      - 🇭🇰 AWS香港44
-      - 🇸🇬 AWS新加坡45
-      - 🇭🇰 AWS香港35
       - 🇸🇬 AWS新加坡18
+      - 🇭🇰 AWS香港22
+      - 🇩🇪 德国-2
+      - 🇭🇰 AWS香港35
+      - 🇭🇰 AWS香港44
+      - 🇩🇪 德国-1
       - 🇺🇲 美国444
-      - 🇺🇲 美国凤凰城3号-0.1x
-      - 🇺🇲 美国凤凰城4号-0.01x
-      - 🇺🇲 美国凤凰城2号-0.01x
-      - 🇺🇲 美国凤凰城5号-0.01x
-      - 🇺🇲 美国凤凰城1号-0.01x
-      - 🇺🇲 美国凤凰城1号-0.1x
-      - 🇭🇰 香港-解锁-4
-      - 🇭🇰 香港-解锁-2
-      - 🇭🇰 香港-解锁-6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 AWS香港22
-      - 🇯🇵 AWS日本33
+      - 🇯🇵 亚马逊日本3
+      - 🇭🇰 亚马逊香港1
+      - 🇭🇰 亚马逊香港3
+      - 🇯🇵 亚马逊日本4
+      - 🇭🇰 亚马逊香港2
+      - 🇭🇰 亚马逊香港4
+      - 🇺🇲 美国凤凰城1号
+      - 🇺🇲 美国凤凰城2号
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡1
+      - 🇭🇰 AWS香港4
+      - 🇺🇲 美国4
+      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇨🇳 台湾2
       - 🇭🇰 AWS香港11
-      - 🇯🇵 AWS日本44
-      - 🇸🇬 AWS新加坡33
       - 🇸🇬 AWS新加坡22
-      - 🇭🇰 AWS香港44
-      - 🇸🇬 AWS新加坡45
-      - 🇭🇰 AWS香港35
       - 🇸🇬 AWS新加坡18
+      - 🇭🇰 AWS香港22
+      - 🇩🇪 德国-2
+      - 🇭🇰 AWS香港35
+      - 🇭🇰 AWS香港44
+      - 🇩🇪 德国-1
       - 🇺🇲 美国444
-      - 🇺🇲 美国凤凰城3号-0.1x
-      - 🇺🇲 美国凤凰城4号-0.01x
-      - 🇺🇲 美国凤凰城2号-0.01x
-      - 🇺🇲 美国凤凰城5号-0.01x
-      - 🇺🇲 美国凤凰城1号-0.01x
-      - 🇺🇲 美国凤凰城1号-0.1x
-      - 🇭🇰 香港-解锁-4
-      - 🇭🇰 香港-解锁-2
-      - 🇭🇰 香港-解锁-6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -94,26 +121,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 AWS香港22
-      - 🇯🇵 AWS日本33
+      - 🇯🇵 亚马逊日本3
+      - 🇭🇰 亚马逊香港1
+      - 🇭🇰 亚马逊香港3
+      - 🇯🇵 亚马逊日本4
+      - 🇭🇰 亚马逊香港2
+      - 🇭🇰 亚马逊香港4
+      - 🇺🇲 美国凤凰城1号
+      - 🇺🇲 美国凤凰城2号
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡1
+      - 🇭🇰 AWS香港4
+      - 🇺🇲 美国4
+      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇨🇳 台湾2
       - 🇭🇰 AWS香港11
-      - 🇯🇵 AWS日本44
-      - 🇸🇬 AWS新加坡33
       - 🇸🇬 AWS新加坡22
-      - 🇭🇰 AWS香港44
-      - 🇸🇬 AWS新加坡45
-      - 🇭🇰 AWS香港35
       - 🇸🇬 AWS新加坡18
+      - 🇭🇰 AWS香港22
+      - 🇩🇪 德国-2
+      - 🇭🇰 AWS香港35
+      - 🇭🇰 AWS香港44
+      - 🇩🇪 德国-1
       - 🇺🇲 美国444
-      - 🇺🇲 美国凤凰城3号-0.1x
-      - 🇺🇲 美国凤凰城4号-0.01x
-      - 🇺🇲 美国凤凰城2号-0.01x
-      - 🇺🇲 美国凤凰城5号-0.01x
-      - 🇺🇲 美国凤凰城1号-0.01x
-      - 🇺🇲 美国凤凰城1号-0.1x
-      - 🇭🇰 香港-解锁-4
-      - 🇭🇰 香港-解锁-2
-      - 🇭🇰 香港-解锁-6
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
