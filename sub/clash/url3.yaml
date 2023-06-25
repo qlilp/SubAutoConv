@@ -5,48 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 香港IPLC-1, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IPLC-2, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IPLC-3, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IPLC-4, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇭🇰 香港IPLC-5, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com}
-  - {name: 🇨🇦 加拿大家宽-1, server: 148.59.74.221, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com}
-  - {name: 🇨🇦 加拿大家宽-2, server: 163.123.192.57, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com}
-  - {name: 🇨🇦 加拿大家宽-3, server: 148.59.74.216, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com}
-  - {name: 🇨🇦 加拿大家宽-4, server: 163.123.192.60, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com}
-  - {name: 🇨🇦 加拿大家宽-5, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}}
+  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP-0.1x2号, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP-0.1x, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP | IPLC专线1号, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP | IPLC专线3号, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP-0.1x3号, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: 18-140-66-207.nhost.00cdn.com}
+  - {name: 🇺🇲 美国凤凰城1号-0.01x, server: 163.123.192.57, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: download.xn--mes358aby2apfg.com}
+  - {name: 🇩🇪 德国3, server: 84.252.121.218, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: downloadde.xn--mes358aby2apfg.com}
+  - {name: 🇩🇪 德国2, server: 217.79.184.76, port: 443, type: trojan, password: 92d1ed85-97f8-4821-887b-0d1b8b367cf8, sni: downloadde.xn--mes358aby2apfg.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港IPLC-1
-      - 🇭🇰 香港IPLC-2
-      - 🇭🇰 香港IPLC-3
-      - 🇭🇰 香港IPLC-4
-      - 🇭🇰 香港IPLC-5
-      - 🇨🇦 加拿大家宽-1
-      - 🇨🇦 加拿大家宽-2
-      - 🇨🇦 加拿大家宽-3
-      - 🇨🇦 加拿大家宽-4
-      - 🇨🇦 加拿大家宽-5
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP-0.1x3号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇺🇲 美国凤凰城1号-0.01x
+      - 🇩🇪 德国3
+      - 🇩🇪 德国2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港IPLC-1
-      - 🇭🇰 香港IPLC-2
-      - 🇭🇰 香港IPLC-3
-      - 🇭🇰 香港IPLC-4
-      - 🇭🇰 香港IPLC-5
-      - 🇨🇦 加拿大家宽-1
-      - 🇨🇦 加拿大家宽-2
-      - 🇨🇦 加拿大家宽-3
-      - 🇨🇦 加拿大家宽-4
-      - 🇨🇦 加拿大家宽-5
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP-0.1x3号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇺🇲 美国凤凰城1号-0.01x
+      - 🇩🇪 德国3
+      - 🇩🇪 德国2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -64,16 +76,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港IPLC-1
-      - 🇭🇰 香港IPLC-2
-      - 🇭🇰 香港IPLC-3
-      - 🇭🇰 香港IPLC-4
-      - 🇭🇰 香港IPLC-5
-      - 🇨🇦 加拿大家宽-1
-      - 🇨🇦 加拿大家宽-2
-      - 🇨🇦 加拿大家宽-3
-      - 🇨🇦 加拿大家宽-4
-      - 🇨🇦 加拿大家宽-5
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP-0.1x3号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇺🇲 美国凤凰城1号-0.01x
+      - 🇩🇪 德国3
+      - 🇩🇪 德国2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
