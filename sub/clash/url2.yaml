@@ -5,69 +5,45 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 173.245.58.66, port: 2087, type: vmess, uuid: 56236188-c4e3-4933-e0d5-0fe5c0c579ac, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.110.25, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 173.245.58.5, port: 2086, type: vmess, uuid: e544862e-c9af-476a-e757-d71aa6f0fb8b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: er.vtcss.top}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 137.175.1.6, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇷🇴 亚太地区 V2CROSS.COM, server: 163.123.192.57, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: download.xn--mes358aby2apfg.com}
-  - {name: 🇷🇴 爱沙尼亚 V2CROSS.COM, server: 94.177.25.209, port: 443, type: vmess, uuid: 757bd3b1-12f5-49e3-b81b-1040f75aaed7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: cf5.vpn66.eu.org, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.29.145, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de14.irteh.fun}}}
-  - {name: 🇨🇳 广东省广州市 电信, server: shck8bq.olb8qsg.top, port: 47104, type: vmess, uuid: f149ceba-8c2d-4eee-931b-de7292013395, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shck8bq.olb8qsg.top}}}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 64.32.4.6, port: 50005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 Linode数据中心, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}}
-  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.203.59, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}}
-  - {name: 🇨🇳 江苏省 移动, server: e.steamdownload.top, port: 36633, type: trojan, password: aa9f1ed3-4347-415b-8ffe-714dca770a1b, skip-cert-verify: true}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心 2, server: 64.32.4.34, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.126.69, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Choopa数据中心, server: 149.28.94.183, port: 10002, type: vmess, uuid: e0b715cd-4058-4cf4-b67e-d37063294b75, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心, server: 45.58.186.91, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 OVH数据中心, server: 54.38.154.182, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.224.11.150, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省广州市 移动, server: eeee.ednovas.cloud, port: 21935, type: vmess, uuid: 806d9ffa-5f34-41df-8ef5-530d758ab2db, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.73, port: 53123, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false}
+  - {name: 广东省 移动, server: 120.233.43.29, port: 53173, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇷🇴 爱沙尼亚 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 广东省广州市 电信
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 新加坡 Linode数据中心
-      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇨🇳 江苏省 移动
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
       - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Choopa数据中心
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇫🇷 法国 OVH数据中心
-      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇷🇴 亚太地区 V2CROSS.COM
+      - 🇨🇳 广东省广州市 移动
+      - 🇷🇴 南非 V2CROSS.COM
+      - 广东省 移动
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇷🇴 爱沙尼亚 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 广东省广州市 电信
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 新加坡 Linode数据中心
-      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇨🇳 江苏省 移动
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
       - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Choopa数据中心
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇫🇷 法国 OVH数据中心
-      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇷🇴 亚太地区 V2CROSS.COM
+      - 🇨🇳 广东省广州市 移动
+      - 🇷🇴 南非 V2CROSS.COM
+      - 广东省 移动
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,23 +61,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 亚太地区 V2CROSS.COM
-      - 🇷🇴 爱沙尼亚 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
       - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 广东省广州市 电信
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 新加坡 Linode数据中心
-      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇨🇳 江苏省 移动
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心 2
       - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Choopa数据中心
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇫🇷 法国 OVH数据中心
-      - 🇺🇲 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇷🇴 亚太地区 V2CROSS.COM
+      - 🇨🇳 广东省广州市 移动
+      - 🇷🇴 南非 V2CROSS.COM
+      - 广东省 移动
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
