@@ -5,45 +5,42 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.160.204.19, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}}
-  - {name: 🇮🇳 印度 V2CROSS.COM 2, server: 103.160.204.67, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: cf.dalazhi.eu.org, port: 443, type: vmess, uuid: 64480f4c-61c2-4d88-89c3-fc0045229bfc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kplxvws, headers: {Host: us.dalazhi.eu.org}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: bluehost.com, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}}
+  - {name: 🇭🇰 香港 V2CROSS.COM, server: 156.245.8.143, port: 49155, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心, server: 156.249.18.36, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇲 美国加利福尼亚州洛杉矶 CeraNetworks数据中心, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房, server: 45.199.138.90, port: 41144, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.47, port: 48123, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.25.167.88, port: 443, type: vmess, uuid: a2284cc1-20d8-4c78-a622-3e3cca767a70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a2284cc1, headers: {Host: dedi2.1808.cf}}}
   - {name: 🇷🇴 西班牙 V2CROSS.COM, server: shm.ircf.space, port: 443, type: vmess, uuid: 79770a32-9607-4919-9483-0f1794559390, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /juYLyvNBpY0LBOAommy2aJE, headers: {Host: hiddis2.freelines.net}}}
-  - {name: 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 137.175.18.91, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心, server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.29.235, port: 46321, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇮🇳 印度 V2CROSS.COM 2
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇭🇰 香港 V2CROSS.COM
+      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
       - 🇺🇲 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
+      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 西班牙 V2CROSS.COM
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心
+      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇮🇳 印度 V2CROSS.COM 2
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇭🇰 香港 V2CROSS.COM
+      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
       - 🇺🇲 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
+      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 西班牙 V2CROSS.COM
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心
+      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -61,15 +58,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇮🇳 印度 V2CROSS.COM 2
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇭🇰 香港 V2CROSS.COM
+      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
       - 🇺🇲 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
+      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点
       - 🇷🇴 西班牙 V2CROSS.COM
-      - 🇳🇱 荷兰 北荷兰省阿姆斯特丹Sharktech数据中心
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心
+      - 🇺🇲 美国 加利福尼亚州洛杉矶市SharkTech数据中心
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
