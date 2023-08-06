@@ -5,48 +5,36 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心, server: 100.42.70.145, port: 41245, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.230, port: 59801, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 67.21.84.217, port: 47088, type: vmess, uuid: b9a305a9-1ff2-4ec1-b338-933555833baa, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 洛杉矶, server: 66.81.247.133, port: 443, type: vmess, uuid: F591CE71-33F8-4B12-824A-0167FA839ED9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 162.159.255.119, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: haxus3.vpn66.eu.org}}}
-  - {name: 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心, server: 156.249.18.38, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 162.159.253.25, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 4a47e680, headers: {Host: ddp2.1808.cf}}}
-  - {name: 🇷🇴 南非 V2CROSS.COM 2, server: 156.225.67.230, port: 59801, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: 162.159.254.44, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 4a47e680, headers: {Host: ddp2.1808.cf}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: f467f4da-2226-448d-a30d-463ef10548ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: speedip.eu.org, port: 8080, type: vmess, uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: ip.saintink.eu.org, port: 443, type: vmess, uuid: d4b6f48f-7474-44dc-9492-8fa3f63db887, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: ro2.v2rayserv.com/vmess, headers: {Host: 4.saintink.eu.org}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: 172.67.61.240, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心
-      - 🇷🇴 南非 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇲 美国 洛杉矶
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 南非 V2CROSS.COM 2
       - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心
-      - 🇷🇴 南非 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇲 美国 洛杉矶
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 南非 V2CROSS.COM 2
       - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -64,16 +52,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇨 美国 加利福尼亚州洛杉矶MULTACOM数据中心
-      - 🇷🇴 南非 V2CROSS.COM
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇲 美国 洛杉矶
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇷🇴 南非 V2CROSS.COM 2
       - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
