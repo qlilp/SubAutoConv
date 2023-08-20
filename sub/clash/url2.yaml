@@ -5,33 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.18.1.196, port: 80, type: vmess, uuid: 0dfa89a7-fe08-454e-817b-374097be358f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-mlb.securev2ray.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: bluehost.com, port: 443, type: vmess, uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /19544, headers: {Host: cdntr2.digisport.shop}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
-  - {name: 🇺🇲 美国 CloudFlare公司CDN节点(shopify), server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇨🇳 广东省深圳市 移动, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: d6b5a438-d7a6-4f3e-a1d8-e313392e0098, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.195.193, port: 57427, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 141.101.115.65, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 17.wyhkaa0.gq, port: 2095, type: vmess, uuid: 1e36655b-7d28-4513-d7f8-5f1a0c00a07d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 17.wyhkaa0.gq}}}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 103.160.204.22, port: 8080, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇮🇳 印度 V2CROSS.COM 2, server: 103.160.204.223, port: 8080, type: vmess, uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue03, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇮🇳 印度 V2CROSS.COM 3, server: 103.160.204.204, port: 2082, type: vmess, uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: tui.vtcss.top}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: speedip.eu.org, port: 8880, type: vmess, uuid: 35f07051-8e77-4b44-be56-8979cc25c249, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: shs.shabijichang.com, port: 80, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.shabijichang.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇮🇳 印度 V2CROSS.COM 2
+      - 🇮🇳 印度 V2CROSS.COM 3
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
       - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇮🇳 印度 V2CROSS.COM 2
+      - 🇮🇳 印度 V2CROSS.COM 3
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
       - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -49,11 +64,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 广东省深圳市 移动
+      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇮🇳 印度 V2CROSS.COM 2
+      - 🇮🇳 印度 V2CROSS.COM 3
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
       - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
