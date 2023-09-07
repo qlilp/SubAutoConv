@@ -5,72 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 EasyDNS Anycast节点(Cloudflare节点), server: cloudqwq.cf, port: 80, type: vmess, uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nl10gbps.6577617.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.17.199.183, port: 2095, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 108.186.208.157, port: 41404, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 上海市 电信, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: d09be431-a34b-4ab0-a0fc-a991a9d144ff}
-  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1692256902430, headers: {Host: www.86139317.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 172.67.149.81, port: 80, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdygarm.e5outllok.me}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 190.93.244.44, port: 2095, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 广东省江门市 移动, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: 6.wyhkaa0.gq, port: 2095, type: vmess, uuid: 6bbc9554-07bc-47c6-a088-87aa79fd5ca1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 6.wyhkaa0.gq}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 6, server: sdygarm.e5outllok.me, port: 80, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdygarm.e5outllok.me}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 7, server: 3.wyhkaa0.gq, port: 2095, type: vmess, uuid: 0150eac1-6e49-4329-9c06-50027c0b9ad7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 3.wyhkaa0.gq}}}
-  - {name: 🇨🇳 上海市 联通, server: 103.234.128.130, port: 58417, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 东京Amazon数据中心, server: 1gzdx2.156786.xyz, port: 37905, type: trojan, password: 98bae868-4f00-40e0-9603-8d848644ec44, sni: hkmax06.170203.xyz}
-  - {name: 🇺🇲 美国 CloudFlare节点 8, server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇯🇵 日本 东京Amazon数据中心 2, server: 1gzdx2.156786.xyz, port: 49625, type: trojan, password: 98bae868-4f00-40e0-9603-8d848644ec44, sni: sgmax05.156786.xyz}
-  - {name: 🇺🇲 美国 CloudFlare公司CDN节点(shopify), server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, servername: d.freeh1.xyz, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 9, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 0c1644bd-e69a-45b0-8066-6f0f850ac5fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db.shabijichang.com}}}
+  - {name: 西班牙 Arsys网络, server: sp1.connecton.surf, port: 443, type: trojan, password: 41dbabe59a}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: shs.shabijichang.com, port: 80, type: vmess, uuid: 54ed5ad0-1d84-4dd2-9dc8-1c6ad9269132, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.shabijichang.com}}}
+  - {name: 🇺🇲 美国 Choopa公司数据中心, server: 45.63.106.86, port: 37869, type: vmess, uuid: 4c90d167-e65b-4419-d455-eb635724d2ed, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: chi.twittei.me}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 6.wyhkaa0.gq, port: 2095, type: vmess, uuid: 6bbc9554-07bc-47c6-a088-87aa79fd5ca1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 6.wyhkaa0.gq}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 EasyDNS Anycast节点(Cloudflare节点)
+      - 西班牙 Arsys网络
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 上海市 电信
-      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 Choopa公司数据中心
       - 🇺🇲 美国 CloudFlare节点 2
       - 🇺🇲 美国 CloudFlare节点 3
-      - 广东省江门市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇺🇲 美国 CloudFlare节点 6
-      - 🇺🇲 美国 CloudFlare节点 7
-      - 🇨🇳 上海市 联通
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇺🇲 美国 CloudFlare节点 8
-      - 🇯🇵 日本 东京Amazon数据中心 2
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇲 美国 CloudFlare节点 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 EasyDNS Anycast节点(Cloudflare节点)
+      - 西班牙 Arsys网络
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 上海市 电信
-      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 Choopa公司数据中心
       - 🇺🇲 美国 CloudFlare节点 2
       - 🇺🇲 美国 CloudFlare节点 3
-      - 广东省江门市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇺🇲 美国 CloudFlare节点 6
-      - 🇺🇲 美国 CloudFlare节点 7
-      - 🇨🇳 上海市 联通
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇺🇲 美国 CloudFlare节点 8
-      - 🇯🇵 日本 东京Amazon数据中心 2
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇲 美国 CloudFlare节点 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,24 +49,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 EasyDNS Anycast节点(Cloudflare节点)
+      - 西班牙 Arsys网络
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 上海市 电信
-      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 Choopa公司数据中心
       - 🇺🇲 美国 CloudFlare节点 2
       - 🇺🇲 美国 CloudFlare节点 3
-      - 广东省江门市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇺🇲 美国 CloudFlare节点 6
-      - 🇺🇲 美国 CloudFlare节点 7
-      - 🇨🇳 上海市 联通
-      - 🇯🇵 日本 东京Amazon数据中心
-      - 🇺🇲 美国 CloudFlare节点 8
-      - 🇯🇵 日本 东京Amazon数据中心 2
-      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
-      - 🇺🇲 美国 CloudFlare节点 9
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
