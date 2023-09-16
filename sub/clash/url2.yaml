@@ -5,13 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 CloudFlare节点, server: fd.shabijichang.com, port: 80, type: vmess, uuid: dc42deba-1458-450e-938d-4d5ff4ab0f92, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: hdlb3.shabijichang.com, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb3.shabijichang.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 162.159.60.89, port: 80, type: vmess, uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.daozhang.link}}}
-  - {name: 🇨🇳 广东省深圳市 移动, server: rbaun-1079-v2-1.r-kcd-c.iote.bond, port: 29938, type: vmess, uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.cjhh.lol}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: 172.67.128.217, port: 80, type: vmess, uuid: 00d3cc1c-1af0-4f52-8410-6fad778111e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
-  - {name: 安徽省 移动数据上网公共出口, server: yidong.liulangdiqiu.cyou, port: 10718, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: baa2d4f8-feba-424a-8386-62f455c8f08a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 172.67.53.250, port: 80, type: vmess, uuid: d6262b69-4a53-41f8-84e9-e3ddcdbf0190, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: 安徽省 移动数据上网公共出口, server: hefei.chiguayun.cc, port: 27124, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
+  - {name: 安徽省 移动数据上网公共出口 2, server: yidong.liulangdiqiu.cyou, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 104.25.227.40, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vus3.0bad.com/chat, headers: {Host: sub.saintink.eu.org}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: datacenter.ct.02.biqibao.site, port: 2052, type: vmess, uuid: 05130b10-ce74-48ec-9f43-ce80e6244eba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de.biqibao.site}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,11 +19,10 @@ proxy-groups:
       - DIRECT
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
       - 安徽省 移动数据上网公共出口
+      - 安徽省 移动数据上网公共出口 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -33,11 +31,10 @@ proxy-groups:
     proxies:
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
       - 安徽省 移动数据上网公共出口
+      - 安徽省 移动数据上网公共出口 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -57,11 +54,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇨🇳 广东省深圳市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
       - 安徽省 移动数据上网公共出口
+      - 安徽省 移动数据上网公共出口 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
