@@ -5,33 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: ci.outline-vpn.cloud, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省台北市 中华电信, server: sneed-a.v2ok.cc, port: 23000, type: vmess, uuid: 490d9feb-d679-3ad1-a358-7ebdf09e30a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 104.18.40.89, port: 80, type: vmess, uuid: 12357ee8-39c0-4256-ad1a-155ea72235d9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dk1.xv2ray.net}}}
+  - {name: 🇷🇴 俄罗斯 V2CROSS.COM, server: 194.62.42.77, port: 80, type: vmess, uuid: 14665d49-17ee-4fd7-b1de-19d98e4b8e27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.87.197, port: 80, type: vmess, uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: e5f9073b-a23c-487f-b2a8-e5eb6abad21d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}}
+  - {name: 🇷🇴 俄罗斯 V2CROSS.COM 2, server: 194.62.42.77, port: 80, type: vmess, uuid: 14665d49-17ee-4fd7-b1de-19d98e4b8e27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: wnd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇷🇴 俄罗斯 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 俄罗斯 V2CROSS.COM 2
+      - 🇺🇲 美国 CloudFlare节点 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇷🇴 俄罗斯 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 俄罗斯 V2CROSS.COM 2
+      - 🇺🇲 美国 CloudFlare节点 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -49,11 +49,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇷🇴 俄罗斯 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 俄罗斯 V2CROSS.COM 2
+      - 🇺🇲 美国 CloudFlare节点 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,93 +5,87 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】150, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】208, server: 192.74.224.162, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】196, server: 198.2.202.87, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695380351751, headers: {Host: www.65825524.xyz}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】31, server: 104.18.40.89, port: 80, type: vmess, uuid: 12357ee8-39c0-4256-ad1a-155ea72235d9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dk1.xv2ray.net}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】148, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】170, server: yd1.992688.xyz, port: 8080, type: vmess, uuid: b390dfa3-b095-4373-ce80-ca2463978c96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.vpn66.eu.org}}}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】44, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】203, server: zz.chaosu999.com, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】157, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】76, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】107, server: 156.245.8.248, port: 41671, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
   - {name: 🇳🇱 荷兰【付费推荐：https://tt.vg/vip】140, server: 154.85.1.244, port: 54982, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】121, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】150, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
+  - {name: 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】213, server: hdlb4.shabijichang.com, port: 80, type: vmess, uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb4.shabijichang.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】157, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】208, server: 192.74.224.162, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】107, server: 156.245.8.248, port: 41671, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】76, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港【付费推荐：https://tt.vg/vip】121, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【付费推荐：https://tt.vg/vip】203, server: zz.chaosu999.com, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】207, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】56, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】49, server: sdgrm.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】13, server: ml.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】21, server: hdlb.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】53, server: mic.gv2ray.sbs, port: 80, type: vmess, uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】183, server: amstd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】170, server: yd1.992688.xyz, port: 8080, type: vmess, uuid: b390dfa3-b095-4373-ce80-ca2463978c96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.vpn66.eu.org}}}
-  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】90, server: sls.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】49, server: sdgrm.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】148, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】115, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】90, server: sls.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】183, server: amstd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
   - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】40, server: xn.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn.shabijichang.com}}}
+  - {name: 🇺🇲 美国【付费推荐：https://tt.vg/vip】13, server: ml.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】208
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】196
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】31
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】148
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】170
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】44
-      - 🇨🇳 中国【付费推荐：https://tt.vg/vip】203
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】157
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】76
-      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】107
       - 🇳🇱 荷兰【付费推荐：https://tt.vg/vip】140
-      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】121
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150
+      - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】213
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】157
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】208
+      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】107
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】76
+      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】121
+      - 🇨🇳 中国【付费推荐：https://tt.vg/vip】203
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】207
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】56
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】49
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】13
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】21
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】53
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】170
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】90
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】49
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】148
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】115
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】90
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】40
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】208
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】196
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】31
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】148
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】170
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】44
-      - 🇨🇳 中国【付费推荐：https://tt.vg/vip】203
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】157
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】76
-      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】107
       - 🇳🇱 荷兰【付费推荐：https://tt.vg/vip】140
-      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】121
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150
+      - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】213
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】157
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】208
+      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】107
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】76
+      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】121
+      - 🇨🇳 中国【付费推荐：https://tt.vg/vip】203
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】207
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】56
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】49
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】13
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】21
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】53
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】170
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】90
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】49
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】148
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】115
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】90
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】40
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -109,31 +103,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】208
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】196
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】31
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】148
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】170
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】44
-      - 🇨🇳 中国【付费推荐：https://tt.vg/vip】203
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】157
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】76
-      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】107
       - 🇳🇱 荷兰【付费推荐：https://tt.vg/vip】140
-      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】121
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】150
+      - 🇸🇬 新加坡【付费推荐：https://tt.vg/vip】50
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】213
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】157
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】208
+      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】107
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】76
+      - 🇭🇰 香港【付费推荐：https://tt.vg/vip】121
+      - 🇨🇳 中国【付费推荐：https://tt.vg/vip】203
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】207
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】56
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】49
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】13
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】21
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】53
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】170
-      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】90
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】49
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】148
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】115
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】90
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】183
       - 🇺🇲 美国【付费推荐：https://tt.vg/vip】40
+      - 🇺🇲 美国【付费推荐：https://tt.vg/vip】13
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
