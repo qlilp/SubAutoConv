@@ -5,54 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: mm.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm.shabijichang.com}}}
-  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 46caadb.f2.gladns.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: sls.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
-  - {name: 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 38.26.135.24, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696339269262, headers: {Host: www.39838266.xyz}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 3, server: 130.162.47.123, port: 6854, type: vmess, uuid: b5f7e932-f730-4ad2-b425-40977b9db332, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.202.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.65825524.xyz}}}
-  - {name: 🇨🇳 江苏省盐城市 移动, server: jscm01.celerlink.one, port: 41020, type: ss, cipher: chacha20-ietf-poly1305, password: 2739ce85d3b9e145}
-  - {name: 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696598013851, headers: {Host: www.19229362.xyz}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 4, server: ahsorathiyaa.fly.dev, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ahsorathiyaa.fly.dev}}}
-  - {name: 瑞典 Oracle Corporation, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false}
+  - {name: 安徽省 移动数据上网公共出口, server: hefei.chiguayun.cc, port: 27118, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇨🇳 江苏省盐城市 移动, server: jscm01.celerlink.one, port: 41033, type: ss, cipher: chacha20-ietf-poly1305, password: a6692a28fdebb4e5}
+  - {name: 🇸🇬 北京市 新国信通信有限公司, server: uk.shawbrothersstudio.com, port: 19923, type: ss, cipher: chacha20-ietf-poly1305, password: yCf03vE7phaImZaVjeAF3L}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}}
+  - {name: 🇸🇬 北京市 新国信通信有限公司 2, server: us01.shawbrothersstudio.com, port: 19922, type: ss, cipher: chacha20-ietf-poly1305, password: Lam6mgI0ZnIqT459CTTOJR}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇷🇴 美国 V2CROSS.COM 3
-      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
+      - 安徽省 移动数据上网公共出口
       - 🇨🇳 江苏省盐城市 移动
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2
-      - 🇷🇴 美国 V2CROSS.COM 4
-      - 瑞典 Oracle Corporation
+      - 🇸🇬 北京市 新国信通信有限公司
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇸🇬 北京市 新国信通信有限公司 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇷🇴 美国 V2CROSS.COM 3
-      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
+      - 安徽省 移动数据上网公共出口
       - 🇨🇳 江苏省盐城市 移动
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2
-      - 🇷🇴 美国 V2CROSS.COM 4
-      - 瑞典 Oracle Corporation
+      - 🇸🇬 北京市 新国信通信有限公司
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇸🇬 北京市 新国信通信有限公司 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -70,18 +49,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇷🇴 美国 V2CROSS.COM 2
-      - 🇷🇴 美国 V2CROSS.COM 3
-      - 🇺🇲 美国加利福尼亚州洛杉矶 PetaExpress
+      - 安徽省 移动数据上网公共出口
       - 🇨🇳 江苏省盐城市 移动
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2
-      - 🇷🇴 美国 V2CROSS.COM 4
-      - 瑞典 Oracle Corporation
+      - 🇸🇬 北京市 新国信通信有限公司
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇸🇬 北京市 新国信通信有限公司 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
