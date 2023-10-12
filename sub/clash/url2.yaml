@@ -5,33 +5,45 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 安徽省 移动数据上网公共出口, server: hefei.chiguayun.cc, port: 27118, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
-  - {name: 🇨🇳 江苏省盐城市 移动, server: jscm01.celerlink.one, port: 41033, type: ss, cipher: chacha20-ietf-poly1305, password: a6692a28fdebb4e5}
-  - {name: 🇸🇬 北京市 新国信通信有限公司, server: uk.shawbrothersstudio.com, port: 19923, type: ss, cipher: chacha20-ietf-poly1305, password: yCf03vE7phaImZaVjeAF3L}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}}
-  - {name: 🇸🇬 北京市 新国信通信有限公司 2, server: us01.shawbrothersstudio.com, port: 19922, type: ss, cipher: chacha20-ietf-poly1305, password: Lam6mgI0ZnIqT459CTTOJR}
+  - {name: 🇨🇳 江苏省镇江市 移动, server: foshan.chiguayun.cc, port: 27140, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇺🇲 美国 LeaseWeb数据中心, server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: www.40587333.xyz}}}
+  - {name: 安徽省 移动数据上网公共出口, server: hefei.chiguayun.cc, port: 27124, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 安徽省 移动数据上网公共出口 2, server: hefei.chiguayun.cc, port: 27137, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇨🇳 江苏省镇江市 移动 2, server: foshan.chiguayun.cc, port: 27130, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇨🇳 江苏省镇江市 移动 3, server: foshan.chiguayun.cc, port: 27117, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇨🇳 江苏省镇江市 移动 4, server: foshan.chiguayun.cc, port: 27122, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 安徽省 移动数据上网公共出口 3, server: hefei.chiguayun.cc, port: 27130, type: ss, cipher: chacha20-ietf-poly1305, password: d376f270-1807-4522-9f92-b499658a2678}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.18.203.232, port: 80, type: vmess, uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@hopev2ray،@hopev2ray, headers: {Host: de1vm.cdn-03.live}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳 江苏省镇江市 移动
+      - 🇺🇲 美国 LeaseWeb数据中心
       - 安徽省 移动数据上网公共出口
-      - 🇨🇳 江苏省盐城市 移动
-      - 🇸🇬 北京市 新国信通信有限公司
+      - 安徽省 移动数据上网公共出口 2
+      - 🇨🇳 江苏省镇江市 移动 2
+      - 🇨🇳 江苏省镇江市 移动 3
+      - 🇨🇳 江苏省镇江市 移动 4
+      - 安徽省 移动数据上网公共出口 3
       - 🇺🇲 美国 CloudFlare节点
-      - 🇸🇬 北京市 新国信通信有限公司 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 江苏省镇江市 移动
+      - 🇺🇲 美国 LeaseWeb数据中心
       - 安徽省 移动数据上网公共出口
-      - 🇨🇳 江苏省盐城市 移动
-      - 🇸🇬 北京市 新国信通信有限公司
+      - 安徽省 移动数据上网公共出口 2
+      - 🇨🇳 江苏省镇江市 移动 2
+      - 🇨🇳 江苏省镇江市 移动 3
+      - 🇨🇳 江苏省镇江市 移动 4
+      - 安徽省 移动数据上网公共出口 3
       - 🇺🇲 美国 CloudFlare节点
-      - 🇸🇬 北京市 新国信通信有限公司 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -49,11 +61,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳 江苏省镇江市 移动
+      - 🇺🇲 美国 LeaseWeb数据中心
       - 安徽省 移动数据上网公共出口
-      - 🇨🇳 江苏省盐城市 移动
-      - 🇸🇬 北京市 新国信通信有限公司
+      - 安徽省 移动数据上网公共出口 2
+      - 🇨🇳 江苏省镇江市 移动 2
+      - 🇨🇳 江苏省镇江市 移动 3
+      - 🇨🇳 江苏省镇江市 移动 4
+      - 安徽省 移动数据上网公共出口 3
       - 🇺🇲 美国 CloudFlare节点
-      - 🇸🇬 北京市 新国信通信有限公司 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
