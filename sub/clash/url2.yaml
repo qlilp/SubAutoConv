@@ -5,33 +5,36 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇫🇷 法国 巴黎Online S.A.S, server: fra1.connecton.surf, port: 443, type: trojan, password: 95532c1dcc}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: freeyx.cloudflare88.eu.org, port: 2082, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
-  - {name: 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: fhc2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc2.shabijichang.com}}}
-  - {name: 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1697376782879, headers: {Host: www.19229362.xyz}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: www.speedtest.net, port: 80, type: vmess, uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hu1.xv2ray.net}}}
+  - {name: 甘肃省兰州市 移动, server: b.baozinet.top, port: 25002, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: xjp2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xjp2.shabijichang.com}}}
+  - {name: 🇷🇴 南非 V2CROSS.COM, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696944806961, headers: {Host: www.41758112.xyz}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: yhnsb3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: 104.26.1.116, port: 2052, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 法国 巴黎Online S.A.S
       - 🇺🇲 美国 CloudFlare节点
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 甘肃省兰州市 移动
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 法国 巴黎Online S.A.S
       - 🇺🇲 美国 CloudFlare节点
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 甘肃省兰州市 移动
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -49,11 +52,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 法国 巴黎Online S.A.S
       - 🇺🇲 美国 CloudFlare节点
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 甘肃省兰州市 移动
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇦🇨 美国 加利福尼亚州圣何塞MULTACOM机房 2
+      - 🇷🇴 南非 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2697,6 +2701,18 @@ rules:
   - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawno.com,🎯 全球直连
+  - DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
+  - DOMAIN-SUFFIX,coloros.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytap.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
+  - DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
+  - DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
   - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -3011,7 +3027,6 @@ rules:
   - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
   - DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
   - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
-  - DOMAIN-SUFFIX,oppo.com,🎯 全球直连
   - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
   - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
   - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
