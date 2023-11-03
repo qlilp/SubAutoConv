@@ -5,57 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.121.43.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 广东省 移动, server: p1.bxy-fun1.com, port: 44101, type: ss, cipher: chacha20-ietf-poly1305, password: d7bee830-09aa-43b2-8945-3b341b8787db}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 2, server: 38.121.43.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 3, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 4, server: 38.121.43.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇭🇰 香港 阿里云, server: n1697765772.izwhvan.cn, port: 443, type: vmess, uuid: ba984678-ca81-4443-a9da-58adea43d5b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697765772.izwhvan.cn}}}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 5, server: 38.121.43.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 6, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 7, server: 38.121.43.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 V2CROSS.COM, server: 0145.763998.top, port: 22553, type: ss, cipher: chacha20-ietf-poly1305, password: 9079063d-1346-40ce-b4d4-3bfde30c3803}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 8, server: 38.121.43.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇷🇴 乌克兰 V2CROSS.COM, server: 94.131.13.159, port: 16128, type: trojan, password: zwbdPys6Va, sni: vpnallpha.online}
+  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.162, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 香港 阿里云, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.255.13.134, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 广东省 移动
-      - 🇺🇲 美国 华盛顿Cogent通信公司 2
-      - 🇺🇲 美国 华盛顿Cogent通信公司 3
-      - 🇺🇲 美国 华盛顿Cogent通信公司 4
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇭🇰 香港 阿里云
-      - 🇺🇲 美国 华盛顿Cogent通信公司 5
-      - 🇺🇲 美国 华盛顿Cogent通信公司 6
-      - 🇺🇲 美国 华盛顿Cogent通信公司 7
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司 8
-      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 广东省 移动
-      - 🇺🇲 美国 华盛顿Cogent通信公司 2
-      - 🇺🇲 美国 华盛顿Cogent通信公司 3
-      - 🇺🇲 美国 华盛顿Cogent通信公司 4
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇭🇰 香港 阿里云
-      - 🇺🇲 美国 华盛顿Cogent通信公司 5
-      - 🇺🇲 美国 华盛顿Cogent通信公司 6
-      - 🇺🇲 美国 华盛顿Cogent通信公司 7
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司 8
-      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,19 +46,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 广东省 移动
-      - 🇺🇲 美国 华盛顿Cogent通信公司 2
-      - 🇺🇲 美国 华盛顿Cogent通信公司 3
-      - 🇺🇲 美国 华盛顿Cogent通信公司 4
+      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
       - 🇭🇰 香港 阿里云
-      - 🇺🇲 美国 华盛顿Cogent通信公司 5
-      - 🇺🇲 美国 华盛顿Cogent通信公司 6
-      - 🇺🇲 美国 华盛顿Cogent通信公司 7
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇯🇵 日本 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司 8
-      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇺🇲 美国 CloudFlare节点
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

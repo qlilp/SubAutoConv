@@ -5,36 +5,45 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 1, server: 38.121.43.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 2, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 github.com/freefq - 香港阿里云 1, server: n1697765772.izwhvan.cn, port: 443, type: vmess, uuid: ba984678-ca81-4443-a9da-58adea43d5b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697765772.izwhvan.cn}}}
+  - {name: 🇭🇰 github.com/freefq - 香港阿里云 2, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
   - {name: 🇺🇲 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 3, server: 192.74.228.162, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇲 github.com/freefq - 美国  4, server: UK99.5GTOCDOCAO.COM, port: 80, type: vmess, uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.ops.kgvn.garenanow.com}}}
-  - {name: 🇭🇰 github.com/freefq - 香港阿里云 5, server: n1698119642.izwhvan.cn, port: 443, type: vmess, uuid: fe57e1f2-704b-4896-92b6-c256737e9739, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698119642.izwhvan.cn}}}
-  - {name: 🇭🇰 github.com/freefq - 香港阿里云 6, server: n1697765772.izwhvan.cn, port: 443, type: vmess, uuid: ba984678-ca81-4443-a9da-58adea43d5b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697765772.izwhvan.cn}}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4, server: sg1.lianpi.xyz, port: 56138, type: ss, cipher: chacha20-ietf-poly1305, password: 1f3d67b4-6929-4598-90ca-84a841bf02e4}
+  - {name: 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 5, server: 188.114.96.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: octavi.cfd}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz}}}
+  - {name: github.com/freefq - 捷克  7, server: 176.126.120.38, port: 55007, type: vmess, uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
+  - {name: 🇺🇲 github.com/freefq - 美国CloudFlare节点 9, server: ml2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml2.shabijichang.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 1
-      - 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 2
+      - 🇭🇰 github.com/freefq - 香港阿里云 1
+      - 🇭🇰 github.com/freefq - 香港阿里云 2
       - 🇺🇲 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 3
-      - 🇺🇲 github.com/freefq - 美国  4
-      - 🇭🇰 github.com/freefq - 香港阿里云 5
-      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 5
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - github.com/freefq - 捷克  7
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 1
-      - 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 2
+      - 🇭🇰 github.com/freefq - 香港阿里云 1
+      - 🇭🇰 github.com/freefq - 香港阿里云 2
       - 🇺🇲 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 3
-      - 🇺🇲 github.com/freefq - 美国  4
-      - 🇭🇰 github.com/freefq - 香港阿里云 5
-      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 5
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - github.com/freefq - 捷克  7
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -52,12 +61,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 1
-      - 🇺🇲 github.com/freefq - 美国华盛顿Cogent通信公司 2
+      - 🇭🇰 github.com/freefq - 香港阿里云 1
+      - 🇭🇰 github.com/freefq - 香港阿里云 2
       - 🇺🇲 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 3
-      - 🇺🇲 github.com/freefq - 美国  4
-      - 🇭🇰 github.com/freefq - 香港阿里云 5
-      - 🇭🇰 github.com/freefq - 香港阿里云 6
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 4
+      - 🇧🇷 github.com/freefq - 巴西圣保罗CloudFlare节点 5
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - github.com/freefq - 捷克  7
+      - 🇺🇲 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇲 github.com/freefq - 美国CloudFlare节点 9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
