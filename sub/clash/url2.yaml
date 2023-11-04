@@ -5,30 +5,54 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心, server: 192.74.228.162, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 香港 阿里云, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
-  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.255.13.134, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz}}}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
+  - {name: 广东省 移动, server: 120.233.43.51, port: 26022, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: ml2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml2.shabijichang.com}}}
+  - {name: 🇭🇰 香港 阿里云, server: n1698814075.aaigefm.cn, port: 443, type: vmess, uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698814075.aaigefm.cn}}}
+  - {name: 🇷🇴 亚太地区 V2CROSS.COM, server: gamevip2.5gtocdocao.com, port: 80, type: vmess, uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5gtocdocao.com, headers: {Host: gamevip2.5gtocdocao.com}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 104.31.16.164, port: 2082, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /franc.digires.shop/11201, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: xjp3.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xjp3.shabijichang.com}}}
+  - {name: 广东省 移动 2, server: 120.233.43.51, port: 26020, type: vmess, uuid: 54eac280-1192-3bda-8812-7acfdec61cfd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇴 捷克 V2CROSS.COM, server: 176.126.120.38, port: 55007, type: vmess, uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 香港 阿里云 2, server: n1697685464.aaigefm.cn, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
+  - {name: 🇭🇰 香港 阿里云 3, server: n1698814076.izwhvan.cn, port: 443, type: vmess, uuid: 2484ab4b-e997-45f3-9f0d-456640d967ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698814076.izwhvan.cn}}}
+  - {name: 🇨🇳 中国 阿里云, server: 8.222.198.105, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: warp.chigua.tk}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇭🇰 香港 阿里云
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
       - 🇺🇲 美国 CloudFlare节点
+      - 广东省 移动
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇭🇰 香港 阿里云
+      - 🇷🇴 亚太地区 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 广东省 移动 2
+      - 🇷🇴 捷克 V2CROSS.COM
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇨🇳 中国 阿里云
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇭🇰 香港 阿里云
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
       - 🇺🇲 美国 CloudFlare节点
+      - 广东省 移动
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇭🇰 香港 阿里云
+      - 🇷🇴 亚太地区 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 广东省 移动 2
+      - 🇷🇴 捷克 V2CROSS.COM
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇨🇳 中国 阿里云
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -46,10 +70,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 加利福尼亚州圣何塞PEG TECH数据中心
-      - 🇭🇰 香港 阿里云
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
       - 🇺🇲 美国 CloudFlare节点
+      - 广东省 移动
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇭🇰 香港 阿里云
+      - 🇷🇴 亚太地区 V2CROSS.COM
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 广东省 移动 2
+      - 🇷🇴 捷克 V2CROSS.COM
+      - 🇭🇰 香港 阿里云 2
+      - 🇭🇰 香港 阿里云 3
+      - 🇨🇳 中国 阿里云
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
