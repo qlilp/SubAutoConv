@@ -5,108 +5,54 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 RF Engineering, server: 141.193.68.81, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-us3.windowsupdatea.com}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心, server: 54.36.174.181, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 2, server: 54.36.174.181, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 3, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 4, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.18.200.220, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 🇭🇰 香港 阿里云, server: xg107.npv4.com, port: 443, type: trojan, password: 6a96b7c2-c918-3bb6-94b5-9861d13f9a00}
-  - {name: 🇭🇰 香港 电讯盈科有限公司, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 5, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 6, server: 54.36.174.181, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇷🇴 俄罗斯 V2CROSS.COM, server: is-gy.115cloud.link, port: 38860, type: trojan, password: e87db5f6-b89f-30d2-894d-e3c9498139f2, sni: is-gy.115cloud.link}
-  - {name: 🇨🇳 台湾省台北市 中华电信, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 42246552-d778-440f-bbb5-8f0f14139c50, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: nbq12.ntbq.dynu.net}}}
-  - {name: 🇷🇴 俄罗斯 V2CROSS.COM 2, server: 212.192.15.68, port: 49487, type: trojan, password: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f, sni: hk3.visaapp.top}
-  - {name: 🇷🇴 俄罗斯 V2CROSS.COM 3, server: 5.35.34.107, port: 55990, type: ss, cipher: chacha20-ietf-poly1305, password: tOwOyvlXiY5ATJAUOpXNPN}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 7, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 Amazon EC2服务器, server: 3.96.253.61, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
-  - {name: 🇮🇪 爱尔兰 V2CROSS.COM, server: 54.247.17.175, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
-  - {name: 🇨🇳 台湾省台北市 中华电信 2, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 162.159.192.153, port: 443, type: vmess, uuid: 5f2ea531-29e4-4836-c60a-a739b8e6b0a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5f2ea531-29e4-4836-c60a-a739b8e6b0a3, headers: {Host: king.turbo021.link}}}
+  - {name: 🇭🇰 香港 阿里云, server: n1698814075.aaigefm.cn, port: 443, type: vmess, uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698814075.aaigefm.cn}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: sfmomastore.com, port: 80, type: vmess, uuid: 0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1.xv2ray.net}}}
   - {name: 🇺🇲 美国 CloudFlare节点 3, server: 172.67.229.24, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇭🇰 香港 电讯盈科有限公司 2, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 8, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: sfmomastore.com, port: 80, type: vmess, uuid: 0580abe6-9aaf-40e2-ba33-0bc9f3b6ef2b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1.xv2ray.net}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 6, server: ip.nofiltering2.sbs, port: 80, type: vmess, uuid: 0239b1ce-468c-45b3-8d2a-85b1c0b274d9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ca2.xv2ray.net}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 9, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇳 台湾省花莲县 中华电信, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b23, headers: {Host: b23.ntbq.dynu.net}}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
+  - {name: 安徽省合肥市 移动, server: 120.210.205.220, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: docs.digitalocean.com, port: 443, type: vmess, uuid: d8d3482e-6d58-4e86-b870-e7fbe893d8b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: dIGIkAlA.ONlINeviSioNsTore.sITE}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 146.190.87.59, port: 56674, type: trojan, password: fGahrYudYD}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: 104.18.203.232, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 6, server: ip.nofiltering2.sbs, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: 🇺🇲 美国 CloudFlare公司CDN节点(shopify), server: shop.app, port: 8080, type: vmess, uuid: dea35652-2439-426a-86a7-5b2e535e934d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: azstutr.iiio.wiki}}}
+  - {name: 🇯🇵 日本 东京Fastly节点, server: live.kozoom.net, port: 80, type: vmess, uuid: 6e7911ef-e064-44ca-e5f6-c76c0d7db288, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@blue-Youtube, headers: {Host: krshouer.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 RF Engineering
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
       - 🇺🇲 美国 CloudFlare节点
       - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
-      - 🇷🇴 俄罗斯 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇷🇴 俄罗斯 V2CROSS.COM 2
-      - 🇷🇴 俄罗斯 V2CROSS.COM 3
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
-      - 🇺🇲 美国 Amazon EC2服务器
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信 2
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 安徽省合肥市 移动
       - 🇺🇲 美国 CloudFlare节点 4
-      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 5
       - 🇺🇲 美国 CloudFlare节点 6
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 9
-      - 🇨🇳 台湾省花莲县 中华电信
+      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
+      - 🇯🇵 日本 东京Fastly节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 美国 RF Engineering
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
       - 🇺🇲 美国 CloudFlare节点
       - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
-      - 🇷🇴 俄罗斯 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇷🇴 俄罗斯 V2CROSS.COM 2
-      - 🇷🇴 俄罗斯 V2CROSS.COM 3
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
-      - 🇺🇲 美国 Amazon EC2服务器
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信 2
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 安徽省合肥市 移动
       - 🇺🇲 美国 CloudFlare节点 4
-      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 5
       - 🇺🇲 美国 CloudFlare节点 6
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 9
-      - 🇨🇳 台湾省花莲县 中华电信
+      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
+      - 🇯🇵 日本 东京Fastly节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,36 +70,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 RF Engineering
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
       - 🇺🇲 美国 CloudFlare节点
       - 🇭🇰 香港 阿里云
-      - 🇭🇰 香港 电讯盈科有限公司
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
-      - 🇷🇴 俄罗斯 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信
-      - 🇷🇴 俄罗斯 V2CROSS.COM 2
-      - 🇷🇴 俄罗斯 V2CROSS.COM 3
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
-      - 🇺🇲 美国 Amazon EC2服务器
-      - 🇮🇪 爱尔兰 V2CROSS.COM
-      - 🇨🇳 台湾省台北市 中华电信 2
       - 🇺🇲 美国 CloudFlare节点 3
-      - 🇭🇰 香港 电讯盈科有限公司 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 安徽省合肥市 移动
       - 🇺🇲 美国 CloudFlare节点 4
-      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇷🇴 美国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 5
       - 🇺🇲 美国 CloudFlare节点 6
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 9
-      - 🇨🇳 台湾省花莲县 中华电信
+      - 🇺🇲 美国 CloudFlare公司CDN节点(shopify)
+      - 🇯🇵 日本 东京Fastly节点
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
