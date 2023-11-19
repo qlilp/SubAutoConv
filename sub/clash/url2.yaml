@@ -5,69 +5,69 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心, server: 54.36.174.181, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 2, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 湖南省 联通, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 162.159.133.234, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 162.159.135.234, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 2, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 3, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 4, server: 54.36.174.181, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 5, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu4.openxai.link}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 6, server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 7, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 8, server: 54.36.174.181, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu4.openxai.link}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 6, server: ml2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml2.shabijichang.com}}}
+  - {name: 安徽省 移动数据上网公共出口, server: 112.29.94.23, port: 49223, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
   - {name: 广东省 移动, server: 183.237.20.148, port: 50707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: www.speedtest.net, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 3, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: google.efnten.top, port: 443, type: vmess, uuid: 5f2ea531-29e4-4836-c60a-a739b8e6b0a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5f2ea531-29e4-4836-c60a-a739b8e6b0a3, headers: {Host: king.turbo021.link}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 4, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 104.31.16.58, port: 443, type: vmess, uuid: 16702ec2-3808-46e6-a7b5-582c062be13d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jpnat1.doinb.tk}}}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点 2, server: 188.114.96.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 5, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 6, server: 54.36.174.181, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 198.41.192.4, port: 8080, type: vmess, uuid: f440527e-5243-4ca8-890c-5e05e4b3bb41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu1.openxai.link}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 104.16.8.3, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: cc2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: docs.digitalocean.com, port: 443, type: vmess, uuid: d8d3482e-6d58-4e86-b870-e7fbe893d8b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: dIGIkAlA.ONlINeviSioNsTore.sITE}}}
-  - {name: 🇷🇴 美国 V2CROSS.COM 2, server: 104.31.16.120, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 7, server: 54.36.174.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
-      - 广东省 移动
+      - 湖南省 联通
       - 🇺🇲 美国 CloudFlare节点
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
       - 🇺🇲 美国 CloudFlare节点 3
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
       - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇺🇲 美国 CloudFlare节点 6
+      - 安徽省 移动数据上网公共出口
+      - 广东省 移动
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
-      - 广东省 移动
+      - 湖南省 联通
       - 🇺🇲 美国 CloudFlare节点
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
       - 🇺🇲 美国 CloudFlare节点 3
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
       - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇺🇲 美国 CloudFlare节点 6
+      - 安徽省 移动数据上网公共出口
+      - 广东省 移动
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,23 +85,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
-      - 广东省 移动
+      - 湖南省 联通
       - 🇺🇲 美国 CloudFlare节点
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心
       - 🇺🇲 美国 CloudFlare节点 3
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
       - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇷🇴 美国 V2CROSS.COM 2
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇺🇲 美国 CloudFlare节点 6
+      - 安徽省 移动数据上网公共出口
+      - 广东省 移动
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
