@@ -5,69 +5,78 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 湖南省 联通, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.68.136, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 162.159.133.234, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 162.159.135.234, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 2, server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 3, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 4, server: 54.36.174.181, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 5, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu4.openxai.link}}}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 6, server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 7, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 8, server: 54.36.174.181, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: cf1.openxai.link, port: 8080, type: vmess, uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu4.openxai.link}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 6, server: ml2.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml2.shabijichang.com}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: Singapore.MFA.EE, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 2, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 3, server: 54.36.174.181, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.1, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 4, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇳 台湾省苗栗县 中华电信, server: tc11.kq1.dynu.net, port: 443, type: vmess, uuid: 450cd674-1411-4ea1-979b-bf56da87b21d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tc11.kq1.dynu.net}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: hytron.io, port: 8080, type: vmess, uuid: 010c265f-5455-4141-ca23-4d69357ded0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aktw.daozhang.love}}}
+  - {name: 🇨🇳 台湾省苗栗县 中华电信 2, server: tc11.kq1.dynu.net, port: 443, type: vmess, uuid: 450cd674-1411-4ea1-979b-bf56da87b21d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vbub1, headers: {Host: tc11.kq1.dynu.net}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 5, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 6, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 7, server: 54.36.174.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇸🇬 台湾省新北市 中华电信, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: d201923c-daa9-4459-8e98-9b3ea0435926, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b24, headers: {Host: b24.ntbq.dynu.net}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 8, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 9, server: 54.36.174.181, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 安徽省 移动数据上网公共出口, server: 112.29.94.23, port: 49223, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: 广东省 移动, server: 183.237.20.148, port: 50707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省桃园市 中华电信, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: b4224a4d-6754-47e5-99ef-124697d24b4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
+  - {name: 🇫🇷 法国 格拉沃利讷OVH数据中心 10, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 湖南省 联通
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 2
       - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
+      - 🇨🇳 台湾省苗栗县 中华电信
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省苗栗县 中华电信 2
+      - 🇺🇲 美国 CloudFlare节点 3
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇺🇲 美国 CloudFlare节点 4
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
+      - 🇸🇬 台湾省新北市 中华电信
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇺🇲 美国 CloudFlare节点 6
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 9
       - 安徽省 移动数据上网公共出口
-      - 广东省 移动
+      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 湖南省 联通
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 2
       - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
+      - 🇨🇳 台湾省苗栗县 中华电信
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省苗栗县 中华电信 2
+      - 🇺🇲 美国 CloudFlare节点 3
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇺🇲 美国 CloudFlare节点 4
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
+      - 🇸🇬 台湾省新北市 中华电信
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇺🇲 美国 CloudFlare节点 6
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 9
       - 安徽省 移动数据上网公共出口
-      - 广东省 移动
+      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,23 +94,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 湖南省 联通
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 2
       - 🇫🇷 法国 格拉沃利讷OVH数据中心
-      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 2
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 3
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 4
+      - 🇨🇳 台湾省苗栗县 中华电信
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇨🇳 台湾省苗栗县 中华电信 2
+      - 🇺🇲 美国 CloudFlare节点 3
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 5
-      - 🇺🇲 美国 CloudFlare节点 4
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 6
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 7
+      - 🇸🇬 台湾省新北市 中华电信
       - 🇫🇷 法国 格拉沃利讷OVH数据中心 8
-      - 🇺🇲 美国 CloudFlare节点 5
-      - 🇺🇲 美国 CloudFlare节点 6
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 9
       - 安徽省 移动数据上网公共出口
-      - 广东省 移动
+      - 🇨🇳 台湾省桃园市 中华电信
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇫🇷 法国 格拉沃利讷OVH数据中心 10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
