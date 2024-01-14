@@ -5,84 +5,90 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇴 伊朗 V2CROSS.COM, server: 81.12.27.4, port: 20512, type: vmess, uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 美国 V2CROSS.COM, server: 146.190.111.121, port: 54642, type: vmess, uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.xbox.com}}}
-  - {name: 🇨🇳 广东省广州市 移动, server: service.ouluyun9803.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
-  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.18.15.149, port: 80, type: vmess, uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
-  - {name: 🇷🇴 乌克兰 V2CROSS.COM, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: service.ouluyun9803.com, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 162.159.200.3, port: 80, type: vmess, uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: mehdi20.mehdimoghaddam.fun, port: 2086, type: vmess, uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: mehdi20.mehdimoghaddam.fun}}}
-  - {name: 🇨🇳 广东省广州市 移动 3, server: service.ouluyun9803.com, port: 26601, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
-  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.251.16.160, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
-  - {name: 🇷🇴 伊朗 V2CROSS.COM 2, server: 79.143.84.117, port: 25477, type: vmess, uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 北京市 移动, server: zhejiang.wandacloud.xyz, port: 32143, type: ss, cipher: chacha20-ietf-poly1305, password: 432fe02f-b649-4bdc-91d8-f91ae87002f7}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: 104.21.73.14, port: 8880, type: vmess, uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /adenc35.fixedlfoat.top/linkws, headers: {Host: yaghoob55freenodes.repaco69437403.workers.dev}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
-  - {name: 🇺🇲 美国 Amazon数据中心, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 🇨🇳 广东省广州市 移动 4, server: 19235tj.matrixxx888.com, port: 19235, type: trojan, password: af84eec7-8324-30b9-89b8-a8a7e4fb5d3a, sni: eplcgame.com}
-  - {name: 🇨🇳 广东省广州市 移动 5, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
-  - {name: 🇺🇲 美国 CloudFlare节点 6, server: 104.17.2.183, port: 80, type: vmess, uuid: 3c59b3ca-def3-4d3a-9ef4-c32f797803a2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: holloll32.adanademirspor.eu}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 7, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: sources-routines-switching-palmer.trycloudflare.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 8, server: 104.17.186.227, port: 443, type: trojan, password: Mahanvpn, sni: mahanvip.mahantu.top}
+  - {name: 🇺🇲 美国 Amazon数据中心, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: mehdi2.mehdimoghaddam.fun, port: 2095, type: vmess, uuid: f14b7672-1272-437d-8ce1-e9dfff517e47, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: mehdi2.mehdimoghaddam.fun}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: mehdi19.mehdimoghaddam.fun, port: 2096, type: vmess, uuid: 1207c544-8199-45b8-befe-23fdd03630c0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: mehdi19.mehdimoghaddam.fun}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: kz-v2ray.ipracevpn.com, port: 8443, type: vmess, uuid: 48b10b02-2c60-4323-bc65-a11b15144745, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇬🇧 英国 伦敦Amazon数据中心, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇷🇴 乌克兰 V2CROSS.COM, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: cz1-vmess.sshmax.xyz}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: glasco.fx-trader.shop, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v3ra3do.wakeuptimerap.shop}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: mehdi14.mehdimoghaddam.fun, port: 2082, type: vmess, uuid: 089b3e45-1be5-4dad-8754-6cec4ccb3ae9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: mehdi14.mehdimoghaddam.fun}}}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 52.49.102.236, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
+  - {name: 🇷🇴 伊朗 V2CROSS.COM, server: 79.143.84.117, port: 25477, type: vmess, uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大 Bell, server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.23168499.xyz}}}
+  - {name: 🇷🇺 美国 俄勒冈州波特兰Amazon数据中心, server: 44.228.36.149, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心, server: 35.176.160.103, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: mehdi18.mehdimoghaddam.fun, port: 8080, type: vmess, uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: mehdi18.mehdimoghaddam.fun}}}
+  - {name: 🇷🇴 吉尔吉斯斯坦 V2CROSS.COM, server: 185.48.136.150, port: 80, type: vmess, uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sazgar.serveirc.com}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: service.ouluyun9803.com, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
+  - {name: 🇺🇲 美国 Amazon EC2服务器, server: 3.20.94.221, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心 2, server: 52.51.9.78, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇲 美国 CloudFlare节点 6, server: glasco.fx-trader.shop, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v3ra3do.wakeuptimerap.shop}}}
+  - {name: 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
   - {name: 🇷🇴 乌克兰 V2CROSS.COM 2, server: 94.131.10.135, port: 80, type: vmess, uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心 3, server: 54.170.197.99, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk}
+  - {name: 🇺🇲 美国 Xerox, server: 13.51.136.127, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
+  - {name: 🇨🇳 广东省广州市 移动 2, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 伊朗 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 乌克兰 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇷🇴 伊朗 V2CROSS.COM 2
-      - 🇨🇳 北京市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
       - 🇺🇲 美国 Amazon数据中心
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇷🇴 伊朗 V2CROSS.COM
+      - 🇨🇦 加拿大 Bell
+      - 🇷🇺 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇷🇴 吉尔吉斯斯坦 V2CROSS.COM
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇲 美国 Amazon EC2服务器
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心 2
       - 🇺🇲 美国 CloudFlare节点 6
-      - 🇺🇲 美国 CloudFlare节点 7
-      - 🇺🇲 美国 CloudFlare节点 8
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2
       - 🇷🇴 乌克兰 V2CROSS.COM 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
+      - 🇺🇲 美国 Xerox
+      - 🇨🇳 广东省广州市 移动 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 伊朗 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 乌克兰 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇷🇴 伊朗 V2CROSS.COM 2
-      - 🇨🇳 北京市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
       - 🇺🇲 美国 Amazon数据中心
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇷🇴 伊朗 V2CROSS.COM
+      - 🇨🇦 加拿大 Bell
+      - 🇷🇺 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇷🇴 吉尔吉斯斯坦 V2CROSS.COM
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇲 美国 Amazon EC2服务器
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心 2
       - 🇺🇲 美国 CloudFlare节点 6
-      - 🇺🇲 美国 CloudFlare节点 7
-      - 🇺🇲 美国 CloudFlare节点 8
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2
       - 🇷🇴 乌克兰 V2CROSS.COM 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
+      - 🇺🇲 美国 Xerox
+      - 🇨🇳 广东省广州市 移动 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,28 +106,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 伊朗 V2CROSS.COM
-      - 🇷🇴 美国 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇺🇲 美国 CloudFlare节点
-      - 🇷🇴 乌克兰 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇷🇴 伊朗 V2CROSS.COM 2
-      - 🇨🇳 北京市 移动
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇺🇲 美国 CloudFlare节点 5
       - 🇺🇲 美国 Amazon数据中心
-      - 🇨🇳 广东省广州市 移动 4
-      - 🇨🇳 广东省广州市 移动 5
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇺🇲 美国 CloudFlare节点 2
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心
+      - 🇷🇴 伊朗 V2CROSS.COM
+      - 🇨🇦 加拿大 Bell
+      - 🇷🇺 美国 俄勒冈州波特兰Amazon数据中心
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇷🇴 吉尔吉斯斯坦 V2CROSS.COM
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇲 美国 Amazon EC2服务器
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心 2
       - 🇺🇲 美国 CloudFlare节点 6
-      - 🇺🇲 美国 CloudFlare节点 7
-      - 🇺🇲 美国 CloudFlare节点 8
+      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2
       - 🇷🇴 乌克兰 V2CROSS.COM 2
+      - 🇮🇪 爱尔兰 都柏林Amazon数据中心 3
+      - 🇺🇲 美国 Xerox
+      - 🇨🇳 广东省广州市 移动 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
