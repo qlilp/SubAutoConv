@@ -5,57 +5,66 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇴 北美地区 V2CROSS.COM, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, sni: los16.ttddd.xyz}
-  - {name: 🇨🇳 广东省广州市 移动, server: service.ouluyun9803.com, port: 26601, type: ss, cipher: chacha20-ietf-poly1305, password: 451a39bb-fc9c-4ef7-b0ef-19de25d9279a}
-  - {name: 广东省 移动, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
-  - {name: 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心, server: series-a2-me.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
-  - {name: 广东省 移动 2, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: glasco.fx-trader.shop, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v3ra3do.wakeuptimerap.shop}}}
-  - {name: 🇺🇲 美国 Amazon数据中心, server: 13.43.247.55, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk}
-  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省深圳市 电信, server: 14.116.159.70, port: 44443, type: ss, cipher: aes-256-gcm, password: bbcb50ac-ea99-4e07-9e5b-dc0170b3f54e}
-  - {name: 🇷🇴 欧盟 V2CROSS.COM, server: 45.89.63.152, port: 10000, type: vmess, uuid: ddfcd176-b037-11ee-b844-bbc0fc2fe2b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit, headers: {Host: 45.89.63.152}}}
-  - {name: 🇷🇴 利比亚 V2CROSS.COM, server: 197.215.140.234, port: 80, type: vmess, uuid: b82493e3-07b4-4cf2-b585-965575cfeb32, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: softiri.serveirc.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: cfcdn1.sanfencdn9.com, port: 2086, type: vmess, uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/Z7qdcrAGRw, headers: {Host: us77SmSk86j.fzbqfrse.xyz}}}
+  - {name: 🇺🇲 美国 Amazon数据中心, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.17.2.183, port: 80, type: vmess, uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v3ra3do.wakeuptimerap.shop}}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.99.29, port: 443, type: trojan, password: a6292090-afe1-4640-97a7-4f1d1d877cf1, sni: hdfy8c1.foriran.me}
+  - {name: 🇺🇲 美国 Amazon数据中心 2, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点 2, server: 188.114.98.0, port: 443, type: trojan, password: 01596265-168b-46a7-bcb7-25662c7a9546, sni: hdfy7c1.foriran2.eu.org, skip-cert-verify: true}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 104.18.196.237, port: 443, type: trojan, password: Mahanvpn-insta-mahan_vpn, sni: mahanvip.mahantu.top}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 104.21.50.192, port: 443, type: trojan, password: Mahanvpn-insta-mahan_vpn, sni: mahanvip.mahantu.top}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: service.ouluyun9803.com, port: 26666, type: ss, cipher: chacha20-ietf-poly1305, password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491}
+  - {name: 🇷🇴 瑞典 V2CROSS.COM, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇸🇬 台湾省新竹市 中华电信, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 台湾省新竹市 中华电信 2, server: 114.37.130.69, port: 2024, type: vmess, uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚 V2CROSS.COM, server: 192.65.217.200, port: 443, type: trojan, password: b59ee60f-9fa4-4770-b6a7-288620147f60, sni: k6us1.yfjc.sbs, network: ws, ws-opts: {path: /yfjc/kus1, headers: {Host: k6us1.yfjc.sbs}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: glaSco.fx-trAder.shop, port: 80, type: vmess, uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vvv2vayo2.everythingisreve.shop}}}
+  - {name: 🇷🇴 乌克兰 V2CROSS.COM, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, servername: cz1-vmess.sshmax.xyz, network: ws, ws-opts: {path: /, headers: {Host: cz1-vmess.sshmax.xyz}}}
+  - {name: 🇺🇲 美国 Amazon数据中心 3, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇴 北美地区 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 广东省 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-      - 广东省 移动 2
-      - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 Amazon数据中心
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇨🇳 广东省深圳市 电信
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇷🇴 利比亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇲 美国 Amazon数据中心 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇨🇳 广东省广州市 移动
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 🇸🇬 台湾省新竹市 中华电信
+      - 🇸🇬 台湾省新竹市 中华电信 2
+      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇺🇲 美国 Amazon数据中心 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇴 北美地区 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 广东省 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-      - 广东省 移动 2
-      - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 Amazon数据中心
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇨🇳 广东省深圳市 电信
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇷🇴 利比亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇲 美国 Amazon数据中心 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇨🇳 广东省广州市 移动
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 🇸🇬 台湾省新竹市 中华电信
+      - 🇸🇬 台湾省新竹市 中华电信 2
+      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇺🇲 美国 Amazon数据中心 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,19 +82,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 北美地区 V2CROSS.COM
-      - 🇨🇳 广东省广州市 移动
-      - 广东省 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-      - 广东省 移动 2
-      - 🇺🇲 美国 CloudFlare节点
       - 🇺🇲 美国 Amazon数据中心
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇨🇳 广东省深圳市 电信
-      - 🇷🇴 欧盟 V2CROSS.COM
-      - 🇷🇴 利比亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇺🇲 美国 Amazon数据中心 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
       - 🇺🇲 美国 CloudFlare节点 2
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇨🇳 广东省广州市 移动
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 🇸🇬 台湾省新竹市 中华电信
+      - 🇸🇬 台湾省新竹市 中华电信 2
+      - 🇦🇺 澳大利亚 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇷🇴 乌克兰 V2CROSS.COM
+      - 🇺🇲 美国 Amazon数据中心 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
