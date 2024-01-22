@@ -5,54 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 节点日期：01-20 23:07, server: 34.248.8.33, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk}
-  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】10, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】2, server: 104.17.25.1, port: 80, type: vmess, uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sgvpn.catnipballs.gay}}}
-  - {name: 🇰🇷 韩国【付费推荐：https://jdyvip.link/】5, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com}
-  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】18, server: service.ouluyun9803.com, port: 26668, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
-  - {name: 🇨🇳 台湾【付费推荐：https://jdyvip.link/】9, server: 36.226.147.157, port: 4443, type: vmess, uuid: df2add0d-5f99-4a3f-a135-0259541b87e1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾【付费推荐：https://jdyvip.link/】8, server: 61.228.149.88, port: 2024, type: vmess, uuid: df2add0d-5f99-4a3f-a135-0259541b87e1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾【付费推荐：https://jdyvip.link/】11, server: 118.167.71.177, port: 12002, type: vmess, uuid: df2add0d-5f99-4a3f-a135-0259541b87e1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】12, server: cc3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc3.shabijichang.com}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】19, server: cf.openxai.link, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}}
-  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】14, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】15, server: service.ouluyun9803.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
+  - {name: 🇯🇵 节点日期：01-22 09:45, server: bs2.loadingip.com, port: 80, type: vmess, uuid: 5278f5d3-f001-4459-94b6-7e0915238998, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs, headers: {Host: bs2.loadingip.com}}}
+  - {name: 🇯🇵 日本【付费推荐：https://jdyvip.link/】, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: agzbjszujp4.yofnhkfc.xyz}}}
+  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】6, server: service.ouluyun9803.com, port: 26668, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
+  - {name: 🇸🇬 新加坡【付费推荐：https://jdyvip.link/】, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}}
+  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】26, server: service.ouluyun9803.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: cfa17a0d-5e7d-4871-976e-f116e0818123}
+  - {name: 🇺🇲 美国【付费推荐：https://jdyvip.link/】45, server: los16.ttddd.xyz, port: 443, type: trojan, password: 27876_t7d7f4e3f}
+  - {name: 🇭🇰 香港【付费推荐：https://jdyvip.link/】, server: 202.64.1.167, port: 443, type: trojan, password: 842b5f9dd11e458d8613c907c4cc5723, sni: www.gpt123.one}
+  - {name: 🇰🇷 韩国【付费推荐：https://jdyvip.link/】4, server: gd-cn.jdyzyjd.xyz, port: 33053, type: ss, cipher: chacha20-ietf-poly1305, password: 72c433ae-7f01-4026-9291-25b0a66b7603}
+  - {name: 🇨🇳 中国【付费推荐：https://jdyvip.link/】44, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 🇻🇳 越南【付费推荐：https://jdyvip.link/】60, server: skyht2.vpndata.vn, port: 80, type: vmess, uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /VPNDATA.VPN, headers: {Host: lienquan.garena.vn}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵 节点日期：01-20 23:07
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】10
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】2
-      - 🇰🇷 韩国【付费推荐：https://jdyvip.link/】5
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】18
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】9
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】8
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】11
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】12
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】19
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】14
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】15
+      - 🇯🇵 节点日期：01-22 09:45
+      - 🇯🇵 日本【付费推荐：https://jdyvip.link/】
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】6
+      - 🇸🇬 新加坡【付费推荐：https://jdyvip.link/】
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】26
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】45
+      - 🇭🇰 香港【付费推荐：https://jdyvip.link/】
+      - 🇰🇷 韩国【付费推荐：https://jdyvip.link/】4
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】44
+      - 🇻🇳 越南【付费推荐：https://jdyvip.link/】60
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 节点日期：01-20 23:07
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】10
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】2
-      - 🇰🇷 韩国【付费推荐：https://jdyvip.link/】5
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】18
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】9
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】8
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】11
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】12
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】19
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】14
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】15
+      - 🇯🇵 节点日期：01-22 09:45
+      - 🇯🇵 日本【付费推荐：https://jdyvip.link/】
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】6
+      - 🇸🇬 新加坡【付费推荐：https://jdyvip.link/】
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】26
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】45
+      - 🇭🇰 香港【付费推荐：https://jdyvip.link/】
+      - 🇰🇷 韩国【付费推荐：https://jdyvip.link/】4
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】44
+      - 🇻🇳 越南【付费推荐：https://jdyvip.link/】60
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -70,18 +64,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 节点日期：01-20 23:07
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】10
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】2
-      - 🇰🇷 韩国【付费推荐：https://jdyvip.link/】5
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】18
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】9
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】8
-      - 🇨🇳 台湾【付费推荐：https://jdyvip.link/】11
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】12
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】19
-      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】14
-      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】15
+      - 🇯🇵 节点日期：01-22 09:45
+      - 🇯🇵 日本【付费推荐：https://jdyvip.link/】
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】6
+      - 🇸🇬 新加坡【付费推荐：https://jdyvip.link/】
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】26
+      - 🇺🇲 美国【付费推荐：https://jdyvip.link/】45
+      - 🇭🇰 香港【付费推荐：https://jdyvip.link/】
+      - 🇰🇷 韩国【付费推荐：https://jdyvip.link/】4
+      - 🇨🇳 中国【付费推荐：https://jdyvip.link/】44
+      - 🇻🇳 越南【付费推荐：https://jdyvip.link/】60
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
