@@ -1881,6 +1881,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
+  - DOMAIN-SUFFIX,bilibili.tv,🚀 节点选择
+  - DOMAIN-SUFFIX,bstarstatic.com,🚀 节点选择
+  - DOMAIN,pic-bstarstatic.akamaized.net,🚀 节点选择
   - DOMAIN-KEYWORD,voddazn,🚀 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -1930,7 +1933,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
-  - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
   - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -2675,6 +2677,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
