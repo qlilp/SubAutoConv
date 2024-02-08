@@ -5,30 +5,21 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 Scloud台湾01—可下载|0.5x, server: gz.daxun.cyou, port: 26040, type: vmess, uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Scloud台湾02-原生IP|0.5x, server: gz.daxun.cyou, port: 38011, type: vmess, uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡高速接入点-01, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 053d2675-4803-48ee-8239-6e499871ac42, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: 7nAi74jJsg1.yofnhkfc.xyz}}}
-  - {name: 🇨🇳 台湾-Trojan②, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 62ce224c-3ae9-47bb-9ef6-c4f3d233fd08, sni: tw02.trojanyyds.xyz}
+  - {name: www.chrome-helper.cc:21830, server: www.chrome-helper.cc, port: 21830, type: http, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 Scloud台湾01—可下载|0.5x
-      - 🇨🇳 Scloud台湾02-原生IP|0.5x
-      - 🇸🇬 新加坡高速接入点-01
-      - 🇨🇳 台湾-Trojan②
+      - www.chrome-helper.cc:21830
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 Scloud台湾01—可下载|0.5x
-      - 🇨🇳 Scloud台湾02-原生IP|0.5x
-      - 🇸🇬 新加坡高速接入点-01
-      - 🇨🇳 台湾-Trojan②
+      - www.chrome-helper.cc:21830
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -46,10 +37,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 Scloud台湾01—可下载|0.5x
-      - 🇨🇳 Scloud台湾02-原生IP|0.5x
-      - 🇸🇬 新加坡高速接入点-01
-      - 🇨🇳 台湾-Trojan②
+      - www.chrome-helper.cc:21830
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
