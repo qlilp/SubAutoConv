@@ -1937,9 +1937,6 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
   - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
-  - DOMAIN-SUFFIX,bilibili.tv,🚀 节点选择
-  - DOMAIN-SUFFIX,bstarstatic.com,🚀 节点选择
-  - DOMAIN,pic-bstarstatic.akamaized.net,🚀 节点选择
   - DOMAIN-KEYWORD,voddazn,🚀 节点选择
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -2124,8 +2121,10 @@ rules:
   - DOMAIN-SUFFIX,olevod.tv,🚀 节点选择
   - DOMAIN-SUFFIX,olevodtv.com,🚀 节点选择
   - DOMAIN-KEYWORD,openai,🚀 节点选择
+  - DOMAIN,gemini.google.com,🚀 节点选择
   - DOMAIN-SUFFIX,auth0.com,🚀 节点选择
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点选择
   - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点选择
   - DOMAIN-SUFFIX,featuregates.org,🚀 节点选择
