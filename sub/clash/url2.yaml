@@ -5,39 +5,54 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 广东省 移动, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 广东省汕头市 移动, server: 183.240.179.195, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇨🇳 江苏省 移动, server: 36.151.195.48, port: 20344, type: trojan, password: TNDSJfNv}
+  - {name: 🇺🇲 美国 Fastly全球Anycast节点, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇷🇴 北美地区 V2CROSS.COM, server: 23.157.40.120, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇷🇴 瑞典 V2CROSS.COM, server: 185.146.173.237, port: 2052, type: vmess, uuid: 0c67786d-985e-4c67-a0dc-67827f37f050, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@mehrosaboran, headers: {Host: xn--047h.aaa.merosaboran.monster.}}}
+  - {name: 🇮🇹 意大利 V2CROSS.COM, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
   - {name: 🇷🇴 俄罗斯 V2CROSS.COM, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 172.67.172.219, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇭🇰 香港 环球全域电讯, server: 210.3.159.224, port: 12909, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇷🇴 美国 V2CROSS.COM, server: 23.162.200.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 美国 惠普HP, server: 16.171.125.49, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 广东省 移动
-      - 广东省汕头市 移动
-      - 🇷🇴 俄罗斯 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
+      - 🇨🇳 江苏省 移动
+      - 🇺🇲 美国 Fastly全球Anycast节点
+      - 🇷🇴 北美地区 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇭🇰 香港 环球全域电讯
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 🇮🇹 意大利 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
+      - 🇷🇴 俄罗斯 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 惠普HP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 广东省 移动
-      - 广东省汕头市 移动
-      - 🇷🇴 俄罗斯 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
+      - 🇨🇳 江苏省 移动
+      - 🇺🇲 美国 Fastly全球Anycast节点
+      - 🇷🇴 北美地区 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇭🇰 香港 环球全域电讯
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 🇮🇹 意大利 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
+      - 🇷🇴 俄罗斯 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 惠普HP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -55,13 +70,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广东省 移动
-      - 广东省汕头市 移动
-      - 🇷🇴 俄罗斯 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点
+      - 🇨🇳 江苏省 移动
+      - 🇺🇲 美国 Fastly全球Anycast节点
+      - 🇷🇴 北美地区 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇭🇰 香港 环球全域电讯
+      - 🇷🇴 瑞典 V2CROSS.COM
+      - 🇮🇹 意大利 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 3
+      - 🇷🇴 俄罗斯 V2CROSS.COM
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇷🇴 美国 V2CROSS.COM
+      - 🇺🇲 美国 惠普HP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
