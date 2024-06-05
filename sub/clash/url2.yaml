@@ -5,90 +5,120 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国 CloudFlare节点 2, server: russia.com, port: 2095, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 172.67.71.160, port: 80, type: vmess, uuid: 47ce7333-79e4-4958-90f8-913a0ce8f8c1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.arsha疯狂麦克斯传奇.angels蓝色.bursting.suonycars.buzz.}}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 3, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 广东省 移动, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 4, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 5, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 美国 CloudFlare节点 4, server: 172.67.185.79, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 6, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 7, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: 118.163.128.81, port: 13688, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
-  - {name: 🇮🇳 印度 V2CROSS.COM, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.3, port: 80, type: vmess, uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De1.vmess.site.}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 5, server: russia.com, port: 8080, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
-  - {name: 🇫🇷 法国 OVH 2, server: 51.77.53.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇲 美国 加利福尼亚, server: 64.176.15.74, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 美国 CloudFlare节点, server: 104.16.67.38, port: 8080, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /linde06.indiavideo.sbs/linkws, headers: {Host: square-snowflake-486a.beshir-beisel.workers.dev}}}
+  - {name: 广东省佛山市 移动, server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇲 美国 CloudFlare节点 2, server: 104.17.215.2, port: 443, type: trojan, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, sni: jobscareerforstudent.com, network: ws, ws-opts: {path: 6b777a91, headers: {Host: jobscareerforstudent.com}}}
+  - {name: 🇫🇷 法国 OVH 2, server: 51.77.53.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国 OVH 3, server: 51.77.53.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 美国 CloudFlare节点 3, server: 104.19.45.88, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 4, server: www.speedtest.net, port: 80, type: vmess, uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: Se2.vmess.site.}}}
+  - {name: 🇺🇲 美国 CloudFlare节点 5, server: 172.67.171.49, port: 80, type: vmess, uuid: 10c580e4-f83b-42f1-8e6a-25fc8add4da7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: No1.vmess.site.}}}
+  - {name: 🇬🇧 英国 社会保险安全部, server: 51.20.219.216, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇲 美国 惠普HP, server: 16.170.105.34, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
+  - {name: 广东省佛山市 移动 2, server: 183.232.199.61, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 江苏省 移动, server: 36.151.195.48, port: 4787, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇷🇴 阿尔巴尼亚 V2CROSS.COM, server: 109.104.153.69, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 OVH 4, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 广东省佛山市 移动 3, server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 OVH 5, server: 51.77.53.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 广东省佛山市 移动 4, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 V2CROSS.COM, server: 51.89.122.175, port: 30000, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/323127100515}}
+  - {name: 🇺🇲 美国 CloudFlare节点 6, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇫🇷 法国 OVH 6, server: 51.77.53.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 🇬🇧 英国 V2CROSS.COM, server: 5.44.249.44, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}}
-  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机 8, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇲 美国 华盛顿Cogent通信公司 2, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇮🇳 印度 V2CROSS.COM 2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
-  - {name: 🇺🇲 美国 CloudFlare节点 6, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇨🇳 江苏省 移动 2, server: 36.151.195.48, port: 4603, type: trojan, password: TNDSJfNv}
+  - {name: 🇰🇷 韩国 V2CROSS.COM, server: 180.229.248.156, port: 30998, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇷🇴 俄罗斯 V2CROSS.COM, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇫🇷 法国 OVH 7, server: 51.77.53.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国 OVH 8, server: 51.77.53.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 广东省佛山市 移动 5, server: 183.232.170.47, port: 61002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇴 沙特阿拉伯 V2CROSS.COM, server: nl-v2ray.ipracevpn.com, port: 443, type: vmess, uuid: 836181bb-cf0e-4e3a-9795-0b4264e76ad5, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇲 美国 华盛顿州, server: 205.134.180.139, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag}
+  - {name: 🇨🇳 台湾省 中华电信(HiNet)数据中心, server: 118.163.128.81, port: 13688, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇩🇪 德国 黑森州法兰克福Amazon数据中心, server: 3.127.120.189, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇫🇷 法国 OVH
+      - 🇺🇲 美国 加利福尼亚
       - 🇺🇲 美国 CloudFlare节点
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 广东省佛山市 移动
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 3
-      - 广东省 移动
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 4
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 5
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 6
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 7
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 5
       - 🇫🇷 法国 OVH 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 8
-      - 🇺🇲 美国 华盛顿Cogent通信公司 2
-      - 🇮🇳 印度 V2CROSS.COM 2
+      - 🇫🇷 法国 OVH 3
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇲 美国 惠普HP
+      - 广东省佛山市 移动 2
+      - 🇨🇳 江苏省 移动
+      - 🇷🇴 阿尔巴尼亚 V2CROSS.COM
+      - 🇫🇷 法国 OVH 4
+      - 广东省佛山市 移动 3
+      - 🇫🇷 法国 OVH 5
+      - 广东省佛山市 移动 4
+      - 🇫🇷 法国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 6
+      - 🇫🇷 法国 OVH 6
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇨🇳 江苏省 移动 2
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇷🇴 俄罗斯 V2CROSS.COM
+      - 🇫🇷 法国 OVH 7
+      - 🇫🇷 法国 OVH 8
+      - 广东省佛山市 移动 5
+      - 🇷🇴 沙特阿拉伯 V2CROSS.COM
+      - 🇺🇲 美国 华盛顿州
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇫🇷 法国 OVH
+      - 🇺🇲 美国 加利福尼亚
       - 🇺🇲 美国 CloudFlare节点
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 广东省佛山市 移动
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 3
-      - 广东省 移动
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 4
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 5
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 6
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 7
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 5
       - 🇫🇷 法国 OVH 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 8
-      - 🇺🇲 美国 华盛顿Cogent通信公司 2
-      - 🇮🇳 印度 V2CROSS.COM 2
+      - 🇫🇷 法国 OVH 3
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇲 美国 惠普HP
+      - 广东省佛山市 移动 2
+      - 🇨🇳 江苏省 移动
+      - 🇷🇴 阿尔巴尼亚 V2CROSS.COM
+      - 🇫🇷 法国 OVH 4
+      - 广东省佛山市 移动 3
+      - 🇫🇷 法国 OVH 5
+      - 广东省佛山市 移动 4
+      - 🇫🇷 法国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 6
+      - 🇫🇷 法国 OVH 6
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇨🇳 江苏省 移动 2
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇷🇴 俄罗斯 V2CROSS.COM
+      - 🇫🇷 法国 OVH 7
+      - 🇫🇷 法国 OVH 8
+      - 广东省佛山市 移动 5
+      - 🇷🇴 沙特阿拉伯 V2CROSS.COM
+      - 🇺🇲 美国 华盛顿州
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -106,30 +136,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇫🇷 法国 OVH
+      - 🇺🇲 美国 加利福尼亚
       - 🇺🇲 美国 CloudFlare节点
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 2
+      - 广东省佛山市 移动
+      - 🇩🇪 德国下萨克森州萨尔茨吉特 德国电信
       - 🇺🇲 美国 CloudFlare节点 2
-      - 🇺🇲 美国 CloudFlare节点 3
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 3
-      - 广东省 移动
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 4
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 5
-      - 🇺🇲 美国 华盛顿Cogent通信公司
-      - 🇺🇲 美国 CloudFlare节点 4
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 6
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 7
-      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
-      - 🇮🇳 印度 V2CROSS.COM
-      - 🇧🇷 巴西圣保罗 CloudFlare节点
-      - 🇺🇲 美国 CloudFlare节点 5
       - 🇫🇷 法国 OVH 2
-      - 🇬🇧 英国 V2CROSS.COM
-      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机 8
-      - 🇺🇲 美国 华盛顿Cogent通信公司 2
-      - 🇮🇳 印度 V2CROSS.COM 2
+      - 🇫🇷 法国 OVH 3
+      - 🇺🇲 美国 CloudFlare节点 3
+      - 🇺🇲 美国 CloudFlare节点 4
+      - 🇺🇲 美国 CloudFlare节点 5
+      - 🇬🇧 英国 社会保险安全部
+      - 🇺🇲 美国 惠普HP
+      - 广东省佛山市 移动 2
+      - 🇨🇳 江苏省 移动
+      - 🇷🇴 阿尔巴尼亚 V2CROSS.COM
+      - 🇫🇷 法国 OVH 4
+      - 广东省佛山市 移动 3
+      - 🇫🇷 法国 OVH 5
+      - 广东省佛山市 移动 4
+      - 🇫🇷 法国 V2CROSS.COM
       - 🇺🇲 美国 CloudFlare节点 6
+      - 🇫🇷 法国 OVH 6
+      - 🇬🇧 英国 V2CROSS.COM
+      - 🇨🇳 江苏省 移动 2
+      - 🇰🇷 韩国 V2CROSS.COM
+      - 🇷🇴 俄罗斯 V2CROSS.COM
+      - 🇫🇷 法国 OVH 7
+      - 🇫🇷 法国 OVH 8
+      - 广东省佛山市 移动 5
+      - 🇷🇴 沙特阿拉伯 V2CROSS.COM
+      - 🇺🇲 美国 华盛顿州
+      - 🇨🇳 台湾省 中华电信(HiNet)数据中心
+      - 🇩🇪 德国 黑森州法兰克福Amazon数据中心
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
