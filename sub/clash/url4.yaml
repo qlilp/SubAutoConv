@@ -5,52 +5,16 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 节点日期：06-20, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】67, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】46, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇨🇳 中国【付费推荐：https://a0a.xyz】2, server: alm1.the-galgo.top, port: 32011, type: vmess, uuid: db3c11d8-ae65-40ff-a256-babee94056f6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】58, server: 38.121.43.248, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】56, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】17, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 中国【付费推荐：https://a0a.xyz】16, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】8, server: 149.202.82.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】93, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】44, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】42, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】35, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】25, server: 149.202.82.172, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】10, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】28, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇷🇺 俄罗斯联邦【付费推荐：https://a0a.xyz】70, server: 77.83.246.55, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 3pURuTUf-lFgg5qWg8euFA}
-  - {name: 🇬🇧 英国【付费推荐：https://a0a.xyz】69, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】82, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】11, server: 104.21.43.13, port: 443, type: trojan, password: f91f38bb-72d5-4f3e-8311-1788986293f5, sni: iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpnc.iran-mehr14.ir}
-  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】75, server: 172.232.37.114, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: Zg9HJ8NpUH6c2IwEKY0cwg}
-  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】15, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com}
-  - {name: 🇬🇧 英国【付费推荐：https://a0a.xyz】45, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】68, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇳 台湾【付费推荐：https://a0a.xyz】43, server: 211.72.156.17, port: 23555, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】66, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】7, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】30, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】38, server: 149.202.82.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】41, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】52, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】29, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】54, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】55, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】73, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇰🇷 韩国【付费推荐：https://a0a.xyz】76, server: 116.47.10.236, port: 27335, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
-  - {name: 🇨🇳 中国【付费推荐：https://a0a.xyz】47, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8}
+  - {name: 🇯🇵 节点日期：06-20, server: alm1.the-galgo.top, port: 32011, type: vmess, uuid: db3c11d8-ae65-40ff-a256-babee94056f6, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 中国【付费推荐：https://a0a.xyz】20, server: 116.162.172.120, port: 16626, type: vmess, uuid: 56b2371a-727f-46a9-97d3-8c5fe4bf836a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 15ff2b20c9c5f5839d852cc509098a22.mobgslb.tbcache.com}}}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】6, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】61, server: 149.202.82.172, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】36, server: 149.202.82.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】33, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】27, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】83, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】86, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇫🇷 法国【付费推荐：https://a0a.xyz】62, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】75, server: 172.232.37.114, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: Zg9HJ8NpUH6c2IwEKY0cwg}
+  - {name: 🇨🇳 中国【付费推荐：https://a0a.xyz】16, server: 120.232.240.56, port: 16928, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇬🇧 英国【付费推荐：https://a0a.xyz】69, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇳 中国【付费推荐：https://a0a.xyz】47, server: 119.23.104.213, port: 8474, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8}
+  - {name: 🇨🇳 台湾【付费推荐：https://a0a.xyz】43, server: 211.72.156.17, port: 23555, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
+  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】35, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇲 美国【付费推荐：https://a0a.xyz】15, server: 104.16.1.10, port: 443, type: trojan, password: qj1Dz1CJmFQRhWr1SP80aA, sni: cdn-21.gsmxreality.com}
+  - {name: 🇰🇷 韩国【付费推荐：https://a0a.xyz】76, server: 116.47.10.236, port: 27335, type: trojan, password: moist, sni: trojan.freenods.sbs, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -58,51 +22,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇯🇵 节点日期：06-20
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】67
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】46
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】2
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】58
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】56
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】17
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】16
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】8
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】93
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】44
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】42
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】35
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】25
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】10
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】28
-      - 🇷🇺 俄罗斯联邦【付费推荐：https://a0a.xyz】70
-      - 🇬🇧 英国【付费推荐：https://a0a.xyz】69
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】82
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】11
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】75
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】15
-      - 🇬🇧 英国【付费推荐：https://a0a.xyz】45
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】68
-      - 🇨🇳 台湾【付费推荐：https://a0a.xyz】43
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】66
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】7
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】30
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】38
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】41
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】52
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】29
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】54
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】55
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】73
-      - 🇰🇷 韩国【付费推荐：https://a0a.xyz】76
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】47
       - 🇨🇳 中国【付费推荐：https://a0a.xyz】20
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】6
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】61
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】36
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】33
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】27
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】83
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】86
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】62
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】75
+      - 🇨🇳 中国【付费推荐：https://a0a.xyz】16
+      - 🇬🇧 英国【付费推荐：https://a0a.xyz】69
+      - 🇨🇳 中国【付费推荐：https://a0a.xyz】47
+      - 🇨🇳 台湾【付费推荐：https://a0a.xyz】43
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】35
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】15
+      - 🇰🇷 韩国【付费推荐：https://a0a.xyz】76
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -110,51 +38,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 节点日期：06-20
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】67
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】46
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】2
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】58
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】56
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】17
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】16
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】8
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】93
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】44
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】42
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】35
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】25
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】10
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】28
-      - 🇷🇺 俄罗斯联邦【付费推荐：https://a0a.xyz】70
-      - 🇬🇧 英国【付费推荐：https://a0a.xyz】69
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】82
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】11
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】75
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】15
-      - 🇬🇧 英国【付费推荐：https://a0a.xyz】45
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】68
-      - 🇨🇳 台湾【付费推荐：https://a0a.xyz】43
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】66
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】7
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】30
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】38
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】41
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】52
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】29
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】54
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】55
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】73
-      - 🇰🇷 韩国【付费推荐：https://a0a.xyz】76
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】47
       - 🇨🇳 中国【付费推荐：https://a0a.xyz】20
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】6
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】61
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】36
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】33
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】27
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】83
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】86
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】62
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】75
+      - 🇨🇳 中国【付费推荐：https://a0a.xyz】16
+      - 🇬🇧 英国【付费推荐：https://a0a.xyz】69
+      - 🇨🇳 中国【付费推荐：https://a0a.xyz】47
+      - 🇨🇳 台湾【付费推荐：https://a0a.xyz】43
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】35
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】15
+      - 🇰🇷 韩国【付费推荐：https://a0a.xyz】76
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,51 +65,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇯🇵 节点日期：06-20
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】67
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】46
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】2
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】58
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】56
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】17
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】16
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】8
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】93
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】44
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】42
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】35
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】25
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】10
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】28
-      - 🇷🇺 俄罗斯联邦【付费推荐：https://a0a.xyz】70
-      - 🇬🇧 英国【付费推荐：https://a0a.xyz】69
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】82
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】11
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】75
-      - 🇺🇲 美国【付费推荐：https://a0a.xyz】15
-      - 🇬🇧 英国【付费推荐：https://a0a.xyz】45
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】68
-      - 🇨🇳 台湾【付费推荐：https://a0a.xyz】43
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】66
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】7
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】30
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】38
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】41
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】52
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】29
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】54
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】55
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】73
-      - 🇰🇷 韩国【付费推荐：https://a0a.xyz】76
-      - 🇨🇳 中国【付费推荐：https://a0a.xyz】47
       - 🇨🇳 中国【付费推荐：https://a0a.xyz】20
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】6
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】61
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】36
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】33
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】27
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】83
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】86
-      - 🇫🇷 法国【付费推荐：https://a0a.xyz】62
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】75
+      - 🇨🇳 中国【付费推荐：https://a0a.xyz】16
+      - 🇬🇧 英国【付费推荐：https://a0a.xyz】69
+      - 🇨🇳 中国【付费推荐：https://a0a.xyz】47
+      - 🇨🇳 台湾【付费推荐：https://a0a.xyz】43
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】35
+      - 🇺🇲 美国【付费推荐：https://a0a.xyz】15
+      - 🇰🇷 韩国【付费推荐：https://a0a.xyz】76
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
