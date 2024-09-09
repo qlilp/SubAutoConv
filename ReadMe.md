@@ -1,7 +1,7 @@
 # 订阅自动转换脚本
 
 
-2022.10.2更新，加入了配置文件订阅转换
+2024.10.2更新，加入了配置文件订阅转换
 
 ## 使用方法
 
@@ -20,19 +20,7 @@
 | common | api       | 后端地址，边缘订阅后端地址                                    |
 | common | configapi | 配置文件地址，默认为ACL4SSR的规则集                           |
 
-## Clash下载链接：
-
-不加速链接
-
-`https://raw.githubusercontent.com/qlilp/SubAutoConv/main/sub/clash/selfnode.yaml`
-
-CDN加速链接：
-
-`https://cdn.jsdelivr.net/gh/qlilp/SubAutoConv@main/sub/clash/selfnode.yaml`
-
-`https://cdn.jsdelivr.net/gh/qlilp/SubAutoConv@main/sub/clash/url1.yaml`
-
 
 ## V2ray
 
-`https://cdn.jsdelivr.ren/gh/qlilp/SubAutoConv@main/sub/v2/url1.txt`
+`https://raw.githubusercontent.com/qlilp/SubAutoConv/main/sub/v2/url1.txt`
