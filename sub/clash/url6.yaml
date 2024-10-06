@@ -76,36 +76,35 @@ proxies:
   - {name: "7|🇺🇸_US_美国->🇫🇷_FR_法国 #3", server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
   - {name: "7|🇺🇸_US_美国 #30", server: hms082.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: gwdef.sbs}}}
   - {name: "7|🇺🇸_US_美国 #31", server: 104.21.234.52, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}}
-  - {name: 11|美国 CloudFlare节点, server: 104.16.61.8, port: 443, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}}
-  - {name: "11|美国 CloudFlare节点 #1", server: 172.64.175.88, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #2", server: 104.19.59.89, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #3", server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #4", server: 172.64.166.8, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #5", server: 104.19.45.19, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #6", server: 104.26.5.112, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #7", server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net, port: 2052, type: vmess, uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net}}}
-  - {name: "11|美国 CloudFlare节点 #8", server: xXouSRHWlAdexoupqwmsNFbInviJEhZaf.roxifa.ir, port: 443, type: vmess, uuid: f5fd9803-aaad-498f-af3d-8f34b1486f09, alterId: 0, cipher: auto, tls: true, servername: myptBQxieqWGlUbHVNgZdKPanOjhST.roxifa.ir, network: ws, ws-opts: {path: "/rafa?ed=2048", headers: {Host: xXouSRHWlAdexoupqwmsNFbInviJEhZaf.roxifa.ir}}}
-  - {name: "11|美国 CloudFlare节点 #9", server: 162.159.140.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #10", server: singapore.com, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #11", server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net, port: 2086, type: vmess, uuid: 5e7429a4-b006-4a16-b1a3-1af2fbcddbc0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.ernanews.ggff.net}}}
-  - {name: "11|美国 CloudFlare节点 #12", server: 104.19.21.71, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "11,16|香港4|@ripaojiedian", server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "11|美国 CloudFlare节点 #13", server: 104.19.32.216, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #14", server: 172.64.166.20, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #15", server: 104.19.45.31, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #16", server: 162.159.140.45, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #17", server: 104.19.45.48, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: "11|美国 CloudFlare节点 #18", server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #19", server: 172.64.167.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #20", server: 104.26.5.56, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #21", server: 104.19.47.65, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #22", server: 172.64.167.5, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: 11|法国 法国计算机科学大学, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: "11|美国 CloudFlare节点 #23", server: 104.19.21.71, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
-  - {name: "11|美国 CloudFlare节点 #24", server: 104.19.45.9, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 11|美国 CloudFlare节点, server: aqerdsf_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 54895917-9761-487f-b949-1476bf8193ea, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=512", headers: {Host: rbcdn2.fask511.cfd}}}
+  - {name: "11,12|github.com/freefq - 印度  2", server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irsoft.sytes.net}}}
+  - {name: "11|美国 CloudFlare节点 #1", server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net, port: 2052, type: vmess, uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.ernanews.ggff.net}}}
+  - {name: "11|美国 CloudFlare节点 #2", server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #3", server: 104.19.59.89, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #4", server: 104.19.45.50, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #5", server: 172.64.166.22, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #6", server: 104.19.45.172, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: "11|美国 CloudFlare节点 #7", server: 104.19.32.216, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #8", server: 104.16.60.8, port: 2086, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: 82uple-bird-b087.pemed58443.workers.dev}}}
   - {name: "11,15,16|美国2|@ripaojiedian", server: 223.244.26.216, port: 46010, type: vmess, uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn}}
-  - {name: "11|美国 CloudFlare节点 #25", server: 172.64.166.33, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 12|github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irsoft.sytes.net}}}
+  - {name: "11|美国 CloudFlare节点 #9", server: 172.64.155.209, port: 80, type: vmess, uuid: 441e10f0-4c76-4d6c-97b9-83bbefcbc602, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS, headers: {Host: 39238319310964543920519489701900.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou}}}
+  - {name: 11|美国 v2rayfree.eu.org, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
+  - {name: "11|美国 CloudFlare节点 #10", server: 104.19.45.212, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: "11,16|德国|@ripaojiedian", server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: "11|美国 CloudFlare节点 #11", server: fbi.gov, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #12", server: 104.19.45.2, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: "11|美国 CloudFlare节点 #13", server: 104.26.5.66, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #14", server: 104.19.45.35, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #15", server: 172.64.167.5, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 11|乌克兰 v2rayfree.eu.org, server: at3.v2vmess.site, port: 443, type: vmess, uuid: 6d865433-3593-4273-9ebb-199316426973, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: at3.v2vmess.site}}}
+  - {name: "11|美国 CloudFlare节点 #16", server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net, port: 8880, type: vmess, uuid: 8008f0ce-397b-48d2-9145-9d95eb5c6c7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net}}}
+  - {name: "11|美国 CloudFlare节点 #17", server: 104.19.57.4, port: 2095, type: vmess, uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.8084726.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #18", server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net, port: 2052, type: vmess, uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net}}}
+  - {name: "11|美国 CloudFlare节点 #19", server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #20", server: 104.19.45.166, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: "11|美国 CloudFlare节点 #21", server: 172.64.175.213, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: "11|美国 CloudFlare节点 #22", server: 172.67.196.170, port: 8880, type: vmess, uuid: 8008f0ce-397b-48d2-9145-9d95eb5c6c7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net}}}
+  - {name: "11|美国 CloudFlare节点 #23", server: 172.64.166.20, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
   - {name: 12|github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sahand.serveminecraft.net}}}
   - {name: 12|github.com/freefq - 美国CloudFla..., server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
   - {name: "12|github.com/freefq - 美国CloudFla... #1", server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
@@ -115,20 +114,25 @@ proxies:
   - {name: 12|github.com/freefq - 美国Fastly全球..., server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: "12|github.com/freefq - 美国CloudFla... #3", server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
   - {name: "15,16|香港|@ripaojiedian", server: 223.244.26.216, port: 46001, type: vmess, uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn}}
-  - {name: "15,16|香港2|@ripaojiedian", server: 134.122.135.158, port: 48886, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, servername: www.26741191.xyz, network: ws, ws-opts: {path: /path/351212081517, headers: {Host: www.26741191.xyz}}}
+  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: hzhz2.sssyun.xyz, port: 40023, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9}
+  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9}
   - {name: 15|🇩🇪 德国|@ripaojiedian, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: "15,16|日本2|@ripaojiedian", server: kz3bw.c6tu5uwk9.buzz, port: 80, type: vmess, uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.knt6y4bjx.buzz}}}
+  - {name: 15|🇭🇰 香港6|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 145ed409-7726-4471-a0ad-c8299c545535}
+  - {name: 15|🇹🇼 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9}
+  - {name: "15,16|日本|@ripaojiedian", server: 172.233.92.155, port: 443, type: vmess, uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c, alterId: 0, cipher: auto, tls: true, servername: 172.233.92.155, network: ws, ws-opts: {path: /fdmCQbor, headers: {Host: 172.233.92.155}}}
+  - {name: 15|🇯🇵 日本2|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9}
   - {name: 15|🇯🇵 日本4|@ripaojiedian, server: jp2.mhw7e2.online, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
-  - {name: "15,16|日本6|@ripaojiedian", server: 172.234.86.166, port: 12000, type: vmess, uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c, alterId: 0, cipher: auto, tls: true, servername: 172.234.86.166, network: ws, ws-opts: {path: /FhmYLiiu, headers: {Host: 172.234.86.166}}}
-  - {name: "15,16|新加坡2|@ripaojiedian", server: 3L6E2.c6tu5uwk9.buzz, port: 80, type: vmess, uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.knt6y4bjx.buzz}}}
+  - {name: 15|🇸🇬 新加坡|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39204, type: ss, cipher: chacha20-ietf-poly1305, password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9}
+  - {name: "15,16|新加坡2|@ripaojiedian", server: 172.104.189.84, port: 2052, type: vmess, uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c, alterId: 0, cipher: auto, tls: true, servername: 172.104.189.84, network: ws, ws-opts: {path: /video/QqzfRGNq, headers: {Host: 172.104.189.84}}}
   - {name: 15|🇺🇸 美国3|@ripaojiedian, server: 38.114.114.158, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 15|🇺🇸 美国4|@ripaojiedian, server: 23.157.40.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.125.222.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 3.38.98.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 54.249.192.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 16|日本|@ripaojiedian, server: 45.159.50.80, port: 31184, type: vmess, uuid: 1852247b-8284-43d6-b0c7-d687464333a6, alterId: 0, cipher: auto, tls: false}
-  - {name: 16|韩国3|@ripaojiedian, server: 45.94.68.193, port: 40546, type: vmess, uuid: 181cd551-ebfd-43fa-b3b6-01dd949f4013, alterId: 0, cipher: auto, tls: false}
-  - {name: 16|德国|@ripaojiedian, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: 15|🇺🇸 美国5|@ripaojiedian, server: 167.88.62.50, port: 1723, type: ss, cipher: chacha20-ietf-poly1305, password: Gru.a-XgKzY+=Nl_}
+  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 52.78.193.3, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 43.201.61.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 3.36.113.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 16|香港4|@ripaojiedian, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 16|香港5|@ripaojiedian, server: 38.147.188.194, port: 57377, type: vmess, uuid: ee05e267-1e79-472c-95e6-28a07c91f5ac, alterId: 0, cipher: auto, tls: false}
+  - {name: 16|韩国2|@ripaojiedian, server: 45.141.136.217, port: 54553, type: vmess, uuid: e6e837d3-52f6-4ae2-9a69-34754ec2552e, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -213,6 +217,7 @@ proxy-groups:
       - "7|🇺🇸_US_美国 #30"
       - "7|🇺🇸_US_美国 #31"
       - 11|美国 CloudFlare节点
+      - 11,12|github.com/freefq - 印度  2
       - "11|美国 CloudFlare节点 #1"
       - "11|美国 CloudFlare节点 #2"
       - "11|美国 CloudFlare节点 #3"
@@ -221,14 +226,17 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #6"
       - "11|美国 CloudFlare节点 #7"
       - "11|美国 CloudFlare节点 #8"
+      - 11,15,16|美国2|@ripaojiedian
       - "11|美国 CloudFlare节点 #9"
+      - 11|美国 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #10"
+      - 11,16|德国|@ripaojiedian
       - "11|美国 CloudFlare节点 #11"
       - "11|美国 CloudFlare节点 #12"
-      - 11,16|香港4|@ripaojiedian
       - "11|美国 CloudFlare节点 #13"
       - "11|美国 CloudFlare节点 #14"
       - "11|美国 CloudFlare节点 #15"
+      - 11|乌克兰 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #16"
       - "11|美国 CloudFlare节点 #17"
       - "11|美国 CloudFlare节点 #18"
@@ -236,12 +244,7 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #20"
       - "11|美国 CloudFlare节点 #21"
       - "11|美国 CloudFlare节点 #22"
-      - 11|法国 法国计算机科学大学
       - "11|美国 CloudFlare节点 #23"
-      - "11|美国 CloudFlare节点 #24"
-      - 11,15,16|美国2|@ripaojiedian
-      - "11|美国 CloudFlare节点 #25"
-      - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
       - 12|github.com/freefq - 美国CloudFla...
       - "12|github.com/freefq - 美国CloudFla... #1"
@@ -251,20 +254,25 @@ proxy-groups:
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15,16|香港|@ripaojiedian
-      - 15,16|香港2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
       - 15|🇩🇪 德国|@ripaojiedian
-      - 15,16|日本2|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾|@ripaojiedian
+      - 15,16|日本|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
-      - 15,16|日本6|@ripaojiedian
+      - 15|🇸🇬 新加坡|@ripaojiedian
       - 15,16|新加坡2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 16|日本|@ripaojiedian
-      - 16|韩国3|@ripaojiedian
-      - 16|德国|@ripaojiedian
+      - 16|香港4|@ripaojiedian
+      - 16|香港5|@ripaojiedian
+      - 16|韩国2|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -343,6 +351,7 @@ proxy-groups:
       - "7|🇺🇸_US_美国 #30"
       - "7|🇺🇸_US_美国 #31"
       - 11|美国 CloudFlare节点
+      - 11,12|github.com/freefq - 印度  2
       - "11|美国 CloudFlare节点 #1"
       - "11|美国 CloudFlare节点 #2"
       - "11|美国 CloudFlare节点 #3"
@@ -351,14 +360,17 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #6"
       - "11|美国 CloudFlare节点 #7"
       - "11|美国 CloudFlare节点 #8"
+      - 11,15,16|美国2|@ripaojiedian
       - "11|美国 CloudFlare节点 #9"
+      - 11|美国 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #10"
+      - 11,16|德国|@ripaojiedian
       - "11|美国 CloudFlare节点 #11"
       - "11|美国 CloudFlare节点 #12"
-      - 11,16|香港4|@ripaojiedian
       - "11|美国 CloudFlare节点 #13"
       - "11|美国 CloudFlare节点 #14"
       - "11|美国 CloudFlare节点 #15"
+      - 11|乌克兰 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #16"
       - "11|美国 CloudFlare节点 #17"
       - "11|美国 CloudFlare节点 #18"
@@ -366,12 +378,7 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #20"
       - "11|美国 CloudFlare节点 #21"
       - "11|美国 CloudFlare节点 #22"
-      - 11|法国 法国计算机科学大学
       - "11|美国 CloudFlare节点 #23"
-      - "11|美国 CloudFlare节点 #24"
-      - 11,15,16|美国2|@ripaojiedian
-      - "11|美国 CloudFlare节点 #25"
-      - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
       - 12|github.com/freefq - 美国CloudFla...
       - "12|github.com/freefq - 美国CloudFla... #1"
@@ -381,20 +388,25 @@ proxy-groups:
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15,16|香港|@ripaojiedian
-      - 15,16|香港2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
       - 15|🇩🇪 德国|@ripaojiedian
-      - 15,16|日本2|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾|@ripaojiedian
+      - 15,16|日本|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
-      - 15,16|日本6|@ripaojiedian
+      - 15|🇸🇬 新加坡|@ripaojiedian
       - 15,16|新加坡2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 16|日本|@ripaojiedian
-      - 16|韩国3|@ripaojiedian
-      - 16|德国|@ripaojiedian
+      - 16|香港4|@ripaojiedian
+      - 16|香港5|@ripaojiedian
+      - 16|韩国2|@ripaojiedian
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -472,6 +484,7 @@ proxy-groups:
       - "7|🇺🇸_US_美国 #30"
       - "7|🇺🇸_US_美国 #31"
       - 11|美国 CloudFlare节点
+      - 11,12|github.com/freefq - 印度  2
       - "11|美国 CloudFlare节点 #1"
       - "11|美国 CloudFlare节点 #2"
       - "11|美国 CloudFlare节点 #3"
@@ -480,14 +493,17 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #6"
       - "11|美国 CloudFlare节点 #7"
       - "11|美国 CloudFlare节点 #8"
+      - 11,15,16|美国2|@ripaojiedian
       - "11|美国 CloudFlare节点 #9"
+      - 11|美国 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #10"
+      - 11,16|德国|@ripaojiedian
       - "11|美国 CloudFlare节点 #11"
       - "11|美国 CloudFlare节点 #12"
-      - 11,16|香港4|@ripaojiedian
       - "11|美国 CloudFlare节点 #13"
       - "11|美国 CloudFlare节点 #14"
       - "11|美国 CloudFlare节点 #15"
+      - 11|乌克兰 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #16"
       - "11|美国 CloudFlare节点 #17"
       - "11|美国 CloudFlare节点 #18"
@@ -495,12 +511,7 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #20"
       - "11|美国 CloudFlare节点 #21"
       - "11|美国 CloudFlare节点 #22"
-      - 11|法国 法国计算机科学大学
       - "11|美国 CloudFlare节点 #23"
-      - "11|美国 CloudFlare节点 #24"
-      - 11,15,16|美国2|@ripaojiedian
-      - "11|美国 CloudFlare节点 #25"
-      - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
       - 12|github.com/freefq - 美国CloudFla...
       - "12|github.com/freefq - 美国CloudFla... #1"
@@ -510,20 +521,25 @@ proxy-groups:
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15,16|香港|@ripaojiedian
-      - 15,16|香港2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
       - 15|🇩🇪 德国|@ripaojiedian
-      - 15,16|日本2|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾|@ripaojiedian
+      - 15,16|日本|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
-      - 15,16|日本6|@ripaojiedian
+      - 15|🇸🇬 新加坡|@ripaojiedian
       - 15,16|新加坡2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 16|日本|@ripaojiedian
-      - 16|韩国3|@ripaojiedian
-      - 16|德国|@ripaojiedian
+      - 16|香港4|@ripaojiedian
+      - 16|香港5|@ripaojiedian
+      - 16|韩国2|@ripaojiedian
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -602,6 +618,7 @@ proxy-groups:
       - "7|🇺🇸_US_美国 #30"
       - "7|🇺🇸_US_美国 #31"
       - 11|美国 CloudFlare节点
+      - 11,12|github.com/freefq - 印度  2
       - "11|美国 CloudFlare节点 #1"
       - "11|美国 CloudFlare节点 #2"
       - "11|美国 CloudFlare节点 #3"
@@ -610,14 +627,17 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #6"
       - "11|美国 CloudFlare节点 #7"
       - "11|美国 CloudFlare节点 #8"
+      - 11,15,16|美国2|@ripaojiedian
       - "11|美国 CloudFlare节点 #9"
+      - 11|美国 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #10"
+      - 11,16|德国|@ripaojiedian
       - "11|美国 CloudFlare节点 #11"
       - "11|美国 CloudFlare节点 #12"
-      - 11,16|香港4|@ripaojiedian
       - "11|美国 CloudFlare节点 #13"
       - "11|美国 CloudFlare节点 #14"
       - "11|美国 CloudFlare节点 #15"
+      - 11|乌克兰 v2rayfree.eu.org
       - "11|美国 CloudFlare节点 #16"
       - "11|美国 CloudFlare节点 #17"
       - "11|美国 CloudFlare节点 #18"
@@ -625,12 +645,7 @@ proxy-groups:
       - "11|美国 CloudFlare节点 #20"
       - "11|美国 CloudFlare节点 #21"
       - "11|美国 CloudFlare节点 #22"
-      - 11|法国 法国计算机科学大学
       - "11|美国 CloudFlare节点 #23"
-      - "11|美国 CloudFlare节点 #24"
-      - 11,15,16|美国2|@ripaojiedian
-      - "11|美国 CloudFlare节点 #25"
-      - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
       - 12|github.com/freefq - 美国CloudFla...
       - "12|github.com/freefq - 美国CloudFla... #1"
@@ -640,20 +655,25 @@ proxy-groups:
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15,16|香港|@ripaojiedian
-      - 15,16|香港2|@ripaojiedian
+      - 15|🇭🇰 香港2|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
       - 15|🇩🇪 德国|@ripaojiedian
-      - 15,16|日本2|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾|@ripaojiedian
+      - 15,16|日本|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
-      - 15,16|日本6|@ripaojiedian
+      - 15|🇸🇬 新加坡|@ripaojiedian
       - 15,16|新加坡2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
-      - 16|日本|@ripaojiedian
-      - 16|韩国3|@ripaojiedian
-      - 16|德国|@ripaojiedian
+      - 16|香港4|@ripaojiedian
+      - 16|香港5|@ripaojiedian
+      - 16|韩国2|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
