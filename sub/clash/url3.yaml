@@ -6,263 +6,144 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 8|@Zede_filteri+🇹🇼, server: 83.147.13.176, port: 11402, type: hysteria2, password: 5c397f7b-3d06-48cc-9147-218109e23a24, auth: 5c397f7b-3d06-48cc-9147-218109e23a24, sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc, skip-cert-verify: true}
-  - {name: "13,14|香港|@ripaojiedian", server: cfcdn2.sanfencdn9.com, port: 2086, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ifBUEjhG, headers: {Host: gbdzxvumhk1.xqyhvpee.xyz}}}
-  - {name: 13|🇭🇰 香港2|@ripaojiedian, server: 149.104.20.212, port: 18210, type: vmess, uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f, alterId: 0, cipher: auto, tls: false}
-  - {name: 13|🇭🇰 香港3|@ripaojiedian, server: 110.40.59.61, port: 32447, type: vmess, uuid: 74eb53ef-46dd-418d-f09a-98f31e7eea3a, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|🇭🇰 香港|@ripaojiedian, server: soonhk.soon.guru, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
+  - {name: 13|🇭🇰 香港2|@ripaojiedian, server: 103.75.117.78, port: 14247, type: vmess, uuid: 56d6f1a9-b26a-4f9b-a95a-ff59de60ee51, alterId: 0, cipher: auto, tls: false}
+  - {name: "13,14|香港3|@ripaojiedian", server: hkcft01.xqc.best, port: 443, type: vmess, uuid: 86bf5667-081c-46a6-8030-6b50787723d6, alterId: 0, cipher: auto, tls: true, servername: d1zonq30ul7iu8.cloudfront.net, network: ws, ws-opts: {path: /stream, headers: {Host: d1zonq30ul7iu8.cloudfront.net}}}
   - {name: 13|🇭🇰 香港4|@ripaojiedian, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 13|🇭🇰 香港5|@ripaojiedian, server: ambxxid02hk.dorabbb.top, port: 44826, type: vmess, uuid: 5f01c154-4137-4ffc-bf6d-801352a20d7a, alterId: 0, cipher: auto, tls: false}
   - {name: 13|🇭🇰 香港6|@ripaojiedian, server: z3.fragranceninja.com, port: 12960, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, tls: true}
-  - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 43.207.71.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "13,14|台湾|@ripaojiedian", server: naiu-other.05vr9nyqg5.download, port: 13035, type: trojan, password: 8d4a8689-e8fd-4405-9834-3f812c528db0, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 13|🇯🇵 日本|@ripaojiedian, server: 54.248.54.190, port: 1234, type: ss, cipher: chacha20-ietf-poly1305, password: 1234}
-  - {name: "13,14|日本2|@ripaojiedian", server: jp005.421421.xyz, port: 20230, type: trojan, password: 5c7dbef8-0fb5-4e88-bb84-24cafeb73f8d, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 13|🇯🇵 日本3|@ripaojiedian, server: 45.159.51.138, port: 36328, type: vmess, uuid: 15c2d96f-e859-4375-9780-0e1975a050a7, alterId: 0, cipher: auto, tls: false}
-  - {name: "13,14|韩国|@ripaojiedian", server: strw4.c6tu5uwk9.buzz, port: 80, type: vmess, uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr03.1761d77fead15f193490a0f11b83f3a4.buzz}}}
-  - {name: "13,14|新加坡2|@ripaojiedian", server: bfdo3.c6tu5uwk9.buzz, port: 80, type: vmess, uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.1761d77fead15f193490a0f11b83f3a4.buzz}}}
-  - {name: "13,14|新加坡3|@ripaojiedian", server: 192.53.172.191, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, servername: 192.53.172.191, network: ws, ws-opts: {path: /wrPUMAzPF, headers: {Host: 192.53.172.191}}}
+  - {name: 13|🇹🇼 台湾|@ripaojiedian, server: soontw.soon.guru, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
+  - {name: "13,14|日本|@ripaojiedian", server: jpcft01.xqc.best, port: 443, type: vmess, uuid: 86bf5667-081c-46a6-8030-6b50787723d6, alterId: 0, cipher: auto, tls: true, servername: d2vx9phh42gj2v.cloudfront.net, network: ws, ws-opts: {path: /stream, headers: {Host: d2vx9phh42gj2v.cloudfront.net}}}
+  - {name: 13|🇯🇵 日本2|@ripaojiedian, server: 45.159.50.219, port: 51127, type: vmess, uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|🇯🇵 日本3|@ripaojiedian, server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
+  - {name: 13|🇯🇵 日本4|@ripaojiedian, server: 221.181.185.71, port: 23801, type: ss, cipher: aes-256-cfb, password: JpTYrOJnIhNMXqli}
+  - {name: 13|🇰🇷 韩国|@ripaojiedian, server: soonkr.soon.guru, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
+  - {name: "13,14|新加坡2|@ripaojiedian", server: sgcft01.xqc.best, port: 443, type: vmess, uuid: 86bf5667-081c-46a6-8030-6b50787723d6, alterId: 0, cipher: auto, tls: true, servername: d6dxw1fj76oix.cloudfront.net, network: ws, ws-opts: {path: /stream, headers: {Host: d6dxw1fj76oix.cloudfront.net}}}
   - {name: 13|🇸🇬 新加坡4|@ripaojiedian, server: present-blowfish.sunbeam921.monster, port: 443, type: trojan, password: 3672449442956713984, sni: present-blowfish.sunbeam921.monster, skip-cert-verify: false}
-  - {name: "13,14|美国|@ripaojiedian", server: 45.33.54.48, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, servername: 45.33.54.48, network: ws, ws-opts: {path: /uzbXtnJH, headers: {Host: 45.33.54.48}}}
+  - {name: "13,14|美国|@ripaojiedian", server: 66.175.217.126, port: 443, type: vmess, uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe, alterId: 0, cipher: auto, tls: true, servername: 66.175.217.126, network: ws, ws-opts: {path: /bFhFAWRF, headers: {Host: 66.175.217.126}}}
   - {name: 13|🇺🇸 美国2|@ripaojiedian, server: 120.232.153.40, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 43.207.71.110, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 3.0.93.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 43.201.82.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 13|🇩🇪 德国|@ripaojiedian, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: 14|香港2|@ripaojiedian, server: 149.104.20.212, port: 18210, type: vmess, uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f, alterId: 0, cipher: auto, tls: false}
-  - {name: 14|香港3|@ripaojiedian, server: 110.40.59.61, port: 32447, type: vmess, uuid: 74eb53ef-46dd-418d-f09a-98f31e7eea3a, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|香港|@ripaojiedian, server: soonhk.soon.guru, port: 40000, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYTU0MWIxYS1iODIzLTRlOTEtOGNkNC00MmFjNmQ0ZDQ1Njk}
+  - {name: 14|香港2|@ripaojiedian, server: 103.75.117.78, port: 14247, type: vmess, uuid: 56d6f1a9-b26a-4f9b-a95a-ff59de60ee51, alterId: 0, cipher: auto, tls: false}
   - {name: 14|香港4|@ripaojiedian, server: 120.232.153.40, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 14|香港5|@ripaojiedian, server: ambxxid02hk.dorabbb.top, port: 44826, type: vmess, uuid: 5f01c154-4137-4ffc-bf6d-801352a20d7a, alterId: 0, cipher: auto, tls: false}
   - {name: 14|香港6|@ripaojiedian, server: z3.fragranceninja.com, port: 12960, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, tls: true}
-  - {name: 14|韩国特殊|@ripaojiedian, server: 43.207.71.110, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 14|日本|@ripaojiedian, server: 54.248.54.190, port: 1234, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjM0}
-  - {name: 14|日本3|@ripaojiedian, server: 45.159.51.138, port: 36328, type: vmess, uuid: 15c2d96f-e859-4375-9780-0e1975a050a7, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|台湾|@ripaojiedian, server: soontw.soon.guru, port: 40020, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYTU0MWIxYS1iODIzLTRlOTEtOGNkNC00MmFjNmQ0ZDQ1Njk}
+  - {name: 14|日本2|@ripaojiedian, server: 45.159.50.219, port: 51127, type: vmess, uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|日本3|@ripaojiedian, server: soonjp.soon.guru, port: 40003, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYTU0MWIxYS1iODIzLTRlOTEtOGNkNC00MmFjNmQ0ZDQ1Njk}
+  - {name: 14|日本4|@ripaojiedian, server: 221.181.185.71, port: 23801, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6SnBUWXJPSm5JaE5NWHFsaQ}
+  - {name: 14|韩国|@ripaojiedian, server: soonkr.soon.guru, port: 40032, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYTU0MWIxYS1iODIzLTRlOTEtOGNkNC00MmFjNmQ0ZDQ1Njk}
   - {name: 14|新加坡4|@ripaojiedian, server: present-blowfish.sunbeam921.monster, port: 443, type: trojan, password: 3672449442956713984}
   - {name: 14|美国2|@ripaojiedian, server: 120.232.153.40, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: 14|韩国特殊|@ripaojiedian, server: 43.207.71.110, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
   - {name: 14|狮城特殊|@ripaojiedian, server: 3.0.93.45, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
   - {name: 14|日本特殊|@ripaojiedian, server: 43.201.82.24, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
   - {name: 14|德国|@ripaojiedian, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: 15|CN_speednode_0003, server: naiu-hk.05vr9nyqg5.download, port: 13008, type: trojan, password: d6d86a97-2bef-4f89-9527-ce2003377677, sni: naiu-hk.05vr9nyqg5.download, skip-cert-verify: true}
-  - {name: 15|KR_speednode_0019, server: 220.126.127.139, port: 10116, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
-  - {name: 15|KR_speednode_0020, server: 118.33.22.133, port: 16053, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
-  - {name: 15|RU_speednode_0021, server: 45.67.215.99, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.oraclh.fxxk.dedyn.iosecurity=tls", headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|RU_speednode_0022, server: 45.67.215.42, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|RU_speednode_0023, server: 45.67.215.172, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|RU_speednode_0038, server: 188.42.145.140, port: 443, type: vless, uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e, tls: true, servername: g1.youyuan.us.kg, network: ws, ws-opts: {path: "/?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chromefp=chrome", headers: {Host: g1.youyuan.us.kg}}}
-  - {name: 15|RU_speednode_0025, server: 45.67.215.70, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|RU_speednode_0026, server: 45.67.215.161, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|RU_speednode_0027, server: 45.67.215.144, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|RU_speednode_0028, server: 45.67.215.70, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|RU_speednode_0029, server: 45.67.215.167, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|RU_speednode_0030, server: 45.67.215.99, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.oracli.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|RU_speednode_0031, server: 45.67.215.172, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|RU_speednode_0032, server: 45.67.215.167, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|RU_speednode_0033, server: 45.67.215.154, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|RU_speednode_0034, server: 45.67.215.144, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|RU_speednode_0035, server: 45.67.215.98, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.oracli.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
-  - {name: 15|RU_speednode_0037, server: 45.67.215.161, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|RU_speednode_0039, server: 188.42.145.140, port: 443, type: vless, uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e, tls: true, servername: g1.youyuan.us.kg, network: ws, ws-opts: {path: "/?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chrome", headers: {Host: g1.youyuan.us.kg}}}
-  - {name: 15|RU_speednode_0040, server: 45.67.215.143, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|RU_speednode_0041, server: 188.42.145.72, port: 443, type: vless, uuid: 743f1861-04b8-47d1-8208-1e1ff65c10d2, tls: true, servername: y0nl2.yfjc.sbs, network: ws, ws-opts: {path: /yfjc/knl2fp=chrome, headers: {Host: y0nl2.yfjc.sbs}}}
-  - {name: 15|US_speednode_0042, server: 31.129.49.103, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0043, server: 31.129.49.103, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0044, server: 31.129.48.139, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0045, server: 69.84.182.101, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0046, server: 69.84.182.104, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0047, server: 198.62.62.161, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0250, server: 66.81.247.16, port: 443, type: vless, uuid: e4e7b149-8bd8-4266-8cbb-0987604dbc87, tls: false, servername: toujiediansigema.5112233.xyz, network: ws, ws-opts: {path: /tg@juzibaipiao偷节点死吗security=tls, headers: {Host: toujiediansigema.5112233.xyz}}}
-  - {name: 15|US_speednode_0049, server: 69.84.182.15, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0050, server: 69.84.182.32, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0213, server: 198.62.62.81, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ch.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ch.ylks.xyz}}}
-  - {name: 15|US_speednode_0052, server: 198.62.62.1, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0053, server: 69.84.182.44, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0054, server: 198.62.62.251, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0055, server: 69.84.182.212, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0056, server: 160.79.105.99, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0057, server: 198.62.62.91, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ch.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ch.ylks.xyz}}}
-  - {name: 15|US_speednode_0058, server: 198.62.62.75, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0059, server: 69.84.182.102, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0060, server: 69.84.182.251, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0061, server: 198.62.62.227, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0062, server: 198.62.62.166, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0063, server: 198.62.62.84, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0064, server: 198.62.62.245, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0065, server: 69.84.182.88, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0066, server: 69.84.182.163, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0067, server: 69.84.182.138, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0068, server: 198.62.62.140, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0069, server: 69.84.182.38, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0070, server: 69.84.182.127, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0071, server: 198.62.62.122, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0072, server: 198.62.62.60, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0073, server: 69.84.182.164, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0074, server: 69.84.182.27, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0075, server: 192.0.54.218, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0204, server: 198.62.62.44, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0077, server: 69.84.182.172, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0078, server: 69.84.182.100, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0079, server: 198.62.62.131, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0080, server: 198.62.62.10, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0081, server: 198.62.62.220, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ch.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ch.ylks.xyz}}}
-  - {name: 15|US_speednode_0082, server: 69.84.182.41, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0083, server: 69.84.182.192, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0084, server: 69.84.182.26, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0085, server: 198.62.62.186, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0086, server: 198.62.62.211, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0087, server: 198.62.62.77, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0088, server: 69.84.182.145, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0089, server: 192.200.160.101, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0090, server: 69.84.182.219, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0091, server: 69.84.182.232, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0092, server: 69.84.182.39, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0093, server: 69.84.182.71, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0094, server: 192.200.160.94, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0095, server: 198.62.62.174, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0096, server: 198.62.62.27, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0097, server: 198.62.62.59, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0098, server: 69.84.182.139, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0099, server: 198.62.62.28, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0100, server: 69.84.182.236, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0101, server: 69.84.182.200, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0102, server: 198.62.62.217, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0103, server: 173.249.197.84, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0104, server: 69.84.182.106, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0105, server: 198.62.62.137, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0167, server: 198.62.62.156, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0107, server: 69.84.182.210, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0108, server: 198.62.62.14, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ch.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ch.ylks.xyz}}}
-  - {name: 15|US_speednode_0109, server: 69.84.182.119, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0110, server: 69.84.182.33, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0111, server: 69.84.182.29, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0112, server: 198.62.62.183, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0113, server: 192.0.54.48, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0114, server: 69.84.182.165, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0115, server: 69.84.182.197, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0116, server: 69.84.182.86, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0117, server: 69.84.182.52, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0118, server: 69.84.182.177, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0119, server: 69.84.182.53, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0120, server: 69.84.182.84, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0121, server: 198.62.62.13, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0122, server: 198.62.62.203, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0123, server: 69.84.182.179, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0217, server: 69.84.182.247, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0125, server: 198.62.62.39, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0126, server: 69.84.182.115, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0127, server: 198.62.62.185, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0128, server: 69.84.182.58, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0129, server: 69.84.182.58, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0130, server: 69.84.182.77, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0131, server: 69.84.182.193, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0132, server: 69.84.182.196, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0133, server: 198.62.62.165, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0134, server: 69.84.182.140, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0135, server: 198.62.62.151, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0136, server: 69.84.182.106, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0137, server: 69.84.182.141, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0138, server: 69.84.182.75, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ch.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ch.ylks.xyz}}}
-  - {name: 15|US_speednode_0139, server: 198.62.62.12, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0140, server: 198.62.62.128, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0141, server: 69.84.182.16, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0142, server: 198.62.62.27, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0143, server: 69.84.182.59, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0144, server: 69.84.182.165, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0145, server: 69.84.182.134, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0146, server: 198.62.62.22, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0147, server: 69.84.182.178, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ch.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ch.ylks.xyz}}}
-  - {name: 15|US_speednode_0148, server: 34.123.83.237, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0149, server: 69.84.182.97, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0150, server: 198.62.62.170, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0151, server: 198.62.62.203, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0152, server: 69.84.182.29, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0153, server: 198.62.62.52, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0154, server: 198.62.62.92, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0155, server: 69.84.182.110, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0156, server: 69.84.182.21, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: dh.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: dh.ylks.xyz}}}
-  - {name: 15|US_speednode_0157, server: 69.84.182.16, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0158, server: 69.84.182.102, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0159, server: 69.84.182.15, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0160, server: 69.84.182.219, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0161, server: 69.84.182.163, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0162, server: 198.62.62.183, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0163, server: 69.84.182.52, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0164, server: 69.84.182.127, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0165, server: 69.84.182.88, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0166, server: 69.84.182.115, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0168, server: 69.84.182.139, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0169, server: 198.62.62.148, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0170, server: 198.62.62.77, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0171, server: 198.62.62.127, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0172, server: 160.79.105.99, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0173, server: 198.62.62.15, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0174, server: 69.84.182.186, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0175, server: 69.84.182.177, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0176, server: 69.84.182.27, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0177, server: 198.62.62.166, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0178, server: 69.84.182.44, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0179, server: 69.84.182.178, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0180, server: 198.62.62.92, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0181, server: 198.62.62.106, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0182, server: 198.62.62.1, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0183, server: 69.84.182.77, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0184, server: 198.62.62.9, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ah.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ah.ylks.xyz}}}
-  - {name: 15|US_speednode_0185, server: 198.62.62.110, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0186, server: 69.84.182.212, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0187, server: 69.84.182.33, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0188, server: 69.84.182.104, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0189, server: 192.200.160.101, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0190, server: 69.84.182.164, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0191, server: 69.84.182.236, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0192, server: 69.84.182.193, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0193, server: 198.62.62.185, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0194, server: 198.62.62.91, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ci.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ci.ylks.xyz}}}
-  - {name: 15|US_speednode_0195, server: 69.84.182.21, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0196, server: 198.62.62.227, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0197, server: 69.84.182.59, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0198, server: 69.84.182.97, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0199, server: 69.84.182.86, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0200, server: 198.62.62.32, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: lh.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0201, server: 69.84.182.75, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ci.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ci.ylks.xyz}}}
-  - {name: 15|US_speednode_0202, server: 198.62.62.165, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0203, server: 198.62.62.170, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0205, server: 198.62.62.161, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0206, server: 69.84.182.84, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0207, server: 198.62.62.28, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0208, server: 69.84.182.176, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0209, server: 198.62.62.233, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ci.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ci.ylks.xyz}}}
-  - {name: 15|US_speednode_0210, server: 69.84.182.187, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0211, server: 198.62.62.122, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0212, server: 198.62.62.220, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0214, server: 198.62.62.186, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0215, server: 198.62.62.59, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0216, server: 69.84.182.101, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0218, server: 198.62.62.60, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0219, server: 69.84.182.119, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0220, server: 69.84.182.32, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0221, server: 198.62.62.14, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0222, server: 198.62.62.245, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0223, server: 198.62.62.139, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0224, server: 69.84.182.141, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0225, server: 69.84.182.196, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0226, server: 69.84.182.179, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0227, server: 198.62.62.0, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0228, server: 198.62.62.13, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0229, server: 69.84.182.39, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0230, server: 69.84.182.138, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0231, server: 69.84.182.232, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0232, server: 198.62.62.12, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0233, server: 69.84.182.145, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0234, server: 198.62.62.215, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0235, server: 198.62.62.84, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
-  - {name: 15|US_speednode_0236, server: 198.62.62.131, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0237, server: 198.62.62.174, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0238, server: 198.62.62.39, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
-  - {name: 15|US_speednode_0239, server: 198.62.62.211, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0240, server: 198.62.62.251, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0241, server: 69.84.182.41, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0242, server: 198.62.62.75, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylks.us.kg, network: ws, ws-opts: {path: "/?edsecurity=tls", headers: {Host: lh.ylks.us.kg}}}
-  - {name: 15|US_speednode_0243, server: 198.62.62.22, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0244, server: 69.84.182.53, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: lh.ylka.us.kg, network: ws, ws-opts: {path: "/?edsecurity=tls", headers: {Host: lh.ylka.us.kg}}}
-  - {name: 15|US_speednode_0245, server: 69.84.182.71, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
-  - {name: 15|US_speednode_0247, server: 69.84.182.140, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0248, server: 69.84.182.172, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
-  - {name: 15|US_speednode_0249, server: 69.84.182.251, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
-  - {name: 15|US_speednode_0251, server: 69.84.182.210, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|GB_speednode_0001, server: 94.247.142.241, port: 443, type: vless, uuid: 775213ac-3976-439a-8977-3277c0e4735d, tls: false, servername: fq521.6789.cloudns.be, network: ws, ws-opts: {path: /security=tls, headers: {Host: fq521.6789.cloudns.be}}}
+  - {name: 15|GB_speednode_0002, server: 94.247.142.241, port: 443, type: vless, uuid: 775213ac-3976-439a-8977-3277c0e4735d, tls: false, servername: fq521.6789.cloudns.be, network: ws, ws-opts: {path: /Twitterfreecodessecurity=tls, headers: {Host: fq521.6789.cloudns.be}}}
+  - {name: 15|KR_speednode_0003, server: 14.48.49.133, port: 10000, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|KR_speednode_0004, server: 118.131.41.202, port: 16072, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|KR_speednode_0005, server: 183.98.53.177, port: 10911, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|KR_speednode_0006, server: 121.182.55.77, port: 30063, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|KR_speednode_0007, server: 118.130.23.168, port: 18016, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|KR_speednode_0008, server: 119.203.125.236, port: 30001, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|KR_speednode_0009, server: 211.196.226.172, port: 32202, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|RU_speednode_0010, server: 45.67.215.144, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|RU_speednode_0011, server: 45.67.215.99, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.oracli.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|RU_speednode_0012, server: 45.67.215.98, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.oracli.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
+  - {name: 15|RU_speednode_0013, server: 45.67.215.161, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|RU_speednode_0014, server: 45.67.215.70, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|RU_speednode_0015, server: 45.67.215.172, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|RU_speednode_0016, server: 45.67.215.143, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|RU_speednode_0017, server: 188.42.145.140, port: 443, type: vless, uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e, tls: true, servername: g1.youyuan.us.kg, network: ws, ws-opts: {path: "/?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chromefp=chrome", headers: {Host: g1.youyuan.us.kg}}}
+  - {name: 15|RU_speednode_0018, server: 188.42.145.140, port: 443, type: vless, uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e, tls: true, servername: g1.youyuan.us.kg, network: ws, ws-opts: {path: "/?proxyip=proxyip.multacom.fxxk.dedyn.iofp=chromefp=chrome", headers: {Host: g1.youyuan.us.kg}}}
+  - {name: 15|RU_speednode_0019, server: 45.67.215.167, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|RU_speednode_0020, server: 188.42.145.159, port: 443, type: vless, uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d, tls: false, servername: VIrgiNiavPn-nL.pagEs.dEv, network: ws, ws-opts: {path: /security=tls, headers: {Host: VIrgiNiavPn-nL.pagEs.dEv}}}
+  - {name: 15|RU_speednode_0021, server: 31.129.49.103, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|RU_speednode_0022, server: 31.129.48.139, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0023, server: 69.84.182.59, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0024, server: 69.84.182.77, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0025, server: 198.62.62.161, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0026, server: 160.79.105.99, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0027, server: 69.84.182.139, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0028, server: 69.84.182.178, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0029, server: 198.62.62.251, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0030, server: 69.84.182.58, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0031, server: 198.62.62.203, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0032, server: 69.84.182.15, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0033, server: 69.84.182.186, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0034, server: 198.62.62.1, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0035, server: 69.84.182.97, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0036, server: 69.84.182.140, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0037, server: 69.84.182.236, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0038, server: 198.62.62.77, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0039, server: 198.62.62.170, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0040, server: 198.62.62.92, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0041, server: 69.84.182.71, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0042, server: 69.84.182.27, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0043, server: 69.84.182.164, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0044, server: 69.84.182.101, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0045, server: 69.84.182.88, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0046, server: 69.84.182.39, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0047, server: 198.62.62.106, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0048, server: 69.84.182.44, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0049, server: 69.84.182.127, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0050, server: 198.62.62.174, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0051, server: 198.62.62.139, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0052, server: 69.84.182.177, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0053, server: 69.84.182.193, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0054, server: 198.62.62.215, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0055, server: 198.62.62.185, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0056, server: 69.84.182.32, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0057, server: 69.84.182.104, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0058, server: 198.62.62.15, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0059, server: 69.84.182.172, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0060, server: 69.84.182.16, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0061, server: 198.62.62.0, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0062, server: 69.84.182.84, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0063, server: 198.62.62.28, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0064, server: 198.62.62.131, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0065, server: 198.62.62.166, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0066, server: 69.84.182.212, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0067, server: 69.84.182.75, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ci.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ci.ylks.xyz}}}
+  - {name: 15|US_speednode_0068, server: 198.62.62.227, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0069, server: 69.84.182.33, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0070, server: 69.84.182.21, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0071, server: 69.84.182.219, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0072, server: 198.62.62.245, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0073, server: 198.62.62.110, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0074, server: 198.62.62.27, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0075, server: 69.84.182.176, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0076, server: 69.84.182.110, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0077, server: 69.84.182.232, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0078, server: 69.84.182.179, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0079, server: 69.84.182.29, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0080, server: 69.84.182.52, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0081, server: 69.84.182.106, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0082, server: 23.236.68.152, port: 34237, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?edsecurity=tls", headers: {Host: global2.ccdd.site}}}
+  - {name: 15|US_speednode_0083, server: 69.84.182.138, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks01.eu.org, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: li.ylks01.eu.org}}}
+  - {name: 15|US_speednode_0084, server: 69.84.182.163, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0085, server: 198.62.62.22, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0086, server: 69.84.182.210, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0087, server: 69.84.182.102, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0088, server: 69.84.182.145, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0089, server: 198.62.62.183, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0090, server: 198.62.62.52, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0091, server: 69.84.182.115, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0092, server: 69.84.182.141, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: di.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: di.ylks.xyz}}}
+  - {name: 15|US_speednode_0093, server: 198.62.62.59, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0094, server: 69.84.182.86, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0095, server: 66.81.247.16, port: 443, type: vless, uuid: e4e7b149-8bd8-4266-8cbb-0987604dbc87, tls: false, servername: toujiediansigema.5112233.xyz, network: ws, ws-opts: {path: /tg@juzibaipiao偷节点死吗security=tls, headers: {Host: toujiediansigema.5112233.xyz}}}
+  - {name: 15|US_speednode_0096, server: 198.62.62.211, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0097, server: 198.62.62.13, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0098, server: 198.62.62.220, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylka.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylka.us.kg}}}
+  - {name: 15|US_speednode_0099, server: 198.62.62.91, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: ci.ylks.xyz, network: ws, ws-opts: {path: /bluesecurity=tls, headers: {Host: ci.ylks.xyz}}}
+  - {name: 15|US_speednode_0100, server: 192.200.160.101, port: 443, type: vless, uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869, tls: false, servername: ai.ylks.xyz, network: ws, ws-opts: {path: "/?proxyip=proxyip.us.fxxk.dedyn.iosecurity=tls", headers: {Host: ai.ylks.xyz}}}
+  - {name: 15|US_speednode_0101, server: 69.84.182.165, port: 443, type: vless, uuid: a13df940-020c-465f-bc89-ee5279b5cd6a, tls: false, servername: li.ylks.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: li.ylks.us.kg}}}
+  - {name: 15|US_speednode_0102, server: 45.59.184.16, port: 38908, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: false, servername: global2.ccdd.site, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: global2.ccdd.site}}}
   - {name: 16|d*********g.com_2, server: 42.236.73.72, port: 443, type: vmess, uuid: 044f0177-0675-4dcf-89d4-804b6788e518, alterId: 0, cipher: auto, tls: true, servername: www.zitian.cn}
   - {name: 16|d*********g.com_3, server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, alpn: [http/1.1]}
 proxy-groups:
@@ -278,69 +159,93 @@ proxy-groups:
     type: select
     proxies:
       - 8|@Zede_filteri+🇹🇼
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
       - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇯🇵 日本3|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
+      - 13|🇯🇵 日本4|@ripaojiedian
+      - 13|🇰🇷 韩国|@ripaojiedian
       - 13,14|新加坡2|@ripaojiedian
-      - 13,14|新加坡3|@ripaojiedian
       - 13|🇸🇬 新加坡4|@ripaojiedian
       - 13,14|美国|@ripaojiedian
       - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇩🇪 德国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
-      - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
       - 14|香港6|@ripaojiedian
-      - 14|韩国特殊|@ripaojiedian
-      - 14|日本|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本2|@ripaojiedian
       - 14|日本3|@ripaojiedian
+      - 14|日本4|@ripaojiedian
+      - 14|韩国|@ripaojiedian
       - 14|新加坡4|@ripaojiedian
       - 14|美国2|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|德国|@ripaojiedian
-      - 15|CN_speednode_0003
-      - 15|KR_speednode_0019
-      - 15|KR_speednode_0020
+      - 15|GB_speednode_0001
+      - 15|GB_speednode_0002
+      - 15|KR_speednode_0003
+      - 15|KR_speednode_0004
+      - 15|KR_speednode_0005
+      - 15|KR_speednode_0006
+      - 15|KR_speednode_0007
+      - 15|KR_speednode_0008
+      - 15|KR_speednode_0009
+      - 15|RU_speednode_0010
+      - 15|RU_speednode_0011
+      - 15|RU_speednode_0012
+      - 15|RU_speednode_0013
+      - 15|RU_speednode_0014
+      - 15|RU_speednode_0015
+      - 15|RU_speednode_0016
+      - 15|RU_speednode_0017
+      - 15|RU_speednode_0018
+      - 15|RU_speednode_0019
+      - 15|RU_speednode_0020
       - 15|RU_speednode_0021
       - 15|RU_speednode_0022
-      - 15|RU_speednode_0023
-      - 15|RU_speednode_0038
-      - 15|RU_speednode_0025
-      - 15|RU_speednode_0026
-      - 15|RU_speednode_0027
-      - 15|RU_speednode_0028
-      - 15|RU_speednode_0029
-      - 15|RU_speednode_0030
-      - 15|RU_speednode_0031
-      - 15|RU_speednode_0032
-      - 15|RU_speednode_0033
-      - 15|RU_speednode_0034
-      - 15|RU_speednode_0035
-      - 15|RU_speednode_0037
-      - 15|RU_speednode_0039
-      - 15|RU_speednode_0040
-      - 15|RU_speednode_0041
+      - 15|US_speednode_0023
+      - 15|US_speednode_0024
+      - 15|US_speednode_0025
+      - 15|US_speednode_0026
+      - 15|US_speednode_0027
+      - 15|US_speednode_0028
+      - 15|US_speednode_0029
+      - 15|US_speednode_0030
+      - 15|US_speednode_0031
+      - 15|US_speednode_0032
+      - 15|US_speednode_0033
+      - 15|US_speednode_0034
+      - 15|US_speednode_0035
+      - 15|US_speednode_0036
+      - 15|US_speednode_0037
+      - 15|US_speednode_0038
+      - 15|US_speednode_0039
+      - 15|US_speednode_0040
+      - 15|US_speednode_0041
       - 15|US_speednode_0042
       - 15|US_speednode_0043
       - 15|US_speednode_0044
       - 15|US_speednode_0045
       - 15|US_speednode_0046
       - 15|US_speednode_0047
-      - 15|US_speednode_0250
+      - 15|US_speednode_0048
       - 15|US_speednode_0049
       - 15|US_speednode_0050
-      - 15|US_speednode_0213
+      - 15|US_speednode_0051
       - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
@@ -365,7 +270,7 @@ proxy-groups:
       - 15|US_speednode_0073
       - 15|US_speednode_0074
       - 15|US_speednode_0075
-      - 15|US_speednode_0204
+      - 15|US_speednode_0076
       - 15|US_speednode_0077
       - 15|US_speednode_0078
       - 15|US_speednode_0079
@@ -392,149 +297,6 @@ proxy-groups:
       - 15|US_speednode_0100
       - 15|US_speednode_0101
       - 15|US_speednode_0102
-      - 15|US_speednode_0103
-      - 15|US_speednode_0104
-      - 15|US_speednode_0105
-      - 15|US_speednode_0167
-      - 15|US_speednode_0107
-      - 15|US_speednode_0108
-      - 15|US_speednode_0109
-      - 15|US_speednode_0110
-      - 15|US_speednode_0111
-      - 15|US_speednode_0112
-      - 15|US_speednode_0113
-      - 15|US_speednode_0114
-      - 15|US_speednode_0115
-      - 15|US_speednode_0116
-      - 15|US_speednode_0117
-      - 15|US_speednode_0118
-      - 15|US_speednode_0119
-      - 15|US_speednode_0120
-      - 15|US_speednode_0121
-      - 15|US_speednode_0122
-      - 15|US_speednode_0123
-      - 15|US_speednode_0217
-      - 15|US_speednode_0125
-      - 15|US_speednode_0126
-      - 15|US_speednode_0127
-      - 15|US_speednode_0128
-      - 15|US_speednode_0129
-      - 15|US_speednode_0130
-      - 15|US_speednode_0131
-      - 15|US_speednode_0132
-      - 15|US_speednode_0133
-      - 15|US_speednode_0134
-      - 15|US_speednode_0135
-      - 15|US_speednode_0136
-      - 15|US_speednode_0137
-      - 15|US_speednode_0138
-      - 15|US_speednode_0139
-      - 15|US_speednode_0140
-      - 15|US_speednode_0141
-      - 15|US_speednode_0142
-      - 15|US_speednode_0143
-      - 15|US_speednode_0144
-      - 15|US_speednode_0145
-      - 15|US_speednode_0146
-      - 15|US_speednode_0147
-      - 15|US_speednode_0148
-      - 15|US_speednode_0149
-      - 15|US_speednode_0150
-      - 15|US_speednode_0151
-      - 15|US_speednode_0152
-      - 15|US_speednode_0153
-      - 15|US_speednode_0154
-      - 15|US_speednode_0155
-      - 15|US_speednode_0156
-      - 15|US_speednode_0157
-      - 15|US_speednode_0158
-      - 15|US_speednode_0159
-      - 15|US_speednode_0160
-      - 15|US_speednode_0161
-      - 15|US_speednode_0162
-      - 15|US_speednode_0163
-      - 15|US_speednode_0164
-      - 15|US_speednode_0165
-      - 15|US_speednode_0166
-      - 15|US_speednode_0168
-      - 15|US_speednode_0169
-      - 15|US_speednode_0170
-      - 15|US_speednode_0171
-      - 15|US_speednode_0172
-      - 15|US_speednode_0173
-      - 15|US_speednode_0174
-      - 15|US_speednode_0175
-      - 15|US_speednode_0176
-      - 15|US_speednode_0177
-      - 15|US_speednode_0178
-      - 15|US_speednode_0179
-      - 15|US_speednode_0180
-      - 15|US_speednode_0181
-      - 15|US_speednode_0182
-      - 15|US_speednode_0183
-      - 15|US_speednode_0184
-      - 15|US_speednode_0185
-      - 15|US_speednode_0186
-      - 15|US_speednode_0187
-      - 15|US_speednode_0188
-      - 15|US_speednode_0189
-      - 15|US_speednode_0190
-      - 15|US_speednode_0191
-      - 15|US_speednode_0192
-      - 15|US_speednode_0193
-      - 15|US_speednode_0194
-      - 15|US_speednode_0195
-      - 15|US_speednode_0196
-      - 15|US_speednode_0197
-      - 15|US_speednode_0198
-      - 15|US_speednode_0199
-      - 15|US_speednode_0200
-      - 15|US_speednode_0201
-      - 15|US_speednode_0202
-      - 15|US_speednode_0203
-      - 15|US_speednode_0205
-      - 15|US_speednode_0206
-      - 15|US_speednode_0207
-      - 15|US_speednode_0208
-      - 15|US_speednode_0209
-      - 15|US_speednode_0210
-      - 15|US_speednode_0211
-      - 15|US_speednode_0212
-      - 15|US_speednode_0214
-      - 15|US_speednode_0215
-      - 15|US_speednode_0216
-      - 15|US_speednode_0218
-      - 15|US_speednode_0219
-      - 15|US_speednode_0220
-      - 15|US_speednode_0221
-      - 15|US_speednode_0222
-      - 15|US_speednode_0223
-      - 15|US_speednode_0224
-      - 15|US_speednode_0225
-      - 15|US_speednode_0226
-      - 15|US_speednode_0227
-      - 15|US_speednode_0228
-      - 15|US_speednode_0229
-      - 15|US_speednode_0230
-      - 15|US_speednode_0231
-      - 15|US_speednode_0232
-      - 15|US_speednode_0233
-      - 15|US_speednode_0234
-      - 15|US_speednode_0235
-      - 15|US_speednode_0236
-      - 15|US_speednode_0237
-      - 15|US_speednode_0238
-      - 15|US_speednode_0239
-      - 15|US_speednode_0240
-      - 15|US_speednode_0241
-      - 15|US_speednode_0242
-      - 15|US_speednode_0243
-      - 15|US_speednode_0244
-      - 15|US_speednode_0245
-      - 15|US_speednode_0247
-      - 15|US_speednode_0248
-      - 15|US_speednode_0249
-      - 15|US_speednode_0251
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: ♻️ 自动选择
@@ -544,69 +306,93 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 8|@Zede_filteri+🇹🇼
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
       - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇯🇵 日本3|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
+      - 13|🇯🇵 日本4|@ripaojiedian
+      - 13|🇰🇷 韩国|@ripaojiedian
       - 13,14|新加坡2|@ripaojiedian
-      - 13,14|新加坡3|@ripaojiedian
       - 13|🇸🇬 新加坡4|@ripaojiedian
       - 13,14|美国|@ripaojiedian
       - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇩🇪 德国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
-      - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
       - 14|香港6|@ripaojiedian
-      - 14|韩国特殊|@ripaojiedian
-      - 14|日本|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本2|@ripaojiedian
       - 14|日本3|@ripaojiedian
+      - 14|日本4|@ripaojiedian
+      - 14|韩国|@ripaojiedian
       - 14|新加坡4|@ripaojiedian
       - 14|美国2|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|德国|@ripaojiedian
-      - 15|CN_speednode_0003
-      - 15|KR_speednode_0019
-      - 15|KR_speednode_0020
+      - 15|GB_speednode_0001
+      - 15|GB_speednode_0002
+      - 15|KR_speednode_0003
+      - 15|KR_speednode_0004
+      - 15|KR_speednode_0005
+      - 15|KR_speednode_0006
+      - 15|KR_speednode_0007
+      - 15|KR_speednode_0008
+      - 15|KR_speednode_0009
+      - 15|RU_speednode_0010
+      - 15|RU_speednode_0011
+      - 15|RU_speednode_0012
+      - 15|RU_speednode_0013
+      - 15|RU_speednode_0014
+      - 15|RU_speednode_0015
+      - 15|RU_speednode_0016
+      - 15|RU_speednode_0017
+      - 15|RU_speednode_0018
+      - 15|RU_speednode_0019
+      - 15|RU_speednode_0020
       - 15|RU_speednode_0021
       - 15|RU_speednode_0022
-      - 15|RU_speednode_0023
-      - 15|RU_speednode_0038
-      - 15|RU_speednode_0025
-      - 15|RU_speednode_0026
-      - 15|RU_speednode_0027
-      - 15|RU_speednode_0028
-      - 15|RU_speednode_0029
-      - 15|RU_speednode_0030
-      - 15|RU_speednode_0031
-      - 15|RU_speednode_0032
-      - 15|RU_speednode_0033
-      - 15|RU_speednode_0034
-      - 15|RU_speednode_0035
-      - 15|RU_speednode_0037
-      - 15|RU_speednode_0039
-      - 15|RU_speednode_0040
-      - 15|RU_speednode_0041
+      - 15|US_speednode_0023
+      - 15|US_speednode_0024
+      - 15|US_speednode_0025
+      - 15|US_speednode_0026
+      - 15|US_speednode_0027
+      - 15|US_speednode_0028
+      - 15|US_speednode_0029
+      - 15|US_speednode_0030
+      - 15|US_speednode_0031
+      - 15|US_speednode_0032
+      - 15|US_speednode_0033
+      - 15|US_speednode_0034
+      - 15|US_speednode_0035
+      - 15|US_speednode_0036
+      - 15|US_speednode_0037
+      - 15|US_speednode_0038
+      - 15|US_speednode_0039
+      - 15|US_speednode_0040
+      - 15|US_speednode_0041
       - 15|US_speednode_0042
       - 15|US_speednode_0043
       - 15|US_speednode_0044
       - 15|US_speednode_0045
       - 15|US_speednode_0046
       - 15|US_speednode_0047
-      - 15|US_speednode_0250
+      - 15|US_speednode_0048
       - 15|US_speednode_0049
       - 15|US_speednode_0050
-      - 15|US_speednode_0213
+      - 15|US_speednode_0051
       - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
@@ -631,7 +417,7 @@ proxy-groups:
       - 15|US_speednode_0073
       - 15|US_speednode_0074
       - 15|US_speednode_0075
-      - 15|US_speednode_0204
+      - 15|US_speednode_0076
       - 15|US_speednode_0077
       - 15|US_speednode_0078
       - 15|US_speednode_0079
@@ -658,149 +444,6 @@ proxy-groups:
       - 15|US_speednode_0100
       - 15|US_speednode_0101
       - 15|US_speednode_0102
-      - 15|US_speednode_0103
-      - 15|US_speednode_0104
-      - 15|US_speednode_0105
-      - 15|US_speednode_0167
-      - 15|US_speednode_0107
-      - 15|US_speednode_0108
-      - 15|US_speednode_0109
-      - 15|US_speednode_0110
-      - 15|US_speednode_0111
-      - 15|US_speednode_0112
-      - 15|US_speednode_0113
-      - 15|US_speednode_0114
-      - 15|US_speednode_0115
-      - 15|US_speednode_0116
-      - 15|US_speednode_0117
-      - 15|US_speednode_0118
-      - 15|US_speednode_0119
-      - 15|US_speednode_0120
-      - 15|US_speednode_0121
-      - 15|US_speednode_0122
-      - 15|US_speednode_0123
-      - 15|US_speednode_0217
-      - 15|US_speednode_0125
-      - 15|US_speednode_0126
-      - 15|US_speednode_0127
-      - 15|US_speednode_0128
-      - 15|US_speednode_0129
-      - 15|US_speednode_0130
-      - 15|US_speednode_0131
-      - 15|US_speednode_0132
-      - 15|US_speednode_0133
-      - 15|US_speednode_0134
-      - 15|US_speednode_0135
-      - 15|US_speednode_0136
-      - 15|US_speednode_0137
-      - 15|US_speednode_0138
-      - 15|US_speednode_0139
-      - 15|US_speednode_0140
-      - 15|US_speednode_0141
-      - 15|US_speednode_0142
-      - 15|US_speednode_0143
-      - 15|US_speednode_0144
-      - 15|US_speednode_0145
-      - 15|US_speednode_0146
-      - 15|US_speednode_0147
-      - 15|US_speednode_0148
-      - 15|US_speednode_0149
-      - 15|US_speednode_0150
-      - 15|US_speednode_0151
-      - 15|US_speednode_0152
-      - 15|US_speednode_0153
-      - 15|US_speednode_0154
-      - 15|US_speednode_0155
-      - 15|US_speednode_0156
-      - 15|US_speednode_0157
-      - 15|US_speednode_0158
-      - 15|US_speednode_0159
-      - 15|US_speednode_0160
-      - 15|US_speednode_0161
-      - 15|US_speednode_0162
-      - 15|US_speednode_0163
-      - 15|US_speednode_0164
-      - 15|US_speednode_0165
-      - 15|US_speednode_0166
-      - 15|US_speednode_0168
-      - 15|US_speednode_0169
-      - 15|US_speednode_0170
-      - 15|US_speednode_0171
-      - 15|US_speednode_0172
-      - 15|US_speednode_0173
-      - 15|US_speednode_0174
-      - 15|US_speednode_0175
-      - 15|US_speednode_0176
-      - 15|US_speednode_0177
-      - 15|US_speednode_0178
-      - 15|US_speednode_0179
-      - 15|US_speednode_0180
-      - 15|US_speednode_0181
-      - 15|US_speednode_0182
-      - 15|US_speednode_0183
-      - 15|US_speednode_0184
-      - 15|US_speednode_0185
-      - 15|US_speednode_0186
-      - 15|US_speednode_0187
-      - 15|US_speednode_0188
-      - 15|US_speednode_0189
-      - 15|US_speednode_0190
-      - 15|US_speednode_0191
-      - 15|US_speednode_0192
-      - 15|US_speednode_0193
-      - 15|US_speednode_0194
-      - 15|US_speednode_0195
-      - 15|US_speednode_0196
-      - 15|US_speednode_0197
-      - 15|US_speednode_0198
-      - 15|US_speednode_0199
-      - 15|US_speednode_0200
-      - 15|US_speednode_0201
-      - 15|US_speednode_0202
-      - 15|US_speednode_0203
-      - 15|US_speednode_0205
-      - 15|US_speednode_0206
-      - 15|US_speednode_0207
-      - 15|US_speednode_0208
-      - 15|US_speednode_0209
-      - 15|US_speednode_0210
-      - 15|US_speednode_0211
-      - 15|US_speednode_0212
-      - 15|US_speednode_0214
-      - 15|US_speednode_0215
-      - 15|US_speednode_0216
-      - 15|US_speednode_0218
-      - 15|US_speednode_0219
-      - 15|US_speednode_0220
-      - 15|US_speednode_0221
-      - 15|US_speednode_0222
-      - 15|US_speednode_0223
-      - 15|US_speednode_0224
-      - 15|US_speednode_0225
-      - 15|US_speednode_0226
-      - 15|US_speednode_0227
-      - 15|US_speednode_0228
-      - 15|US_speednode_0229
-      - 15|US_speednode_0230
-      - 15|US_speednode_0231
-      - 15|US_speednode_0232
-      - 15|US_speednode_0233
-      - 15|US_speednode_0234
-      - 15|US_speednode_0235
-      - 15|US_speednode_0236
-      - 15|US_speednode_0237
-      - 15|US_speednode_0238
-      - 15|US_speednode_0239
-      - 15|US_speednode_0240
-      - 15|US_speednode_0241
-      - 15|US_speednode_0242
-      - 15|US_speednode_0243
-      - 15|US_speednode_0244
-      - 15|US_speednode_0245
-      - 15|US_speednode_0247
-      - 15|US_speednode_0248
-      - 15|US_speednode_0249
-      - 15|US_speednode_0251
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🔯 故障转移
@@ -809,69 +452,93 @@ proxy-groups:
     interval: 180
     proxies:
       - 8|@Zede_filteri+🇹🇼
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
       - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇯🇵 日本3|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
+      - 13|🇯🇵 日本4|@ripaojiedian
+      - 13|🇰🇷 韩国|@ripaojiedian
       - 13,14|新加坡2|@ripaojiedian
-      - 13,14|新加坡3|@ripaojiedian
       - 13|🇸🇬 新加坡4|@ripaojiedian
       - 13,14|美国|@ripaojiedian
       - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇩🇪 德国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
-      - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
       - 14|香港6|@ripaojiedian
-      - 14|韩国特殊|@ripaojiedian
-      - 14|日本|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本2|@ripaojiedian
       - 14|日本3|@ripaojiedian
+      - 14|日本4|@ripaojiedian
+      - 14|韩国|@ripaojiedian
       - 14|新加坡4|@ripaojiedian
       - 14|美国2|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|德国|@ripaojiedian
-      - 15|CN_speednode_0003
-      - 15|KR_speednode_0019
-      - 15|KR_speednode_0020
+      - 15|GB_speednode_0001
+      - 15|GB_speednode_0002
+      - 15|KR_speednode_0003
+      - 15|KR_speednode_0004
+      - 15|KR_speednode_0005
+      - 15|KR_speednode_0006
+      - 15|KR_speednode_0007
+      - 15|KR_speednode_0008
+      - 15|KR_speednode_0009
+      - 15|RU_speednode_0010
+      - 15|RU_speednode_0011
+      - 15|RU_speednode_0012
+      - 15|RU_speednode_0013
+      - 15|RU_speednode_0014
+      - 15|RU_speednode_0015
+      - 15|RU_speednode_0016
+      - 15|RU_speednode_0017
+      - 15|RU_speednode_0018
+      - 15|RU_speednode_0019
+      - 15|RU_speednode_0020
       - 15|RU_speednode_0021
       - 15|RU_speednode_0022
-      - 15|RU_speednode_0023
-      - 15|RU_speednode_0038
-      - 15|RU_speednode_0025
-      - 15|RU_speednode_0026
-      - 15|RU_speednode_0027
-      - 15|RU_speednode_0028
-      - 15|RU_speednode_0029
-      - 15|RU_speednode_0030
-      - 15|RU_speednode_0031
-      - 15|RU_speednode_0032
-      - 15|RU_speednode_0033
-      - 15|RU_speednode_0034
-      - 15|RU_speednode_0035
-      - 15|RU_speednode_0037
-      - 15|RU_speednode_0039
-      - 15|RU_speednode_0040
-      - 15|RU_speednode_0041
+      - 15|US_speednode_0023
+      - 15|US_speednode_0024
+      - 15|US_speednode_0025
+      - 15|US_speednode_0026
+      - 15|US_speednode_0027
+      - 15|US_speednode_0028
+      - 15|US_speednode_0029
+      - 15|US_speednode_0030
+      - 15|US_speednode_0031
+      - 15|US_speednode_0032
+      - 15|US_speednode_0033
+      - 15|US_speednode_0034
+      - 15|US_speednode_0035
+      - 15|US_speednode_0036
+      - 15|US_speednode_0037
+      - 15|US_speednode_0038
+      - 15|US_speednode_0039
+      - 15|US_speednode_0040
+      - 15|US_speednode_0041
       - 15|US_speednode_0042
       - 15|US_speednode_0043
       - 15|US_speednode_0044
       - 15|US_speednode_0045
       - 15|US_speednode_0046
       - 15|US_speednode_0047
-      - 15|US_speednode_0250
+      - 15|US_speednode_0048
       - 15|US_speednode_0049
       - 15|US_speednode_0050
-      - 15|US_speednode_0213
+      - 15|US_speednode_0051
       - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
@@ -896,7 +563,7 @@ proxy-groups:
       - 15|US_speednode_0073
       - 15|US_speednode_0074
       - 15|US_speednode_0075
-      - 15|US_speednode_0204
+      - 15|US_speednode_0076
       - 15|US_speednode_0077
       - 15|US_speednode_0078
       - 15|US_speednode_0079
@@ -923,149 +590,6 @@ proxy-groups:
       - 15|US_speednode_0100
       - 15|US_speednode_0101
       - 15|US_speednode_0102
-      - 15|US_speednode_0103
-      - 15|US_speednode_0104
-      - 15|US_speednode_0105
-      - 15|US_speednode_0167
-      - 15|US_speednode_0107
-      - 15|US_speednode_0108
-      - 15|US_speednode_0109
-      - 15|US_speednode_0110
-      - 15|US_speednode_0111
-      - 15|US_speednode_0112
-      - 15|US_speednode_0113
-      - 15|US_speednode_0114
-      - 15|US_speednode_0115
-      - 15|US_speednode_0116
-      - 15|US_speednode_0117
-      - 15|US_speednode_0118
-      - 15|US_speednode_0119
-      - 15|US_speednode_0120
-      - 15|US_speednode_0121
-      - 15|US_speednode_0122
-      - 15|US_speednode_0123
-      - 15|US_speednode_0217
-      - 15|US_speednode_0125
-      - 15|US_speednode_0126
-      - 15|US_speednode_0127
-      - 15|US_speednode_0128
-      - 15|US_speednode_0129
-      - 15|US_speednode_0130
-      - 15|US_speednode_0131
-      - 15|US_speednode_0132
-      - 15|US_speednode_0133
-      - 15|US_speednode_0134
-      - 15|US_speednode_0135
-      - 15|US_speednode_0136
-      - 15|US_speednode_0137
-      - 15|US_speednode_0138
-      - 15|US_speednode_0139
-      - 15|US_speednode_0140
-      - 15|US_speednode_0141
-      - 15|US_speednode_0142
-      - 15|US_speednode_0143
-      - 15|US_speednode_0144
-      - 15|US_speednode_0145
-      - 15|US_speednode_0146
-      - 15|US_speednode_0147
-      - 15|US_speednode_0148
-      - 15|US_speednode_0149
-      - 15|US_speednode_0150
-      - 15|US_speednode_0151
-      - 15|US_speednode_0152
-      - 15|US_speednode_0153
-      - 15|US_speednode_0154
-      - 15|US_speednode_0155
-      - 15|US_speednode_0156
-      - 15|US_speednode_0157
-      - 15|US_speednode_0158
-      - 15|US_speednode_0159
-      - 15|US_speednode_0160
-      - 15|US_speednode_0161
-      - 15|US_speednode_0162
-      - 15|US_speednode_0163
-      - 15|US_speednode_0164
-      - 15|US_speednode_0165
-      - 15|US_speednode_0166
-      - 15|US_speednode_0168
-      - 15|US_speednode_0169
-      - 15|US_speednode_0170
-      - 15|US_speednode_0171
-      - 15|US_speednode_0172
-      - 15|US_speednode_0173
-      - 15|US_speednode_0174
-      - 15|US_speednode_0175
-      - 15|US_speednode_0176
-      - 15|US_speednode_0177
-      - 15|US_speednode_0178
-      - 15|US_speednode_0179
-      - 15|US_speednode_0180
-      - 15|US_speednode_0181
-      - 15|US_speednode_0182
-      - 15|US_speednode_0183
-      - 15|US_speednode_0184
-      - 15|US_speednode_0185
-      - 15|US_speednode_0186
-      - 15|US_speednode_0187
-      - 15|US_speednode_0188
-      - 15|US_speednode_0189
-      - 15|US_speednode_0190
-      - 15|US_speednode_0191
-      - 15|US_speednode_0192
-      - 15|US_speednode_0193
-      - 15|US_speednode_0194
-      - 15|US_speednode_0195
-      - 15|US_speednode_0196
-      - 15|US_speednode_0197
-      - 15|US_speednode_0198
-      - 15|US_speednode_0199
-      - 15|US_speednode_0200
-      - 15|US_speednode_0201
-      - 15|US_speednode_0202
-      - 15|US_speednode_0203
-      - 15|US_speednode_0205
-      - 15|US_speednode_0206
-      - 15|US_speednode_0207
-      - 15|US_speednode_0208
-      - 15|US_speednode_0209
-      - 15|US_speednode_0210
-      - 15|US_speednode_0211
-      - 15|US_speednode_0212
-      - 15|US_speednode_0214
-      - 15|US_speednode_0215
-      - 15|US_speednode_0216
-      - 15|US_speednode_0218
-      - 15|US_speednode_0219
-      - 15|US_speednode_0220
-      - 15|US_speednode_0221
-      - 15|US_speednode_0222
-      - 15|US_speednode_0223
-      - 15|US_speednode_0224
-      - 15|US_speednode_0225
-      - 15|US_speednode_0226
-      - 15|US_speednode_0227
-      - 15|US_speednode_0228
-      - 15|US_speednode_0229
-      - 15|US_speednode_0230
-      - 15|US_speednode_0231
-      - 15|US_speednode_0232
-      - 15|US_speednode_0233
-      - 15|US_speednode_0234
-      - 15|US_speednode_0235
-      - 15|US_speednode_0236
-      - 15|US_speednode_0237
-      - 15|US_speednode_0238
-      - 15|US_speednode_0239
-      - 15|US_speednode_0240
-      - 15|US_speednode_0241
-      - 15|US_speednode_0242
-      - 15|US_speednode_0243
-      - 15|US_speednode_0244
-      - 15|US_speednode_0245
-      - 15|US_speednode_0247
-      - 15|US_speednode_0248
-      - 15|US_speednode_0249
-      - 15|US_speednode_0251
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🔮 负载均衡
@@ -1075,69 +599,93 @@ proxy-groups:
     interval: 180
     proxies:
       - 8|@Zede_filteri+🇹🇼
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
-      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13,14|香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
       - 13|🇭🇰 香港6|@ripaojiedian
-      - 13|🇰🇷 韩国特殊|@ripaojiedian
-      - 13,14|台湾|@ripaojiedian
-      - 13|🇯🇵 日本|@ripaojiedian
-      - 13,14|日本2|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13,14|日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇯🇵 日本3|@ripaojiedian
-      - 13,14|韩国|@ripaojiedian
+      - 13|🇯🇵 日本4|@ripaojiedian
+      - 13|🇰🇷 韩国|@ripaojiedian
       - 13,14|新加坡2|@ripaojiedian
-      - 13,14|新加坡3|@ripaojiedian
       - 13|🇸🇬 新加坡4|@ripaojiedian
       - 13,14|美国|@ripaojiedian
       - 13|🇺🇸 美国2|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇩🇪 德国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
-      - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
       - 14|香港6|@ripaojiedian
-      - 14|韩国特殊|@ripaojiedian
-      - 14|日本|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本2|@ripaojiedian
       - 14|日本3|@ripaojiedian
+      - 14|日本4|@ripaojiedian
+      - 14|韩国|@ripaojiedian
       - 14|新加坡4|@ripaojiedian
       - 14|美国2|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|德国|@ripaojiedian
-      - 15|CN_speednode_0003
-      - 15|KR_speednode_0019
-      - 15|KR_speednode_0020
+      - 15|GB_speednode_0001
+      - 15|GB_speednode_0002
+      - 15|KR_speednode_0003
+      - 15|KR_speednode_0004
+      - 15|KR_speednode_0005
+      - 15|KR_speednode_0006
+      - 15|KR_speednode_0007
+      - 15|KR_speednode_0008
+      - 15|KR_speednode_0009
+      - 15|RU_speednode_0010
+      - 15|RU_speednode_0011
+      - 15|RU_speednode_0012
+      - 15|RU_speednode_0013
+      - 15|RU_speednode_0014
+      - 15|RU_speednode_0015
+      - 15|RU_speednode_0016
+      - 15|RU_speednode_0017
+      - 15|RU_speednode_0018
+      - 15|RU_speednode_0019
+      - 15|RU_speednode_0020
       - 15|RU_speednode_0021
       - 15|RU_speednode_0022
-      - 15|RU_speednode_0023
-      - 15|RU_speednode_0038
-      - 15|RU_speednode_0025
-      - 15|RU_speednode_0026
-      - 15|RU_speednode_0027
-      - 15|RU_speednode_0028
-      - 15|RU_speednode_0029
-      - 15|RU_speednode_0030
-      - 15|RU_speednode_0031
-      - 15|RU_speednode_0032
-      - 15|RU_speednode_0033
-      - 15|RU_speednode_0034
-      - 15|RU_speednode_0035
-      - 15|RU_speednode_0037
-      - 15|RU_speednode_0039
-      - 15|RU_speednode_0040
-      - 15|RU_speednode_0041
+      - 15|US_speednode_0023
+      - 15|US_speednode_0024
+      - 15|US_speednode_0025
+      - 15|US_speednode_0026
+      - 15|US_speednode_0027
+      - 15|US_speednode_0028
+      - 15|US_speednode_0029
+      - 15|US_speednode_0030
+      - 15|US_speednode_0031
+      - 15|US_speednode_0032
+      - 15|US_speednode_0033
+      - 15|US_speednode_0034
+      - 15|US_speednode_0035
+      - 15|US_speednode_0036
+      - 15|US_speednode_0037
+      - 15|US_speednode_0038
+      - 15|US_speednode_0039
+      - 15|US_speednode_0040
+      - 15|US_speednode_0041
       - 15|US_speednode_0042
       - 15|US_speednode_0043
       - 15|US_speednode_0044
       - 15|US_speednode_0045
       - 15|US_speednode_0046
       - 15|US_speednode_0047
-      - 15|US_speednode_0250
+      - 15|US_speednode_0048
       - 15|US_speednode_0049
       - 15|US_speednode_0050
-      - 15|US_speednode_0213
+      - 15|US_speednode_0051
       - 15|US_speednode_0052
       - 15|US_speednode_0053
       - 15|US_speednode_0054
@@ -1162,7 +710,7 @@ proxy-groups:
       - 15|US_speednode_0073
       - 15|US_speednode_0074
       - 15|US_speednode_0075
-      - 15|US_speednode_0204
+      - 15|US_speednode_0076
       - 15|US_speednode_0077
       - 15|US_speednode_0078
       - 15|US_speednode_0079
@@ -1189,149 +737,6 @@ proxy-groups:
       - 15|US_speednode_0100
       - 15|US_speednode_0101
       - 15|US_speednode_0102
-      - 15|US_speednode_0103
-      - 15|US_speednode_0104
-      - 15|US_speednode_0105
-      - 15|US_speednode_0167
-      - 15|US_speednode_0107
-      - 15|US_speednode_0108
-      - 15|US_speednode_0109
-      - 15|US_speednode_0110
-      - 15|US_speednode_0111
-      - 15|US_speednode_0112
-      - 15|US_speednode_0113
-      - 15|US_speednode_0114
-      - 15|US_speednode_0115
-      - 15|US_speednode_0116
-      - 15|US_speednode_0117
-      - 15|US_speednode_0118
-      - 15|US_speednode_0119
-      - 15|US_speednode_0120
-      - 15|US_speednode_0121
-      - 15|US_speednode_0122
-      - 15|US_speednode_0123
-      - 15|US_speednode_0217
-      - 15|US_speednode_0125
-      - 15|US_speednode_0126
-      - 15|US_speednode_0127
-      - 15|US_speednode_0128
-      - 15|US_speednode_0129
-      - 15|US_speednode_0130
-      - 15|US_speednode_0131
-      - 15|US_speednode_0132
-      - 15|US_speednode_0133
-      - 15|US_speednode_0134
-      - 15|US_speednode_0135
-      - 15|US_speednode_0136
-      - 15|US_speednode_0137
-      - 15|US_speednode_0138
-      - 15|US_speednode_0139
-      - 15|US_speednode_0140
-      - 15|US_speednode_0141
-      - 15|US_speednode_0142
-      - 15|US_speednode_0143
-      - 15|US_speednode_0144
-      - 15|US_speednode_0145
-      - 15|US_speednode_0146
-      - 15|US_speednode_0147
-      - 15|US_speednode_0148
-      - 15|US_speednode_0149
-      - 15|US_speednode_0150
-      - 15|US_speednode_0151
-      - 15|US_speednode_0152
-      - 15|US_speednode_0153
-      - 15|US_speednode_0154
-      - 15|US_speednode_0155
-      - 15|US_speednode_0156
-      - 15|US_speednode_0157
-      - 15|US_speednode_0158
-      - 15|US_speednode_0159
-      - 15|US_speednode_0160
-      - 15|US_speednode_0161
-      - 15|US_speednode_0162
-      - 15|US_speednode_0163
-      - 15|US_speednode_0164
-      - 15|US_speednode_0165
-      - 15|US_speednode_0166
-      - 15|US_speednode_0168
-      - 15|US_speednode_0169
-      - 15|US_speednode_0170
-      - 15|US_speednode_0171
-      - 15|US_speednode_0172
-      - 15|US_speednode_0173
-      - 15|US_speednode_0174
-      - 15|US_speednode_0175
-      - 15|US_speednode_0176
-      - 15|US_speednode_0177
-      - 15|US_speednode_0178
-      - 15|US_speednode_0179
-      - 15|US_speednode_0180
-      - 15|US_speednode_0181
-      - 15|US_speednode_0182
-      - 15|US_speednode_0183
-      - 15|US_speednode_0184
-      - 15|US_speednode_0185
-      - 15|US_speednode_0186
-      - 15|US_speednode_0187
-      - 15|US_speednode_0188
-      - 15|US_speednode_0189
-      - 15|US_speednode_0190
-      - 15|US_speednode_0191
-      - 15|US_speednode_0192
-      - 15|US_speednode_0193
-      - 15|US_speednode_0194
-      - 15|US_speednode_0195
-      - 15|US_speednode_0196
-      - 15|US_speednode_0197
-      - 15|US_speednode_0198
-      - 15|US_speednode_0199
-      - 15|US_speednode_0200
-      - 15|US_speednode_0201
-      - 15|US_speednode_0202
-      - 15|US_speednode_0203
-      - 15|US_speednode_0205
-      - 15|US_speednode_0206
-      - 15|US_speednode_0207
-      - 15|US_speednode_0208
-      - 15|US_speednode_0209
-      - 15|US_speednode_0210
-      - 15|US_speednode_0211
-      - 15|US_speednode_0212
-      - 15|US_speednode_0214
-      - 15|US_speednode_0215
-      - 15|US_speednode_0216
-      - 15|US_speednode_0218
-      - 15|US_speednode_0219
-      - 15|US_speednode_0220
-      - 15|US_speednode_0221
-      - 15|US_speednode_0222
-      - 15|US_speednode_0223
-      - 15|US_speednode_0224
-      - 15|US_speednode_0225
-      - 15|US_speednode_0226
-      - 15|US_speednode_0227
-      - 15|US_speednode_0228
-      - 15|US_speednode_0229
-      - 15|US_speednode_0230
-      - 15|US_speednode_0231
-      - 15|US_speednode_0232
-      - 15|US_speednode_0233
-      - 15|US_speednode_0234
-      - 15|US_speednode_0235
-      - 15|US_speednode_0236
-      - 15|US_speednode_0237
-      - 15|US_speednode_0238
-      - 15|US_speednode_0239
-      - 15|US_speednode_0240
-      - 15|US_speednode_0241
-      - 15|US_speednode_0242
-      - 15|US_speednode_0243
-      - 15|US_speednode_0244
-      - 15|US_speednode_0245
-      - 15|US_speednode_0247
-      - 15|US_speednode_0248
-      - 15|US_speednode_0249
-      - 15|US_speednode_0251
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🎯 全球直连
