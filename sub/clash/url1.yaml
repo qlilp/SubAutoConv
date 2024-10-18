@@ -5,20 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 节点日期：10-17, server: 23.150.248.122, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 中国【付费推荐：https://a0a.xyz】55, server: twnode11.oportal.cc, port: 443, type: trojan, password: 981db44e-9f07-49eb-9ba0-6ab4939919a2, sni: twnode11.oportal.cc}
-  - {name: 中国【付费推荐：https://a0a.xyz】66, server: hknode07.oportal.cc, port: 443, type: trojan, password: 981db44e-9f07-49eb-9ba0-6ab4939919a2}
-  - {name: 美国【付费推荐：https://a0a.xyz】54, server: 139.64.165.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 未知【付费推荐：https://a0a.xyz】22, server: tg_mfbpn03.52cloud.us.kg, port: 42348, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc}
-  - {name: 未知【付费推荐：https://a0a.xyz】28, server: tg_mfbpn03.52cloud.us.kg, port: 38404, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc}
-  - {name: 美国【付费推荐：https://a0a.xyz】59, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
-  - {name: 英国【付费推荐：https://a0a.xyz】24, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 丹麦【付费推荐：https://a0a.xyz】49, server: go.alipay.ovh, port: 80, type: vmess, uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: open.alipay.ovh}}}
-  - {name: 美国【付费推荐：https://a0a.xyz】20, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 美国【付费推荐：https://a0a.xyz】67, server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
-  - {name: 中国【付费推荐：https://a0a.xyz】37, server: 36.151.192.201, port: 27131, type: trojan, password: wwTIozXY}
-  - {name: 未知【付费推荐：https://a0a.xyz】61, server: 103.174.86.113, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn}
-  - {name: 土耳其【付费推荐：https://a0a.xyz】72, server: 5.188.36.54, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD}
+  - {name: 节点日期：10-18, server: twnode11.oportal.cc, port: 443, type: trojan, password: 981db44e-9f07-49eb-9ba0-6ab4939919a2, sni: twnode11.oportal.cc}
+  - {name: 美国【付费推荐：https://a0a.xyz】30, server: 69.50.92.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 中国【付费推荐：https://a0a.xyz】3, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380}
+  - {name: 中国【付费推荐：https://a0a.xyz】12, server: mmt.bjcu.donghui.tech, port: 35423, type: ss, cipher: aes-256-gcm, password: 8c052d7a-d5da-495a-abee-93f4bef380e1}
+  - {name: 美国【付费推荐：https://a0a.xyz】8, server: 139.64.165.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 中国【付费推荐：https://a0a.xyz】16, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 04f8339c-2aa2-489b-bd74-e666714f9d49}
+  - {name: 中国【付费推荐：https://a0a.xyz】29, server: jioawdm.zhangwei.li, port: 54937, type: ss, cipher: aes-256-gcm, password: 8c052d7a-d5da-495a-abee-93f4bef380e1}
+  - {name: 中国【付费推荐：https://a0a.xyz】6, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: be650aa0-a121-49dd-a951-25650a56a50c}
+  - {name: 未知【付费推荐：https://a0a.xyz】15, server: tg_mfbpn03.52cloud.us.kg, port: 42348, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc}
+  - {name: 中国【付费推荐：https://a0a.xyz】5, server: z3.fragranceninja.com, port: 12960, type: vmess, uuid: a32313ad-5e39-4f9a-9cad-512041790050, alterId: 0, cipher: auto, tls: true}
+  - {name: 美国【付费推荐：https://a0a.xyz】34, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
+  - {name: 未知【付费推荐：https://a0a.xyz】13, server: tg_mfbpn03.52cloud.us.kg, port: 38404, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc}
+  - {name: 法国【付费推荐：https://a0a.xyz】21, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
+  - {name: 未知【付费推荐：https://a0a.xyz】43, server: naiu-other.05vr9nyqg5.download, port: 13036, type: trojan, password: 8d4a8689-e8fd-4405-9834-3f812c528db0, sni: cloudflare.node-ssl.cdn-alibaba.com}
+  - {name: 美国【付费推荐：https://a0a.xyz】38, server: 69.50.92.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,79 +32,83 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 节点日期：10-17
-      - 中国【付费推荐：https://a0a.xyz】55
-      - 中国【付费推荐：https://a0a.xyz】66
-      - 美国【付费推荐：https://a0a.xyz】54
-      - 未知【付费推荐：https://a0a.xyz】22
-      - 未知【付费推荐：https://a0a.xyz】28
-      - 美国【付费推荐：https://a0a.xyz】59
-      - 英国【付费推荐：https://a0a.xyz】24
-      - 丹麦【付费推荐：https://a0a.xyz】49
-      - 美国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】67
-      - 中国【付费推荐：https://a0a.xyz】37
-      - 未知【付费推荐：https://a0a.xyz】61
-      - 土耳其【付费推荐：https://a0a.xyz】72
+      - 节点日期：10-18
+      - 美国【付费推荐：https://a0a.xyz】30
+      - 中国【付费推荐：https://a0a.xyz】3
+      - 中国【付费推荐：https://a0a.xyz】12
+      - 美国【付费推荐：https://a0a.xyz】8
+      - 中国【付费推荐：https://a0a.xyz】16
+      - 中国【付费推荐：https://a0a.xyz】29
+      - 中国【付费推荐：https://a0a.xyz】6
+      - 未知【付费推荐：https://a0a.xyz】15
+      - 中国【付费推荐：https://a0a.xyz】5
+      - 美国【付费推荐：https://a0a.xyz】34
+      - 未知【付费推荐：https://a0a.xyz】13
+      - 法国【付费推荐：https://a0a.xyz】21
+      - 未知【付费推荐：https://a0a.xyz】43
+      - 美国【付费推荐：https://a0a.xyz】38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 节点日期：10-17
-      - 中国【付费推荐：https://a0a.xyz】55
-      - 中国【付费推荐：https://a0a.xyz】66
-      - 美国【付费推荐：https://a0a.xyz】54
-      - 未知【付费推荐：https://a0a.xyz】22
-      - 未知【付费推荐：https://a0a.xyz】28
-      - 美国【付费推荐：https://a0a.xyz】59
-      - 英国【付费推荐：https://a0a.xyz】24
-      - 丹麦【付费推荐：https://a0a.xyz】49
-      - 美国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】67
-      - 中国【付费推荐：https://a0a.xyz】37
-      - 未知【付费推荐：https://a0a.xyz】61
-      - 土耳其【付费推荐：https://a0a.xyz】72
+      - 节点日期：10-18
+      - 美国【付费推荐：https://a0a.xyz】30
+      - 中国【付费推荐：https://a0a.xyz】3
+      - 中国【付费推荐：https://a0a.xyz】12
+      - 美国【付费推荐：https://a0a.xyz】8
+      - 中国【付费推荐：https://a0a.xyz】16
+      - 中国【付费推荐：https://a0a.xyz】29
+      - 中国【付费推荐：https://a0a.xyz】6
+      - 未知【付费推荐：https://a0a.xyz】15
+      - 中国【付费推荐：https://a0a.xyz】5
+      - 美国【付费推荐：https://a0a.xyz】34
+      - 未知【付费推荐：https://a0a.xyz】13
+      - 法国【付费推荐：https://a0a.xyz】21
+      - 未知【付费推荐：https://a0a.xyz】43
+      - 美国【付费推荐：https://a0a.xyz】38
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 节点日期：10-17
-      - 中国【付费推荐：https://a0a.xyz】55
-      - 中国【付费推荐：https://a0a.xyz】66
-      - 美国【付费推荐：https://a0a.xyz】54
-      - 未知【付费推荐：https://a0a.xyz】22
-      - 未知【付费推荐：https://a0a.xyz】28
-      - 美国【付费推荐：https://a0a.xyz】59
-      - 英国【付费推荐：https://a0a.xyz】24
-      - 丹麦【付费推荐：https://a0a.xyz】49
-      - 美国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】67
-      - 中国【付费推荐：https://a0a.xyz】37
-      - 未知【付费推荐：https://a0a.xyz】61
-      - 土耳其【付费推荐：https://a0a.xyz】72
+      - 节点日期：10-18
+      - 美国【付费推荐：https://a0a.xyz】30
+      - 中国【付费推荐：https://a0a.xyz】3
+      - 中国【付费推荐：https://a0a.xyz】12
+      - 美国【付费推荐：https://a0a.xyz】8
+      - 中国【付费推荐：https://a0a.xyz】16
+      - 中国【付费推荐：https://a0a.xyz】29
+      - 中国【付费推荐：https://a0a.xyz】6
+      - 未知【付费推荐：https://a0a.xyz】15
+      - 中国【付费推荐：https://a0a.xyz】5
+      - 美国【付费推荐：https://a0a.xyz】34
+      - 未知【付费推荐：https://a0a.xyz】13
+      - 法国【付费推荐：https://a0a.xyz】21
+      - 未知【付费推荐：https://a0a.xyz】43
+      - 美国【付费推荐：https://a0a.xyz】38
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 节点日期：10-17
-      - 中国【付费推荐：https://a0a.xyz】55
-      - 中国【付费推荐：https://a0a.xyz】66
-      - 美国【付费推荐：https://a0a.xyz】54
-      - 未知【付费推荐：https://a0a.xyz】22
-      - 未知【付费推荐：https://a0a.xyz】28
-      - 美国【付费推荐：https://a0a.xyz】59
-      - 英国【付费推荐：https://a0a.xyz】24
-      - 丹麦【付费推荐：https://a0a.xyz】49
-      - 美国【付费推荐：https://a0a.xyz】20
-      - 美国【付费推荐：https://a0a.xyz】67
-      - 中国【付费推荐：https://a0a.xyz】37
-      - 未知【付费推荐：https://a0a.xyz】61
-      - 土耳其【付费推荐：https://a0a.xyz】72
+      - 节点日期：10-18
+      - 美国【付费推荐：https://a0a.xyz】30
+      - 中国【付费推荐：https://a0a.xyz】3
+      - 中国【付费推荐：https://a0a.xyz】12
+      - 美国【付费推荐：https://a0a.xyz】8
+      - 中国【付费推荐：https://a0a.xyz】16
+      - 中国【付费推荐：https://a0a.xyz】29
+      - 中国【付费推荐：https://a0a.xyz】6
+      - 未知【付费推荐：https://a0a.xyz】15
+      - 中国【付费推荐：https://a0a.xyz】5
+      - 美国【付费推荐：https://a0a.xyz】34
+      - 未知【付费推荐：https://a0a.xyz】13
+      - 法国【付费推荐：https://a0a.xyz】21
+      - 未知【付费推荐：https://a0a.xyz】43
+      - 美国【付费推荐：https://a0a.xyz】38
   - name: 🎯 全球直连
     type: select
     proxies:
