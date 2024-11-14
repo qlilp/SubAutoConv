@@ -57,18 +57,25 @@ proxies:
   - {name: "3,17|🇺🇸_US_美国 #22", server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}}
   - {name: "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2", server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11", server: 172.64.175.213, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 11|0|--48, server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, servername: ip18.6929198.xyz, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 11|0|--51, server: speedtest.net, port: 443, type: vmess, uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51, alterId: 0, cipher: auto, tls: true, servername: mehrjavan.ir, network: ws, ws-opts: {path: /m28jcoZZUhkqg6pk11, headers: {Host: mehrjavan.ir}}}
-  - {name: 11|0|--52, server: 38.174.190.80, port: 38007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/102206282005}}
+  - {name: 11|0|--67, server: 172.67.175.56, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 11|0|--75, server: 38.75.137.121, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, servername: 38.75.137.121, network: ws, ws-opts: {path: /linkvws, headers: {Host: 38.75.137.121}}}
+  - {name: 11|0|--76, server: speedtest.net, port: 443, type: vmess, uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51, alterId: 0, cipher: auto, tls: true, servername: mehrjavan.ir, network: ws, ws-opts: {path: /m28jcoZZUhkqg6pk11, headers: {Host: mehrjavan.ir}}}
+  - {name: 11|0|--77, server: discord.vpnsell.beauty, port: 443, type: vmess, uuid: 57529232-b316-4b4e-abf1-9b6063ba0316, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /29516/iliya, headers: {Host: discord.vpnsell.beauty}}}
+  - {name: 11|0|--79, server: 188.114.97.2, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, servername: obdii.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 11|0|--81, server: 188.114.96.3, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 11|0|--82, server: 185.146.173.59, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, servername: obdii.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}}
+  - {name: 11|0|--83, server: 23.158.56.39, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.158.56.39}}}
+  - {name: 11|0|--86, server: 149.7.16.194, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
   - {name: "11|3,4,5|d*********g.com_0 #2", server: 104.21.238.200, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: "11|3,4,5|d*********g.com_1 #2", server: 104.21.238.201, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: "11|3,4,5|d*********g.com_2 #2", server: 104.21.238.202, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: "11|3,4,5|d*********g.com_3 #2", server: 104.21.238.203, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: "11,16|香港2|@ripaojiedian", server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "11,16|香港4|@ripaojiedian", server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "11,16|香港5|@ripaojiedian", server: 143.92.42.65, port: 2902, type: vmess, uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00, alterId: 0, cipher: auto, tls: false}
+  - {name: "11,16|香港6|@ripaojiedian", server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "11,16|香港X|@ripaojiedian", server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "11,16|韩国2|@ripaojiedian", server: 45.94.68.252, port: 50111, type: vmess, uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b, alterId: 0, cipher: auto, tls: false}
+  - {name: "11,15,16|日本4|@ripaojiedian", server: yd2.ainivp.com, port: 33202, type: vmess, uuid: 9204afcd-023e-781f-1abc-c12efccd1344, alterId: 0, cipher: auto, tls: true, servername: yd2.ainivp.com, network: ws, ws-opts: {path: /ray, headers: {Host: yd2.ainivp.com}}}
+  - {name: "11,16|韩国2|@ripaojiedian", server: 45.94.68.144, port: 35448, type: vmess, uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d, alterId: 0, cipher: auto, tls: false}
   - {name: "11,16|新加坡2|@ripaojiedian", server: 183.236.48.163, port: 40002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "11,16|美国4|@ripaojiedian", server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "11|16|d*********g.com_2 #3", server: 42.236.73.72, port: 443, type: vmess, uuid: 044f0177-0675-4dcf-89d4-804b6788e518, alterId: 0, cipher: auto, tls: true, servername: www.zitian.cn}
@@ -81,21 +88,22 @@ proxies:
   - {name: 12|github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: pendar.onthewifi.com}}}
   - {name: 12|github.com/freefq - 美国Fastly全球..., server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: "12|github.com/freefq - 美国CloudFla... #3", server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
-  - {name: 15|🇭🇰 香港|@ripaojiedian, server: 120.241.45.50, port: 15013, type: ss, cipher: aes-256-gcm, password: Z4X7VYXFPCFSSWXP}
+  - {name: 15|🇭🇰 香港|@ripaojiedian, server: 120.241.45.50, port: 15007, type: ss, cipher: aes-256-gcm, password: OBYKR2MBSCVSRDG2}
   - {name: 15|🇺🇸 美国4|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: 120.241.45.50, port: 15002, type: ss, cipher: aes-256-gcm, password: 99NH00E1KE8IF6WO}
-  - {name: 15|🇭🇰 香港6|@ripaojiedian, server: 183.232.229.165, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 047a730c-1f84-4aef-8e32-6c244ee5b92b}
-  - {name: 15|🇭🇰 香港7|@ripaojiedian, server: 154.197.98.64, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 15|🇹🇼 台湾|@ripaojiedian, server: 183.232.159.51, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 173c0893-5ab2-4223-88ce-b6e8d512306b}
-  - {name: 15|🇯🇵 日本|@ripaojiedian, server: 183.232.159.51, port: 33238, type: ss, cipher: chacha20-ietf-poly1305, password: 173c0893-5ab2-4223-88ce-b6e8d512306b}
+  - {name: 15|🇭🇰 香港4|@ripaojiedian, server: lsjd.yunxiang8.mom, port: 33769, type: ss, cipher: aes-128-gcm, password: bd12f79e-3209-4970-83cd-5e1f3526ff51}
+  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: 120.241.45.50, port: 15011, type: ss, cipher: aes-256-gcm, password: MQBXAVFO3NNOEB4Z}
+  - {name: 15|🇹🇼 台湾|@ripaojiedian, server: lsjd.yunxiang8.mom, port: 38793, type: ss, cipher: aes-128-gcm, password: bd12f79e-3209-4970-83cd-5e1f3526ff51}
+  - {name: 15|🇯🇵 日本|@ripaojiedian, server: lsjd.yunxiang8.mom, port: 43684, type: ss, cipher: aes-128-gcm, password: bd12f79e-3209-4970-83cd-5e1f3526ff51}
   - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 15|🇰🇷 韩国|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39206, type: ss, cipher: chacha20-ietf-poly1305, password: 7a2f5570-f469-4549-9273-549a5c85fb52}
-  - {name: 15|🇸🇬 新加坡|@ripaojiedian, server: 183.232.159.51, port: 53062, type: ss, cipher: chacha20-ietf-poly1305, password: 173c0893-5ab2-4223-88ce-b6e8d512306b}
+  - {name: 15|🇰🇷 韩国|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39202, type: ss, cipher: chacha20-ietf-poly1305, password: 7a2f5570-f469-4549-9273-549a5c85fb52}
+  - {name: 15|🇸🇬 新加坡|@ripaojiedian, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 15|🇸🇬 新加坡3|@ripaojiedian, server: lsjd.yunxiang8.mom, port: 39782, type: ss, cipher: chacha20-ietf-poly1305, password: bd12f79e-3209-4970-83cd-5e1f3526ff51}
   - {name: 15|🇺🇸 美国|@ripaojiedian, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 15|🇺🇸 美国2|@ripaojiedian, server: 38.114.114.143, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 15|🇺🇸 美国3|@ripaojiedian, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 47.129.50.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 43.207.113.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 3.35.137.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 52.79.56.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.125.37.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -160,17 +168,24 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--48
-      - 11|0|--51
-      - 11|0|--52
+      - 11|0|--67
+      - 11|0|--75
+      - 11|0|--76
+      - 11|0|--77
+      - 11|0|--79
+      - 11|0|--81
+      - 11|0|--82
+      - 11|0|--83
+      - 11|0|--86
       - "11|3,4,5|d*********g.com_0 #2"
       - "11|3,4,5|d*********g.com_1 #2"
       - "11|3,4,5|d*********g.com_2 #2"
       - "11|3,4,5|d*********g.com_3 #2"
       - 11,16|香港2|@ripaojiedian
-      - 11,16|香港4|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港X|@ripaojiedian
+      - 11,15,16|日本4|@ripaojiedian
       - 11,16|韩国2|@ripaojiedian
       - 11,16|新加坡2|@ripaojiedian
       - 11,16|美国4|@ripaojiedian
@@ -186,15 +201,16 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇭🇰 香港|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港3|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
+      - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国|@ripaojiedian
+      - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
@@ -257,17 +273,24 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--48
-      - 11|0|--51
-      - 11|0|--52
+      - 11|0|--67
+      - 11|0|--75
+      - 11|0|--76
+      - 11|0|--77
+      - 11|0|--79
+      - 11|0|--81
+      - 11|0|--82
+      - 11|0|--83
+      - 11|0|--86
       - "11|3,4,5|d*********g.com_0 #2"
       - "11|3,4,5|d*********g.com_1 #2"
       - "11|3,4,5|d*********g.com_2 #2"
       - "11|3,4,5|d*********g.com_3 #2"
       - 11,16|香港2|@ripaojiedian
-      - 11,16|香港4|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港X|@ripaojiedian
+      - 11,15,16|日本4|@ripaojiedian
       - 11,16|韩国2|@ripaojiedian
       - 11,16|新加坡2|@ripaojiedian
       - 11,16|美国4|@ripaojiedian
@@ -283,15 +306,16 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇭🇰 香港|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港3|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
+      - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国|@ripaojiedian
+      - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
@@ -353,17 +377,24 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--48
-      - 11|0|--51
-      - 11|0|--52
+      - 11|0|--67
+      - 11|0|--75
+      - 11|0|--76
+      - 11|0|--77
+      - 11|0|--79
+      - 11|0|--81
+      - 11|0|--82
+      - 11|0|--83
+      - 11|0|--86
       - "11|3,4,5|d*********g.com_0 #2"
       - "11|3,4,5|d*********g.com_1 #2"
       - "11|3,4,5|d*********g.com_2 #2"
       - "11|3,4,5|d*********g.com_3 #2"
       - 11,16|香港2|@ripaojiedian
-      - 11,16|香港4|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港X|@ripaojiedian
+      - 11,15,16|日本4|@ripaojiedian
       - 11,16|韩国2|@ripaojiedian
       - 11,16|新加坡2|@ripaojiedian
       - 11,16|美国4|@ripaojiedian
@@ -379,15 +410,16 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇭🇰 香港|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港3|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
+      - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国|@ripaojiedian
+      - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
@@ -450,17 +482,24 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--48
-      - 11|0|--51
-      - 11|0|--52
+      - 11|0|--67
+      - 11|0|--75
+      - 11|0|--76
+      - 11|0|--77
+      - 11|0|--79
+      - 11|0|--81
+      - 11|0|--82
+      - 11|0|--83
+      - 11|0|--86
       - "11|3,4,5|d*********g.com_0 #2"
       - "11|3,4,5|d*********g.com_1 #2"
       - "11|3,4,5|d*********g.com_2 #2"
       - "11|3,4,5|d*********g.com_3 #2"
       - 11,16|香港2|@ripaojiedian
-      - 11,16|香港4|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港X|@ripaojiedian
+      - 11,15,16|日本4|@ripaojiedian
       - 11,16|韩国2|@ripaojiedian
       - 11,16|新加坡2|@ripaojiedian
       - 11,16|美国4|@ripaojiedian
@@ -476,15 +515,16 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇭🇰 香港|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港3|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
-      - 15|🇭🇰 香港7|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
+      - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国|@ripaojiedian
+      - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
@@ -2229,6 +2269,7 @@ rules:
   - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
   - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
   - IP-CIDR,91.108.0.0/16,🚀 节点选择,no-resolve
+  - IP-CIDR,95.161.64.0/20,🚀 节点选择,no-resolve
   - IP-CIDR,109.239.140.0/24,🚀 节点选择,no-resolve
   - IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
@@ -2936,6 +2977,7 @@ rules:
   - DOMAIN-SUFFIX,twimg.co,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
   - DOMAIN-SUFFIX,twimg.org,🚀 节点选择
+  - DOMAIN-SUFFIX,x.com,🚀 节点选择
   - DOMAIN-SUFFIX,t.me,🚀 节点选择
   - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
