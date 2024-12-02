@@ -57,17 +57,17 @@ proxies:
   - {name: "3,17|🇺🇸_US_美国 #22", server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}}
   - {name: "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2", server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11", server: 172.64.175.213, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 11|0|--54, server: 190.93.245.174, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 11|0|--58, server: 190.93.245.103, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
+  - {name: 11|0|--31, server: 172.105.172.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: 172.105.172.209}}}
   - {name: 11|5|d*********g.com_0, server: 104.21.238.200, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: 11|5|d*********g.com_1, server: 104.21.238.201, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: 11|5|d*********g.com_2, server: 104.21.238.202, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
   - {name: 11|5|d*********g.com_3, server: 104.21.238.203, port: 8443, type: vmess, uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43, alterId: 0, cipher: auto, tls: true, servername: http1.9290254.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: http1.9290254.xyz}}}
+  - {name: "11,16|香港3|@ripaojiedian", server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
   - {name: "11,16|香港5|@ripaojiedian", server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "11,16|香港7|@ripaojiedian", server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "11,16|台湾|@ripaojiedian", server: i.needss.top, port: 20016, type: vmess, uuid: b23172e2-eb36-4222-85ac-3d2f61651013, alterId: 0, cipher: auto, tls: false}
-  - {name: "11,15,16|美国|@ripaojiedian", server: 162.159.45.195, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: p1.613055.xyz}}}
-  - {name: "11,15,16|美国3|@ripaojiedian", server: 162.159.45.195, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
+  - {name: "11,16|台湾|@ripaojiedian", server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb, alterId: 0, cipher: auto, tls: false}
+  - {name: "11,15,16|美国|@ripaojiedian", server: 104.26.0.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
+  - {name: "11,16|美国2|@ripaojiedian", server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "11|16|d*********g.com_2 #1", server: 42.236.73.72, port: 443, type: vmess, uuid: 044f0177-0675-4dcf-89d4-804b6788e518, alterId: 0, cipher: auto, tls: true, servername: www.zitian.cn}
   - {name: 12|github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irsoft.sytes.net}}}
   - {name: 12|github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sahand.serveminecraft.net}}}
@@ -78,13 +78,15 @@ proxies:
   - {name: 12|github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: pendar.onthewifi.com}}}
   - {name: 12|github.com/freefq - 美国Fastly全球..., server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: "12|github.com/freefq - 美国CloudFla... #3", server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
-  - {name: 15|🇺🇸 美国2|@ripaojiedian, server: naiu-us.05vr9nyqg5.download, port: 13020, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 15|🇺🇸 美国2|@ripaojiedian, server: 120.232.153.27, port: 58831, type: trojan, password: 1f962f36-f751-40c3-91b3-cb6d2360b450, sni: mmbiz10.redapricotcloud.com, skip-cert-verify: false}
   - {name: 15|🇭🇰 香港4|@ripaojiedian, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 43.207.163.206, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇭🇰 香港6|@ripaojiedian, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: 15|🇹🇼 台湾2|@ripaojiedian, server: soontw.soon.guru, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: f0e7fd1e-0469-415f-95da-774021f16f36}
+  - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: b3d05306-e5ae-46ca-9deb-40dc2232912b}
+  - {name: 15|🇰🇷 韩国2|@ripaojiedian, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 47.129.60.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 47.129.45.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 18.136.207.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇫🇷 法国|@ripaojiedian, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8vFQIjLl0PMh3qc3cJVuma}
+  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 47.129.236.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.215.140.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -149,17 +151,17 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--54
-      - 11|0|--58
+      - 11|0|--31
       - 11|5|d*********g.com_0
       - 11|5|d*********g.com_1
       - 11|5|d*********g.com_2
       - 11|5|d*********g.com_3
+      - 11,16|香港3|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
       - 11,16|台湾|@ripaojiedian
       - 11,15,16|美国|@ripaojiedian
-      - 11,15,16|美国3|@ripaojiedian
+      - 11,16|美国2|@ripaojiedian
       - "11|16|d*********g.com_2 #1"
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -172,11 +174,13 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
+      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇫🇷 法国|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -235,17 +239,17 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--54
-      - 11|0|--58
+      - 11|0|--31
       - 11|5|d*********g.com_0
       - 11|5|d*********g.com_1
       - 11|5|d*********g.com_2
       - 11|5|d*********g.com_3
+      - 11,16|香港3|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
       - 11,16|台湾|@ripaojiedian
       - 11,15,16|美国|@ripaojiedian
-      - 11,15,16|美国3|@ripaojiedian
+      - 11,16|美国2|@ripaojiedian
       - "11|16|d*********g.com_2 #1"
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -258,11 +262,13 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
+      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇫🇷 法国|@ripaojiedian
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -320,17 +326,17 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--54
-      - 11|0|--58
+      - 11|0|--31
       - 11|5|d*********g.com_0
       - 11|5|d*********g.com_1
       - 11|5|d*********g.com_2
       - 11|5|d*********g.com_3
+      - 11,16|香港3|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
       - 11,16|台湾|@ripaojiedian
       - 11,15,16|美国|@ripaojiedian
-      - 11,15,16|美国3|@ripaojiedian
+      - 11,16|美国2|@ripaojiedian
       - "11|16|d*********g.com_2 #1"
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -343,11 +349,13 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
+      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇫🇷 法国|@ripaojiedian
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -406,17 +414,17 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11|0|--54
-      - 11|0|--58
+      - 11|0|--31
       - 11|5|d*********g.com_0
       - 11|5|d*********g.com_1
       - 11|5|d*********g.com_2
       - 11|5|d*********g.com_3
+      - 11,16|香港3|@ripaojiedian
       - 11,16|香港5|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
       - 11,16|台湾|@ripaojiedian
       - 11,15,16|美国|@ripaojiedian
-      - 11,15,16|美国3|@ripaojiedian
+      - 11,16|美国2|@ripaojiedian
       - "11|16|d*********g.com_2 #1"
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -429,11 +437,13 @@ proxy-groups:
       - "12|github.com/freefq - 美国CloudFla... #3"
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
+      - 15|🇰🇷 韩国2|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇫🇷 法国|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
