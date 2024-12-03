@@ -5,21 +5,22 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港|@ripaojiedian, server: 36.151.192.201, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true}
-  - {name: 香港2|@ripaojiedian, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
+  - {name: 香港|@ripaojiedian, server: 36.151.192.242, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true}
+  - {name: 香港2|@ripaojiedian, server: 223.113.54.144, port: 17956, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
   - {name: 香港3|@ripaojiedian, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
   - {name: 香港4|@ripaojiedian, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 香港5|@ripaojiedian, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 香港6|@ripaojiedian, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 香港7|@ripaojiedian, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 香港8|@ripaojiedian, server: naiu-hk.05vr9nyqg5.download, port: 13007, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com}
-  - {name: 台湾|@ripaojiedian, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港9|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 台湾|@ripaojiedian, server: naiu-other.05vr9nyqg5.download, port: 13035, type: trojan, password: 5e2ce79c-170e-484a-8802-40584a1a3a12, sni: cloudflare.node-ssl.cdn-alibaba.com}
   - {name: 台湾2|@ripaojiedian, server: soontw.soon.guru, port: 40020, type: ss, cipher: chacha20-ietf-poly1305, password: f0e7fd1e-0469-415f-95da-774021f16f36}
   - {name: 日本|@ripaojiedian, server: 36.151.192.242, port: 27381, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: 日本2|@ripaojiedian, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: b3d05306-e5ae-46ca-9deb-40dc2232912b}
-  - {name: 韩国|@ripaojiedian, server: lmgj.hongxingdl.vip, port: 39593, type: trojan, password: 1f962f36-f751-40c3-91b3-cb6d2360b450, sni: mmbiz10.redapricotcloud.com}
+  - {name: 日本2|@ripaojiedian, server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: f0e7fd1e-0469-415f-95da-774021f16f36}
+  - {name: 日本3|@ripaojiedian, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: aaf875c9-d3cf-41d2-9698-365d66fd257a}
+  - {name: 新加坡|@ripaojiedian, server: s-g04.loveroise.com, port: 54030, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 韩国2|@ripaojiedian, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
-  - {name: 美国|@ripaojiedian, server: 104.26.0.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: c3.6016725.xyz}}}
   - {name: 美国2|@ripaojiedian, server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 韩国特殊|@ripaojiedian, server: 47.129.60.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 日本特殊|@ripaojiedian, server: 47.129.236.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
@@ -44,13 +45,14 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
       - 台湾2|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
-      - 韩国|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 新加坡|@ripaojiedian
       - 韩国2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 美国2|@ripaojiedian
       - 韩国特殊|@ripaojiedian
       - 日本特殊|@ripaojiedian
@@ -69,13 +71,14 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
       - 台湾2|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
-      - 韩国|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 新加坡|@ripaojiedian
       - 韩国2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 美国2|@ripaojiedian
       - 韩国特殊|@ripaojiedian
       - 日本特殊|@ripaojiedian
@@ -93,13 +96,14 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
       - 台湾2|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
-      - 韩国|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 新加坡|@ripaojiedian
       - 韩国2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 美国2|@ripaojiedian
       - 韩国特殊|@ripaojiedian
       - 日本特殊|@ripaojiedian
@@ -118,13 +122,14 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
       - 台湾2|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
-      - 韩国|@ripaojiedian
+      - 日本3|@ripaojiedian
+      - 新加坡|@ripaojiedian
       - 韩国2|@ripaojiedian
-      - 美国|@ripaojiedian
       - 美国2|@ripaojiedian
       - 韩国特殊|@ripaojiedian
       - 日本特殊|@ripaojiedian
