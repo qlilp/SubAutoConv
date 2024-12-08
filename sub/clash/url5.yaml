@@ -7,22 +7,23 @@ external-controller: :9090
 proxies:
   - {name: 香港|@ripaojiedian, server: 36.151.192.242, port: 51377, type: trojan, password: DNUMdmnJ, skip-cert-verify: true}
   - {name: 香港2|@ripaojiedian, server: 36.151.192.242, port: 18682, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: 香港3|@ripaojiedian, server: 120.198.71.214, port: 32193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 香港3|@ripaojiedian, server: 120.198.71.216, port: 35601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 香港4|@ripaojiedian, server: h-k02.loveroise.com, port: 54002, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 香港5|@ripaojiedian, server: 183.236.48.163, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 香港6|@ripaojiedian, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 香港7|@ripaojiedian, server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 香港8|@ripaojiedian, server: 18.162.246.4, port: 18443, type: trojan, password: ouo, sni: tr.koiok.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}}
+  - {name: 香港9|@ripaojiedian, server: lbso.bnnodeservice.com, port: 32029, type: trojan, password: c41771a6-7c16-4015-80b4-de5ebdec2595, sni: cert.bitbyte.one}
   - {name: 台湾|@ripaojiedian, server: 210.61.97.241, port: 81, type: trojan, password: ouo, sni: tr.koiok.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}}
-  - {name: 日本2|@ripaojiedian, server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22269, type: trojan, password: 50cce31a-d637-4058-b2cd-9362de722d64, sni: q08m.vgraxiw73s.hasyaf.cn}
-  - {name: 日本3|@ripaojiedian, server: j-p04.loveroise.com, port: 54102, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 韩国|@ripaojiedian, server: k-r01.loveroise.com, port: 54008, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: 日本|@ripaojiedian, server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6}
+  - {name: 日本3|@ripaojiedian, server: j-p04.loveroise.com, port: 54102, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 韩国3|@ripaojiedian, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 新加坡|@ripaojiedian, server: s-g04.loveroise.com, port: 54030, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
   - {name: 美国|@ripaojiedian, server: usla.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: usla.mjt000.com}
-  - {name: 美国2|@ripaojiedian, server: 120.232.153.27, port: 58831, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 韩国特殊|@ripaojiedian, server: 18.143.139.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 日本特殊|@ripaojiedian, server: 3.36.86.96, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 美国2|@ripaojiedian, server: 170.114.45.51, port: 80, type: vmess, uuid: 8471e1f6-cfa0-4561-a83e-311253b01130, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz}}}
+  - {name: 韩国特殊|@ripaojiedian, server: 43.207.112.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本特殊|@ripaojiedian, server: 54.199.12.31, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 狮城特殊|@ripaojiedian, server: 3.38.151.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 越南|@ripaojiedian, server: vn.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: vn.mjt000.com}
 proxy-groups:
@@ -45,10 +46,11 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 日本3|@ripaojiedian
       - 韩国|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本3|@ripaojiedian
       - 韩国3|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 美国|@ripaojiedian
@@ -71,10 +73,11 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 日本3|@ripaojiedian
       - 韩国|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本3|@ripaojiedian
       - 韩国3|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 美国|@ripaojiedian
@@ -96,10 +99,11 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 日本3|@ripaojiedian
       - 韩国|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本3|@ripaojiedian
       - 韩国3|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 美国|@ripaojiedian
@@ -122,10 +126,11 @@ proxy-groups:
       - 香港6|@ripaojiedian
       - 香港7|@ripaojiedian
       - 香港8|@ripaojiedian
+      - 香港9|@ripaojiedian
       - 台湾|@ripaojiedian
-      - 日本2|@ripaojiedian
-      - 日本3|@ripaojiedian
       - 韩国|@ripaojiedian
+      - 日本|@ripaojiedian
+      - 日本3|@ripaojiedian
       - 韩国3|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 美国|@ripaojiedian
