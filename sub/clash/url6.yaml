@@ -57,12 +57,13 @@ proxies:
   - {name: "3,17|🇺🇸_US_美国 #22", server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: russia.com}}}
   - {name: "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2", server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11", server: 172.64.175.213, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "11,15,16|香港6|@ripaojiedian", server: hk1.tiljkc.top, port: 41001, type: vmess, uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0, alterId: 0, cipher: auto, tls: true, servername: urydh.ljricbrd.top, network: http, http-opts: {method: GET, path: [/], headers: {Host: [hk1.tiljkc.top]}}}
+  - {name: 11|0|--20, server: in06.my1188.org, port: 64016, type: vmess, uuid: fe0346d9-a972-3d8a-bac7-310604fa108f, alterId: 0, cipher: auto, tls: false, servername: us01.wechat-cdn-us01.one}
+  - {name: "11,16|香港6|@ripaojiedian", server: hk1.tiljkc.top, port: 39041, type: vmess, uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0, alterId: 0, cipher: auto, tls: false}
   - {name: "11,16|香港7|@ripaojiedian", server: 183.236.51.23, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "11,15,16|日本2|@ripaojiedian", server: jp1.tiljkc.top, port: 53892, type: vmess, uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0, alterId: 0, cipher: auto, tls: true, servername: urydh.ljricbrd.top, network: http, http-opts: {method: GET, path: [/], headers: {Host: [jp1.tiljkc.top]}}}
-  - {name: "11,15,16|日本3|@ripaojiedian", server: cdn1.bpcdn.cc, port: 2086, type: vmess, uuid: b2295415-b953-4959-8be0-88b358111e95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpjhve0r3125kg1xmz.lovebaipiao.com}}}
+  - {name: "11,16|台湾2|@ripaojiedian", server: zfa04.333210.xyz, port: 40380, type: vmess, uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5, alterId: 0, cipher: auto, tls: true}
+  - {name: "11,16|日本3|@ripaojiedian", server: jp1.tiljkc.top, port: 38953, type: vmess, uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0, alterId: 0, cipher: auto, tls: false}
   - {name: "11,15,16|新加坡|@ripaojiedian", server: ml01.333210.xyz, port: 40000, type: vmess, uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bby, headers: {Host: down.dingtalk.com}}}
-  - {name: "11,15,16|新加坡2|@ripaojiedian", server: sg1.tiljkc.top, port: 21005, type: vmess, uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0, alterId: 0, cipher: auto, tls: true, servername: urydh.ljricbrd.top, network: http, http-opts: {method: GET, path: [/], headers: {Host: [sg1.tiljkc.top]}}}
+  - {name: "11,16|新加坡4|@ripaojiedian", server: sg1.tiljkc.top, port: 34843, type: vmess, uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0, alterId: 0, cipher: auto, tls: false}
   - {name: 11|16|d*********g.com_2, server: 42.236.73.72, port: 443, type: vmess, uuid: 044f0177-0675-4dcf-89d4-804b6788e518, alterId: 0, cipher: auto, tls: true, servername: www.zitian.cn}
   - {name: 12|github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: irsoft.sytes.net}}}
   - {name: 12|github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sahand.serveminecraft.net}}}
@@ -74,17 +75,20 @@ proxies:
   - {name: 12|github.com/freefq - 美国Fastly全球..., server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: "12|github.com/freefq - 美国CloudFla... #3", server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
   - {name: 15|🇻🇳 越南|@ripaojiedian, server: vn.mjt000.com, port: 443, type: trojan, password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c, sni: vn.mjt000.com, skip-cert-verify: false}
-  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: hk02.51feitu.com, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 718b6119-17fb-4700-a3ed-32e8417a3daa}
+  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: 219.135.227.209, port: 15011, type: ss, cipher: aes-256-gcm, password: ANTGT74MO57KLLLE}
   - {name: 15|🇭🇰 香港4|@ripaojiedian, server: 219.135.227.209, port: 15015, type: ss, cipher: aes-256-gcm, password: 9UB4OF8WZ0YXIPBD}
-  - {name: 15|🇭🇰 香港5|@ripaojiedian, server: 219.135.227.209, port: 15012, type: ss, cipher: aes-256-gcm, password: PW5K9ORIVZQLTTCZ}
+  - {name: 15|🇭🇰 香港5|@ripaojiedian, server: 18.162.246.4, port: 18443, type: trojan, password: ouo, sni: tr.koiok.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}}
   - {name: 15|🇹🇼 台湾|@ripaojiedian, server: 210.61.97.241, port: 81, type: trojan, password: ouo, sni: tr.koiok.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}}
+  - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 219.135.227.209, port: 18015, type: ss, cipher: aes-256-gcm, password: JJ4PSU7MN1VRHN5Y}
   - {name: 15|🇯🇵 日本4|@ripaojiedian, server: 219.135.227.209, port: 18011, type: ss, cipher: aes-256-gcm, password: 364S7BOP8HTUCLZP}
+  - {name: 15|🇸🇬 新加坡2|@ripaojiedian, server: 219.135.227.209, port: 16003, type: ss, cipher: aes-256-gcm, password: LOHI96W4MY7U2T8T}
   - {name: 15|🇸🇬 新加坡3|@ripaojiedian, server: 219.135.227.209, port: 16015, type: ss, cipher: aes-256-gcm, password: OWLCP6DOQ4PZ5M7G}
   - {name: 15|🇺🇸 美国2|@ripaojiedian, server: 65.75.193.154, port: 14491, type: trojan, password: ouo, sni: tr.koiok.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}}
   - {name: 15|🇺🇸 美国3|@ripaojiedian, server: 219.135.227.209, port: 17003, type: ss, cipher: aes-256-gcm, password: TTK8DSO6MZREEJQ1}
-  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.143.139.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 54.178.84.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 54.151.196.32, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇺🇸 美国5|@ripaojiedian, server: 113.99.142.152, port: 17008, type: ss, cipher: aes-256-gcm, password: P4RAHM7S01HTCHPW}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.141.187.153, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 54.248.142.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 43.207.81.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -149,12 +153,13 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11,15,16|香港6|@ripaojiedian
+      - 11|0|--20
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
-      - 11,15,16|日本2|@ripaojiedian
-      - 11,15,16|日本3|@ripaojiedian
+      - 11,16|台湾2|@ripaojiedian
+      - 11,16|日本3|@ripaojiedian
       - 11,15,16|新加坡|@ripaojiedian
-      - 11,15,16|新加坡2|@ripaojiedian
+      - 11,16|新加坡4|@ripaojiedian
       - 11|16|d*********g.com_2
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -170,10 +175,13 @@ proxy-groups:
       - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港5|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
+      - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -235,12 +243,13 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11,15,16|香港6|@ripaojiedian
+      - 11|0|--20
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
-      - 11,15,16|日本2|@ripaojiedian
-      - 11,15,16|日本3|@ripaojiedian
+      - 11,16|台湾2|@ripaojiedian
+      - 11,16|日本3|@ripaojiedian
       - 11,15,16|新加坡|@ripaojiedian
-      - 11,15,16|新加坡2|@ripaojiedian
+      - 11,16|新加坡4|@ripaojiedian
       - 11|16|d*********g.com_2
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -256,10 +265,13 @@ proxy-groups:
       - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港5|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
+      - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -320,12 +332,13 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11,15,16|香港6|@ripaojiedian
+      - 11|0|--20
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
-      - 11,15,16|日本2|@ripaojiedian
-      - 11,15,16|日本3|@ripaojiedian
+      - 11,16|台湾2|@ripaojiedian
+      - 11,16|日本3|@ripaojiedian
       - 11,15,16|新加坡|@ripaojiedian
-      - 11,15,16|新加坡2|@ripaojiedian
+      - 11,16|新加坡4|@ripaojiedian
       - 11|16|d*********g.com_2
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -341,10 +354,13 @@ proxy-groups:
       - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港5|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
+      - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -406,12 +422,13 @@ proxy-groups:
       - "3,17|🇺🇸_US_美国 #22"
       - "3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2"
       - "3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11"
-      - 11,15,16|香港6|@ripaojiedian
+      - 11|0|--20
+      - 11,16|香港6|@ripaojiedian
       - 11,16|香港7|@ripaojiedian
-      - 11,15,16|日本2|@ripaojiedian
-      - 11,15,16|日本3|@ripaojiedian
+      - 11,16|台湾2|@ripaojiedian
+      - 11,16|日本3|@ripaojiedian
       - 11,15,16|新加坡|@ripaojiedian
-      - 11,15,16|新加坡2|@ripaojiedian
+      - 11,16|新加坡4|@ripaojiedian
       - 11|16|d*********g.com_2
       - 12|github.com/freefq - 印度  2
       - 12|github.com/freefq - 印度  3
@@ -427,10 +444,13 @@ proxy-groups:
       - 15|🇭🇰 香港4|@ripaojiedian
       - 15|🇭🇰 香港5|@ripaojiedian
       - 15|🇹🇼 台湾|@ripaojiedian
+      - 15|🇯🇵 日本2|@ripaojiedian
       - 15|🇯🇵 日本4|@ripaojiedian
+      - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇺🇸 美国2|@ripaojiedian
       - 15|🇺🇸 美国3|@ripaojiedian
+      - 15|🇺🇸 美国5|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
