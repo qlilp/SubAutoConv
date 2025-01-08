@@ -6,63 +6,36 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 0|-https://t.me/MrXbin-1, server: 51.15.15.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 0|-https://t.me/MrXbin-2, server: 38.110.1.46, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 0|-https://t.me/MrXbin-3, server: p230.panda004.net, port: 41748, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 0|-https://t.me/MrXbin-4, server: 217.30.10.18, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: 0|-https://t.me/MrXbin-5, server: 168.126.234.232, port: 25415, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 0|-https://t.me/MrXbin-6, server: 43.206.231.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-7, server: 89.185.85.227, port: 19262, type: ss, cipher: chacha20-ietf-poly1305, password: 0goatjlGmKeKt9En6vfsJF}
-  - {name: 0|-https://t.me/MrXbin-8, server: 217.30.10.18, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ}
-  - {name: 0|-https://t.me/MrXbin-9, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 0|-https://t.me/MrXbin-10, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: 0|-https://t.me/MrXbin-11, server: 38.110.1.46, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 0|-https://t.me/MrXbin-12, server: 35.85.36.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-13, server: 54.186.92.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-14, server: 38.110.1.46, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 0|-https://t.me/MrXbin-15, server: 43.203.127.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-16, server: 38.110.1.46, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 0|-https://t.me/MrXbin-17, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 0|-https://t.me/MrXbin-20, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: 0|-https://t.me/MrXbin-21, server: 221.150.109.90, port: 41748, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 0|-https://t.me/MrXbin-22, server: 43.203.122.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-23, server: 217.30.10.18, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 0|-https://t.me/MrXbin-24, server: 217.30.10.18, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 0|-https://t.me/MrXbin-25, server: 38.110.1.46, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 0|-https://t.me/MrXbin-26, server: 34.211.229.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-27, server: 52.79.73.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-28, server: 217.30.10.18, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: 0|-https://t.me/MrXbin-29, server: 217.30.10.18, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
-  - {name: 0|-https://t.me/MrXbin-30, server: 217.30.10.18, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 0|-https://t.me/MrXbin-31, server: 217.30.10.18, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX}
-  - {name: 0|-https://t.me/MrXbin-32, server: 217.30.10.18, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 0|-https://t.me/MrXbin-33, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
-  - {name: 0|-https://t.me/MrXbin-34, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 0|-https://t.me/MrXbin-35, server: 217.30.10.18, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: 0|-https://t.me/MrXbin-36, server: 217.30.10.18, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: 0|-https://t.me/MrXbin-37, server: 217.30.10.18, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
-  - {name: 0|-https://t.me/MrXbin-38, server: 3.38.212.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-39, server: 217.30.10.18, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8}
-  - {name: 0|-https://t.me/MrXbin-40, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 0|-https://t.me/MrXbin-41, server: 217.30.10.18, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: 0|-https://t.me/MrXbin-42, server: 217.30.10.18, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
-  - {name: 0|-https://t.me/MrXbin-43, server: 217.30.10.18, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
-  - {name: 0|-https://t.me/MrXbin-44, server: 217.30.10.18, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
-  - {name: 0|-https://t.me/MrXbin-45, server: 217.30.10.18, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
-  - {name: 0|-https://t.me/MrXbin-46, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 0|-https://t.me/MrXbin-47, server: 217.30.10.18, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
-  - {name: 0|-https://t.me/MrXbin-48, server: 52.68.44.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-49, server: 217.30.10.18, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c}
-  - {name: 0|-https://t.me/MrXbin-50, server: 217.30.10.18, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4}
-  - {name: 0|-https://t.me/MrXbin-51, server: 217.30.10.18, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: 0|-https://t.me/MrXbin-52, server: 52.32.68.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-53, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
-  - {name: 0|-https://t.me/MrXbin-54, server: 35.85.33.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-55, server: 35.92.45.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-56, server: 34.213.242.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-57, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-58, server: 13.250.115.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https://t.me/MrXbin-66, server: 152.70.155.147, port: 2053, type: vmess, uuid: aa704947-e163-4133-b485-f8032f8f1286, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ylks, headers: {Host: nl.zhuk.us.kg}}}
-  - {name: 0|-https://t.me/MrXbin-67, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
+  - {name: 0|-https://t.me/MrXbin-5, server: 210.217.18.70, port: 3231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 0|-https://t.me/MrXbin-7, server: 221.150.109.90, port: 41748, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 0|-https://t.me/MrXbin-8, server: 217.30.10.18, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
+  - {name: 0|-https://t.me/MrXbin-9, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
+  - {name: 0|-https://t.me/MrXbin-10, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 0|-https://t.me/MrXbin-12, server: 54.179.186.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-13, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
+  - {name: 0|-https://t.me/MrXbin-14, server: 34.219.132.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-15, server: 54.186.92.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-16, server: 35.93.31.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-17, server: 35.85.36.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-18, server: 52.79.73.137, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-19, server: p239.panda004.net, port: 3231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 0|-https://t.me/MrXbin-20, server: 34.211.229.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-21, server: 43.203.122.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-22, server: 107.155.57.11, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 0|-https://t.me/MrXbin-23, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 0|-https://t.me/MrXbin-24, server: 54.178.84.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-25, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 0|-https://t.me/MrXbin-26, server: 34.222.132.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-27, server: 52.32.68.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-28, server: 3.38.212.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-29, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 0|-https://t.me/MrXbin-30, server: 3.35.206.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-31, server: 34.222.136.128, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-32, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj}
+  - {name: 0|-https://t.me/MrXbin-33, server: 35.85.33.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-34, server: 34.213.242.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-35, server: 35.92.45.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https://t.me/MrXbin-43, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
   - {name: "7,12|@vpnv2rayNGv #2", server: 66.23.198.32, port: 443, type: hysteria2, password: KevinZakarian, auth: KevinZakarian, sni: www.eliv2ray.net, skip-cert-verify: true, obfs: salamander, obfs-password: KevinZakarian}
   - {name: "7,12|@vpnv2rayNGv #3", server: 45.140.169.231, port: 8080, type: hysteria2, password: a278eadd-c35c-403f-a286-7767a74307c1, auth: a278eadd-c35c-403f-a286-7767a74307c1, sni: www.eliv2ray.net, skip-cert-verify: true}
   - {name: 8|MCI-@V2ray_Raha-6, server: 209.141.42.49, port: 443, type: hysteria2, password: 1c0b8d7b-5617-4a07-acd2-315da2340ec9, auth: 1c0b8d7b-5617-4a07-acd2-315da2340ec9, sni: www.bing.com, skip-cert-verify: true}
@@ -89,55 +62,74 @@ proxies:
   - {name: 13|🇭🇰 香港3|@ripaojiedian, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 13|🇭🇰 香港4|@ripaojiedian, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 13|🇭🇰 香港5|@ripaojiedian, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 13|🇭🇰 香港6|@ripaojiedian, server: 114.132.40.118, port: 30018, type: ss, cipher: aes-256-gcm, password: e3e6bacf-030c-4bcd-b9ab-9fd29eec4dfd}
   - {name: "13,14|香港7|@ripaojiedian", server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: hk03.trojanyyds.xyz, skip-cert-verify: false}
   - {name: 13|🇭🇰 香港8|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 6LE2F7E2WQWGJEYG}
   - {name: 13|🇭🇰 香港9|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15011, type: ss, cipher: aes-256-gcm, password: Y4JZ69NZ4IMSVWMC}
   - {name: "13,14|台湾|@ripaojiedian", server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz, skip-cert-verify: false}
+  - {name: 13|🇹🇼 台湾2|@ripaojiedian, server: gzyd3.piaomiaoxu.net, port: 28995, type: ss, cipher: aes-256-gcm, password: 3730d507-4825-4eca-ab8a-4c9ebd4bc3e6}
   - {name: 13|🇯🇵 日本|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 18003, type: ss, cipher: aes-256-gcm, password: U5GAQMMIFQ2FD44A}
   - {name: 13|🇰🇷 韩国|@ripaojiedian, server: p199.panda003.net, port: 58368, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
   - {name: 13|🇸🇬 新加坡|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 16015, type: ss, cipher: aes-256-gcm, password: W6L2Z5COWF4TGC8S}
   - {name: "13,14|新加坡3|@ripaojiedian", server: major-reindeer.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: major-reindeer.boa152.lol, skip-cert-verify: false}
   - {name: 13|🇺🇸 美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 13|🇺🇸 美国2|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 17001, type: ss, cipher: aes-256-gcm, password: IY8P2O7XIQZVL9JE}
-  - {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 18.182.64.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 52.196.112.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 13.114.140.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 54.151.212.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.179.78.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 52.195.214.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "13,14|法国|@ripaojiedian", server: primer.ibilibi.li, port: 443, type: vmess, uuid: e5852393-ca52-4c90-a237-d63cbbb57f21, alterId: 0, cipher: auto, tls: true, servername: ameblo.jp, network: ws, ws-opts: {path: "/farcry?ed=2560", headers: {Host: loki.oracle}}}
   - {name: 14|香港3|@ripaojiedian, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 14|香港4|@ripaojiedian, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 14|香港5|@ripaojiedian, server: 183.236.51.23, port: 51704, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 14|香港6|@ripaojiedian, server: 114.132.40.118, port: 30018, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206ZTNlNmJhY2YtMDMwYy00YmNkLWI5YWItOWZkMjllZWM0ZGZk}
   - {name: 14|香港8|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206NkxFMkY3RTJXUVdHSkVZRw}
   - {name: 14|香港9|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15011, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206WTRKWjY5Tlo0SU1TVldNQw}
+  - {name: 14|台湾2|@ripaojiedian, server: gzyd3.piaomiaoxu.net, port: 28995, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206MzczMGQ1MDctNDgyNS00ZWNhLWFiOGEtNGM5ZWJkNGJjM2U2}
   - {name: 14|日本|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 18003, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206VTVHQVFNTUlGUTJGRDQ0QQ}
   - {name: 14|韩国|@ripaojiedian, server: p199.panda003.net, port: 58368, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA}
   - {name: 14|新加坡|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 16015, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206VzZMMlo1Q09XRjRUR0M4Uw}
   - {name: 14|美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 14|美国2|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 17001, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206SVk4UDJPN1hJUVpWTDlKRQ}
-  - {name: 14|日本特殊|@ripaojiedian, server: 18.182.64.182, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 14|狮城特殊|@ripaojiedian, server: 52.196.112.58, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 14|韩国特殊|@ripaojiedian, server: 13.114.140.185, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 15|CA_speednode_0001, server: 15.223.141.195, port: 443, type: trojan, password: 3723507166611775488, sni: neutral-magpie.treefrog761.one, skip-cert-verify: true}
-  - {name: 15|CZ_speednode_0027, server: social-bream.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: social-bream.boa152.lol, skip-cert-verify: false}
-  - {name: 15|DE_speednode_0028, server: 109.61.16.83, port: 443, type: trojan, password: 3723507166611775488, sni: profound-elk.boa152.lol, skip-cert-verify: false}
-  - {name: 15|DE_speednode_0031, server: profound-elk.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: profound-elk.boa152.lol, skip-cert-verify: false}
-  - {name: 15|DE_speednode_0033, server: 85.192.63.127, port: 2501, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
-  - {name: 15|DE_speednode_0034, server: nextstepcareer.online, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, skip-cert-verify: true}
-  - {name: 15|ES_speednode_0035, server: 94.250.246.200, port: 8080, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
-  - {name: 15|GB_speednode_0037, server: boss-hound.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: boss-hound.boa152.lol, skip-cert-verify: true}
-  - {name: 15|GB_speednode_0038, server: 62.112.221.46, port: 443, type: trojan, password: 3723507166611775488, sni: boss-hound.boa152.lol, skip-cert-verify: false}
-  - {name: 15|JP_speednode_0044, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 15|JP_speednode_0045, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 15|JP_speednode_0046, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: my01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 15|JP_speednode_0047, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: de01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 15|NL_speednode_0048, server: 87.120.167.51, port: 443, type: trojan, password: 3723507166611775488, sni: concrete-buzzard.boa152.lol, skip-cert-verify: true}
-  - {name: 15|NL_speednode_0050, server: concrete-buzzard.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: concrete-buzzard.boa152.lol, skip-cert-verify: false}
-  - {name: 15|NL_speednode_0051, server: 193.123.60.66, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
-  - {name: 15|SG_speednode_0055, server: 8.219.80.83, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
-  - {name: 15|SG_speednode_0056, server: 8.219.68.66, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
-  - {name: 15|SG_speednode_0057, server: 8.222.138.157, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: /security=tls, headers: {Host: a.xn--i-sx6a60i.us.kg}}}
-  - {name: 15|US_speednode_0061, server: 192.9.158.188, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: /security=tls, headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 14|日本特殊|@ripaojiedian, server: 54.151.212.176, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|狮城特殊|@ripaojiedian, server: 54.179.78.99, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|韩国特殊|@ripaojiedian, server: 52.195.214.124, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 15|AU_speednode_0001, server: 20.211.64.15, port: 443, type: vless, uuid: 6f995056-7802-4a1d-bff7-61678e626c3f, tls: false, servername: bdfgfrtt7.azurewebsites.net, network: ws, ws-opts: {path: /security=tls, headers: {Host: bdfgfrtt7.azurewebsites.net}}}
+  - {name: 15|CH_speednode_0002, server: 138.124.53.161, port: 443, type: vless, uuid: 0ea2f1b5-48c5-40c2-8496-5fdf856caafe, tls: true, alpn: [h3%2Ch2%2Chttp/1.1], servername: ad4.transitkala.com, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: ad4.transitkala.com}}}
+  - {name: 15|CH_speednode_0003, server: 138.124.54.108, port: 443, type: vless, uuid: 0ea2f1b5-48c5-40c2-8496-5fdf856caafe, tls: true, alpn: [h3%2Ch2%2Chttp/1.1], servername: ad4.transitkala.com, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: ad4.transitkala.com}}}
+  - {name: 15|CZ_speednode_0033, server: 194.87.11.56, port: 8000, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|DE_speednode_0036, server: 159.69.103.177, port: 443, type: vless, uuid: 0ea2f1b5-48c5-40c2-8496-5fdf856caafe, tls: true, alpn: [h3%2Ch2%2Chttp/1.1], servername: ad4.transitkala.com, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: ad4.transitkala.com}}}
+  - {name: 15|DE_speednode_0037, server: 212.224.93.93, port: 443, type: vless, uuid: 14ba4514-3846-45c0-aec6-444e5451b95c, tls: false, servername: blog.codegethub.org, network: ws, ws-opts: {path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channelsecurity=tls, headers: {Host: blog.codegethub.org}}}
+  - {name: 15|DE_speednode_0038, server: 159.69.22.135, port: 1001, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560fp=chrome", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|DE_speednode_0041, server: 57.129.0.208, port: 80, type: vless, uuid: a835df0f-6b89-46e1-a2a0-c08907d5a524, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 15|ES_speednode_0043, server: 94.250.246.200, port: 8080, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|FR_speednode_0044, server: 193.243.147.107, port: 587, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|GB_speednode_0046, server: 109.61.95.21, port: 8080, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|HK_speednode_0047, server: 47.243.60.38, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|IR_speednode_0052, server: 78.157.59.140, port: 50067, type: vless, uuid: 9e316ce0-8fd3-4058-bc5e-241f9c3a9f56, tls: false, servername: "MgbJP.divarcdn.com,LXHRl.snappfood.ir,3cubP.yjc.ir,XbifM.digikala.com,HL56Q.tic.ir", network: ws, ws-opts: {path: /, headers: {Host: "MgbJP.divarcdn.com,LXHRl.snappfood.ir,3cubP.yjc.ir,XbifM.digikala.com,HL56Q.tic.ir"}}}
+  - {name: 15|JP_speednode_0057, server: 64.110.104.30, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|JP_speednode_0058, server: 160.16.242.208, port: 8889, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560fp=chrome", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|KR_speednode_0059, server: 140.238.23.148, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: /security=tls, headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0061, server: 188.119.112.54, port: 2501, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0062, server: 103.214.68.133, port: 587, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0063, server: 31.44.0.68, port: 25, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0064, server: 195.200.19.139, port: 6060, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: /security=tls, headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0065, server: 192.210.160.163, port: 1001, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: /security=tls, headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0066, server: 46.30.42.248, port: 2501, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|NL_speednode_0067, server: 195.200.19.139, port: 6060, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|RU_speednode_0070, server: 185.22.155.139, port: 587, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|RU_speednode_0071, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
+  - {name: 15|SE_speednode_0074, server: 95.164.51.24, port: 2501, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|SG_speednode_0075, server: 8.222.218.30, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|SG_speednode_0076, server: 8.222.129.84, port: 587, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|SG_speednode_0078, server: 167.172.73.223, port: 25815, type: vless, uuid: 95d47811-dd8f-4266-9b49-45c3fe369b85, tls: false, servername: speedtest.net, network: ws, ws-opts: {path: /FREE By Tharuwa (0767597317), headers: {Host: speedtest.net}}}
+  - {name: 15|SG_speednode_0079, server: 8.219.254.97, port: 443, type: vless, uuid: 14ba4514-3846-45c0-aec6-444e5451b95c, tls: false, servername: blog.codegethub.org, network: ws, ws-opts: {path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channelsecurity=tls, headers: {Host: blog.codegethub.org}}}
+  - {name: 15|SG_speednode_0080, server: 8.219.241.41, port: 443, type: vless, uuid: 14ba4514-3846-45c0-aec6-444e5451b95c, tls: false, servername: blog.codegethub.org, network: ws, ws-opts: {path: /ws@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channel----@PersiaTM_Channelsecurity=tls, headers: {Host: blog.codegethub.org}}}
+  - {name: 15|TR_speednode_0081, server: 213.238.167.21, port: 8080, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|TR_speednode_0082, server: 95.164.116.22, port: 2501, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.mifeng.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.mifeng.us.kg}}}
+  - {name: 15|US_speednode_0085, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
+  - {name: 15|US_speednode_0086, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}}
+  - {name: 15|US_speednode_0087, server: 192.9.158.188, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: /security=tls, headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|US_speednode_0094, server: 152.70.155.147, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, servername: a.xn--i-sx6a60i.us.kg, network: ws, ws-opts: {path: "/?ed=2560security=tls", headers: {Host: a.xn--i-sx6a60i.us.kg}}}
+  - {name: 15|US_speednode_0096, server: 107.172.25.166, port: 443, type: vless, uuid: 8ea00d88-3089-4fdc-e0d4-566bf11c3c4c, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 15|VN_speednode_0097, server: Cmc5.5gsieuvip.vn, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true}
   - {name: 16|d*********g.com_2, server: 42.236.73.72, port: 443, type: vmess, uuid: 044f0177-0675-4dcf-89d4-804b6788e518, alterId: 0, cipher: auto, tls: true, servername: www.zitian.cn}
   - {name: 16|d*********g.com_3, server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, alpn: [http/1.1]}
 proxy-groups:
@@ -153,22 +145,19 @@ proxy-groups:
     type: select
     proxies:
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-4
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-6
       - 0|-https://t.me/MrXbin-7
       - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-9
       - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-11
       - 0|-https://t.me/MrXbin-12
       - 0|-https://t.me/MrXbin-13
       - 0|-https://t.me/MrXbin-14
       - 0|-https://t.me/MrXbin-15
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-19
       - 0|-https://t.me/MrXbin-20
       - 0|-https://t.me/MrXbin-21
       - 0|-https://t.me/MrXbin-22
@@ -185,31 +174,7 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-33
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-35
-      - 0|-https://t.me/MrXbin-36
-      - 0|-https://t.me/MrXbin-37
-      - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-40
-      - 0|-https://t.me/MrXbin-41
-      - 0|-https://t.me/MrXbin-42
       - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-44
-      - 0|-https://t.me/MrXbin-45
-      - 0|-https://t.me/MrXbin-46
-      - 0|-https://t.me/MrXbin-47
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-51
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-54
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-66
-      - 0|-https://t.me/MrXbin-67
       - "7,12|@vpnv2rayNGv #2"
       - "7,12|@vpnv2rayNGv #3"
       - 8|MCI-@V2ray_Raha-6
@@ -236,11 +201,11 @@ proxy-groups:
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
       - 13,14|香港7|@ripaojiedian
       - 13|🇭🇰 香港8|@ripaojiedian
       - 13|🇭🇰 香港9|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
@@ -254,9 +219,9 @@ proxy-groups:
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
       - 14|香港5|@ripaojiedian
-      - 14|香港6|@ripaojiedian
       - 14|香港8|@ripaojiedian
       - 14|香港9|@ripaojiedian
+      - 14|台湾2|@ripaojiedian
       - 14|日本|@ripaojiedian
       - 14|韩国|@ripaojiedian
       - 14|新加坡|@ripaojiedian
@@ -265,26 +230,45 @@ proxy-groups:
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
-      - 15|CA_speednode_0001
-      - 15|CZ_speednode_0027
-      - 15|DE_speednode_0028
-      - 15|DE_speednode_0031
-      - 15|DE_speednode_0033
-      - 15|DE_speednode_0034
-      - 15|ES_speednode_0035
-      - 15|GB_speednode_0037
-      - 15|GB_speednode_0038
-      - 15|JP_speednode_0044
-      - 15|JP_speednode_0045
-      - 15|JP_speednode_0046
-      - 15|JP_speednode_0047
-      - 15|NL_speednode_0048
-      - 15|NL_speednode_0050
-      - 15|NL_speednode_0051
-      - 15|SG_speednode_0055
-      - 15|SG_speednode_0056
-      - 15|SG_speednode_0057
-      - 15|US_speednode_0061
+      - 15|AU_speednode_0001
+      - 15|CH_speednode_0002
+      - 15|CH_speednode_0003
+      - 15|CZ_speednode_0033
+      - 15|DE_speednode_0036
+      - 15|DE_speednode_0037
+      - 15|DE_speednode_0038
+      - 15|DE_speednode_0041
+      - 15|ES_speednode_0043
+      - 15|FR_speednode_0044
+      - 15|GB_speednode_0046
+      - 15|HK_speednode_0047
+      - 15|IR_speednode_0052
+      - 15|JP_speednode_0057
+      - 15|JP_speednode_0058
+      - 15|KR_speednode_0059
+      - 15|NL_speednode_0061
+      - 15|NL_speednode_0062
+      - 15|NL_speednode_0063
+      - 15|NL_speednode_0064
+      - 15|NL_speednode_0065
+      - 15|NL_speednode_0066
+      - 15|NL_speednode_0067
+      - 15|RU_speednode_0070
+      - 15|RU_speednode_0071
+      - 15|SE_speednode_0074
+      - 15|SG_speednode_0075
+      - 15|SG_speednode_0076
+      - 15|SG_speednode_0078
+      - 15|SG_speednode_0079
+      - 15|SG_speednode_0080
+      - 15|TR_speednode_0081
+      - 15|TR_speednode_0082
+      - 15|US_speednode_0085
+      - 15|US_speednode_0086
+      - 15|US_speednode_0087
+      - 15|US_speednode_0094
+      - 15|US_speednode_0096
+      - 15|VN_speednode_0097
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: ♻️ 自动选择
@@ -294,22 +278,19 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-4
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-6
       - 0|-https://t.me/MrXbin-7
       - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-9
       - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-11
       - 0|-https://t.me/MrXbin-12
       - 0|-https://t.me/MrXbin-13
       - 0|-https://t.me/MrXbin-14
       - 0|-https://t.me/MrXbin-15
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-19
       - 0|-https://t.me/MrXbin-20
       - 0|-https://t.me/MrXbin-21
       - 0|-https://t.me/MrXbin-22
@@ -326,31 +307,7 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-33
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-35
-      - 0|-https://t.me/MrXbin-36
-      - 0|-https://t.me/MrXbin-37
-      - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-40
-      - 0|-https://t.me/MrXbin-41
-      - 0|-https://t.me/MrXbin-42
       - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-44
-      - 0|-https://t.me/MrXbin-45
-      - 0|-https://t.me/MrXbin-46
-      - 0|-https://t.me/MrXbin-47
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-51
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-54
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-66
-      - 0|-https://t.me/MrXbin-67
       - "7,12|@vpnv2rayNGv #2"
       - "7,12|@vpnv2rayNGv #3"
       - 8|MCI-@V2ray_Raha-6
@@ -377,11 +334,11 @@ proxy-groups:
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
       - 13,14|香港7|@ripaojiedian
       - 13|🇭🇰 香港8|@ripaojiedian
       - 13|🇭🇰 香港9|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
@@ -395,9 +352,9 @@ proxy-groups:
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
       - 14|香港5|@ripaojiedian
-      - 14|香港6|@ripaojiedian
       - 14|香港8|@ripaojiedian
       - 14|香港9|@ripaojiedian
+      - 14|台湾2|@ripaojiedian
       - 14|日本|@ripaojiedian
       - 14|韩国|@ripaojiedian
       - 14|新加坡|@ripaojiedian
@@ -406,26 +363,45 @@ proxy-groups:
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
-      - 15|CA_speednode_0001
-      - 15|CZ_speednode_0027
-      - 15|DE_speednode_0028
-      - 15|DE_speednode_0031
-      - 15|DE_speednode_0033
-      - 15|DE_speednode_0034
-      - 15|ES_speednode_0035
-      - 15|GB_speednode_0037
-      - 15|GB_speednode_0038
-      - 15|JP_speednode_0044
-      - 15|JP_speednode_0045
-      - 15|JP_speednode_0046
-      - 15|JP_speednode_0047
-      - 15|NL_speednode_0048
-      - 15|NL_speednode_0050
-      - 15|NL_speednode_0051
-      - 15|SG_speednode_0055
-      - 15|SG_speednode_0056
-      - 15|SG_speednode_0057
-      - 15|US_speednode_0061
+      - 15|AU_speednode_0001
+      - 15|CH_speednode_0002
+      - 15|CH_speednode_0003
+      - 15|CZ_speednode_0033
+      - 15|DE_speednode_0036
+      - 15|DE_speednode_0037
+      - 15|DE_speednode_0038
+      - 15|DE_speednode_0041
+      - 15|ES_speednode_0043
+      - 15|FR_speednode_0044
+      - 15|GB_speednode_0046
+      - 15|HK_speednode_0047
+      - 15|IR_speednode_0052
+      - 15|JP_speednode_0057
+      - 15|JP_speednode_0058
+      - 15|KR_speednode_0059
+      - 15|NL_speednode_0061
+      - 15|NL_speednode_0062
+      - 15|NL_speednode_0063
+      - 15|NL_speednode_0064
+      - 15|NL_speednode_0065
+      - 15|NL_speednode_0066
+      - 15|NL_speednode_0067
+      - 15|RU_speednode_0070
+      - 15|RU_speednode_0071
+      - 15|SE_speednode_0074
+      - 15|SG_speednode_0075
+      - 15|SG_speednode_0076
+      - 15|SG_speednode_0078
+      - 15|SG_speednode_0079
+      - 15|SG_speednode_0080
+      - 15|TR_speednode_0081
+      - 15|TR_speednode_0082
+      - 15|US_speednode_0085
+      - 15|US_speednode_0086
+      - 15|US_speednode_0087
+      - 15|US_speednode_0094
+      - 15|US_speednode_0096
+      - 15|VN_speednode_0097
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🔯 故障转移
@@ -434,22 +410,19 @@ proxy-groups:
     interval: 180
     proxies:
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-4
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-6
       - 0|-https://t.me/MrXbin-7
       - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-9
       - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-11
       - 0|-https://t.me/MrXbin-12
       - 0|-https://t.me/MrXbin-13
       - 0|-https://t.me/MrXbin-14
       - 0|-https://t.me/MrXbin-15
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-19
       - 0|-https://t.me/MrXbin-20
       - 0|-https://t.me/MrXbin-21
       - 0|-https://t.me/MrXbin-22
@@ -466,31 +439,7 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-33
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-35
-      - 0|-https://t.me/MrXbin-36
-      - 0|-https://t.me/MrXbin-37
-      - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-40
-      - 0|-https://t.me/MrXbin-41
-      - 0|-https://t.me/MrXbin-42
       - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-44
-      - 0|-https://t.me/MrXbin-45
-      - 0|-https://t.me/MrXbin-46
-      - 0|-https://t.me/MrXbin-47
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-51
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-54
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-66
-      - 0|-https://t.me/MrXbin-67
       - "7,12|@vpnv2rayNGv #2"
       - "7,12|@vpnv2rayNGv #3"
       - 8|MCI-@V2ray_Raha-6
@@ -517,11 +466,11 @@ proxy-groups:
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
       - 13,14|香港7|@ripaojiedian
       - 13|🇭🇰 香港8|@ripaojiedian
       - 13|🇭🇰 香港9|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
@@ -535,9 +484,9 @@ proxy-groups:
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
       - 14|香港5|@ripaojiedian
-      - 14|香港6|@ripaojiedian
       - 14|香港8|@ripaojiedian
       - 14|香港9|@ripaojiedian
+      - 14|台湾2|@ripaojiedian
       - 14|日本|@ripaojiedian
       - 14|韩国|@ripaojiedian
       - 14|新加坡|@ripaojiedian
@@ -546,26 +495,45 @@ proxy-groups:
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
-      - 15|CA_speednode_0001
-      - 15|CZ_speednode_0027
-      - 15|DE_speednode_0028
-      - 15|DE_speednode_0031
-      - 15|DE_speednode_0033
-      - 15|DE_speednode_0034
-      - 15|ES_speednode_0035
-      - 15|GB_speednode_0037
-      - 15|GB_speednode_0038
-      - 15|JP_speednode_0044
-      - 15|JP_speednode_0045
-      - 15|JP_speednode_0046
-      - 15|JP_speednode_0047
-      - 15|NL_speednode_0048
-      - 15|NL_speednode_0050
-      - 15|NL_speednode_0051
-      - 15|SG_speednode_0055
-      - 15|SG_speednode_0056
-      - 15|SG_speednode_0057
-      - 15|US_speednode_0061
+      - 15|AU_speednode_0001
+      - 15|CH_speednode_0002
+      - 15|CH_speednode_0003
+      - 15|CZ_speednode_0033
+      - 15|DE_speednode_0036
+      - 15|DE_speednode_0037
+      - 15|DE_speednode_0038
+      - 15|DE_speednode_0041
+      - 15|ES_speednode_0043
+      - 15|FR_speednode_0044
+      - 15|GB_speednode_0046
+      - 15|HK_speednode_0047
+      - 15|IR_speednode_0052
+      - 15|JP_speednode_0057
+      - 15|JP_speednode_0058
+      - 15|KR_speednode_0059
+      - 15|NL_speednode_0061
+      - 15|NL_speednode_0062
+      - 15|NL_speednode_0063
+      - 15|NL_speednode_0064
+      - 15|NL_speednode_0065
+      - 15|NL_speednode_0066
+      - 15|NL_speednode_0067
+      - 15|RU_speednode_0070
+      - 15|RU_speednode_0071
+      - 15|SE_speednode_0074
+      - 15|SG_speednode_0075
+      - 15|SG_speednode_0076
+      - 15|SG_speednode_0078
+      - 15|SG_speednode_0079
+      - 15|SG_speednode_0080
+      - 15|TR_speednode_0081
+      - 15|TR_speednode_0082
+      - 15|US_speednode_0085
+      - 15|US_speednode_0086
+      - 15|US_speednode_0087
+      - 15|US_speednode_0094
+      - 15|US_speednode_0096
+      - 15|VN_speednode_0097
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🔮 负载均衡
@@ -575,22 +543,19 @@ proxy-groups:
     interval: 180
     proxies:
       - 0|-https://t.me/MrXbin-1
-      - 0|-https://t.me/MrXbin-2
-      - 0|-https://t.me/MrXbin-3
-      - 0|-https://t.me/MrXbin-4
       - 0|-https://t.me/MrXbin-5
-      - 0|-https://t.me/MrXbin-6
       - 0|-https://t.me/MrXbin-7
       - 0|-https://t.me/MrXbin-8
       - 0|-https://t.me/MrXbin-9
       - 0|-https://t.me/MrXbin-10
-      - 0|-https://t.me/MrXbin-11
       - 0|-https://t.me/MrXbin-12
       - 0|-https://t.me/MrXbin-13
       - 0|-https://t.me/MrXbin-14
       - 0|-https://t.me/MrXbin-15
       - 0|-https://t.me/MrXbin-16
       - 0|-https://t.me/MrXbin-17
+      - 0|-https://t.me/MrXbin-18
+      - 0|-https://t.me/MrXbin-19
       - 0|-https://t.me/MrXbin-20
       - 0|-https://t.me/MrXbin-21
       - 0|-https://t.me/MrXbin-22
@@ -607,31 +572,7 @@ proxy-groups:
       - 0|-https://t.me/MrXbin-33
       - 0|-https://t.me/MrXbin-34
       - 0|-https://t.me/MrXbin-35
-      - 0|-https://t.me/MrXbin-36
-      - 0|-https://t.me/MrXbin-37
-      - 0|-https://t.me/MrXbin-38
-      - 0|-https://t.me/MrXbin-39
-      - 0|-https://t.me/MrXbin-40
-      - 0|-https://t.me/MrXbin-41
-      - 0|-https://t.me/MrXbin-42
       - 0|-https://t.me/MrXbin-43
-      - 0|-https://t.me/MrXbin-44
-      - 0|-https://t.me/MrXbin-45
-      - 0|-https://t.me/MrXbin-46
-      - 0|-https://t.me/MrXbin-47
-      - 0|-https://t.me/MrXbin-48
-      - 0|-https://t.me/MrXbin-49
-      - 0|-https://t.me/MrXbin-50
-      - 0|-https://t.me/MrXbin-51
-      - 0|-https://t.me/MrXbin-52
-      - 0|-https://t.me/MrXbin-53
-      - 0|-https://t.me/MrXbin-54
-      - 0|-https://t.me/MrXbin-55
-      - 0|-https://t.me/MrXbin-56
-      - 0|-https://t.me/MrXbin-57
-      - 0|-https://t.me/MrXbin-58
-      - 0|-https://t.me/MrXbin-66
-      - 0|-https://t.me/MrXbin-67
       - "7,12|@vpnv2rayNGv #2"
       - "7,12|@vpnv2rayNGv #3"
       - 8|MCI-@V2ray_Raha-6
@@ -658,11 +599,11 @@ proxy-groups:
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
-      - 13|🇭🇰 香港6|@ripaojiedian
       - 13,14|香港7|@ripaojiedian
       - 13|🇭🇰 香港8|@ripaojiedian
       - 13|🇭🇰 香港9|@ripaojiedian
       - 13,14|台湾|@ripaojiedian
+      - 13|🇹🇼 台湾2|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
@@ -676,9 +617,9 @@ proxy-groups:
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
       - 14|香港5|@ripaojiedian
-      - 14|香港6|@ripaojiedian
       - 14|香港8|@ripaojiedian
       - 14|香港9|@ripaojiedian
+      - 14|台湾2|@ripaojiedian
       - 14|日本|@ripaojiedian
       - 14|韩国|@ripaojiedian
       - 14|新加坡|@ripaojiedian
@@ -687,26 +628,45 @@ proxy-groups:
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
-      - 15|CA_speednode_0001
-      - 15|CZ_speednode_0027
-      - 15|DE_speednode_0028
-      - 15|DE_speednode_0031
-      - 15|DE_speednode_0033
-      - 15|DE_speednode_0034
-      - 15|ES_speednode_0035
-      - 15|GB_speednode_0037
-      - 15|GB_speednode_0038
-      - 15|JP_speednode_0044
-      - 15|JP_speednode_0045
-      - 15|JP_speednode_0046
-      - 15|JP_speednode_0047
-      - 15|NL_speednode_0048
-      - 15|NL_speednode_0050
-      - 15|NL_speednode_0051
-      - 15|SG_speednode_0055
-      - 15|SG_speednode_0056
-      - 15|SG_speednode_0057
-      - 15|US_speednode_0061
+      - 15|AU_speednode_0001
+      - 15|CH_speednode_0002
+      - 15|CH_speednode_0003
+      - 15|CZ_speednode_0033
+      - 15|DE_speednode_0036
+      - 15|DE_speednode_0037
+      - 15|DE_speednode_0038
+      - 15|DE_speednode_0041
+      - 15|ES_speednode_0043
+      - 15|FR_speednode_0044
+      - 15|GB_speednode_0046
+      - 15|HK_speednode_0047
+      - 15|IR_speednode_0052
+      - 15|JP_speednode_0057
+      - 15|JP_speednode_0058
+      - 15|KR_speednode_0059
+      - 15|NL_speednode_0061
+      - 15|NL_speednode_0062
+      - 15|NL_speednode_0063
+      - 15|NL_speednode_0064
+      - 15|NL_speednode_0065
+      - 15|NL_speednode_0066
+      - 15|NL_speednode_0067
+      - 15|RU_speednode_0070
+      - 15|RU_speednode_0071
+      - 15|SE_speednode_0074
+      - 15|SG_speednode_0075
+      - 15|SG_speednode_0076
+      - 15|SG_speednode_0078
+      - 15|SG_speednode_0079
+      - 15|SG_speednode_0080
+      - 15|TR_speednode_0081
+      - 15|TR_speednode_0082
+      - 15|US_speednode_0085
+      - 15|US_speednode_0086
+      - 15|US_speednode_0087
+      - 15|US_speednode_0094
+      - 15|US_speednode_0096
+      - 15|VN_speednode_0097
       - 16|d*********g.com_2
       - 16|d*********g.com_3
   - name: 🎯 全球直连
