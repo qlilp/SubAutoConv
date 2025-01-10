@@ -5,34 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 法国 法国计算机科学大学, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}}
-  - {name: 菲律宾 V2CROSS.COM, server: 154.211.8.98, port: 2087, type: trojan, password: SSorg, sni: ssjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssjj.esslh.filegear-sg.me}}}
-  - {name: 美国 Sprint网络, server: 63.177.14.204, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.96.69, port: 31001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1736415657076, headers: {Host: www.29675080.xyz}}}
+  - {name: 美国 CloudFlare节点, server: 104.21.89.219, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}}
+  - {name: 丹麦 V2CROSS.COM, server: 195.85.59.161, port: 443, type: vmess, uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: kr.cfyyds.filegear-sg.me}}}
+  - {name: 法国 ONLINE S.A.S.数据中心, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1I971VYPDHoMlYLRSNenDq}
+  - {name: 伊朗 V2CROSS.COM, server: 83.147.216.173, port: 9848, type: ss, cipher: chacha20-ietf-poly1305, password: zUQvFioae7KzAZ2GCMgNum}
   - {name: 英国 Microsoft公司, server: 51.13.182.236, port: 6870, type: ss, cipher: chacha20-ietf-poly1305, password: M7x1mGNOwhPiRB9jSxZJNy}
-  - {name: 香港 电讯盈科有限公司, server: 219.76.129.123, port: 61775, type: ss, cipher: 2022-blake3-aes-256-gcm, password: Y2U5MWY0N2IwMDAxY2EwMmQzNzdkM2RhNDYyNjFiOGY=:NzkxNGQwYWUtMjJjYy00ZGUxLWE5YTgtN2ZlNGEwYTY=}
-  - {name: 广东省广州市荔湾区 /天河区电信, server: qh62onjn.slashdevslashnetslashtun.net, port: 15011, type: ss, cipher: aes-256-gcm, password: Y4JZ69NZ4IMSVWMC}
-  - {name: 美国 CloudFlare节点, server: 104.16.61.8, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: range-shape-b3fuegu.bananok182.workers.dev}}}
-  - {name: 广东省江门市 移动, server: 120.234.102.229, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 美国 CloudFlare节点 2, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}}
-  - {name: 美国 华盛顿Cogent通信公司, server: 38.110.1.122, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 海南省 移动(全省通用), server: cm1.awslcn.info, port: 25230, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}}
-  - {name: 欧盟 V2CROSS.COM, server: 45.67.214.3, port: 2096, type: trojan, password: SSorg, sni: ssjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssjj.esslh.filegear-sg.me}}}
-  - {name: 爱尔兰 都柏林Amazon数据中心, server: 34.246.211.87, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 爱尔兰 V2CROSS.COM, server: 63.33.23.51, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 美国 华盛顿Cogent通信公司 2, server: 38.114.114.77, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 美国 Amazon EC2服务器, server: 3.97.73.14, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
-  - {name: 广东省广州市 移动, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 广东省广州市 移动 2, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
-  - {name: 美国 加利福尼亚州圣何塞Choopa数据中心, server: 45.32.137.6, port: 443, type: trojan, password: wkmY1R4EcP}
-  - {name: 爱尔兰 V2CROSS.COM 2, server: 108.129.46.71, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, alpn: [http/1.1]}
-  - {name: 俄罗斯 V2CROSS.COM, server: 185.221.160.163, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /glweidf.cfd/linkws, headers: {Host: worker-mute-bar-1719.nifotok993.workers.dev}}}
-  - {name: 俄罗斯 V2CROSS.COM 2, server: 77.232.140.101, port: 2053, type: trojan, password: SSorg, sni: ssjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssjj.esslh.filegear-sg.me}}}
-  - {name: 美国 V2CROSS.COM, server: 154.29.147.199, port: 443, type: trojan, password: SSorg, sni: ssjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssjj.esslh.filegear-sg.me}}}
-  - {name: 广东省广州市 腾讯云, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 17001, type: ss, cipher: aes-256-gcm, password: IY8P2O7XIQZVL9JE}
-  - {name: 广东省广州市 腾讯云 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16009, type: ss, cipher: aes-256-gcm, password: DNYXV60QG2Q7I15T}
-  - {name: 英国 V2CROSS.COM, server: 89.213.182.210, port: 38145, type: trojan, password: SSorg, sni: ssjj.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssjj.esslh.filegear-sg.me}}}
-  - {name: 美国 CloudFlare节点 3, server: 172.67.165.53, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}}
-  - {name: 美国 CloudFlare节点 4, server: 198.41.209.70, port: 2082, type: vmess, uuid: 65c003b7-d0b5-3751-8e22-b959f46463bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.107.6, headers: {Host: 100-158-204-97.s3.db-link01.top}}}
+  - {name: 美国 CloudFlare节点 2, server: 172.67.131.135, port: 443, type: vmess, uuid: 21bd69e2-0715-495b-89bb-f1bc29019510, alterId: 0, cipher: auto, tls: true, servername: sth.happyground.ir, network: grpc, grpc-opts: {grpc-service-name: 6mHwqI1HSSVtXxCxshcV}}
+  - {name: 日本 东京Amazon数据中心, server: jp005.421421.xyz, port: 20230, type: trojan, password: 5c7dbef8-0fb5-4e88-bb84-24cafeb73f8d}
+  - {name: 广东省广州市 移动, server: 183.236.51.23, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 美国 CloudFlare节点 3, server: s3.cn-db.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.9.112, headers: {Host: 100-132-161-113.s3.cn-db.top}}}
+  - {name: 法国 巴黎Amazon数据中心, server: 35.181.213.216, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 亚太地区 V2CROSS.COM, server: 103.152.164.39, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201}
+  - {name: 美国 CloudFlare节点 4, server: s1.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.21.151.202, headers: {Host: 100-213-61-102.s1.db-link02.top}}}
+  - {name: 江苏省 移动, server: 36.150.215.196, port: 18681, type: trojan, password: vzhXXZVw, skip-cert-verify: true}
+  - {name: 广东省湛江市 移动, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 英国 社会保险安全部, server: 51.20.112.69, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 美国 CloudFlare节点 5, server: s5.db-link02.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.19.172, headers: {Host: 100-196-90-59.s5.db-link02.top}}}
+  - {name: 美国 CloudFlare节点 6, server: s3.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.15.161, headers: {Host: 100-174-237-7.s3.db-link01.top}}}
+  - {name: 俄罗斯 V2CROSS.COM, server: correct-redbird.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: correct-redbird.boa152.lol}
+  - {name: 美国 Amazon EC2服务器, server: 3.99.82.131, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: nqpInr8GMVSFxpPxovu79j}
+  - {name: 俄罗斯 V2CROSS.COM 2, server: sensible-ocelot.boa152.lol, port: 443, type: trojan, password: 3723507166611775488, sni: sensible-ocelot.boa152.lol}
+  - {name: 美国 伊利诺伊州芝加哥CDN77节点, server: 89.187.181.172, port: 43118, type: trojan, password: ypDt8RkT7J, sni: egcmi.phooeyunfold.com}
+  - {name: 美国 CloudFlare节点 7, server: 104.17.221.248, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.154.223, headers: {Host: 100-48-202-143.s1.db-link01.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -45,135 +40,115 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 法国 法国计算机科学大学
-      - 菲律宾 V2CROSS.COM
-      - 美国 Sprint网络
-      - 英国 Microsoft公司
-      - 香港 电讯盈科有限公司
-      - 广东省广州市荔湾区 /天河区电信
+      - 美国 加利福尼亚州圣何塞PEG TECH
       - 美国 CloudFlare节点
-      - 广东省江门市 移动
+      - 丹麦 V2CROSS.COM
+      - 法国 ONLINE S.A.S.数据中心
+      - 伊朗 V2CROSS.COM
+      - 英国 Microsoft公司
       - 美国 CloudFlare节点 2
-      - 美国 华盛顿Cogent通信公司
-      - 海南省 移动(全省通用)
-      - 欧盟 V2CROSS.COM
-      - 爱尔兰 都柏林Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 华盛顿Cogent通信公司 2
-      - 美国 Amazon EC2服务器
+      - 日本 东京Amazon数据中心
       - 广东省广州市 移动
-      - 广东省广州市 移动 2
-      - 美国 加利福尼亚州圣何塞Choopa数据中心
-      - 爱尔兰 V2CROSS.COM 2
-      - 俄罗斯 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM 2
-      - 美国 V2CROSS.COM
-      - 广东省广州市 腾讯云
-      - 广东省广州市 腾讯云 2
-      - 英国 V2CROSS.COM
       - 美国 CloudFlare节点 3
+      - 法国 巴黎Amazon数据中心
+      - 亚太地区 V2CROSS.COM
       - 美国 CloudFlare节点 4
+      - 江苏省 移动
+      - 广东省湛江市 移动
+      - 英国 社会保险安全部
+      - 美国 CloudFlare节点 5
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 俄罗斯 V2CROSS.COM 2
+      - 美国 伊利诺伊州芝加哥CDN77节点
+      - 美国 CloudFlare节点 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 法国 法国计算机科学大学
-      - 菲律宾 V2CROSS.COM
-      - 美国 Sprint网络
-      - 英国 Microsoft公司
-      - 香港 电讯盈科有限公司
-      - 广东省广州市荔湾区 /天河区电信
+      - 美国 加利福尼亚州圣何塞PEG TECH
       - 美国 CloudFlare节点
-      - 广东省江门市 移动
+      - 丹麦 V2CROSS.COM
+      - 法国 ONLINE S.A.S.数据中心
+      - 伊朗 V2CROSS.COM
+      - 英国 Microsoft公司
       - 美国 CloudFlare节点 2
-      - 美国 华盛顿Cogent通信公司
-      - 海南省 移动(全省通用)
-      - 欧盟 V2CROSS.COM
-      - 爱尔兰 都柏林Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 华盛顿Cogent通信公司 2
-      - 美国 Amazon EC2服务器
+      - 日本 东京Amazon数据中心
       - 广东省广州市 移动
-      - 广东省广州市 移动 2
-      - 美国 加利福尼亚州圣何塞Choopa数据中心
-      - 爱尔兰 V2CROSS.COM 2
-      - 俄罗斯 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM 2
-      - 美国 V2CROSS.COM
-      - 广东省广州市 腾讯云
-      - 广东省广州市 腾讯云 2
-      - 英国 V2CROSS.COM
       - 美国 CloudFlare节点 3
+      - 法国 巴黎Amazon数据中心
+      - 亚太地区 V2CROSS.COM
       - 美国 CloudFlare节点 4
+      - 江苏省 移动
+      - 广东省湛江市 移动
+      - 英国 社会保险安全部
+      - 美国 CloudFlare节点 5
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 俄罗斯 V2CROSS.COM 2
+      - 美国 伊利诺伊州芝加哥CDN77节点
+      - 美国 CloudFlare节点 7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 法国 法国计算机科学大学
-      - 菲律宾 V2CROSS.COM
-      - 美国 Sprint网络
-      - 英国 Microsoft公司
-      - 香港 电讯盈科有限公司
-      - 广东省广州市荔湾区 /天河区电信
+      - 美国 加利福尼亚州圣何塞PEG TECH
       - 美国 CloudFlare节点
-      - 广东省江门市 移动
+      - 丹麦 V2CROSS.COM
+      - 法国 ONLINE S.A.S.数据中心
+      - 伊朗 V2CROSS.COM
+      - 英国 Microsoft公司
       - 美国 CloudFlare节点 2
-      - 美国 华盛顿Cogent通信公司
-      - 海南省 移动(全省通用)
-      - 欧盟 V2CROSS.COM
-      - 爱尔兰 都柏林Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 华盛顿Cogent通信公司 2
-      - 美国 Amazon EC2服务器
+      - 日本 东京Amazon数据中心
       - 广东省广州市 移动
-      - 广东省广州市 移动 2
-      - 美国 加利福尼亚州圣何塞Choopa数据中心
-      - 爱尔兰 V2CROSS.COM 2
-      - 俄罗斯 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM 2
-      - 美国 V2CROSS.COM
-      - 广东省广州市 腾讯云
-      - 广东省广州市 腾讯云 2
-      - 英国 V2CROSS.COM
       - 美国 CloudFlare节点 3
+      - 法国 巴黎Amazon数据中心
+      - 亚太地区 V2CROSS.COM
       - 美国 CloudFlare节点 4
+      - 江苏省 移动
+      - 广东省湛江市 移动
+      - 英国 社会保险安全部
+      - 美国 CloudFlare节点 5
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 俄罗斯 V2CROSS.COM 2
+      - 美国 伊利诺伊州芝加哥CDN77节点
+      - 美国 CloudFlare节点 7
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 法国 法国计算机科学大学
-      - 菲律宾 V2CROSS.COM
-      - 美国 Sprint网络
-      - 英国 Microsoft公司
-      - 香港 电讯盈科有限公司
-      - 广东省广州市荔湾区 /天河区电信
+      - 美国 加利福尼亚州圣何塞PEG TECH
       - 美国 CloudFlare节点
-      - 广东省江门市 移动
+      - 丹麦 V2CROSS.COM
+      - 法国 ONLINE S.A.S.数据中心
+      - 伊朗 V2CROSS.COM
+      - 英国 Microsoft公司
       - 美国 CloudFlare节点 2
-      - 美国 华盛顿Cogent通信公司
-      - 海南省 移动(全省通用)
-      - 欧盟 V2CROSS.COM
-      - 爱尔兰 都柏林Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 华盛顿Cogent通信公司 2
-      - 美国 Amazon EC2服务器
+      - 日本 东京Amazon数据中心
       - 广东省广州市 移动
-      - 广东省广州市 移动 2
-      - 美国 加利福尼亚州圣何塞Choopa数据中心
-      - 爱尔兰 V2CROSS.COM 2
-      - 俄罗斯 V2CROSS.COM
-      - 俄罗斯 V2CROSS.COM 2
-      - 美国 V2CROSS.COM
-      - 广东省广州市 腾讯云
-      - 广东省广州市 腾讯云 2
-      - 英国 V2CROSS.COM
       - 美国 CloudFlare节点 3
+      - 法国 巴黎Amazon数据中心
+      - 亚太地区 V2CROSS.COM
       - 美国 CloudFlare节点 4
+      - 江苏省 移动
+      - 广东省湛江市 移动
+      - 英国 社会保险安全部
+      - 美国 CloudFlare节点 5
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 美国 Amazon EC2服务器
+      - 俄罗斯 V2CROSS.COM 2
+      - 美国 伊利诺伊州芝加哥CDN77节点
+      - 美国 CloudFlare节点 7
   - name: 🎯 全球直连
     type: select
     proxies:
