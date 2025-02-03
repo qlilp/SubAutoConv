@@ -5,26 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港|@ripaojiedian, server: 50028.baidu-cdn.top, port: 50028, type: vmess, uuid: 63e90ac2-b431-421d-9262-b6c4ce488908, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港2|@ripaojiedian, server: 156.245.190.23, port: 15014, type: ss, cipher: aes-256-gcm, password: O6IKQIP6LAJ0C0S0}
+  - {name: 香港|@ripaojiedian, server: 111.47.212.184, port: 80, type: vmess, uuid: 21c90669-193d-49d3-8e37-f5c1462eb134, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 香港2|@ripaojiedian, server: 156.245.190.24, port: 15015, type: ss, cipher: aes-256-gcm, password: B6FC093YFC5P71QH}
   - {name: 香港3|@ripaojiedian, server: 120.232.81.50, port: 16088, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 香港4|@ripaojiedian, server: 49.7.215.3, port: 12988, type: ss, cipher: chacha20-ietf-poly1305, password: f1aaae80-3206-4b02-9283-739f0bdf0e36}
+  - {name: 香港4|@ripaojiedian, server: 156.245.190.21, port: 15012, type: ss, cipher: aes-256-gcm, password: E5OU5DTSKBZCOFIQ}
   - {name: 香港5|@ripaojiedian, server: 120.232.153.63, port: 40565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 香港6|@ripaojiedian, server: 156.245.190.15, port: 15006, type: ss, cipher: aes-256-gcm, password: 7D2WAX2FP3JBR1B6}
-  - {name: 香港7|@ripaojiedian, server: 156.245.190.18, port: 15009, type: ss, cipher: aes-256-gcm, password: ZSP7QHZEW2QTIDON}
-  - {name: 香港8|@ripaojiedian, server: 121.14.3.8, port: 41414, type: ss, cipher: aes-128-gcm, password: f182fb51-9b18-4748-9cca-99b9b8e0e0fa}
-  - {name: 香港9|@ripaojiedian, server: 112.213.102.228, port: 4231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 日本|@ripaojiedian, server: 49.7.215.3, port: 24960, type: ss, cipher: chacha20-ietf-poly1305, password: f1aaae80-3206-4b02-9283-739f0bdf0e36}
-  - {name: 日本2|@ripaojiedian, server: mdss-jp.04z3susick.download, port: 12015, type: ss, cipher: aes-128-gcm, password: f804de13-7228-441d-9fb9-5e46afea1deb}
-  - {name: 新加坡|@ripaojiedian, server: 154.196.244.25, port: 16015, type: ss, cipher: aes-256-gcm, password: 1C4J5UPOMXZ9Q6R3}
-  - {name: 新加坡2|@ripaojiedian, server: 154.196.244.14, port: 16004, type: ss, cipher: aes-256-gcm, password: YQCL9XWR1282EOSS}
-  - {name: 新加坡3|@ripaojiedian, server: 154.196.244.18, port: 16008, type: ss, cipher: aes-256-gcm, password: QKKO3C3UB1C57I58}
-  - {name: 美国|@ripaojiedian, server: 23.185.248.12, port: 17002, type: ss, cipher: aes-256-gcm, password: RKIMIYL2VX8R2A09}
-  - {name: 美国2|@ripaojiedian, server: 23.185.248.18, port: 17008, type: ss, cipher: aes-256-gcm, password: R1MYZXV2OOXHQUKZ}
-  - {name: 美国3|@ripaojiedian, server: 23.185.248.11, port: 17001, type: ss, cipher: aes-256-gcm, password: 02QTZ3AY38RPVKY6}
-  - {name: 韩国特殊|@ripaojiedian, server: 3.34.182.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 日本特殊|@ripaojiedian, server: 52.79.147.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 狮城特殊|@ripaojiedian, server: 54.151.148.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本|@ripaojiedian, server: 156.231.104.11, port: 18001, type: ss, cipher: aes-256-gcm, password: FS0NUQEKML4CH312}
+  - {name: 日本2|@ripaojiedian, server: 156.231.104.15, port: 18005, type: ss, cipher: aes-256-gcm, password: H0P889CX07EQNGNV}
+  - {name: 韩国|@ripaojiedian, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 新加坡|@ripaojiedian, server: 103.216.253.197, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA}
+  - {name: 新加坡2|@ripaojiedian, server: 154.196.244.22, port: 16012, type: ss, cipher: aes-256-gcm, password: QEV5BG4YLEABW6LB}
+  - {name: 新加坡3|@ripaojiedian, server: 154.196.244.13, port: 16003, type: ss, cipher: aes-256-gcm, password: 5OC1DLZMW4HTN4SU}
+  - {name: 美国|@ripaojiedian, server: 23.185.248.15, port: 17005, type: ss, cipher: aes-256-gcm, password: OUKMA500HD6PGEPF}
+  - {name: 美国2|@ripaojiedian, server: 23.185.248.13, port: 17003, type: ss, cipher: aes-256-gcm, password: 2VMSAJ5HAWHYMBRN}
+  - {name: 美国3|@ripaojiedian, server: t03-cf.phpman.top, port: 443, type: vmess, uuid: 537d21ad-49af-41ad-8089-db557b63a40e, alterId: 0, cipher: auto, tls: true, servername: t03-cf.phpman.top, network: grpc, grpc-opts: {grpc-service-name: /}}
+  - {name: 韩国特殊|@ripaojiedian, server: 43.206.239.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 日本特殊|@ripaojiedian, server: 13.215.205.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 狮城特殊|@ripaojiedian, server: 54.248.40.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -42,12 +39,9 @@ proxy-groups:
       - 香港3|@ripaojiedian
       - 香港4|@ripaojiedian
       - 香港5|@ripaojiedian
-      - 香港6|@ripaojiedian
-      - 香港7|@ripaojiedian
-      - 香港8|@ripaojiedian
-      - 香港9|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
+      - 韩国|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 新加坡2|@ripaojiedian
       - 新加坡3|@ripaojiedian
@@ -68,12 +62,9 @@ proxy-groups:
       - 香港3|@ripaojiedian
       - 香港4|@ripaojiedian
       - 香港5|@ripaojiedian
-      - 香港6|@ripaojiedian
-      - 香港7|@ripaojiedian
-      - 香港8|@ripaojiedian
-      - 香港9|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
+      - 韩国|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 新加坡2|@ripaojiedian
       - 新加坡3|@ripaojiedian
@@ -93,12 +84,9 @@ proxy-groups:
       - 香港3|@ripaojiedian
       - 香港4|@ripaojiedian
       - 香港5|@ripaojiedian
-      - 香港6|@ripaojiedian
-      - 香港7|@ripaojiedian
-      - 香港8|@ripaojiedian
-      - 香港9|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
+      - 韩国|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 新加坡2|@ripaojiedian
       - 新加坡3|@ripaojiedian
@@ -119,12 +107,9 @@ proxy-groups:
       - 香港3|@ripaojiedian
       - 香港4|@ripaojiedian
       - 香港5|@ripaojiedian
-      - 香港6|@ripaojiedian
-      - 香港7|@ripaojiedian
-      - 香港8|@ripaojiedian
-      - 香港9|@ripaojiedian
       - 日本|@ripaojiedian
       - 日本2|@ripaojiedian
+      - 韩国|@ripaojiedian
       - 新加坡|@ripaojiedian
       - 新加坡2|@ripaojiedian
       - 新加坡3|@ripaojiedian
