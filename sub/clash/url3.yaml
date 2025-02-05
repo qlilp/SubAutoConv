@@ -5,98 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 0|🇺🇸1 |  17.8MB/s, server: 154.12.179.113, port: 45238, type: hysteria2, password: 7ee32f14-b07b-4a5c-8417-af90530f06e4, auth: 7ee32f14-b07b-4a5c-8417-af90530f06e4, sni: bing.com, skip-cert-verify: true}
-  - {name: 0|🇸🇬1 |  16.3MB/s, server: 52.74.90.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇯🇵1 |  15.2MB/s, server: 43.201.102.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇸🇬2 |  11.0MB/s, server: 13.212.249.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸2 |  4.8MB/s, server: 35.161.208.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇯🇵2 |  6.2MB/s, server: 18.179.118.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇯🇵3 |  10.2MB/s, server: 43.207.138.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇨🇦1 |  8.2MB/s, server: 47.128.13.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇭🇰1 |  2.7MB/s, server: hhhk.naisicloud.xyz, port: 35600, type: hysteria2, password: d339c345-6514-4f6b-8c44-30dd29c74b39, auth: d339c345-6514-4f6b-8c44-30dd29c74b39, sni: hhhk.naisicloud.xyz, skip-cert-verify: true}
-  - {name: 0|🌀1- |  1.6MB/s, server: optimum-sponge.treefrog761.one, port: 443, type: trojan, password: 3770966768580042752, sni: optimum-sponge.treefrog761.one, skip-cert-verify: true}
-  - {name: 0|🇯🇵5 |  1.1MB/s, server: jpzl2.stardad.lol, port: 48512, type: hysteria2, password: 60b1ef72-3e73-4f7b-97fe-0b23ea381d72, auth: 60b1ef72-3e73-4f7b-97fe-0b23ea381d72, sni: https://bing.com, skip-cert-verify: true}
-  - {name: 0|🇨🇦2 |  1.6MB/s, server: southvip1.pkyun.xyz, port: 58825, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇺🇸4 |  1.5MB/s, server: southvip1.pkyun.xyz, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇵🇱1 |  3.3MB/s, server: 188.68.250.202, port: 6341, type: hysteria2, password: 3f611fda-165c-4b54-a084-84181ab22336, auth: 3f611fda-165c-4b54-a084-84181ab22336, sni: www.bing.com, skip-cert-verify: true}
-  - {name: "0,8|@V2rayNG3", server: 192.3.85.237, port: 443, type: hysteria2, password: 123456, auth: 123456, sni: bing.com, skip-cert-verify: true}
-  - {name: 0|🌀2- |  8.3MB/s, server: safe-seasnail.goat627.mom, port: 443, type: trojan, password: 3770966768580042752, sni: safe-seasnail.goat627.mom, skip-cert-verify: true}
-  - {name: 0|🇷🇺1 |  1.5MB/s, server: southvip1.pkyun.xyz, port: 58823, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇺🇸8 |  6.8MB/s, server: 137.220.42.248, port: 443, type: trojan, password: xjtZ2S5FgQ, skip-cert-verify: true}
-  - {name: 0|🇷🇺2 |  1.1MB/s, server: southvip1.pkyun.xyz, port: 58832, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇺🇸9 |  1.9MB/s, server: southvip1.pkyun.xyz, port: 58812, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇷🇺3 |  8.6MB/s, server: southvip1.pkyun.xyz, port: 58822, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇦🇺1 |  1.7MB/s, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 0|🇨🇦3 |  6.7MB/s, server: closing-phoenix.goat627.mom, port: 443, type: trojan, password: 3770966768580042752, sni: closing-phoenix.goat627.mom, skip-cert-verify: true}
-  - {name: 0|🇫🇷1 |  4.3MB/s, server: 51.158.148.53, port: 8080, type: hysteria2, password: a0605527-28e4-449c-80ee-5642cc16a8af, auth: a0605527-28e4-449c-80ee-5642cc16a8af, skip-cert-verify: true}
-  - {name: 0|🇺🇸10 |  7.3MB/s, server: 198.41.197.89, port: 80, type: vless, uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e, tls: false, servername: cc.ailicf.us.kg, network: ws, ws-opts: {path: /b5cdabf0-e04fp=chrome, headers: {Host: cc.ailicf.us.kg}}}
-  - {name: 0|🇳🇱1 |  3.5MB/s, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 0|🇺🇸11 |  5.6MB/s, server: 54.185.251.195, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸12 |  1.9MB/s, server: 66.135.11.68, port: 443, type: hysteria2, password: 4e9ee29b39a28277, auth: 4e9ee29b39a28277, sni: 66.135.11.68, skip-cert-verify: true, obfs: salamander, obfs-password: 13f7ba5f}
-  - {name: 0|🇯🇵6 |  6.3MB/s, server: 3.112.149.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇮🇷1 |  2.3MB/s, server: southvip1.pkyun.xyz, port: 58815, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇺🇸13 |  8.9MB/s, server: rb1.xiaofeixia.cyou, port: 2052, type: hysteria2, password: 462a8e99-f369-469d-bd5b-ffbb9c3e5c7e, auth: 462a8e99-f369-469d-bd5b-ffbb9c3e5c7e, sni: rb1.xiaofeixia.cyou, skip-cert-verify: true}
-  - {name: 0|🇺🇸14 |  7.0MB/s, server: 108.162.198.43, port: 80, type: vless, uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e, tls: false, servername: cc.ailicf.us.kg, network: ws, ws-opts: {path: /b5cdabf0-e04fp=chrome, headers: {Host: cc.ailicf.us.kg}}}
-  - {name: 0|🌀3- |  1.6MB/s, server: southvip1.pkyun.xyz, port: 58835, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🌀4- |  4.2MB/s, server: pet-bulldog.goat627.mom, port: 443, type: trojan, password: 3770966768580042752, sni: pet-bulldog.goat627.mom, skip-cert-verify: true}
-  - {name: 0|🇮🇷2 |  2.8MB/s, server: 37.152.180.80, port: 443, type: vless, uuid: a6d09144-8573-4fd7-a100-d79cfa348f7e, tls: false, network: ws, ws-opts: {path: /fp=chrome}}
-  - {name: 0|🇺🇸15 |  4.9MB/s, server: 108.162.198.103, port: 443, type: vless, uuid: 98caf934-d51f-47d3-89ec-09ea781839c2, tls: true, servername: tunnel.amclubsss.us.kg, network: ws, ws-opts: {path: "/?ed=2560fp=randomized", headers: {Host: tunnel.amclubsss.us.kg}}}
-  - {name: 0|🌀5- |  1.7MB/s, server: southvip1.pkyun.xyz, port: 58839, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇺🇸16 |  7.6MB/s, server: 104.18.41.138, port: 8880, type: vless, uuid: 25af9eb2-3310-4f2b-bc82-ebea62ba7906, tls: false, network: ws, ws-opts: {path: "/?ed=2560fp=chrome", headers: {Host: config-proxy-vl.telegram-config-proxy.workers.dev}}}
-  - {name: 0|🇵🇱2 |  1.4MB/s, server: southvip1.pkyun.xyz, port: 58833, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇯🇵7 |  4.9MB/s, server: 52.192.75.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸17 |  5.5MB/s, server: 192.74.231.199, port: 37001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, servername: www.57277774.xyz, network: ws, ws-opts: {path: /path/1737106641750, headers: {Host: www.57277774.xyz}}}
-  - {name: 0|🇷🇺4 |  5.1MB/s, server: 94.159.107.80, port: 32548, type: hysteria2, password: 7ee32f14-b07b-4a5c-8417-af90530f06e4, auth: 7ee32f14-b07b-4a5c-8417-af90530f06e4, sni: bing.com, skip-cert-verify: true}
-  - {name: 0|🇯🇵8 |  10.3MB/s, server: 54.168.25.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇷🇺5 |  1.7MB/s, server: southvip1.pkyun.xyz, port: 58838, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🌏1 |  2.3MB/s, server: southvip1.pkyun.xyz, port: 58803, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇩🇪1 |  1.1MB/s, server: sgzl2.stardad.lol, port: 35701, type: hysteria2, password: e8943201-9023-4a37-9c62-589ff450b27f, auth: e8943201-9023-4a37-9c62-589ff450b27f, sni: https://bing.com, skip-cert-verify: true}
-  - {name: 0|🌀6- |  4.4MB/s, server: southvip1.pkyun.xyz, port: 58807, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇩🇪2 |  6.6MB/s, server: 172.67.71.217, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, servername: 1t3chx0.zed23.web1337.net, network: ws, ws-opts: {path: /fixedfloati.cfd/linkwsd, headers: {Host: 1t3chx0.zed23.web1337.net}}}
-  - {name: "0,8|@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 0|🇺🇸19 |  2.8MB/s, server: 54.245.146.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸20 |  4.8MB/s, server: 173.245.49.9, port: 443, type: vless, uuid: 98caf934-d51f-47d3-89ec-09ea781839c2, tls: true, servername: tunnel.amclubsss.us.kg, network: ws, ws-opts: {path: "/?ed=2560fp=randomized", headers: {Host: tunnel.amclubsss.us.kg}}}
-  - {name: 0|🇷🇺7 |  3.7MB/s, server: faithful-goshawk.goat627.mom, port: 443, type: trojan, password: 3770966768580042752, sni: faithful-goshawk.goat627.mom, skip-cert-verify: true}
-  - {name: 0|🇩🇪3 |  2.6MB/s, server: 213.136.83.240, port: 25565, type: hysteria2, password: da85e2f4-acfc-4e7c-8512-ded015105fef, auth: da85e2f4-acfc-4e7c-8512-ded015105fef, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 0|🇯🇵9 |  11.2MB/s, server: 52.68.124.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇸🇬3 |  9.0MB/s, server: 13.229.90.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇯🇵10 |  2.1MB/s, server: 13.114.103.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇯🇵11 |  10.0MB/s, server: 54.250.238.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇷🇺8 |  8.8MB/s, server: south.sf0jm.xyz, port: 49211, type: ss, cipher: aes-128-gcm, password: 03667ec9-f5c4-4f98-b89c-fae3e61a9275}
-  - {name: 0|🇯🇵12 |  13.3MB/s, server: 43.207.112.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸21 |  9.3MB/s, server: 52.195.220.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸22 |  4.5MB/s, server: 54.71.17.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇳🇱2 |  1.4MB/s, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 0|🌀8- |  1.2MB/s, server: southvip1.pkyun.xyz, port: 58818, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇨🇦4 |  11.7MB/s, server: 47.129.156.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸23 |  1.6MB/s, server: southvip1.pkyun.xyz, port: 58816, type: ss, cipher: chacha20-ietf-poly1305, password: 4c4ce70a-f750-4594-a94c-8bc983b041e5}
-  - {name: 0|🇨🇦5 |  8.8MB/s, server: 47.129.238.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🌀9- |  1.1MB/s, server: southvip1.pkyun.xyz, port: 58805, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇺🇦1 |  4.5MB/s, server: 62.72.163.215, port: 80, type: hysteria2, password: a0605527-28e4-449c-80ee-5642cc16a8af, auth: a0605527-28e4-449c-80ee-5642cc16a8af, skip-cert-verify: true}
-  - {name: 0|🌀10- |  2.3MB/s, server: dddoyd.naisicloud.xyz, port: 35600, type: hysteria2, password: ec07453d-b6c9-4a2a-ab20-30b557bafdd1, auth: ec07453d-b6c9-4a2a-ab20-30b557bafdd1, sni: dddoyd.naisicloud.xyz, skip-cert-verify: true}
-  - {name: 0|🇺🇸25 |  4.3MB/s, server: 52.37.136.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇸🇬4 |  9.4MB/s, server: 54.255.198.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇯🇵13 |  11.4MB/s, server: 3.112.151.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|🇺🇸27 |  6.8MB/s, server: cdncdncdn.aikunapp.com, port: 443, type: vless, uuid: 96cad374-7573-4463-8804-4665c2c3d932, tls: true, servername: r-RzxbHQ5ZFUFxEAZj.sm-node.com, network: ws, ws-opts: {path: "/vless_ws/smjc/index?ed=8192fp=chrome", headers: {Host: r-RzxbHQ5ZFUFxEAZj.sm-node.com}}}
-  - {name: 0|🌀11- |  4.0MB/s, server: fffwkl.naisicloud.xyz, port: 35600, type: hysteria2, password: 0881ddb9-b292-4d08-8275-bda697d7e6fd, auth: 0881ddb9-b292-4d08-8275-bda697d7e6fd, sni: fffwkl.naisicloud.xyz, skip-cert-verify: true}
+  - {name: 0|🇭🇰1 |  1.1MB/s, server: 194.41.59.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 0|🇸🇬1 |  5.7MB/s, server: 54.254.191.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|🌀1- |  3.7MB/s, server: i.needss.top, port: 15442, type: vmess, uuid: 9d0990a6-b64e-4919-82f7-99410ed46bdb, alterId: 0, cipher: auto, tls: false}
+  - {name: 0|🇷🇺1 |  5.1MB/s, server: southvip1.pkyun.xyz, port: 58822, type: ss, cipher: chacha20-ietf-poly1305, password: 85be2424-2b4b-46bf-a46e-539c2fb9df50}
+  - {name: 0|🇭🇰2 |  6.0MB/s, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 98a0574d-5664-47e4-a4ad-4122bfc8d5e8}
+  - {name: 0|🇺🇸1 |  5.5MB/s, server: free.2weradf.xyz, port: 36111, type: ss, cipher: chacha20-ietf-poly1305, password: 61de59c4-4c7a-43a4-be79-e1f2c43b22e1}
   - {name: "0,8|Mci@V2ray_Raha-4", server: 176.124.202.137, port: 80, type: hysteria2, password: a0605527-28e4-449c-80ee-5642cc16a8af, auth: a0605527-28e4-449c-80ee-5642cc16a8af, skip-cert-verify: true}
-  - {name: 0|🇷🇺10 |  2.3MB/s, server: 217.30.10.18, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: 0|🌀12- |  1.3MB/s, server: southvip1.pkyun.xyz, port: 58852, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇯🇵14 |  3.2MB/s, server: 13.231.129.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "0,8|@V2rayNG3 #3", server: s15.serv00.com, port: 7777, type: hysteria2, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, auth: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
-  - {name: 0|🇺🇸28 |  1.6MB/s, server: 190.93.246.84, port: 80, type: vless, uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e, tls: false, servername: cc.ailicf.us.kg, network: ws, ws-opts: {path: /b5cdabf0-e04fp=chrome, headers: {Host: cc.ailicf.us.kg}}}
-  - {name: 0|🇯🇵16 |  6.6MB/s, server: 120.232.81.50, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 0|🇺🇦2 |  1.7MB/s, server: southvip1.pkyun.xyz, port: 58826, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇭🇰2 |  5.6MB/s, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, servername: hknbyivfffj.site, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
-  - {name: 0|🇷🇺11 |  1.5MB/s, server: southvip1.pkyun.xyz, port: 58837, type: ss, cipher: chacha20-ietf-poly1305, password: 60852176-3e78-4a03-ba06-39c92b046ee6}
-  - {name: 0|🇷🇺12 |  8.2MB/s, server: south.sf0jm.xyz, port: 49227, type: ss, cipher: aes-128-gcm, password: c7841092-737e-41a5-afe4-91db3c6f43b4}
+  - {name: 0|🌀2- |  3.9MB/s, server: southvip1.pkyun.xyz, port: 58807, type: ss, cipher: chacha20-ietf-poly1305, password: 85be2424-2b4b-46bf-a46e-539c2fb9df50}
+  - {name: 0|🇺🇸2 |  4.2MB/s, server: southvip1.pkyun.xyz, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 85be2424-2b4b-46bf-a46e-539c2fb9df50}
+  - {name: 0|🇺🇸3 |  1.6MB/s, server: free.2weradf.xyz, port: 36721, type: ss, cipher: chacha20-ietf-poly1305, password: 61de59c4-4c7a-43a4-be79-e1f2c43b22e1}
+  - {name: 0|🇺🇸4 |  1.7MB/s, server: gy.58n.net, port: 56783, type: trojan, password: d6d2e7a5-43f6-3132-9839-c5954b89f81c, sni: z266.hongkongnode.top, skip-cert-verify: true}
+  - {name: 0|🇹🇼1 |  3.6MB/s, server: free.2weradf.xyz, port: 36243, type: ss, cipher: chacha20-ietf-poly1305, password: 61de59c4-4c7a-43a4-be79-e1f2c43b22e1}
+  - {name: 0|🇺🇸5 |  2.4MB/s, server: 18.mamamajd.site, port: 23618, type: vmess, uuid: f0469b3b-9228-36b3-bf8f-84d6a266c91e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 18.mamamajd.site}}}
+  - {name: 0|🇹🇼2 |  5.8MB/s, server: vps.200566.xyz, port: 30329, type: hysteria2, password: 79739832-b888-415a-a454-8b53911c944a, auth: 79739832-b888-415a-a454-8b53911c944a, sni: vps.200566.xyz, skip-cert-verify: true}
+  - {name: 0|🇺🇸6 |  4.0MB/s, server: 52.37.136.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|🇷🇺3 |  14.4MB/s, server: southvip1.pkyun.xyz, port: 58838, type: ss, cipher: chacha20-ietf-poly1305, password: 85be2424-2b4b-46bf-a46e-539c2fb9df50}
+  - {name: 0|🇫🇷1 |  1.0MB/s, server: free.2weradf.xyz, port: 36115, type: ss, cipher: chacha20-ietf-poly1305, password: 61de59c4-4c7a-43a4-be79-e1f2c43b22e1}
+  - {name: 0|🌏1 |  2.8MB/s, server: southvip1.pkyun.xyz, port: 58803, type: ss, cipher: chacha20-ietf-poly1305, password: 85be2424-2b4b-46bf-a46e-539c2fb9df50}
+  - {name: 0|🇺🇸7 |  3.4MB/s, server: rk1.boost1.top, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: f175d66f-7cf5-47aa-83be-a8e969cdbe2d}
+  - {name: 0|🌀3- |  3.1MB/s, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: f0469b3b-9228-36b3-bf8f-84d6a266c91e, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}}
+  - {name: 0|🇺🇸8 |  5.3MB/s, server: free.2weradf.xyz, port: 36271, type: ss, cipher: chacha20-ietf-poly1305, password: 61de59c4-4c7a-43a4-be79-e1f2c43b22e1}
+  - {name: 0|🇯🇵1 |  2.0MB/s, server: 43.201.102.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|🇮🇷1 |  1.6MB/s, server: i.needss.top, port: 20016, type: vmess, uuid: 9d0990a6-b64e-4919-82f7-99410ed46bdb, alterId: 0, cipher: auto, tls: false}
+  - {name: 0|🇺🇸9 |  2.1MB/s, server: 190.93.246.84, port: 80, type: vless, uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e, tls: false, servername: cc.ailicf.us.kg, network: ws, ws-opts: {path: /b5cdabf0-e04fp=chrome, headers: {Host: cc.ailicf.us.kg}}}
+  - {name: 0|🌀4- |  2.3MB/s, server: gy.58n.net, port: 20139, type: trojan, password: d6d2e7a5-43f6-3132-9839-c5954b89f81c, sni: z139.hongkongnode.top, skip-cert-verify: true}
+  - {name: 0|🌀5- |  3.0MB/s, server: free.2weradf.xyz, port: 36245, type: ss, cipher: chacha20-ietf-poly1305, password: 61de59c4-4c7a-43a4-be79-e1f2c43b22e1}
   - {name: "7,12|@vpnv2rayNGv #3", server: 66.23.198.32, port: 443, type: hysteria2, password: KevinZakarian, auth: KevinZakarian, sni: www.eliv2ray.net, skip-cert-verify: true, obfs: salamander, obfs-password: KevinZakarian}
   - {name: "7,12|@vpnv2rayNGv #4", server: 45.140.169.231, port: 8080, type: hysteria2, password: a278eadd-c35c-403f-a286-7767a74307c1, auth: a278eadd-c35c-403f-a286-7767a74307c1, sni: www.eliv2ray.net, skip-cert-verify: true}
+  - {name: 8|@V2rayNG3, server: 192.3.85.237, port: 443, type: hysteria2, password: 123456, auth: 123456, sni: bing.com, skip-cert-verify: true}
   - {name: "8|@V2rayNG3 #1", server: gb.gomeow.online, port: 20309, type: hysteria2, password: 15cca331-9e92-449d-93b0-25f82203595f, auth: 15cca331-9e92-449d-93b0-25f82203595f, sni: gb.gomeow.online, skip-cert-verify: false}
   - {name: "8|@V2rayNG3 #2", server: 109.120.135.123, port: 12122, type: hysteria2, password: 22f2c759db51b3d0, auth: 22f2c759db51b3d0, sni: www.google.com, skip-cert-verify: true, obfs: salamander, obfs-password: de8287cd33b05fa3}
-  - {name: 8|@meli_proxyy, server: yukuai-ca.jiumaojiu.org, port: 443, type: hysteria2, password: 4624102d-47b1-4fda-a88e-593f0498bc07, auth: 4624102d-47b1-4fda-a88e-593f0498bc07, skip-cert-verify: false}
-  - {name: "8|@meli_proxyy #1", server: yukuai-us.jiumaojiu.org, port: 443, type: hysteria2, password: 4624102d-47b1-4fda-a88e-593f0498bc07, auth: 4624102d-47b1-4fda-a88e-593f0498bc07, skip-cert-verify: false}
-  - {name: "8|@meli_proxyy #2", server: meiyou-us.jiumaojiu.org, port: 20506, type: hysteria2, password: 75ed69a3-9fdb-4e4a-b578-1be92b443a5a, auth: 75ed69a3-9fdb-4e4a-b578-1be92b443a5a, sni: meiyou-us.jiumaojiu.org, skip-cert-verify: false}
+  - {name: "8|@V2rayNG3 #3", server: s15.serv00.com, port: 7777, type: hysteria2, password: 75577117-ABCD-DCBA-AAAA-CC777775577B, auth: 75577117-ABCD-DCBA-AAAA-CC777775577B, sni: www.bing.com, skip-cert-verify: true}
   - {name: 8|MCI-@vmesskhodam, server: 165.1.64.133, port: 27770, type: hysteria2, password: 8d052411-1bff-42da-81cc-3f1d81550dbd, auth: 8d052411-1bff-42da-81cc-3f1d81550dbd, sni: www.bing.com, skip-cert-verify: true}
   - {name: "8|@V2rayNG3 #4", server: all-v4.dgi000.store, port: 443, type: hysteria2, password: "%40azadi_az_inja_migzare", auth: "%40azadi_az_inja_migzare", sni: all-v4.dgi000.store, skip-cert-verify: false, obfs: salamander, obfs-password: "@azadi_az_inja_migzare"}
   - {name: "8|@V2rayNG3 #5", server: p1.punchline.ir, port: 19037, type: hysteria2, password: AtTK3tiEA0, auth: AtTK3tiEA0, skip-cert-verify: true, obfs: salamander, obfs-password: bipbip}
@@ -105,41 +45,45 @@ proxies:
   - {name: 8|2@EXPRESSVPN_420, server: p2.punchline.ir, port: 34215, type: hysteria2, password: Q3uj1JvAq3, auth: Q3uj1JvAq3, skip-cert-verify: true, obfs: salamander, obfs-password: parsa}
   - {name: 8|3🇫🇴@EXPRESSVPN_420, server: p2.punchline.ir, port: 37067, type: hysteria2, password: Q3uj1JvAq3, auth: Q3uj1JvAq3, skip-cert-verify: true, obfs: salamander, obfs-password: parsa}
   - {name: 8|Mtn@V2ray_Raha-5, server: br.huafei888.site, port: 80, type: hysteria2, password: a0605527-28e4-449c-80ee-5642cc16a8af, auth: a0605527-28e4-449c-80ee-5642cc16a8af, skip-cert-verify: true}
+  - {name: "8|@V2rayNG3 #8", server: 46.17.41.189, port: 50717, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true}
   - {name: "8|@V2rayNG3 #9", server: 62.60.231.189, port: 12123, type: hysteria2, password: f8e40931bbb827df, auth: f8e40931bbb827df, sni: www.google.com, skip-cert-verify: true, obfs: salamander, obfs-password: dbc688df29e582d3}
   - {name: "8|@vpnv2rayNGv #2", server: 82.117.87.183, port: 443, type: hysteria2, password: rZzZr2Za3B, auth: rZzZr2Za3B, sni: ns.cloudflare.com, skip-cert-verify: true, obfs: salamander, obfs-password: V2R@yM@teRS1Q2VEe}
   - {name: 12|@ToYoTA_PRoXY, server: 66.135.28.59, port: 443, type: hysteria2, password: f6e4b19a3110d19d, auth: f6e4b19a3110d19d, sni: ELiV2RAY.eliv2.top, skip-cert-verify: true, obfs: salamander, obfs-password: 8c3ce17b}
-  - {name: "13,14|香港|@ripaojiedian", server: 111.47.212.184, port: 80, type: vmess, uuid: 21c90669-193d-49d3-8e37-f5c1462eb134, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 13|🇭🇰 香港2|@ripaojiedian, server: 156.245.190.24, port: 15015, type: ss, cipher: aes-256-gcm, password: B6FC093YFC5P71QH}
+  - {name: 13|🇭🇰 香港|@ripaojiedian, server: 38.147.188.17, port: 57658, type: vmess, uuid: 7f004471-a725-4efb-9a19-6bf17a61cf46, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|🇭🇰 香港2|@ripaojiedian, server: 50028.baidu-cdn.top, port: 50028, type: vmess, uuid: adb6b92d-24c1-4dff-9efc-8ecedb84219b, alterId: 0, cipher: auto, tls: false}
   - {name: 13|🇭🇰 香港3|@ripaojiedian, server: 120.232.81.50, port: 16088, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 13|🇭🇰 香港4|@ripaojiedian, server: 156.245.190.21, port: 15012, type: ss, cipher: aes-256-gcm, password: E5OU5DTSKBZCOFIQ}
+  - {name: 13|🇭🇰 香港4|@ripaojiedian, server: mdss-hk.04z3susick.download, port: 12010, type: ss, cipher: aes-128-gcm, password: 40983d6d-48be-4c9a-aa48-3aaf3146833e}
   - {name: 13|🇭🇰 香港5|@ripaojiedian, server: 120.232.153.63, port: 40565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 13|🇯🇵 日本|@ripaojiedian, server: 156.231.104.11, port: 18001, type: ss, cipher: aes-256-gcm, password: FS0NUQEKML4CH312}
-  - {name: 13|🇯🇵 日本2|@ripaojiedian, server: 156.231.104.15, port: 18005, type: ss, cipher: aes-256-gcm, password: H0P889CX07EQNGNV}
-  - {name: 13|🇰🇷 韩国|@ripaojiedian, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 13|🇸🇬 新加坡|@ripaojiedian, server: 103.216.253.197, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA}
-  - {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: 154.196.244.22, port: 16012, type: ss, cipher: aes-256-gcm, password: QEV5BG4YLEABW6LB}
-  - {name: 13|🇸🇬 新加坡3|@ripaojiedian, server: 154.196.244.13, port: 16003, type: ss, cipher: aes-256-gcm, password: 5OC1DLZMW4HTN4SU}
-  - {name: 13|🇺🇸 美国|@ripaojiedian, server: 23.185.248.15, port: 17005, type: ss, cipher: aes-256-gcm, password: OUKMA500HD6PGEPF}
-  - {name: 13|🇺🇸 美国2|@ripaojiedian, server: 23.185.248.13, port: 17003, type: ss, cipher: aes-256-gcm, password: 2VMSAJ5HAWHYMBRN}
-  - {name: "13,14|美国3|@ripaojiedian", server: t03-cf.phpman.top, port: 443, type: vmess, uuid: 537d21ad-49af-41ad-8089-db557b63a40e, alterId: 0, cipher: auto, tls: true, servername: t03-cf.phpman.top, network: grpc, grpc-opts: {grpc-service-name: /}}
-  - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 43.206.239.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 13.215.205.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.248.40.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 14|香港2|@ripaojiedian, server: 156.245.190.24, port: 15015, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206QjZGQzA5M1lGQzVQNzFRSA}
+  - {name: "13,14|台湾|@ripaojiedian", server: naiu-other.05vr9nyqg5.download, port: 13035, type: trojan, password: 2b39bbdd-a565-4f8e-b6b6-6b034b2076f4, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: "13,14|台湾2|@ripaojiedian", server: 120.198.71.173, port: 18147, type: trojan, password: f1df4c41-0e78-400b-8588-eaa24bd8fd21, sni: mm2.redapricotcloud.com, skip-cert-verify: false}
+  - {name: "13,14|台湾3|@ripaojiedian", server: nb_ae7a7.kaiqsz.com, port: 18147, type: trojan, password: 7cd29891-fe78-4f8f-8844-abb31b9d9a75, sni: mm2.redapricotcloud.com, skip-cert-verify: false}
+  - {name: 13|🇯🇵 日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 11171, type: vmess, uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 13|🇯🇵 日本2|@ripaojiedian, server: mdss-jp.04z3susick.download, port: 12012, type: ss, cipher: aes-128-gcm, password: 40983d6d-48be-4c9a-aa48-3aaf3146833e}
+  - {name: 13|🇰🇷 韩国|@ripaojiedian, server: useful-jennet.shiner427.skin, port: 443, type: trojan, password: 65086520307764900, sni: useful-jennet.shiner427.skin, skip-cert-verify: false}
+  - {name: 13|🇰🇷 韩国2|@ripaojiedian, server: hopeful-seagull.shiner427.skin, port: 443, type: trojan, password: 65086520307764900, sni: hopeful-seagull.shiner427.skin, skip-cert-verify: false}
+  - {name: 13|🇸🇬 新加坡|@ripaojiedian, server: relieved-raccoon.shiner427.skin, port: 443, type: trojan, password: 65086520307764900, sni: relieved-raccoon.shiner427.skin, skip-cert-verify: false}
+  - {name: 13|🇸🇬 新加坡2|@ripaojiedian, server: robust-redfish.shiner427.skin, port: 443, type: trojan, password: 65086520307764900, sni: robust-redfish.shiner427.skin, skip-cert-verify: false}
+  - {name: 13|🇺🇸 美国|@ripaojiedian, server: moral-rat.shiner427.skin, port: 443, type: trojan, password: 65086520307764900, sni: moral-rat.shiner427.skin, skip-cert-verify: false}
+  - {name: 13|🇰🇷 韩国特殊|@ripaojiedian, server: 18.143.78.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13|🇯🇵 日本特殊|@ripaojiedian, server: 52.78.197.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13|🇸🇬 狮城特殊|@ripaojiedian, server: 52.192.75.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13|🇫🇷 法国|@ripaojiedian, server: 185.234.64.35, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTNjNDY5}
+  - {name: 14|香港|@ripaojiedian, server: 38.147.188.17, port: 57658, type: vmess, uuid: 7f004471-a725-4efb-9a19-6bf17a61cf46, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|香港2|@ripaojiedian, server: 50028.baidu-cdn.top, port: 50028, type: vmess, uuid: adb6b92d-24c1-4dff-9efc-8ecedb84219b, alterId: 0, cipher: auto, tls: false}
   - {name: 14|香港3|@ripaojiedian, server: 120.232.81.50, port: 16088, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA}
-  - {name: 14|香港4|@ripaojiedian, server: 156.245.190.21, port: 15012, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206RTVPVTVEVFNLQlpDT0ZJUQ}
+  - {name: 14|香港4|@ripaojiedian, server: mdss-hk.04z3susick.download, port: 12010, type: ss, cipher: ss, password: //YWVzLTEyOC1nY206NDA5ODNkNmQtNDhiZS00YzlhLWFhNDgtM2FhZjMxNDY4MzNl}
   - {name: 14|香港5|@ripaojiedian, server: 120.232.153.63, port: 40565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 14|日本|@ripaojiedian, server: 156.231.104.11, port: 18001, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206RlMwTlVRRUtNTDRDSDMxMg}
-  - {name: 14|日本2|@ripaojiedian, server: 156.231.104.15, port: 18005, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206SDBQODg5Q1gwN0VRTkdOVg}
-  - {name: 14|韩国|@ripaojiedian, server: 154.90.63.193, port: 990, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz}
-  - {name: 14|新加坡|@ripaojiedian, server: 103.216.253.197, port: 40005, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozRkIyM0ExOS05NDI0LTQwQzctOTEzOS0zNTQwMjI4MjgzRkE}
-  - {name: 14|新加坡2|@ripaojiedian, server: 154.196.244.22, port: 16012, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206UUVWNUJHNFlMRUFCVzZMQg}
-  - {name: 14|新加坡3|@ripaojiedian, server: 154.196.244.13, port: 16003, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206NU9DMURMWk1XNEhUTjRTVQ}
-  - {name: 14|美国|@ripaojiedian, server: 23.185.248.15, port: 17005, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206T1VLTUE1MDBIRDZQR0VQRg}
-  - {name: 14|美国2|@ripaojiedian, server: 23.185.248.13, port: 17003, type: ss, cipher: ss, password: //YWVzLTI1Ni1nY206MlZNU0FKNUhBV0hZTUJSTg}
-  - {name: 14|韩国特殊|@ripaojiedian, server: 43.206.239.0, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 14|日本特殊|@ripaojiedian, server: 13.215.205.85, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
-  - {name: 14|狮城特殊|@ripaojiedian, server: 54.248.40.18, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 11171, type: vmess, uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 14|日本2|@ripaojiedian, server: mdss-jp.04z3susick.download, port: 12012, type: ss, cipher: ss, password: //YWVzLTEyOC1nY206NDA5ODNkNmQtNDhiZS00YzlhLWFhNDgtM2FhZjMxNDY4MzNl}
+  - {name: 14|韩国|@ripaojiedian, server: useful-jennet.shiner427.skin, port: 443, type: trojan, password: 65086520307764900}
+  - {name: 14|韩国2|@ripaojiedian, server: hopeful-seagull.shiner427.skin, port: 443, type: trojan, password: 65086520307764900}
+  - {name: 14|新加坡|@ripaojiedian, server: relieved-raccoon.shiner427.skin, port: 443, type: trojan, password: 65086520307764900}
+  - {name: 14|新加坡2|@ripaojiedian, server: robust-redfish.shiner427.skin, port: 443, type: trojan, password: 65086520307764900}
+  - {name: 14|美国|@ripaojiedian, server: moral-rat.shiner427.skin, port: 443, type: trojan, password: 65086520307764900}
+  - {name: 14|韩国特殊|@ripaojiedian, server: 18.143.78.171, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|日本特殊|@ripaojiedian, server: 52.78.197.177, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|狮城特殊|@ripaojiedian, server: 52.192.75.193, port: 443, type: ss, cipher: ss, password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU}
+  - {name: 14|法国|@ripaojiedian, server: 185.234.64.35, port: 8388, type: ss, cipher: ss, password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVE5qTkRZNQ}
   - {name: 15|speednode_0009, server: 192.0.54.235, port: 443, type: vless, uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd, tls: false, servername: mmdserver.us.kg, network: ws, ws-opts: {path: "/?ed=2048security=tls", headers: {Host: mmdserver.us.kg}}}
   - {name: 15|speednode_0010, server: 46.254.92.33, port: 443, type: vless, uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd, tls: false, servername: mmdserver.us.kg, network: ws, ws-opts: {path: "/?ed=2048security=tls", headers: {Host: mmdserver.us.kg}}}
   - {name: 15|speednode_0048, server: 219.135.231.205, port: 21019, type: trojan, password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5, skip-cert-verify: true}
@@ -157,98 +101,38 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 0|🇺🇸1 |  17.8MB/s
-      - 0|🇸🇬1 |  16.3MB/s
-      - 0|🇯🇵1 |  15.2MB/s
-      - 0|🇸🇬2 |  11.0MB/s
-      - 0|🇺🇸2 |  4.8MB/s
-      - 0|🇯🇵2 |  6.2MB/s
-      - 0|🇯🇵3 |  10.2MB/s
-      - 0|🇨🇦1 |  8.2MB/s
-      - 0|🇭🇰1 |  2.7MB/s
-      - 0|🌀1- |  1.6MB/s
-      - 0|🇯🇵5 |  1.1MB/s
-      - 0|🇨🇦2 |  1.6MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇵🇱1 |  3.3MB/s
-      - 0,8|@V2rayNG3
-      - 0|🌀2- |  8.3MB/s
-      - 0|🇷🇺1 |  1.5MB/s
-      - 0|🇺🇸8 |  6.8MB/s
-      - 0|🇷🇺2 |  1.1MB/s
-      - 0|🇺🇸9 |  1.9MB/s
-      - 0|🇷🇺3 |  8.6MB/s
-      - 0|🇦🇺1 |  1.7MB/s
-      - 0|🇨🇦3 |  6.7MB/s
-      - 0|🇫🇷1 |  4.3MB/s
-      - 0|🇺🇸10 |  7.3MB/s
-      - 0|🇳🇱1 |  3.5MB/s
-      - 0|🇺🇸11 |  5.6MB/s
-      - 0|🇺🇸12 |  1.9MB/s
-      - 0|🇯🇵6 |  6.3MB/s
-      - 0|🇮🇷1 |  2.3MB/s
-      - 0|🇺🇸13 |  8.9MB/s
-      - 0|🇺🇸14 |  7.0MB/s
-      - 0|🌀3- |  1.6MB/s
-      - 0|🌀4- |  4.2MB/s
-      - 0|🇮🇷2 |  2.8MB/s
-      - 0|🇺🇸15 |  4.9MB/s
-      - 0|🌀5- |  1.7MB/s
-      - 0|🇺🇸16 |  7.6MB/s
-      - 0|🇵🇱2 |  1.4MB/s
-      - 0|🇯🇵7 |  4.9MB/s
-      - 0|🇺🇸17 |  5.5MB/s
-      - 0|🇷🇺4 |  5.1MB/s
-      - 0|🇯🇵8 |  10.3MB/s
-      - 0|🇷🇺5 |  1.7MB/s
-      - 0|🌏1 |  2.3MB/s
-      - 0|🇩🇪1 |  1.1MB/s
-      - 0|🌀6- |  4.4MB/s
-      - 0|🇩🇪2 |  6.6MB/s
-      - "0,8|@V2rayNG3 #8"
-      - 0|🇺🇸19 |  2.8MB/s
-      - 0|🇺🇸20 |  4.8MB/s
-      - 0|🇷🇺7 |  3.7MB/s
-      - 0|🇩🇪3 |  2.6MB/s
-      - 0|🇯🇵9 |  11.2MB/s
-      - 0|🇸🇬3 |  9.0MB/s
-      - 0|🇯🇵10 |  2.1MB/s
-      - 0|🇯🇵11 |  10.0MB/s
-      - 0|🇷🇺8 |  8.8MB/s
-      - 0|🇯🇵12 |  13.3MB/s
-      - 0|🇺🇸21 |  9.3MB/s
-      - 0|🇺🇸22 |  4.5MB/s
-      - 0|🇳🇱2 |  1.4MB/s
-      - 0|🌀8- |  1.2MB/s
-      - 0|🇨🇦4 |  11.7MB/s
-      - 0|🇺🇸23 |  1.6MB/s
-      - 0|🇨🇦5 |  8.8MB/s
-      - 0|🌀9- |  1.1MB/s
-      - 0|🇺🇦1 |  4.5MB/s
-      - 0|🌀10- |  2.3MB/s
-      - 0|🇺🇸25 |  4.3MB/s
-      - 0|🇸🇬4 |  9.4MB/s
-      - 0|🇯🇵13 |  11.4MB/s
-      - 0|🇺🇸27 |  6.8MB/s
-      - 0|🌀11- |  4.0MB/s
+      - 0|🇭🇰1 |  1.1MB/s
+      - 0|🇸🇬1 |  5.7MB/s
+      - 0|🌀1- |  3.7MB/s
+      - 0|🇷🇺1 |  5.1MB/s
+      - 0|🇭🇰2 |  6.0MB/s
+      - 0|🇺🇸1 |  5.5MB/s
       - 0,8|Mci@V2ray_Raha-4
-      - 0|🇷🇺10 |  2.3MB/s
-      - 0|🌀12- |  1.3MB/s
-      - 0|🇯🇵14 |  3.2MB/s
-      - "0,8|@V2rayNG3 #3"
-      - 0|🇺🇸28 |  1.6MB/s
-      - 0|🇯🇵16 |  6.6MB/s
-      - 0|🇺🇦2 |  1.7MB/s
-      - 0|🇭🇰2 |  5.6MB/s
-      - 0|🇷🇺11 |  1.5MB/s
-      - 0|🇷🇺12 |  8.2MB/s
+      - 0|🌀2- |  3.9MB/s
+      - 0|🇺🇸2 |  4.2MB/s
+      - 0|🇺🇸3 |  1.6MB/s
+      - 0|🇺🇸4 |  1.7MB/s
+      - 0|🇹🇼1 |  3.6MB/s
+      - 0|🇺🇸5 |  2.4MB/s
+      - 0|🇹🇼2 |  5.8MB/s
+      - 0|🇺🇸6 |  4.0MB/s
+      - 0|🇷🇺3 |  14.4MB/s
+      - 0|🇫🇷1 |  1.0MB/s
+      - 0|🌏1 |  2.8MB/s
+      - 0|🇺🇸7 |  3.4MB/s
+      - 0|🌀3- |  3.1MB/s
+      - 0|🇺🇸8 |  5.3MB/s
+      - 0|🇯🇵1 |  2.0MB/s
+      - 0|🇮🇷1 |  1.6MB/s
+      - 0|🇺🇸9 |  2.1MB/s
+      - 0|🌀4- |  2.3MB/s
+      - 0|🌀5- |  3.0MB/s
       - "7,12|@vpnv2rayNGv #3"
       - "7,12|@vpnv2rayNGv #4"
+      - 8|@V2rayNG3
       - "8|@V2rayNG3 #1"
       - "8|@V2rayNG3 #2"
-      - 8|@meli_proxyy
-      - "8|@meli_proxyy #1"
-      - "8|@meli_proxyy #2"
+      - "8|@V2rayNG3 #3"
       - 8|MCI-@vmesskhodam
       - "8|@V2rayNG3 #4"
       - "8|@V2rayNG3 #5"
@@ -257,26 +141,30 @@ proxy-groups:
       - 8|2@EXPRESSVPN_420
       - 8|3🇫🇴@EXPRESSVPN_420
       - 8|Mtn@V2ray_Raha-5
+      - "8|@V2rayNG3 #8"
       - "8|@V2rayNG3 #9"
       - "8|@vpnv2rayNGv #2"
       - 12|@ToYoTA_PRoXY
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13,14|台湾3|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 13|🇸🇬 新加坡3|@ripaojiedian
       - 13|🇺🇸 美国|@ripaojiedian
-      - 13|🇺🇸 美国2|@ripaojiedian
-      - 13,14|美国3|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇫🇷 法国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
@@ -284,14 +172,14 @@ proxy-groups:
       - 14|日本|@ripaojiedian
       - 14|日本2|@ripaojiedian
       - 14|韩国|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
       - 14|新加坡|@ripaojiedian
       - 14|新加坡2|@ripaojiedian
-      - 14|新加坡3|@ripaojiedian
       - 14|美国|@ripaojiedian
-      - 14|美国2|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
+      - 14|法国|@ripaojiedian
       - 15|speednode_0009
       - 15|speednode_0010
       - 15|speednode_0048
@@ -303,98 +191,38 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 0|🇺🇸1 |  17.8MB/s
-      - 0|🇸🇬1 |  16.3MB/s
-      - 0|🇯🇵1 |  15.2MB/s
-      - 0|🇸🇬2 |  11.0MB/s
-      - 0|🇺🇸2 |  4.8MB/s
-      - 0|🇯🇵2 |  6.2MB/s
-      - 0|🇯🇵3 |  10.2MB/s
-      - 0|🇨🇦1 |  8.2MB/s
-      - 0|🇭🇰1 |  2.7MB/s
-      - 0|🌀1- |  1.6MB/s
-      - 0|🇯🇵5 |  1.1MB/s
-      - 0|🇨🇦2 |  1.6MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇵🇱1 |  3.3MB/s
-      - 0,8|@V2rayNG3
-      - 0|🌀2- |  8.3MB/s
-      - 0|🇷🇺1 |  1.5MB/s
-      - 0|🇺🇸8 |  6.8MB/s
-      - 0|🇷🇺2 |  1.1MB/s
-      - 0|🇺🇸9 |  1.9MB/s
-      - 0|🇷🇺3 |  8.6MB/s
-      - 0|🇦🇺1 |  1.7MB/s
-      - 0|🇨🇦3 |  6.7MB/s
-      - 0|🇫🇷1 |  4.3MB/s
-      - 0|🇺🇸10 |  7.3MB/s
-      - 0|🇳🇱1 |  3.5MB/s
-      - 0|🇺🇸11 |  5.6MB/s
-      - 0|🇺🇸12 |  1.9MB/s
-      - 0|🇯🇵6 |  6.3MB/s
-      - 0|🇮🇷1 |  2.3MB/s
-      - 0|🇺🇸13 |  8.9MB/s
-      - 0|🇺🇸14 |  7.0MB/s
-      - 0|🌀3- |  1.6MB/s
-      - 0|🌀4- |  4.2MB/s
-      - 0|🇮🇷2 |  2.8MB/s
-      - 0|🇺🇸15 |  4.9MB/s
-      - 0|🌀5- |  1.7MB/s
-      - 0|🇺🇸16 |  7.6MB/s
-      - 0|🇵🇱2 |  1.4MB/s
-      - 0|🇯🇵7 |  4.9MB/s
-      - 0|🇺🇸17 |  5.5MB/s
-      - 0|🇷🇺4 |  5.1MB/s
-      - 0|🇯🇵8 |  10.3MB/s
-      - 0|🇷🇺5 |  1.7MB/s
-      - 0|🌏1 |  2.3MB/s
-      - 0|🇩🇪1 |  1.1MB/s
-      - 0|🌀6- |  4.4MB/s
-      - 0|🇩🇪2 |  6.6MB/s
-      - "0,8|@V2rayNG3 #8"
-      - 0|🇺🇸19 |  2.8MB/s
-      - 0|🇺🇸20 |  4.8MB/s
-      - 0|🇷🇺7 |  3.7MB/s
-      - 0|🇩🇪3 |  2.6MB/s
-      - 0|🇯🇵9 |  11.2MB/s
-      - 0|🇸🇬3 |  9.0MB/s
-      - 0|🇯🇵10 |  2.1MB/s
-      - 0|🇯🇵11 |  10.0MB/s
-      - 0|🇷🇺8 |  8.8MB/s
-      - 0|🇯🇵12 |  13.3MB/s
-      - 0|🇺🇸21 |  9.3MB/s
-      - 0|🇺🇸22 |  4.5MB/s
-      - 0|🇳🇱2 |  1.4MB/s
-      - 0|🌀8- |  1.2MB/s
-      - 0|🇨🇦4 |  11.7MB/s
-      - 0|🇺🇸23 |  1.6MB/s
-      - 0|🇨🇦5 |  8.8MB/s
-      - 0|🌀9- |  1.1MB/s
-      - 0|🇺🇦1 |  4.5MB/s
-      - 0|🌀10- |  2.3MB/s
-      - 0|🇺🇸25 |  4.3MB/s
-      - 0|🇸🇬4 |  9.4MB/s
-      - 0|🇯🇵13 |  11.4MB/s
-      - 0|🇺🇸27 |  6.8MB/s
-      - 0|🌀11- |  4.0MB/s
+      - 0|🇭🇰1 |  1.1MB/s
+      - 0|🇸🇬1 |  5.7MB/s
+      - 0|🌀1- |  3.7MB/s
+      - 0|🇷🇺1 |  5.1MB/s
+      - 0|🇭🇰2 |  6.0MB/s
+      - 0|🇺🇸1 |  5.5MB/s
       - 0,8|Mci@V2ray_Raha-4
-      - 0|🇷🇺10 |  2.3MB/s
-      - 0|🌀12- |  1.3MB/s
-      - 0|🇯🇵14 |  3.2MB/s
-      - "0,8|@V2rayNG3 #3"
-      - 0|🇺🇸28 |  1.6MB/s
-      - 0|🇯🇵16 |  6.6MB/s
-      - 0|🇺🇦2 |  1.7MB/s
-      - 0|🇭🇰2 |  5.6MB/s
-      - 0|🇷🇺11 |  1.5MB/s
-      - 0|🇷🇺12 |  8.2MB/s
+      - 0|🌀2- |  3.9MB/s
+      - 0|🇺🇸2 |  4.2MB/s
+      - 0|🇺🇸3 |  1.6MB/s
+      - 0|🇺🇸4 |  1.7MB/s
+      - 0|🇹🇼1 |  3.6MB/s
+      - 0|🇺🇸5 |  2.4MB/s
+      - 0|🇹🇼2 |  5.8MB/s
+      - 0|🇺🇸6 |  4.0MB/s
+      - 0|🇷🇺3 |  14.4MB/s
+      - 0|🇫🇷1 |  1.0MB/s
+      - 0|🌏1 |  2.8MB/s
+      - 0|🇺🇸7 |  3.4MB/s
+      - 0|🌀3- |  3.1MB/s
+      - 0|🇺🇸8 |  5.3MB/s
+      - 0|🇯🇵1 |  2.0MB/s
+      - 0|🇮🇷1 |  1.6MB/s
+      - 0|🇺🇸9 |  2.1MB/s
+      - 0|🌀4- |  2.3MB/s
+      - 0|🌀5- |  3.0MB/s
       - "7,12|@vpnv2rayNGv #3"
       - "7,12|@vpnv2rayNGv #4"
+      - 8|@V2rayNG3
       - "8|@V2rayNG3 #1"
       - "8|@V2rayNG3 #2"
-      - 8|@meli_proxyy
-      - "8|@meli_proxyy #1"
-      - "8|@meli_proxyy #2"
+      - "8|@V2rayNG3 #3"
       - 8|MCI-@vmesskhodam
       - "8|@V2rayNG3 #4"
       - "8|@V2rayNG3 #5"
@@ -403,26 +231,30 @@ proxy-groups:
       - 8|2@EXPRESSVPN_420
       - 8|3🇫🇴@EXPRESSVPN_420
       - 8|Mtn@V2ray_Raha-5
+      - "8|@V2rayNG3 #8"
       - "8|@V2rayNG3 #9"
       - "8|@vpnv2rayNGv #2"
       - 12|@ToYoTA_PRoXY
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13,14|台湾3|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 13|🇸🇬 新加坡3|@ripaojiedian
       - 13|🇺🇸 美国|@ripaojiedian
-      - 13|🇺🇸 美国2|@ripaojiedian
-      - 13,14|美国3|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇫🇷 法国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
@@ -430,14 +262,14 @@ proxy-groups:
       - 14|日本|@ripaojiedian
       - 14|日本2|@ripaojiedian
       - 14|韩国|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
       - 14|新加坡|@ripaojiedian
       - 14|新加坡2|@ripaojiedian
-      - 14|新加坡3|@ripaojiedian
       - 14|美国|@ripaojiedian
-      - 14|美国2|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
+      - 14|法国|@ripaojiedian
       - 15|speednode_0009
       - 15|speednode_0010
       - 15|speednode_0048
@@ -448,98 +280,38 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 0|🇺🇸1 |  17.8MB/s
-      - 0|🇸🇬1 |  16.3MB/s
-      - 0|🇯🇵1 |  15.2MB/s
-      - 0|🇸🇬2 |  11.0MB/s
-      - 0|🇺🇸2 |  4.8MB/s
-      - 0|🇯🇵2 |  6.2MB/s
-      - 0|🇯🇵3 |  10.2MB/s
-      - 0|🇨🇦1 |  8.2MB/s
-      - 0|🇭🇰1 |  2.7MB/s
-      - 0|🌀1- |  1.6MB/s
-      - 0|🇯🇵5 |  1.1MB/s
-      - 0|🇨🇦2 |  1.6MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇵🇱1 |  3.3MB/s
-      - 0,8|@V2rayNG3
-      - 0|🌀2- |  8.3MB/s
-      - 0|🇷🇺1 |  1.5MB/s
-      - 0|🇺🇸8 |  6.8MB/s
-      - 0|🇷🇺2 |  1.1MB/s
-      - 0|🇺🇸9 |  1.9MB/s
-      - 0|🇷🇺3 |  8.6MB/s
-      - 0|🇦🇺1 |  1.7MB/s
-      - 0|🇨🇦3 |  6.7MB/s
-      - 0|🇫🇷1 |  4.3MB/s
-      - 0|🇺🇸10 |  7.3MB/s
-      - 0|🇳🇱1 |  3.5MB/s
-      - 0|🇺🇸11 |  5.6MB/s
-      - 0|🇺🇸12 |  1.9MB/s
-      - 0|🇯🇵6 |  6.3MB/s
-      - 0|🇮🇷1 |  2.3MB/s
-      - 0|🇺🇸13 |  8.9MB/s
-      - 0|🇺🇸14 |  7.0MB/s
-      - 0|🌀3- |  1.6MB/s
-      - 0|🌀4- |  4.2MB/s
-      - 0|🇮🇷2 |  2.8MB/s
-      - 0|🇺🇸15 |  4.9MB/s
-      - 0|🌀5- |  1.7MB/s
-      - 0|🇺🇸16 |  7.6MB/s
-      - 0|🇵🇱2 |  1.4MB/s
-      - 0|🇯🇵7 |  4.9MB/s
-      - 0|🇺🇸17 |  5.5MB/s
-      - 0|🇷🇺4 |  5.1MB/s
-      - 0|🇯🇵8 |  10.3MB/s
-      - 0|🇷🇺5 |  1.7MB/s
-      - 0|🌏1 |  2.3MB/s
-      - 0|🇩🇪1 |  1.1MB/s
-      - 0|🌀6- |  4.4MB/s
-      - 0|🇩🇪2 |  6.6MB/s
-      - "0,8|@V2rayNG3 #8"
-      - 0|🇺🇸19 |  2.8MB/s
-      - 0|🇺🇸20 |  4.8MB/s
-      - 0|🇷🇺7 |  3.7MB/s
-      - 0|🇩🇪3 |  2.6MB/s
-      - 0|🇯🇵9 |  11.2MB/s
-      - 0|🇸🇬3 |  9.0MB/s
-      - 0|🇯🇵10 |  2.1MB/s
-      - 0|🇯🇵11 |  10.0MB/s
-      - 0|🇷🇺8 |  8.8MB/s
-      - 0|🇯🇵12 |  13.3MB/s
-      - 0|🇺🇸21 |  9.3MB/s
-      - 0|🇺🇸22 |  4.5MB/s
-      - 0|🇳🇱2 |  1.4MB/s
-      - 0|🌀8- |  1.2MB/s
-      - 0|🇨🇦4 |  11.7MB/s
-      - 0|🇺🇸23 |  1.6MB/s
-      - 0|🇨🇦5 |  8.8MB/s
-      - 0|🌀9- |  1.1MB/s
-      - 0|🇺🇦1 |  4.5MB/s
-      - 0|🌀10- |  2.3MB/s
-      - 0|🇺🇸25 |  4.3MB/s
-      - 0|🇸🇬4 |  9.4MB/s
-      - 0|🇯🇵13 |  11.4MB/s
-      - 0|🇺🇸27 |  6.8MB/s
-      - 0|🌀11- |  4.0MB/s
+      - 0|🇭🇰1 |  1.1MB/s
+      - 0|🇸🇬1 |  5.7MB/s
+      - 0|🌀1- |  3.7MB/s
+      - 0|🇷🇺1 |  5.1MB/s
+      - 0|🇭🇰2 |  6.0MB/s
+      - 0|🇺🇸1 |  5.5MB/s
       - 0,8|Mci@V2ray_Raha-4
-      - 0|🇷🇺10 |  2.3MB/s
-      - 0|🌀12- |  1.3MB/s
-      - 0|🇯🇵14 |  3.2MB/s
-      - "0,8|@V2rayNG3 #3"
-      - 0|🇺🇸28 |  1.6MB/s
-      - 0|🇯🇵16 |  6.6MB/s
-      - 0|🇺🇦2 |  1.7MB/s
-      - 0|🇭🇰2 |  5.6MB/s
-      - 0|🇷🇺11 |  1.5MB/s
-      - 0|🇷🇺12 |  8.2MB/s
+      - 0|🌀2- |  3.9MB/s
+      - 0|🇺🇸2 |  4.2MB/s
+      - 0|🇺🇸3 |  1.6MB/s
+      - 0|🇺🇸4 |  1.7MB/s
+      - 0|🇹🇼1 |  3.6MB/s
+      - 0|🇺🇸5 |  2.4MB/s
+      - 0|🇹🇼2 |  5.8MB/s
+      - 0|🇺🇸6 |  4.0MB/s
+      - 0|🇷🇺3 |  14.4MB/s
+      - 0|🇫🇷1 |  1.0MB/s
+      - 0|🌏1 |  2.8MB/s
+      - 0|🇺🇸7 |  3.4MB/s
+      - 0|🌀3- |  3.1MB/s
+      - 0|🇺🇸8 |  5.3MB/s
+      - 0|🇯🇵1 |  2.0MB/s
+      - 0|🇮🇷1 |  1.6MB/s
+      - 0|🇺🇸9 |  2.1MB/s
+      - 0|🌀4- |  2.3MB/s
+      - 0|🌀5- |  3.0MB/s
       - "7,12|@vpnv2rayNGv #3"
       - "7,12|@vpnv2rayNGv #4"
+      - 8|@V2rayNG3
       - "8|@V2rayNG3 #1"
       - "8|@V2rayNG3 #2"
-      - 8|@meli_proxyy
-      - "8|@meli_proxyy #1"
-      - "8|@meli_proxyy #2"
+      - "8|@V2rayNG3 #3"
       - 8|MCI-@vmesskhodam
       - "8|@V2rayNG3 #4"
       - "8|@V2rayNG3 #5"
@@ -548,26 +320,30 @@ proxy-groups:
       - 8|2@EXPRESSVPN_420
       - 8|3🇫🇴@EXPRESSVPN_420
       - 8|Mtn@V2ray_Raha-5
+      - "8|@V2rayNG3 #8"
       - "8|@V2rayNG3 #9"
       - "8|@vpnv2rayNGv #2"
       - 12|@ToYoTA_PRoXY
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13,14|台湾3|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 13|🇸🇬 新加坡3|@ripaojiedian
       - 13|🇺🇸 美国|@ripaojiedian
-      - 13|🇺🇸 美国2|@ripaojiedian
-      - 13,14|美国3|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇫🇷 法国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
@@ -575,14 +351,14 @@ proxy-groups:
       - 14|日本|@ripaojiedian
       - 14|日本2|@ripaojiedian
       - 14|韩国|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
       - 14|新加坡|@ripaojiedian
       - 14|新加坡2|@ripaojiedian
-      - 14|新加坡3|@ripaojiedian
       - 14|美国|@ripaojiedian
-      - 14|美国2|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
+      - 14|法国|@ripaojiedian
       - 15|speednode_0009
       - 15|speednode_0010
       - 15|speednode_0048
@@ -594,98 +370,38 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 0|🇺🇸1 |  17.8MB/s
-      - 0|🇸🇬1 |  16.3MB/s
-      - 0|🇯🇵1 |  15.2MB/s
-      - 0|🇸🇬2 |  11.0MB/s
-      - 0|🇺🇸2 |  4.8MB/s
-      - 0|🇯🇵2 |  6.2MB/s
-      - 0|🇯🇵3 |  10.2MB/s
-      - 0|🇨🇦1 |  8.2MB/s
-      - 0|🇭🇰1 |  2.7MB/s
-      - 0|🌀1- |  1.6MB/s
-      - 0|🇯🇵5 |  1.1MB/s
-      - 0|🇨🇦2 |  1.6MB/s
-      - 0|🇺🇸4 |  1.5MB/s
-      - 0|🇵🇱1 |  3.3MB/s
-      - 0,8|@V2rayNG3
-      - 0|🌀2- |  8.3MB/s
-      - 0|🇷🇺1 |  1.5MB/s
-      - 0|🇺🇸8 |  6.8MB/s
-      - 0|🇷🇺2 |  1.1MB/s
-      - 0|🇺🇸9 |  1.9MB/s
-      - 0|🇷🇺3 |  8.6MB/s
-      - 0|🇦🇺1 |  1.7MB/s
-      - 0|🇨🇦3 |  6.7MB/s
-      - 0|🇫🇷1 |  4.3MB/s
-      - 0|🇺🇸10 |  7.3MB/s
-      - 0|🇳🇱1 |  3.5MB/s
-      - 0|🇺🇸11 |  5.6MB/s
-      - 0|🇺🇸12 |  1.9MB/s
-      - 0|🇯🇵6 |  6.3MB/s
-      - 0|🇮🇷1 |  2.3MB/s
-      - 0|🇺🇸13 |  8.9MB/s
-      - 0|🇺🇸14 |  7.0MB/s
-      - 0|🌀3- |  1.6MB/s
-      - 0|🌀4- |  4.2MB/s
-      - 0|🇮🇷2 |  2.8MB/s
-      - 0|🇺🇸15 |  4.9MB/s
-      - 0|🌀5- |  1.7MB/s
-      - 0|🇺🇸16 |  7.6MB/s
-      - 0|🇵🇱2 |  1.4MB/s
-      - 0|🇯🇵7 |  4.9MB/s
-      - 0|🇺🇸17 |  5.5MB/s
-      - 0|🇷🇺4 |  5.1MB/s
-      - 0|🇯🇵8 |  10.3MB/s
-      - 0|🇷🇺5 |  1.7MB/s
-      - 0|🌏1 |  2.3MB/s
-      - 0|🇩🇪1 |  1.1MB/s
-      - 0|🌀6- |  4.4MB/s
-      - 0|🇩🇪2 |  6.6MB/s
-      - "0,8|@V2rayNG3 #8"
-      - 0|🇺🇸19 |  2.8MB/s
-      - 0|🇺🇸20 |  4.8MB/s
-      - 0|🇷🇺7 |  3.7MB/s
-      - 0|🇩🇪3 |  2.6MB/s
-      - 0|🇯🇵9 |  11.2MB/s
-      - 0|🇸🇬3 |  9.0MB/s
-      - 0|🇯🇵10 |  2.1MB/s
-      - 0|🇯🇵11 |  10.0MB/s
-      - 0|🇷🇺8 |  8.8MB/s
-      - 0|🇯🇵12 |  13.3MB/s
-      - 0|🇺🇸21 |  9.3MB/s
-      - 0|🇺🇸22 |  4.5MB/s
-      - 0|🇳🇱2 |  1.4MB/s
-      - 0|🌀8- |  1.2MB/s
-      - 0|🇨🇦4 |  11.7MB/s
-      - 0|🇺🇸23 |  1.6MB/s
-      - 0|🇨🇦5 |  8.8MB/s
-      - 0|🌀9- |  1.1MB/s
-      - 0|🇺🇦1 |  4.5MB/s
-      - 0|🌀10- |  2.3MB/s
-      - 0|🇺🇸25 |  4.3MB/s
-      - 0|🇸🇬4 |  9.4MB/s
-      - 0|🇯🇵13 |  11.4MB/s
-      - 0|🇺🇸27 |  6.8MB/s
-      - 0|🌀11- |  4.0MB/s
+      - 0|🇭🇰1 |  1.1MB/s
+      - 0|🇸🇬1 |  5.7MB/s
+      - 0|🌀1- |  3.7MB/s
+      - 0|🇷🇺1 |  5.1MB/s
+      - 0|🇭🇰2 |  6.0MB/s
+      - 0|🇺🇸1 |  5.5MB/s
       - 0,8|Mci@V2ray_Raha-4
-      - 0|🇷🇺10 |  2.3MB/s
-      - 0|🌀12- |  1.3MB/s
-      - 0|🇯🇵14 |  3.2MB/s
-      - "0,8|@V2rayNG3 #3"
-      - 0|🇺🇸28 |  1.6MB/s
-      - 0|🇯🇵16 |  6.6MB/s
-      - 0|🇺🇦2 |  1.7MB/s
-      - 0|🇭🇰2 |  5.6MB/s
-      - 0|🇷🇺11 |  1.5MB/s
-      - 0|🇷🇺12 |  8.2MB/s
+      - 0|🌀2- |  3.9MB/s
+      - 0|🇺🇸2 |  4.2MB/s
+      - 0|🇺🇸3 |  1.6MB/s
+      - 0|🇺🇸4 |  1.7MB/s
+      - 0|🇹🇼1 |  3.6MB/s
+      - 0|🇺🇸5 |  2.4MB/s
+      - 0|🇹🇼2 |  5.8MB/s
+      - 0|🇺🇸6 |  4.0MB/s
+      - 0|🇷🇺3 |  14.4MB/s
+      - 0|🇫🇷1 |  1.0MB/s
+      - 0|🌏1 |  2.8MB/s
+      - 0|🇺🇸7 |  3.4MB/s
+      - 0|🌀3- |  3.1MB/s
+      - 0|🇺🇸8 |  5.3MB/s
+      - 0|🇯🇵1 |  2.0MB/s
+      - 0|🇮🇷1 |  1.6MB/s
+      - 0|🇺🇸9 |  2.1MB/s
+      - 0|🌀4- |  2.3MB/s
+      - 0|🌀5- |  3.0MB/s
       - "7,12|@vpnv2rayNGv #3"
       - "7,12|@vpnv2rayNGv #4"
+      - 8|@V2rayNG3
       - "8|@V2rayNG3 #1"
       - "8|@V2rayNG3 #2"
-      - 8|@meli_proxyy
-      - "8|@meli_proxyy #1"
-      - "8|@meli_proxyy #2"
+      - "8|@V2rayNG3 #3"
       - 8|MCI-@vmesskhodam
       - "8|@V2rayNG3 #4"
       - "8|@V2rayNG3 #5"
@@ -694,26 +410,30 @@ proxy-groups:
       - 8|2@EXPRESSVPN_420
       - 8|3🇫🇴@EXPRESSVPN_420
       - 8|Mtn@V2ray_Raha-5
+      - "8|@V2rayNG3 #8"
       - "8|@V2rayNG3 #9"
       - "8|@vpnv2rayNGv #2"
       - 12|@ToYoTA_PRoXY
-      - 13,14|香港|@ripaojiedian
+      - 13|🇭🇰 香港|@ripaojiedian
       - 13|🇭🇰 香港2|@ripaojiedian
       - 13|🇭🇰 香港3|@ripaojiedian
       - 13|🇭🇰 香港4|@ripaojiedian
       - 13|🇭🇰 香港5|@ripaojiedian
+      - 13,14|台湾|@ripaojiedian
+      - 13,14|台湾2|@ripaojiedian
+      - 13,14|台湾3|@ripaojiedian
       - 13|🇯🇵 日本|@ripaojiedian
       - 13|🇯🇵 日本2|@ripaojiedian
       - 13|🇰🇷 韩国|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
       - 13|🇸🇬 新加坡|@ripaojiedian
       - 13|🇸🇬 新加坡2|@ripaojiedian
-      - 13|🇸🇬 新加坡3|@ripaojiedian
       - 13|🇺🇸 美国|@ripaojiedian
-      - 13|🇺🇸 美国2|@ripaojiedian
-      - 13,14|美国3|@ripaojiedian
       - 13|🇰🇷 韩国特殊|@ripaojiedian
       - 13|🇯🇵 日本特殊|@ripaojiedian
       - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 13|🇫🇷 法国|@ripaojiedian
+      - 14|香港|@ripaojiedian
       - 14|香港2|@ripaojiedian
       - 14|香港3|@ripaojiedian
       - 14|香港4|@ripaojiedian
@@ -721,14 +441,14 @@ proxy-groups:
       - 14|日本|@ripaojiedian
       - 14|日本2|@ripaojiedian
       - 14|韩国|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
       - 14|新加坡|@ripaojiedian
       - 14|新加坡2|@ripaojiedian
-      - 14|新加坡3|@ripaojiedian
       - 14|美国|@ripaojiedian
-      - 14|美国2|@ripaojiedian
       - 14|韩国特殊|@ripaojiedian
       - 14|日本特殊|@ripaojiedian
       - 14|狮城特殊|@ripaojiedian
+      - 14|法国|@ripaojiedian
       - 15|speednode_0009
       - 15|speednode_0010
       - 15|speednode_0048
