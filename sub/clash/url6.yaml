@@ -67,28 +67,26 @@ proxies:
   - {name: 12|github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: pendar.onthewifi.com}}}
   - {name: 12|github.com/freefq - 美国Fastly全球..., server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: "12|github.com/freefq - 美国CloudFla... #3", server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
-  - {name: 15|🇸🇪 瑞典|@ripaojiedian, server: 150.241.221.64, port: 18000, type: trojan, password: 65f14831-5c67-483f-9e85-f3aa73f21187, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
-  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: 156.245.190.24, port: 15015, type: ss, cipher: aes-256-gcm, password: UQ62K8G88VGBNZXO}
-  - {name: 15|🇭🇰 香港5|@ripaojiedian, server: 156.245.190.19, port: 15010, type: ss, cipher: aes-256-gcm, password: AYC4MQ5DSGJ4QOKG}
-  - {name: 15|🇭🇰 香港6|@ripaojiedian, server: 92.113.116.11, port: 15002, type: ss, cipher: aes-256-gcm, password: 2MNBVYYYB23ZF03Z}
-  - {name: 15|🇯🇵 日本|@ripaojiedian, server: 156.231.104.19, port: 18009, type: ss, cipher: aes-256-gcm, password: TQQGWG024W2BF6RP}
-  - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 156.231.104.20, port: 18010, type: ss, cipher: aes-256-gcm, password: 0A876XZUZX93N371}
-  - {name: 15|🇯🇵 日本3|@ripaojiedian, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 4619d5a0-258a-48f4-98bf-88843d5d7a83}
-  - {name: 15|🇯🇵 日本5|@ripaojiedian, server: 156.231.104.24, port: 18014, type: ss, cipher: aes-256-gcm, password: 3JHTNK13T6BCEVNH}
-  - {name: 15|🇰🇷 韩国|@ripaojiedian, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 15|🇸🇬 新加坡|@ripaojiedian, server: 154.196.244.12, port: 16002, type: ss, cipher: aes-256-gcm, password: CZWGKVVKET2BTRBK}
-  - {name: 15|🇸🇬 新加坡2|@ripaojiedian, server: 154.196.244.24, port: 16014, type: ss, cipher: aes-256-gcm, password: Y7Y0EUXF5ZZKJTFU}
+  - {name: 15|🇺🇸 美国3|@ripaojiedian, server: 23.224.152.62, port: 31909, type: trojan, password: 65f14831-5c67-483f-9e85-f3aa73f21187, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: false}
+  - {name: 15|🇭🇰 香港2|@ripaojiedian, server: 156.245.190.16, port: 15007, type: ss, cipher: aes-256-gcm, password: MHZUEOX3KBXAV09K}
+  - {name: 15|🇭🇰 香港3|@ripaojiedian, server: 156.245.190.23, port: 15014, type: ss, cipher: aes-256-gcm, password: ZDGC0Q2E112UAJO6}
+  - {name: 15|🇭🇰 香港4|@ripaojiedian, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA}
+  - {name: 15|🇹🇼 台湾2|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 21004, type: ss, cipher: aes-256-gcm, password: QF377GGQ00RATCMK}
+  - {name: 15|🇹🇼 台湾3|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 21001, type: ss, cipher: aes-256-gcm, password: Y2U58S90E3GST1AQ}
+  - {name: 15|🇹🇼 台湾4|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 21003, type: ss, cipher: aes-256-gcm, password: HQJQFA7U2Z5HGZWH}
+  - {name: 15|🇯🇵 日本|@ripaojiedian, server: 156.231.104.21, port: 18011, type: ss, cipher: aes-256-gcm, password: 17J24GBDGLTUHDF3}
+  - {name: 15|🇯🇵 日本2|@ripaojiedian, server: 156.231.104.17, port: 18007, type: ss, cipher: aes-256-gcm, password: 1H5KX5QZBUOWP2P4}
+  - {name: 15|🇰🇷 韩国|@ripaojiedian, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 15|🇸🇬 新加坡|@ripaojiedian, server: 154.196.244.20, port: 16010, type: ss, cipher: aes-256-gcm, password: 2UOL8ESS12X0J31P}
+  - {name: 15|🇸🇬 新加坡2|@ripaojiedian, server: 154.196.244.21, port: 16011, type: ss, cipher: aes-256-gcm, password: 8WDLSCVIFB4I26GB}
   - {name: 15|🇸🇬 新加坡3|@ripaojiedian, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 15|🇸🇬 新加坡4|@ripaojiedian, server: 154.196.244.19, port: 16009, type: ss, cipher: aes-256-gcm, password: EXCB3KKW0GXQ3ECD}
-  - {name: 15|🇺🇸 美国2|@ripaojiedian, server: 23.185.248.17, port: 17007, type: ss, cipher: aes-256-gcm, password: Z7C08JB1HBMWQHVP}
+  - {name: 15|🇸🇬 新加坡4|@ripaojiedian, server: 154.196.244.25, port: 16015, type: ss, cipher: aes-256-gcm, password: I6DRVVQ4OOMIRMJD}
+  - {name: 15|🇸🇬 新加坡5|@ripaojiedian, server: 154.196.244.26, port: 16016, type: ss, cipher: aes-256-gcm, password: YHK82TR73114VN9O}
   - {name: 15|🇺🇸 美国4|@ripaojiedian, server: 23.185.248.13, port: 17003, type: ss, cipher: aes-256-gcm, password: LKG8G8VL60RSB59P}
-  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 3.35.174.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 43.203.253.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 52.79.101.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 15|🇷🇺 俄罗斯|@ripaojiedian, server: 185.126.239.231, port: 20002, type: ss, cipher: aes-256-gcm, password: G2LC1BQ48SXSBKZX}
-  - {name: 16|香港4|@ripaojiedian, server: 103.30.76.129, port: 22666, type: vmess, uuid: aede82af-c2ca-425d-9423-c68490ab2277, alterId: 0, cipher: auto, tls: false}
+  - {name: 15|🇰🇷 韩国特殊|@ripaojiedian, server: 18.182.6.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇯🇵 日本特殊|@ripaojiedian, server: 13.124.66.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.114.153.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 16|美国3|@ripaojiedian, server: 23.224.152.62, port: 31909, type: vmess, uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92, alterId: 0, cipher: auto, tls: false}
-  - {name: 16|瑞典|@ripaojiedian, server: 150.241.221.64, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -163,28 +161,26 @@ proxy-groups:
       - 12|github.com/freefq - 印度  10
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
-      - 15|🇸🇪 瑞典|@ripaojiedian
+      - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇭🇰 香港2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇹🇼 台湾3|@ripaojiedian
+      - 15|🇹🇼 台湾4|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇯🇵 日本3|@ripaojiedian
-      - 15|🇯🇵 日本5|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
       - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇸🇬 新加坡4|@ripaojiedian
-      - 15|🇺🇸 美国2|@ripaojiedian
+      - 15|🇸🇬 新加坡5|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇷🇺 俄罗斯|@ripaojiedian
-      - 16|香港4|@ripaojiedian
       - 16|美国3|@ripaojiedian
-      - 16|瑞典|@ripaojiedian
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -253,28 +249,26 @@ proxy-groups:
       - 12|github.com/freefq - 印度  10
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
-      - 15|🇸🇪 瑞典|@ripaojiedian
+      - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇭🇰 香港2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇹🇼 台湾3|@ripaojiedian
+      - 15|🇹🇼 台湾4|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇯🇵 日本3|@ripaojiedian
-      - 15|🇯🇵 日本5|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
       - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇸🇬 新加坡4|@ripaojiedian
-      - 15|🇺🇸 美国2|@ripaojiedian
+      - 15|🇸🇬 新加坡5|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇷🇺 俄罗斯|@ripaojiedian
-      - 16|香港4|@ripaojiedian
       - 16|美国3|@ripaojiedian
-      - 16|瑞典|@ripaojiedian
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -342,28 +336,26 @@ proxy-groups:
       - 12|github.com/freefq - 印度  10
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
-      - 15|🇸🇪 瑞典|@ripaojiedian
+      - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇭🇰 香港2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇹🇼 台湾3|@ripaojiedian
+      - 15|🇹🇼 台湾4|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇯🇵 日本3|@ripaojiedian
-      - 15|🇯🇵 日本5|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
       - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇸🇬 新加坡4|@ripaojiedian
-      - 15|🇺🇸 美国2|@ripaojiedian
+      - 15|🇸🇬 新加坡5|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇷🇺 俄罗斯|@ripaojiedian
-      - 16|香港4|@ripaojiedian
       - 16|美国3|@ripaojiedian
-      - 16|瑞典|@ripaojiedian
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -432,28 +424,26 @@ proxy-groups:
       - 12|github.com/freefq - 印度  10
       - 12|github.com/freefq - 美国Fastly全球...
       - "12|github.com/freefq - 美国CloudFla... #3"
-      - 15|🇸🇪 瑞典|@ripaojiedian
+      - 15|🇺🇸 美国3|@ripaojiedian
       - 15|🇭🇰 香港2|@ripaojiedian
-      - 15|🇭🇰 香港5|@ripaojiedian
-      - 15|🇭🇰 香港6|@ripaojiedian
+      - 15|🇭🇰 香港3|@ripaojiedian
+      - 15|🇭🇰 香港4|@ripaojiedian
+      - 15|🇹🇼 台湾2|@ripaojiedian
+      - 15|🇹🇼 台湾3|@ripaojiedian
+      - 15|🇹🇼 台湾4|@ripaojiedian
       - 15|🇯🇵 日本|@ripaojiedian
       - 15|🇯🇵 日本2|@ripaojiedian
-      - 15|🇯🇵 日本3|@ripaojiedian
-      - 15|🇯🇵 日本5|@ripaojiedian
       - 15|🇰🇷 韩国|@ripaojiedian
       - 15|🇸🇬 新加坡|@ripaojiedian
       - 15|🇸🇬 新加坡2|@ripaojiedian
       - 15|🇸🇬 新加坡3|@ripaojiedian
       - 15|🇸🇬 新加坡4|@ripaojiedian
-      - 15|🇺🇸 美国2|@ripaojiedian
+      - 15|🇸🇬 新加坡5|@ripaojiedian
       - 15|🇺🇸 美国4|@ripaojiedian
       - 15|🇰🇷 韩国特殊|@ripaojiedian
       - 15|🇯🇵 日本特殊|@ripaojiedian
       - 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 15|🇷🇺 俄罗斯|@ripaojiedian
-      - 16|香港4|@ripaojiedian
       - 16|美国3|@ripaojiedian
-      - 16|瑞典|@ripaojiedian
   - name: 🎯 全球直连
     type: select
     proxies:
