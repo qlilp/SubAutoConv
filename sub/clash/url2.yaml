@@ -5,37 +5,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国 V2CROSS.COM, server: grateful-glowworm.treefrog761.one, port: 443, type: trojan, password: 3747000103274291200}
-  - {name: 美国 V2CROSS.COM 2, server: 216.238.77.127, port: 443, type: trojan, password: 3747000103274291200, sni: grateful-glowworm.treefrog761.one}
-  - {name: 罗马尼亚 V2CROSS.COM, server: 93.114.98.133, port: 443, type: trojan, password: 3747000103274291200, sni: artistic-flounder.treefrog761.one}
-  - {name: 美国 CloudFlare节点, server: 172.66.46.254, port: 443, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}}
-  - {name: 印度 V2CROSS.COM, server: 103.238.235.140, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, sni: std1.loadingip.com}
-  - {name: 美国 Amazon数据中心, server: 18.175.70.78, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, alpn: [http/1.1]}
-  - {name: 爱尔兰 V2CROSS.COM, server: 63.35.165.204, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 美国 Amazon EC2服务器, server: composed-mustang.treefrog761.one, port: 443, type: trojan, password: 3782591447421952000, sni: composed-mustang.treefrog761.one, skip-cert-verify: true}
-  - {name: 美国 CloudFlare节点 2, server: 104.21.80.1, port: 2087, type: trojan, password: naEX%5Dg*qw%40MT%26lFz, sni: jOinMAhdIsErvEr-53k.pAGeS.Dev, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trb6oyXIzrlytDBNlm?ed=2560", headers: {Host: jOinMAhdIsErvEr-53k.pAGeS.Dev}}}
-  - {name: 香港 特别行政区, server: 103.104.247.49, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 广东省广州市 移动, server: 120.232.153.40, port: 54082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国 V2CROSS.COM 3, server: 108.165.152.202, port: 2083, type: trojan, password: Aimer, sni: agepy.ambercc.filegear-sg.me, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: agepy.ambercc.filegear-sg.me}}}
-  - {name: 美国 CloudFlare节点 3, server: cloudflare.182682.xyz, port: 80, type: vmess, uuid: b9a3206d-278c-4614-b352-eef632d1c8d5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.cfyyds.filegear-sg.me}}}
-  - {name: 美国 CloudFlare节点 4, server: 104.21.96.1, port: 2087, type: trojan, password: naEX%5Dg*qw%40MT%26lFz, sni: jOinMAhdIsErvEr-53k.pAGeS.Dev, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trb6oyXIzrlytDBNlm?ed=2560", headers: {Host: jOinMAhdIsErvEr-53k.pAGeS.Dev}}}
-  - {name: 罗马尼亚 V2CROSS.COM 2, server: alive-polecat.treefrog761.one, port: 443, type: trojan, password: 3747000103274291200, sni: alive-polecat.treefrog761.one, skip-cert-verify: false}
-  - {name: 广东省广州市 移动 2, server: 183.236.51.38, port: 51754, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国 CloudFlare节点 5, server: 104.21.64.1, port: 2087, type: trojan, password: naEX%5Dg*qw%40MT%26lFz, sni: jOinMAhdIsErvEr-53k.pAGeS.Dev, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trb6oyXIzrlytDBNlm?ed=2560", headers: {Host: jOinMAhdIsErvEr-53k.pAGeS.Dev}}}
-  - {name: 德国 黑森州法兰克福Amazon数据中心, server: 18.195.10.213, port: 22222, type: trojan, password: telegram-id-privatevpns}
-  - {name: 美国 CloudFlare节点 6, server: 104.21.48.1, port: 8443, type: trojan, password: s42%26umY%28K5n*csP4, sni: JOInMAHDiseRVer-EEu.pAGEs.dEv, network: ws, ws-opts: {path: "/trOagy9SuM2cDpqUqO?ed=2560", headers: {Host: JOInMAHDiseRVer-EEu.pAGEs.dEv}}}
-  - {name: 北美地区 V2CROSS.COM, server: 23.185.248.13, port: 17003, type: ss, cipher: aes-256-gcm, password: LKG8G8VL60RSB59P}
-  - {name: 法国 巴黎Amazon数据中心, server: 15.188.107.162, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 广东省东莞市 电信IDC业务段, server: qh62onjn.slashdevslashnetslashtun.net, port: 15009, type: ss, cipher: aes-256-gcm, password: FCEUOASRQJC0LN0K}
-  - {name: 德国下萨克森州萨尔茨吉特 德国电信, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
-  - {name: 美国 加州, server: 64.23.162.126, port: 443, type: trojan, password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928, sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen}
-  - {name: 美国 CloudFlare节点 7, server: 104.16.155.10, port: 2082, type: vmess, uuid: 13514c2c-d5a4-335f-965a-5dc292e36759, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.60.200, headers: {Host: 100-87-160-252.s2.db-link02.top}}}
-  - {name: 美国 麻省理工学院, server: 18.134.220.57, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, alpn: [http/1.1]}
-  - {name: 广东省广州市 腾讯云, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15005, type: ss, cipher: aes-256-gcm, password: LZQ0R9BL69GCC6FS}
-  - {name: 美国 CloudFlare节点 8, server: 104.21.112.1, port: 8443, type: trojan, password: s42%26umY%28K5n*csP4, sni: JOInMAHDiseRVer-EEu.pAGEs.dEv, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trOagy9SuM2cDpqUqO?ed=2560", headers: {Host: JOInMAHDiseRVer-EEu.pAGEs.dEv}}}
-  - {name: 美国 CloudFlare节点 9, server: 104.21.96.1, port: 8443, type: trojan, password: s42%26umY%28K5n*csP4, sni: JOInMAHDiseRVer-EEu.pAGEs.dEv, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trOagy9SuM2cDpqUqO?ed=2560", headers: {Host: JOInMAHDiseRVer-EEu.pAGEs.dEv}}}
-  - {name: 印度 V2CROSS.COM 2, server: bs1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, sni: bs1.loadingip.com}
-  - {name: 美国 V2CROSS.COM 4, server: 143.244.191.231, port: 443, type: trojan, password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928, sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true}
+  - {name: 英国 V2CROSS.COM, server: 77.239.122.34, port: 46785, type: ss, cipher: chacha20-ietf-poly1305, password: gPQfQwohlAiyDweHDQkDUO}
+  - {name: 美国 麻省理工学院, server: tj-hk-2.aikunapp.com, port: 6001, type: trojan, password: 96cad374-7573-4463-8804-4665c2c3d932}
+  - {name: 乌克兰 V2CROSS.COM, server: 185.234.64.35, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: YTNjNDY5}
+  - {name: 广东省广州市 腾讯云, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: IHWLYZSSSX4GSKLA}
+  - {name: 广东省广州市 移动, server: 183.236.51.38, port: 59104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 广东省东莞市 电信IDC业务段, server: qh62onjn.slashdevslashnetslashtun.net, port: 16007, type: ss, cipher: aes-256-gcm, password: 0407WKIEIXMTLGC6}
+  - {name: 广东省东莞市 电信IDC业务段 2, server: w72tapyb.slashdevslashnetslashtun.net, port: 21003, type: ss, cipher: aes-256-gcm, password: HQJQFA7U2Z5HGZWH}
+  - {name: 美国 CloudFlare节点, server: 104.21.32.1, port: 8443, type: trojan, password: s42%26umY%28K5n*csP4, sni: JOInMAHDiseRVer-EEu.pAGEs.dEv, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trOagy9SuM2cDpqUqO?ed=2560", headers: {Host: JOInMAHDiseRVer-EEu.pAGEs.dEv}}}
+  - {name: 美国 CloudFlare节点 2, server: 172.64.35.127, port: 443, type: trojan, password: Aimer, sni: agepu.ambercc.filegear-sg.me, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: agepu.ambercc.filegear-sg.me}}}
+  - {name: 美国 CloudFlare节点 3, server: hdu.gecs.top, port: 443, type: vmess, uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vm, headers: {Host: hdu.gecs.top}}}
+  - {name: 美国 CloudFlare节点 4, server: 104.21.112.1, port: 2087, type: trojan, password: naEX%5Dg*qw%40MT%26lFz, sni: jOinMAhdIsErvEr-53k.pAGeS.Dev, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trb6oyXIzrlytDBNlm?ed=2560", headers: {Host: jOinMAhdIsErvEr-53k.pAGeS.Dev}}}
+  - {name: 美国 CloudFlare节点 5, server: 172.66.44.173, port: 443, type: trojan, password: "%3AZ%23%253cdIG%27c*%3B*O%7D", sni: JoinmAhDiSeRvER-csn.PaGeS.DEv, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trVxXjc9031MC8sntF?ed=2560", headers: {Host: JoinmAhDiSeRvER-csn.PaGeS.DEv}}}
+  - {name: 广东省广州市 腾讯云 2, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18002, type: ss, cipher: aes-256-gcm, password: 84HMRAWILKB49QUZ}
+  - {name: 伊朗 V2CROSS.COM, server: 31.58.137.67, port: 39119, type: vmess, uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e, alterId: 0, cipher: auto, tls: false}
+  - {name: 乌克兰 V2CROSS.COM 2, server: 2.58.241.42, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2}
+  - {name: 爱尔兰 都柏林Amazon数据中心, server: 52.213.69.197, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 北美地区 V2CROSS.COM, server: 23.154.136.106, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 浙江省宁波市 移动 数掘科技gfvps.cn, server: 15074.kuaiyin02.top, port: 15074, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false}
+  - {name: 印度 V2CROSS.COM, server: bs1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, sni: bs1.loadingip.com}
+  - {name: 英国 V2CROSS.COM 2, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: vcUpZCJzOuaVoN8OL2cYvK}
+  - {name: 美国 CloudFlare节点 6, server: 172.66.47.83, port: 443, type: trojan, password: "%3AZ%23%253cdIG%27c*%3B*O%7D", sni: JoinmAhDiSeRvER-csn.PaGeS.DEv, network: ws, ws-opts: {path: "/trVxXjc9031MC8sntF?ed=2560", headers: {Host: JoinmAhDiSeRvER-csn.PaGeS.DEv}}}
+  - {name: 俄罗斯 V2CROSS.COM, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 波兰 V2CROSS.COM, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
+  - {name: 美国 CloudFlare节点 7, server: 172.66.45.36, port: 2083, type: trojan, password: Uy1%2CSF%23%5Dszr%25y.%3Cs, sni: jOinMaHdIsErVer-6Qj.PAgES.DEv, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trLhvs4PDHp1EVcZxf?ed=2560", headers: {Host: jOinMaHdIsErVer-6Qj.PAgES.DEv}}}
+  - {name: 美国 CloudFlare节点 8, server: 104.21.96.1, port: 8443, type: trojan, password: s42%26umY%28K5n*csP4, sni: JOInMAHDiseRVer-EEu.pAGEs.dEv, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/trOagy9SuM2cDpqUqO?ed=2560", headers: {Host: JOInMAHDiseRVer-EEu.pAGEs.dEv}}}
+  - {name: 山东省 电信, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -48,147 +43,127 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 美国 V2CROSS.COM
-      - 美国 V2CROSS.COM 2
-      - 罗马尼亚 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 印度 V2CROSS.COM
-      - 美国 Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 Amazon EC2服务器
-      - 美国 CloudFlare节点 2
-      - 香港 特别行政区
+      - 英国 V2CROSS.COM
+      - 美国 麻省理工学院
+      - 乌克兰 V2CROSS.COM
+      - 广东省广州市 腾讯云
       - 广东省广州市 移动
-      - 美国 V2CROSS.COM 3
+      - 广东省东莞市 电信IDC业务段
+      - 广东省东莞市 电信IDC业务段 2
+      - 美国 CloudFlare节点
+      - 美国 CloudFlare节点 2
       - 美国 CloudFlare节点 3
       - 美国 CloudFlare节点 4
-      - 罗马尼亚 V2CROSS.COM 2
-      - 广东省广州市 移动 2
       - 美国 CloudFlare节点 5
-      - 德国 黑森州法兰克福Amazon数据中心
-      - 美国 CloudFlare节点 6
+      - 广东省广州市 腾讯云 2
+      - 伊朗 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 爱尔兰 都柏林Amazon数据中心
       - 北美地区 V2CROSS.COM
-      - 法国 巴黎Amazon数据中心
-      - 广东省东莞市 电信IDC业务段
-      - 德国下萨克森州萨尔茨吉特 德国电信
-      - 美国 加州
+      - 浙江省宁波市 移动 数掘科技gfvps.cn
+      - 印度 V2CROSS.COM
+      - 英国 V2CROSS.COM 2
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 波兰 V2CROSS.COM
       - 美国 CloudFlare节点 7
-      - 美国 麻省理工学院
-      - 广东省广州市 腾讯云
       - 美国 CloudFlare节点 8
-      - 美国 CloudFlare节点 9
-      - 印度 V2CROSS.COM 2
-      - 美国 V2CROSS.COM 4
+      - 山东省 电信
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国 V2CROSS.COM
-      - 美国 V2CROSS.COM 2
-      - 罗马尼亚 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 印度 V2CROSS.COM
-      - 美国 Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 Amazon EC2服务器
-      - 美国 CloudFlare节点 2
-      - 香港 特别行政区
+      - 英国 V2CROSS.COM
+      - 美国 麻省理工学院
+      - 乌克兰 V2CROSS.COM
+      - 广东省广州市 腾讯云
       - 广东省广州市 移动
-      - 美国 V2CROSS.COM 3
+      - 广东省东莞市 电信IDC业务段
+      - 广东省东莞市 电信IDC业务段 2
+      - 美国 CloudFlare节点
+      - 美国 CloudFlare节点 2
       - 美国 CloudFlare节点 3
       - 美国 CloudFlare节点 4
-      - 罗马尼亚 V2CROSS.COM 2
-      - 广东省广州市 移动 2
       - 美国 CloudFlare节点 5
-      - 德国 黑森州法兰克福Amazon数据中心
-      - 美国 CloudFlare节点 6
+      - 广东省广州市 腾讯云 2
+      - 伊朗 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 爱尔兰 都柏林Amazon数据中心
       - 北美地区 V2CROSS.COM
-      - 法国 巴黎Amazon数据中心
-      - 广东省东莞市 电信IDC业务段
-      - 德国下萨克森州萨尔茨吉特 德国电信
-      - 美国 加州
+      - 浙江省宁波市 移动 数掘科技gfvps.cn
+      - 印度 V2CROSS.COM
+      - 英国 V2CROSS.COM 2
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 波兰 V2CROSS.COM
       - 美国 CloudFlare节点 7
-      - 美国 麻省理工学院
-      - 广东省广州市 腾讯云
       - 美国 CloudFlare节点 8
-      - 美国 CloudFlare节点 9
-      - 印度 V2CROSS.COM 2
-      - 美国 V2CROSS.COM 4
+      - 山东省 电信
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国 V2CROSS.COM
-      - 美国 V2CROSS.COM 2
-      - 罗马尼亚 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 印度 V2CROSS.COM
-      - 美国 Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 Amazon EC2服务器
-      - 美国 CloudFlare节点 2
-      - 香港 特别行政区
+      - 英国 V2CROSS.COM
+      - 美国 麻省理工学院
+      - 乌克兰 V2CROSS.COM
+      - 广东省广州市 腾讯云
       - 广东省广州市 移动
-      - 美国 V2CROSS.COM 3
+      - 广东省东莞市 电信IDC业务段
+      - 广东省东莞市 电信IDC业务段 2
+      - 美国 CloudFlare节点
+      - 美国 CloudFlare节点 2
       - 美国 CloudFlare节点 3
       - 美国 CloudFlare节点 4
-      - 罗马尼亚 V2CROSS.COM 2
-      - 广东省广州市 移动 2
       - 美国 CloudFlare节点 5
-      - 德国 黑森州法兰克福Amazon数据中心
-      - 美国 CloudFlare节点 6
+      - 广东省广州市 腾讯云 2
+      - 伊朗 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 爱尔兰 都柏林Amazon数据中心
       - 北美地区 V2CROSS.COM
-      - 法国 巴黎Amazon数据中心
-      - 广东省东莞市 电信IDC业务段
-      - 德国下萨克森州萨尔茨吉特 德国电信
-      - 美国 加州
+      - 浙江省宁波市 移动 数掘科技gfvps.cn
+      - 印度 V2CROSS.COM
+      - 英国 V2CROSS.COM 2
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 波兰 V2CROSS.COM
       - 美国 CloudFlare节点 7
-      - 美国 麻省理工学院
-      - 广东省广州市 腾讯云
       - 美国 CloudFlare节点 8
-      - 美国 CloudFlare节点 9
-      - 印度 V2CROSS.COM 2
-      - 美国 V2CROSS.COM 4
+      - 山东省 电信
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国 V2CROSS.COM
-      - 美国 V2CROSS.COM 2
-      - 罗马尼亚 V2CROSS.COM
-      - 美国 CloudFlare节点
-      - 印度 V2CROSS.COM
-      - 美国 Amazon数据中心
-      - 爱尔兰 V2CROSS.COM
-      - 美国 Amazon EC2服务器
-      - 美国 CloudFlare节点 2
-      - 香港 特别行政区
+      - 英国 V2CROSS.COM
+      - 美国 麻省理工学院
+      - 乌克兰 V2CROSS.COM
+      - 广东省广州市 腾讯云
       - 广东省广州市 移动
-      - 美国 V2CROSS.COM 3
+      - 广东省东莞市 电信IDC业务段
+      - 广东省东莞市 电信IDC业务段 2
+      - 美国 CloudFlare节点
+      - 美国 CloudFlare节点 2
       - 美国 CloudFlare节点 3
       - 美国 CloudFlare节点 4
-      - 罗马尼亚 V2CROSS.COM 2
-      - 广东省广州市 移动 2
       - 美国 CloudFlare节点 5
-      - 德国 黑森州法兰克福Amazon数据中心
-      - 美国 CloudFlare节点 6
+      - 广东省广州市 腾讯云 2
+      - 伊朗 V2CROSS.COM
+      - 乌克兰 V2CROSS.COM 2
+      - 爱尔兰 都柏林Amazon数据中心
       - 北美地区 V2CROSS.COM
-      - 法国 巴黎Amazon数据中心
-      - 广东省东莞市 电信IDC业务段
-      - 德国下萨克森州萨尔茨吉特 德国电信
-      - 美国 加州
+      - 浙江省宁波市 移动 数掘科技gfvps.cn
+      - 印度 V2CROSS.COM
+      - 英国 V2CROSS.COM 2
+      - 美国 CloudFlare节点 6
+      - 俄罗斯 V2CROSS.COM
+      - 波兰 V2CROSS.COM
       - 美国 CloudFlare节点 7
-      - 美国 麻省理工学院
-      - 广东省广州市 腾讯云
       - 美国 CloudFlare节点 8
-      - 美国 CloudFlare节点 9
-      - 印度 V2CROSS.COM 2
-      - 美国 V2CROSS.COM 4
+      - 山东省 电信
   - name: 🎯 全球直连
     type: select
     proxies:
